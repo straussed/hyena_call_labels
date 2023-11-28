@@ -1,0 +1,49 @@
+ 39960.00	0.00	SOA
+ 40000.41	4.87	syn
+ 40020.71	0.93	whp non
+ 40022.89	1.54	whp non
+ 40026.02	1.75	grn non
+ 40031.26	1.34	whp foc
+ 40032.12	0.56	whp non
+ 40034.75	1.44	whp foc
+ 40036.06	0.94	whp non
+ 40037.19	0.99	gwl non
+ 40039.55	1.42	whp foc
+ 40040.97	2.40	skp even there is some non cant hear because of walking
+ 40043.37	1.44	whp foc
+ 40044.80	1.29	gwl non
+ 40046.60	4.04	seq[whp+grn] foc
+ 40052.53	0.39	str ? non
+ 40053.02	2.92	seq[whp+grn] foc
+ 40063.94	0.63	syn
+ 40068.95	0.62	syn
+ 40091.20	1.71	syn
+ 40103.47	0.74	syn
+ 40107.34	0.66	syn
+ 40121.89	0.75	syn
+ 40134.93	0.69	syn
+ 40163.08	0.59	oth unf
+ 40169.22	3.86	fed ? foc
+ 40199.08	1.08	str ? non
+ 40201.18	0.81	syn
+ 40202.14	1.33	skp maybe cub but too much back noise
+ 40207.74	0.43	syn
+ 40237.00	0.60	syn
+ 40243.89	0.71	syn
+ 40254.78	2.49	grn non
+ 40256.11	1.22	grn non
+ 40258.15	2.41	grn non
+ 40262.72	1.74	grn non
+ 40263.70	0.78	grn non
+ 40266.16	2.07	grn non
+ 40268.95	2.84	grn non 
+ 40270.33	1.47	grn non
+ 40273.71	3.41	seq[grn+whp] non
+ 40277.12	1.80	whp ? foc
+ 40280.73	1.22	whp ? foc
+ 40284.64	1.22	whp foc
+ 40288.14	1.31	whp foc
+ 40291.60	1.42	whp foc
+ 40295.68	1.68	whp foc
+ 40299.30	2.06	seq[whp+gwl] ? foc
+ 40320.02	0.00	EOA

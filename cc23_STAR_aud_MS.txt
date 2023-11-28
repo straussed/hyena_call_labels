@@ -1,0 +1,30 @@
+ 47458.00	0.00	SOA
+ 47471.68	2.20	whp foc
+ 47478.85	2.33	whp foc
+ 47485.89	2.59	whp foc
+ 47492.25	2.36	whp foc
+ 47498.61	2.27	whp foc
+ 47505.27	2.45	whp foc
+ 47588.24	0.50	syn
+ 47704.09	2.17	whp non
+ 47707.04	1.16	str ? non
+ 47708.75	1.52	whp non
+ 47712.22	0.79	str non
+ 47713.70	0.58	str non
+ 47714.93	4.55	skp too many non calls
+ 47719.49	4.45	unk
+ 47724.96	6.98	unk
+ 47732.11	1.91	grn foc
+ 47732.12	1.92	nnf too many non cant hear
+ 47734.11	1.42	str ? non
+ 47737.26	3.74	grn foc
+ 47737.87	1.14	str non
+ 47740.43	1.05	str non
+ 47742.65	1.24	grn non
+ 47743.88	2.37	grn foc
+ 47745.62	1.86	str non
+ 47747.58	0.73	grn non
+ 47748.00	1.51	str non
+ 47749.58	0.86	str non
+ 47750.45	1.81	grn foc
+ 47898.03	0.00	EOA
