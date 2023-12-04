@@ -33,11 +33,11 @@
  16341.78	2.18	gwl ? foc
  16347.35	2.21	fix: same as last comment
  16347.35	2.20	gwl ? foc
- 16353.12	2.20	fix: non fokal whoop in the background
+ 16353.12	2.20	fix: non focal whoop in the background
  16353.31	1.88	whp foc
  16358.75	0.55	whp non
- 16358.75	0.53	fix: This section doesn't contain any fokal whoop
- 16358.76	2.07	fix: nonfokal whoop lasts for a while. you can't hear the end but if you know its there make your best guess. Last nonfokal whoops were about 2 seconds long
+ 16358.75	0.53	fix: This section doesn't contain any focal whoop
+ 16358.76	2.07	fix: nonfocal whoop lasts for a while. you can't hear the end but if you know its there make your best guess. Last non-focal whoops were about 2 seconds long
  16358.77	2.76	whp foc
  16363.42	1.77	gwl non
  16363.42	1.77	fix: this is a whoop
@@ -53,5 +53,5 @@
  16386.15	1.35	grn ? non
  16386.15	1.37	fix: this is wind
  16458.49	0.61	grn ? unf
- 16458.49	0.65	fix: its a tricky, but I would call this focal. It sounds like a quite noise that is recorder from very close
+ 16458.49	0.65	fix: its a tricky one, but I would call this focal. It sounds like a quite noise that is recorder from very close
  16461.97	0.00	EOA
