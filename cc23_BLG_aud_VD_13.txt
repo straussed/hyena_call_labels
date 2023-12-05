@@ -1,0 +1,44 @@
+ 15828.18	0.00	soa
+ 15828.52	0.00	soa
+ 15990.31	1.03	gig non
+ 15991.37	0.41	gig non
+ 15992.32	1.21	gig non
+ 15994.15	1.20	gig non
+ 15996.20	1.20	gig non
+ 15996.51	2.12	gwl non
+ 15997.80	1.27	gig non
+ 15999.45	0.57	gig non
+ 16000.82	1.52	grn non
+ 16000.98	0.14	gig non
+ 16002.17	2.08	sql non
+ 16004.25	0.53	sql non
+ 16004.78	1.30	grn non
+ 16006.13	2.94	unk non ?
+ 16009.68	1.60	grn non
+ 16011.88	0.85	sql non
+ 16013.39	3.00	sql non
+ 16013.53	1.26	grn non
+ 16018.47	1.23	sql non
+ 16022.27	0.90	sql non
+ 16022.78	1.39	grn non
+ 16026.42	0.64	sql non
+ 16028.19	1.94	grn non
+ 16030.56	1.88	gig non
+ 16042.07	1.73	oth non ?
+ 16045.82	0.13	sql non
+ 16047.81	0.30	gig non
+ 16054.74	0.97	grn foc
+ 16055.88	0.17	sql non
+ 16062.35	0.46	gwl foc
+ 16063.97	0.88	unk non
+ 16077.18	2.13	whp non
+ 16079.79	0.69	grn non
+ 16089.13	0.66	sql non
+ 16111.39	1.64	sql non
+ 16114.54	4.85	sql non
+ 16119.84	2.04	sql non
+ 16122.35	1.00	sql non
+ 16124.08	1.47	sql non
+ 16126.18	0.85	sql non
+ 16138.24	0.45	grn non
+ 16309.01	0.00	eoa
