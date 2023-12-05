@@ -1,0 +1,13 @@
+ 46549.02	0.00	SOA
+ 46549.03	8.99	skp some rhythmic non focal sound ?
+ 46561.13	1.78	whp non
+ 46571.21	1.74	whp non
+ 46574.98	1.71	whp non
+ 46579.05	1.34	whp non
+ 46582.38	1.65	whp non
+ 46589.55	0.97	whp foc
+ 46591.89	1.59	whp foc
+ 46595.66	2.62	whp foc
+ 46600.83	3.07	whp foc
+ 46606.37	2.94	whp foc
+ 46609.00	0.00	EOA

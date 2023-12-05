@@ -1,0 +1,13 @@
+ 20361.99	0.00	SOA
+ 20420.35	1.98	grn ? foc
+ 20424.05	0.76	grn ? non
+ 20435.28	0.78	unk 
+ 20440.04	0.91	unk it seems there is 2 call  
+ 20451.59	1.46	syn
+ 20458.79	0.61	grn ? foc
+ 20459.90	0.39	unk
+ 20460.29	1.85	grn foc
+ 20464.21	4.71	whp foc
+ 20470.85	4.25	seq[whp + grn] foc
+ 20480.95	1.08	unk non
+ 20482.02	0.00	EOA
