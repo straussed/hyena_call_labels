@@ -1,49 +1,87 @@
  39960.00	0.00	SOA
  40000.41	4.87	syn
+ 40000.64	4.67	fix: probably just some running noise instead of syn
  40020.71	0.93	whp non
+ 40020.99	0.20	fix: the actual whoop has a shorter duration than labeled
  40022.89	1.54	whp non
+ 40023.22	0.88	fix: the actual whoop has a shorter duration than labeled
  40026.02	1.75	grn non
+ 40026.15	1.06	fix: It is a whp non. And the actual whoop has a shorter duration than labeled
  40031.26	1.34	whp foc
+ 40031.43	0.81	fix: the actual focal whoop has a shorter duration than labeled
+ 40031.79	0.92	fix: the end point is great. However the onset of this non focal whoop should be extended slightly forwards (based on the average whoop duration)
  40032.12	0.56	whp non
  40034.75	1.44	whp foc
+ 40035.17	0.93	fix: the actual focal whoop has a shorter duration than labeled
+ 40035.97	1.30	fix: the non focal whoop should end later
  40036.06	0.94	whp non
  40037.19	0.99	gwl non
+ 40037.29	0.90	fix: I think this is a squeal rather than growl. And the onset is a bit too early
  40039.55	1.42	whp foc
+ 40039.68	1.09	fix: the actual focal whoop has a shorter duration than labeled
  40040.97	2.40	skp even there is some non cant hear because of walking
  40043.37	1.44	whp foc
+ 40043.45	1.19	fix: the actual focal whoop has a shorter duration than labeled
  40044.80	1.29	gwl non
+ 40044.80	1.29	fix: non whp
  40046.60	4.04	seq[whp+grn] foc
+ 40052.52	0.42	fix: this is a bird sound so no label needed
  40052.53	0.39	str ? non
  40053.02	2.92	seq[whp+grn] foc
  40063.94	0.63	syn
+ 40064.30	0.00	fix: normal noise instead of syn?
  40068.95	0.62	syn
+ 40069.21	0.00	fix: normal noise instead of syn?
  40091.20	1.71	syn
+ 40091.20	1.72	fix: normal noise instead of syn?
  40103.47	0.74	syn
+ 40103.79	0.00	fix: normal noise instead of syn?
  40107.34	0.66	syn
+ 40107.63	0.00	fix: normal noise instead of syn?
  40121.89	0.75	syn
  40134.93	0.69	syn
  40163.08	0.59	oth unf
+ 40163.25	0.21	fix: the label category looks good, but the time window can probably be more narrowed down
+ 40169.22	3.86	fix: this is just walking noise, no label needed
  40169.22	3.86	fed ? foc
  40199.08	1.08	str ? non
+ 40199.20	0.88	fix: this is a sql non
  40201.18	0.81	syn
+ 40201.57	0.00	fix: normal noise instead of syn?
  40202.14	1.33	skp maybe cub but too much back noise
  40207.74	0.43	syn
  40237.00	0.60	syn
+ 40237.28	0.00	fix: normal noise instead of syn?
  40243.89	0.71	syn
+ 40244.46	0.00	fix: normal noise instead of syn?
  40254.78	2.49	grn non
+ 40254.97	1.02	fix: whp non (readjust the duration selection)
+ 40255.67	1.26	fix: whp non (readjust the duration)
  40256.11	1.22	grn non
+ 40258.15	1.32	fix: whp non (with shorter duration selected)
  40258.15	2.41	grn non
  40262.72	1.74	grn non
+ 40262.79	0.91	fix: these are all "whp non"
  40263.70	0.78	grn non
  40266.16	2.07	grn non
+ 40266.46	1.33	fix: whp instead of grn
  40268.95	2.84	grn non 
+ 40268.96	1.65	fix: the first whp non ends later, and the second one starts earlier
  40270.33	1.47	grn non
  40273.71	3.41	seq[grn+whp] non
+ 40274.14	2.70	fix: this is just a long whoop (no graon). The call has a later onset and an earlier stop
  40277.12	1.80	whp ? foc
+ 40277.39	0.67	fix: the call categorization is correct - you can remove "?". But the call has a later onset and an earlier stop 
  40280.73	1.22	whp ? foc
+ 40280.91	0.92	fix: the call categorization is correct and you can remove "?". But the call has a later onset and an earlier stop
  40284.64	1.22	whp foc
+ 40284.65	1.05	fix: the whoop stops slightly earlier
  40288.14	1.31	whp foc
+ 40288.19	1.09	fix: the whoop stops slightly earlier
  40291.60	1.42	whp foc
+ 40291.66	1.24	fix: the call categorization is correct. But the call has a later onset and an earlier stop
  40295.68	1.68	whp foc
+ 40295.82	1.34	fix: the call categorization is correct. But the call has a later onset and an earlier stop
  40299.30	2.06	seq[whp+gwl] ? foc
+ 40299.47	1.62	nonfix: not sure about the combination - but the duration should probably be readjusted?
  40320.02	0.00	EOA
