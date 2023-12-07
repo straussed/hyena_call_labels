@@ -1,0 +1,28 @@
+ 60140.05	0.00	soa
+ 60155.08	1.02	fix: this is a groan. Should be labeled "grn foc"
+ 60167.06	1.14	grn foc
+ 60191.69	1.14	grn foc
+ 60236.57	0.93	grn foc
+ 60236.58	0.82	fix: the label is correct, but the call ends earlier than labeled
+ 60245.11	1.06	grn foc
+ 60247.22	1.26	grn foc
+ 60260.90	1.09	grn foc
+ 60260.98	1.02	fix: the label is correct. But the call starts slightly later
+ 60266.14	1.67	grn foc
+ 60266.21	1.58	fix: the label is correct. But the call starts later
+ 60269.00	0.66	grn foc
+ 60269.03	1.71	fix: the whole section is a groan
+ 60269.93	0.90	grn foc
+ 60340.14	1.22	grn foc
+ 60340.21	1.14	fix: the label is correct. But the call starts later
+ 60347.40	1.21	grn foc
+ 60375.48	1.42	grn foc
+ 60380.18	1.54	grn foc
+ 60389.20	1.13	grn foc
+ 60419.09	0.16	fix: should be labeled "unk foc"
+ 60422.72	0.17	fix: should be labeled "unk foc"
+ 60425.26	0.73	fix: should be labeled 'unk unf'
+ 60427.78	0.49	sql non
+ 60427.84	0.45	fix: I see why you put squeal because it looks like it on the spectrogram but squeal is much higher energy and more intense call. You should label this "unk non" because the call type doesn't really match any categories
+ 60575.63	0.47	fix: we can't tell if this is a bird or a hyena, so just label "skp"
+ 60621.01	0.00	eoa
