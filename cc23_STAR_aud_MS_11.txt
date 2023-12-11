@@ -1,30 +1,46 @@
  47458.00	0.00	SOA
+ 47471.67	1.99	fix: the whoop ends a bit ealier
  47471.68	2.20	whp foc
  47478.85	2.33	whp foc
+ 47479.02	1.97	fix: the whoop starts later and ends earlier
  47485.89	2.59	whp foc
  47492.25	2.36	whp foc
+ 47492.75	1.91	fix: whp non
  47498.61	2.27	whp foc
  47505.27	2.45	whp foc
  47588.24	0.50	syn
+ 47588.36	0.31	fix: you could remove this label :) 
  47704.09	2.17	whp non
+ 47707.03	1.02	fix: this str non ends earlier. And you can remove the "?"
  47707.04	1.16	str ? non
  47708.75	1.52	whp non
+ 47708.76	1.30	fix: the whoop ends a bit ealier
  47712.22	0.79	str non
+ 47712.40	0.47	fix: this call starts later and ends ealier
  47713.70	0.58	str non
+ 47714.92	3.65	fix: str cub non
  47714.93	4.55	skp too many non calls
+ 47716.51	1.27	fix: grn non
  47719.49	4.45	unk
+ 47719.50	4.46	fix: these are just background noise, so you could remove the unk label
+ 47724.94	5.21	fix: str cub non
  47724.96	6.98	unk
  47732.11	1.91	grn foc
+ 47732.11	1.92	fix: the grn foc is correct. You can add another label to this section with "str cub non"
  47732.12	1.92	nnf too many non cant hear
+ 47734.10	1.41	fix: yes, this is a str cub non
  47734.11	1.42	str ? non
  47737.26	3.74	grn foc
+ 47737.85	3.62	fix: the grn foc label is correct. But for the squitter you could use this marked region and label "str cub non"
  47737.87	1.14	str non
  47740.43	1.05	str non
  47742.65	1.24	grn non
  47743.88	2.37	grn foc
+ 47745.42	2.05	fix: the squitter starts a bit earlier
  47745.62	1.86	str non
  47747.58	0.73	grn non
  47748.00	1.51	str non
  47749.58	0.86	str non
+ 47750.45	1.82	fix: the grn foc ends slightly earlier
  47750.45	1.81	grn foc
  47898.03	0.00	EOA

@@ -1,12 +1,17 @@
-127549.00	0.00	soa
+ 127549.00	0.00	soa
  127549.20	1.29	rum non
+ 127549.22	1.28	fix: this is a groan
+ 127551.42	1.34	fix: this is a groan
  127551.43	1.34	rum non
  127554.08	2.02	whp non
+ 127556.91	1.22	fix: this is a groan
  127556.92	1.21	rum non
+ 127559.09	0.79	fix: the groan ends slightly earlier
  127559.10	0.98	rum non
  127560.20	1.90	whp non
  127566.41	1.58	whp non
  127568.01	0.71	whp non
+ 127569.21	1.20	fix: there is a groan here
  127571.53	1.42	whp non
  127575.93	1.72	whp non
  127580.38	1.82	whp non
@@ -16,25 +21,35 @@
  127808.81	1.69	whp non
  127813.91	1.24	whp non
  127818.09	1.59	whp non
+ 127820.69	0.79	fix: grn unf. Because this could either be a remote non focal groan or a very quiet focal groan - we label it as unknown focal
  127822.60	1.74	whp non
  127827.09	1.88	whp non
  127831.82	1.82	whp non
  127836.73	1.96	whp non
  127841.24	1.50	whp non
  127845.02	1.73	whp non
+ 127845.11	1.23	fix: the whp non ends slightly earlier
  127849.01	1.85	whp non
+ 127849.06	1.43	fix: the whp non ends slightly earlier
  127853.98	1.35	whp non
  127858.09	1.12	whp non
  127861.82	1.20	whp non
  127865.69	1.36	whp non
+ 127869.89	1.37	fix: the whp non ends slightly earlier
  127869.92	1.60	whp non
  127873.74	1.81	whp non
  127877.97	1.34	whp non
  127882.11	1.42	whp non
+ 127900.70	0.24	fix: unk
+ 127908.81	1.05	fix: grn unf
+ 127914.15	1.47	fix: grn unf
  127914.15	1.48	rum non
  127940.96	0.99	rum non
+ 127940.96	0.98	fix: grn unf
  127946.77	1.25	rum non
+ 127946.79	1.23	fix: grn unf
  127949.30	0.91	whp non
+ 127952.10	1.38	fix: grn unf
  127952.11	1.36	rum non
  127954.41	1.86	whp non
  127959.74	1.94	whp non
@@ -42,34 +57,65 @@
  127964.76	2.01	whp non
  127966.56	1.74	whp non
  127970.10	2.72	whp non
+ 127970.83	2.00	fix: the second whoop is a focal whoop. Both whoops just overlap each other. Please change oth to whp and extend the label length
  127970.94	0.55	oth foc
+ 127974.48	2.02	fix: there is no alarm rumble here; but a focal whoop instead
  127974.48	2.02	whp non
  127974.50	1.90	rum foc
  127976.35	2.84	whp non
+ 127979.38	1.61	fix: the first whoop should be labeled "whp foc" and you can delete "rum foc" because it was actually a whoop and no alarm rumble
  127979.40	1.80	whp non
  127979.60	1.34	whp non
+ 127979.64	1.52	fix: the secound whoop should be "whp non". But since both whoops overlap closely, it is indeed very tricky to label those
  127979.66	1.29	rum foc
+ 127983.72	1.68	fix: the first whoop should be labeled "whp foc" and you can delete "rum foc" because it was actually a whoop and no alarm rumble
  127983.72	2.06	whp non
  127983.85	1.58	rum foc
+ 127984.02	1.76	fix: the secound whoop should be "whp non"
+ 127988.18	1.78	fix: the whp non is correct. But the other label should be "whp foc" instead
  127988.18	1.82	whp non
  127988.18	1.82	rum foc
  127992.28	1.95	whp non
+ 127993.56	1.51	fix: the whp non is correct. But the other label should be "whp foc" instead
  127993.56	1.49	rum foc
  127996.46	1.92	whp non
+ 128026.57	0.43	fix: whp non?
+ 128035.78	0.58	fix: whp non
+ 128041.43	0.53	fix: whp non
+ 128057.85	0.94	fix: grn unf
  128059.63	2.04	gig foc 
+ 128059.64	2.02	fix: there is a focal gigggle but also a non-focal giggle happening at the same time
+ 128062.38	0.59	fix: grn unf
+ 128063.88	0.80	fix: grn unf
+ 128065.74	0.64	fix: grn unf
+ 128072.04	0.54	fix: grn unf
+ 128074.11	0.19	fix: unk
+ 128079.46	0.24	fix: unk
+ 128120.40	0.32	fix: oth non
+ 128121.89	0.24	fix: oth non
+ 128123.48	0.28	fix: oth non
  128127.62	0.39	gig non
  128128.96	0.45	gig non
  128130.82	0.53	gig non
+ 128181.02	2.68	fix: grn non 
  128181.03	2.67	rum non
  128185.05	1.53	rum non
+ 128185.05	1.54	fix: grn non 
+ 128188.00	2.01	fix: grn non
  128188.01	2.00	rum non
  128191.61	1.78	rum non
+ 128191.61	1.77	fix: grn non
+ 128198.49	2.74	fix: the grn non ends later
  128198.49	1.08	grn non
+ 128210.99	0.63	fix: this should be a grn non
  128211.20	0.51	whp non
+ 128212.41	1.39	fix: rum non
  128214.92	2.25	whp non
  128220.13	2.28	whp non
  128225.28	2.34	whp non
+ 128230.38	3.10	fix: this is just a whoop (non). The last whoop in a bout sounds often like this
  128230.39	3.09	fus[whp+grn] non
  128246.29	1.32	grn non
+ 128253.45	0.44	fix: grn non
  128257.03	0.59	grn non
  128269.02	0.00	eoa 
