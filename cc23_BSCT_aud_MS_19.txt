@@ -1,13 +1,24 @@
  20361.99	0.00	SOA
- 20420.35	1.98	grn ? foc
- 20424.05	0.76	grn ? non
- 20435.28	0.78	unk 
- 20440.04	0.91	unk it seems there is 2 call  
- 20451.59	1.46	syn
- 20458.79	0.61	grn ? foc
- 20459.90	0.39	unk
- 20460.29	1.85	grn foc
- 20464.21	4.71	whp foc
- 20470.85	4.25	seq[whp + grn] foc
- 20480.95	1.08	unk non
- 20482.02	0.00	EOA
+ 20420.85	0.23	unk foc
+ 20421.26	0.22	unk foc
+ 20421.74	0.17	unk foc
+ 20424.16	0.44	whp non
+ 20432.93	0.14	unk unf
+ 20435.56	0.23	unk foc
+ 20440.10	0.19	unk unf
+ 20440.32	0.38	str cub non
+ 20440.86	0.14	unk foc
+ 20458.94	0.50	grn foc
+ 20459.97	0.23	unk unf
+ 20460.58	1.59	grn foc
+ 20462.39	0.56	rum non
+ 20464.30	3.82	whp foc
+ 20468.19	0.24	grn foc
+ 20468.55	0.32	rum ? non
+ 20470.91	2.60	seq[whp+grn] foc
+ 20473.73	0.29	rum non
+ 20480.94	0.22	unk non
+ 20481.27	0.53	unk non
+ 20483.64	0.63	whp non
+ 20499.60	2.61	rum foc
+ 20512.01	0.00	EOA
