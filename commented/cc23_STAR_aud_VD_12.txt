@@ -14,4 +14,5 @@
  51807.15	1.66	sql non
  51807.94	1.05	grn foc
  51809.55	2.10	sql cub non
+ 51809.62	1.80	fix: the call ends earlier
  51978.00	0.00	eoa
