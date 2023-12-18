@@ -13,9 +13,9 @@
  60375.48	1.42	grn foc
  60380.18	1.54	grn foc
  60389.20	1.13	grn foc
- 60419.09	0.16	unk foc
- 60422.72	0.17	unk foc
- 60425.26	0.73	unk unf
- 60427.84	0.45	unk non
- 60575.63	0.47	skp
+ 60419.09	0.16	oth foc
+ 60422.72	0.17	oth foc
+ 60425.26	0.73	oth non
+ 60427.84	0.45	oth non
+ 60575.63	0.47	skp either hyena or bird
  60621.01	0.00	eoa
