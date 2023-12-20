@@ -1,45 +1,65 @@
-131149.01	0.00	soa
+ 131149.01	0.00	soa
  131150.25	1.15	grn non
  131157.21	2.09	whp non
  131162.33	1.14	whp non
  131166.07	1.75	wgp non
+ 131167.87	0.24	fix: oth non
  131171.30	1.81	wph non
  131176.39	2.15	whp non
  131181.35	2.39	whp non
  131186.99	2.45	whp non
  131192.73	2.72	whp non
  131204.43	1.82	unk non
+ 131204.43	1.83	fix: this is noise from zebras. You can remove this label
  131206.82	1.00	sql non
+ 131206.82	1.00	fix: this is noise from zebras. You can remove this label
  131211.54	2.85	sql non
+ 131211.54	2.87	fix: this is noise from zebras. You can remove this label
+ 131221.89	5.37	fix: this is zebra sound, so you can remove the label
  131221.89	5.37	sql non
+ 131262.33	0.00	fix: groan focal. You can see the accelerometer activity matching the sound, so you should be able to infer that it's a focal sound
  131262.33	1.98	gwl non
  131267.39	2.40	fus [grn+rum] foc
+ 131267.40	2.39	fix: this is just a groan - so "grn foc". Rumble sounds more like a drumming sound
+ 131276.41	3.36	fix: this is a groan
  131276.43	3.33	rum foc
+ 131285.38	1.11	fix: grn foc
  131285.38	1.11	rum foc
  131300.00	1.28	whp foc
  131305.25	1.62	whp foc
  131306.98	1.11	whp non
  131310.21	1.40	whp foc
+ 131312.99	2.65	fix: the whp non ends earlier
  131313.00	3.24	whp non
  131314.32	1.94	whp foc
  131319.23	1.86	whp non
  131319.60	1.45	whp foc
+ 131319.60	1.49	fix: the focal whoop ends slightly later, and the non focal one ends slightly earlier than labeled
  131323.71	1.74	whp foc
  131325.03	2.07	whp non
  131328.66	1.33	whp non
  131330.66	0.47	whp foc
+ 131330.75	0.32	fix: this shouldn't be a whoop. --> "oth foc"
+ 131332.91	1.68	fix: a whoop overlapping a groan - unknown focal
  131332.94	1.64	whp non
  131333.71	0.88	rum non
  131337.96	2.01	whp non
  131339.40	1.98	grn non
  131343.05	1.60	whp non
+ 131345.25	0.24	fix: this is a giggle
  131345.26	0.23	sql non
  131348.05	1.60	rum foc
  131359.56	3.32	rum non
+ 131359.57	0.34	fix: this part doesn't belong to the rumble
+ 131360.18	0.00	this is likely a FOCAL rumble, considering the acc activity
  131364.97	0.83	rum non
+ 131382.61	0.00	fix: this is just a background noise you can remove this label
  131382.62	0.97	rum non
+ 131402.42	1.31	fix: this is just noise, not alarm rumble. you can remove this label
  131402.85	0.33	rum non
+ 131404.83	2.46	fix: rum foc. You can see the acc activity matching the sound
  131404.83	2.44	rum non
+ 131413.47	1.74	fix: zebra noise. you can remove this label
  131413.52	1.47	sql non
  131432.00	1.18	grn non
  131434.47	1.77	grn non
@@ -47,6 +67,7 @@
  131444.27	2.22	grn non
  131448.81	1.79	grn non
  131456.05	1.63	grn non
+ 131459.48	2.97	fix: rather sequential because you can notice the transition from groan to whoop towards the end. seq[grn+whp]non
  131459.54	2.88	fus [grn+whp] non
  131465.26	1.31	whp non
  131469.82	1.99	whp non
@@ -55,26 +76,46 @@
  131478.84	2.18	whp non
  131484.38	2.14	whp non
  131490.16	4.19	whp non
+ 131490.21	4.15	fix: this is whole section is just a whoop (possibly from a running hyena that's why it sounds a bit weird)
  131491.97	1.84	sql non
- 131497.11	1.46	whp non
+ 131497.11	1.21	grn non
+ 131498.18	2.38	fix: whp non. the call  starts earlier and ends later
  131498.34	2.04	whp non
+ 131501.43	0.55	fix: there is a groan here
+ 131503.25	0.77	fix: grn non
+ 131503.98	2.19	fix: whp non; readjust the boundaries
  131503.99	2.35	fus [sql+whp] non
  131507.66	1.26	whp non
+ 131508.22	0.51	fix: grn non instead of whp. readjust the boundaries.
  131510.34	1.91	whp non
+ 131514.11	1.02	fix: grn non
  131518.36	1.14	whp non
+ 131518.39	0.80	fix: grn non. the call is shorter
+ 131533.59	0.60	fix: oth foc
  131534.14	9.93	str cub non
+ 131534.41	0.56	fix: I'd suggest separate the str label into 2 sections because there is a gap inbetween
+ 131535.77	0.00	fix: the next str label starts here
  131536.12	0.65	grn foc
+ 131540.04	0.45	fix: there are sounds from a third individual
+ 131541.30	0.32	fix: there are sounds from a third individual
  131545.39	1.21	str cub non
  131550.22	2.00	whp non
  131556.33	1.42	whp non
  131560.16	1.88	whp non
  131565.11	1.78	whp non
+ 131565.48	0.97	fix: some grn foc here
  131571.23	1.80	whp non
  131573.92	1.04	rum foc
+ 131573.95	1.03	fix: this is a groan
+ 131576.04	0.71	fix: this is a groan
  131576.05	0.73	rum foc
+ 131579.77	1.42	fix: this is a groan
  131579.79	1.39	rum foc
+ 131582.90	1.54	fix: this is a groan
  131582.90	1.53	rum foc
  131630.58	1.42	grn foc
  131634.87	1.88	seq [grn+rum] foc
+ 131634.90	1.77	fix: this is just a groan. Groans can have different structures - this is a good example of two of the common structures (tonal and noisy groans)
+ 131659.28	1.21	fix: this is a groan
  131659.31	1.24	rum foc
  131660.83	0.00	eoa
