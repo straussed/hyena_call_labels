@@ -1,0 +1,30 @@
+ 20361.99	0.00	SOA
+ 20420.49	4.27	fix: the first 3 should be oth foc and the last one oth unf
+ 20420.85	0.23	unk foc
+ 20421.26	0.22	unk foc
+ 20421.74	0.17	unk foc
+ 20424.16	0.44	whp non
+ 20432.93	0.14	unk unf
+ 20435.54	0.30	fix: shouldn't this be labeled "oth foc"? unk is for the sounds that we are not sure it's from a hyena or not?
+ 20435.56	0.23	unk foc
+ 20440.10	0.19	unk unf
+ 20440.31	0.42	fix: this is bird sound, so you can remove the label
+ 20440.32	0.38	str cub non
+ 20440.86	0.14	unk foc
+ 20458.94	0.50	grn foc
+ 20459.97	0.23	unk unf
+ 20460.58	1.59	grn foc
+ 20462.19	0.79	fix: this should be a part of the groan
+ 20462.39	0.56	rum non
+ 20464.30	4.58	fix: this whole section should be a groan
+ 20464.30	3.82	whp foc
+ 20468.19	0.24	grn foc
+ 20468.55	0.32	rum ? non
+ 20470.91	2.60	seq[whp+grn] foc
+ 20470.92	3.12	fix: this whole section should be a groan
+ 20473.73	0.29	rum non
+ 20480.94	0.22	unk non
+ 20481.27	0.53	unk non
+ 20483.64	0.63	whp non
+ 20499.60	2.61	rum foc
+ 20512.01	0.00	EOA
