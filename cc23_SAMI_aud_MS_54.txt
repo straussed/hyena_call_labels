@@ -1,0 +1,43 @@
+ 641011.01	0.00	SOA
+ 641467.27	0.33	whp foc
+ 641469.56	1.42	whp foc
+ 641472.92	1.43	whp foc
+ 641476.36	1.46	whp foc
+ 641479.78	1.45	whp foc
+ 641481.82	0.52	whp non
+ 641482.91	1.63	whp foc
+ 641484.63	1.05	whp non
+ 641486.13	1.81	whp foc
+ 641487.92	0.80	whp non
+ 641489.83	1.75	whp foc
+ 641493.83	1.75	whp foc
+ 641496.82	0.98	whp non
+ 641497.62	1.88	whp foc
+ 641499.82	1.54	whp non
+ 641501.44	1.29	whp foc
+ 641503.29	1.04	whp non
+ 641506.82	0.82	whp non
+ 641510.16	0.84	skp looks like there is a non whp but hard to say where to start and end
+ 641797.49	0.13	unk unf
+ 641798.59	0.74	grn non
+ 641799.00	0.12	unk non
+ 641802.04	0.17	unk foc
+ 641802.70	0.15	unk foc
+ 641805.11	0.84	grn non
+ 641807.01	0.14	unk foc
+ 641810.22	0.31	grn non
+ 641810.71	0.13	unk foc
+ 641811.28	0.18	unk foc
+ 641811.83	0.23	unk foc
+ 641812.19	0.16	unk foc
+ 641814.69	0.23	unk foc
+ 641815.70	0.19	unk foc
+ 641817.79	0.13	unk foc
+ 641818.41	0.18	unk foc
+ 641819.06	0.16	unk foc
+ 641819.76	0.17	unk foc
+ 641820.21	0.15	unk foc
+ 641824.63	0.16	unk foc
+ 641826.39	0.21	unk foc
+ 642057.93	0.17	unk non
+ 642211.01	0.00	EOA
