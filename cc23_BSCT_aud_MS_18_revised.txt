@@ -1,0 +1,23 @@
+ 16822.00	0.00	SOA
+ 16857.54	0.56	grn ? foc
+ 16860.76	1.67	whp non
+ 16861.72	1.77	whp foc
+ 16865.90	1.46	whp non
+ 16866.69	1.72	whp foc
+ 16870.77	1.40	whp non
+ 16871.39	1.70	whp foc
+ 16875.76	1.47	whp non
+ 16876.41	1.74	whp foc
+ 16880.32	1.41	whp non
+ 16881.07	1.69	whp foc
+ 16884.77	1.63	whp non
+ 16885.70	1.67	whp foc
+ 16889.33	1.11	whp non
+ 16890.57	1.64	whp foc
+ 16893.35	1.28	whp non
+ 16894.88	1.72	whp foc
+ 16898.34	1.40	whp non
+ 16899.15	2.43	whp foc
+ 16910.29	0.58	str cub non
+ 16910.86	1.01	grn foc
+ 16912.00	0.00	EOA

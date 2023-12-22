@@ -1,0 +1,113 @@
+ 26209.00	0.00	SOA
+ 26220.81	1.16	whp non
+ 26228.08	0.56	whp non
+ 26232.64	0.96	unk unf
+ 26248.49	0.72	str non
+ 26249.25	0.50	unk unf
+ 26251.22	0.38	str non
+ 26255.36	0.62	str cub non
+ 26257.56	0.59	str cub non
+ 26258.59	0.96	str cub non
+ 26260.34	0.98	str cub non
+ 26262.42	1.05	str cub non
+ 26263.76	1.43	str cub non
+ 26266.71	1.16	str cub non
+ 26268.43	2.94	str cub non
+ 26272.15	1.81	str cub non
+ 26275.62	2.39	str cub non
+ 26279.41	3.07	str cub non
+ 26284.09	1.17	str cub non
+ 26286.26	0.88	str cub non
+ 26288.17	2.58	str cub non
+ 26291.49	2.56	str cub non
+ 26294.68	1.68	str cub non
+ 26296.87	2.15	str cub non
+ 26304.61	0.60	str cub non
+ 26337.30	1.44	str cub non
+ 26339.66	0.89	str cub non
+ 26341.31	1.13	str cub non
+ 26343.35	1.95	str cub non
+ 26346.18	3.13	str cub non
+ 26350.15	3.00	str cub non
+ 26355.52	2.05	str cub non
+ 26358.92	2.18	str cub non
+ 26361.83	1.55	str cub non
+ 26364.32	1.31	str cub non
+ 26366.67	2.27	str cub non
+ 26370.37	1.44	str cub non
+ 26373.41	0.40	str cub non
+ 26376.24	1.36	str cub non
+ 26378.64	2.17	str cub non
+ 26381.91	2.44	str non
+ 26385.58	1.64	str cub non
+ 26387.87	1.74	str cub non
+ 26390.27	1.77	str cub non
+ 26392.95	0.45	str cub non
+ 26394.32	1.61	str cub non
+ 26396.55	3.37	str cub non
+ 26400.63	1.37	str cub non
+ 26402.46	1.51	str cub non
+ 26404.52	2.50	str cub non
+ 26407.96	1.57	str non
+ 26408.04	1.48	str cub non
+ 26410.60	5.17	grn unf
+ 26565.23	0.93	unk
+ 26574.69	0.66	unk non
+ 26577.77	0.72	unk non
+ 26586.02	0.80	oth unf
+ 26588.91	1.41	str cub non
+ 26591.89	2.29	str cub non
+ 26594.79	1.98	str cub non
+ 26597.94	2.08	str cub non
+ 26600.25	4.21	str cub non
+ 26605.08	0.23	str cub non
+ 26605.38	1.04	str cub non
+ 26606.78	0.31	str non
+ 26607.45	2.65	str cub non
+ 26610.88	2.48	str cub non
+ 26613.99	1.45	str cub non
+ 26615.64	1.70	str cub non
+ 26617.52	1.85	str cub non
+ 26620.14	2.13	str cub non
+ 26623.25	0.55	str cub non
+ 26623.98	0.44	grn ? non
+ 26629.24	0.31	grn unf
+ 26631.71	0.46	grn unf
+ 26636.61	1.03	str non
+ 26643.36	2.59	str non
+ 26646.92	0.91	str non
+ 26647.91	1.54	str cub non
+ 26650.08	2.07	str cub non
+ 26653.73	4.47	str cub non
+ 26658.45	3.30	str cub non
+ 26664.16	1.06	str cub non
+ 26665.99	0.68	str cub non
+ 26669.04	9.05	str cub non
+ 26678.63	3.02	str non
+ 26681.90	1.61	str cub non
+ 26684.82	2.12	str cub non
+ 26687.75	2.11	str cub non
+ 26690.80	2.67	str cub non
+ 26694.12	0.84	str cub non
+ 26695.82	1.27	str cub non
+ 26697.54	0.49	oth unf
+ 26702.07	0.54	oth non
+ 26712.00	0.37	unk
+ 26716.60	0.47	unk non
+ 26718.95	2.92	str cub non
+ 26722.18	0.36	oth non
+ 26722.67	4.81	str non
+ 26729.65	2.43	str non
+ 26732.68	1.52	str non
+ 26739.18	1.89	str cub non
+ 26743.75	2.22	str cub non
+ 26746.74	0.65	str cub non
+ 26751.44	1.27	unk
+ 26763.68	4.50	str cub non
+ 26768.71	1.86	str cub non
+ 26771.62	2.31	str cub non
+ 26774.25	1.01	str ? cub non
+ 26778.89	0.84	str cub non
+ 26785.89	0.92	grn non
+ 26788.00	0.77	grn foc
+ 26809.03	0.00	EOA
