@@ -10,10 +10,8 @@
  644045.70	1.21	whp non
  644050.55	0.92	whp non
  644056.45	0.51	whp non
- 644061.56	1.14	fix:I can only hear noise here
  644061.86	0.71	whp non
  644066.21	0.77	whp non
- 644066.27	0.00	nonfix:?
  644208.85	0.62	unk non
  644211.94	0.74	unk non
  644215.65	0.57	unk non

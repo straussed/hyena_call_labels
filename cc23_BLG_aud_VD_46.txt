@@ -4,18 +4,22 @@
  641099.92	1.66	grn non
  641145.56	0.32	unk non
  641148.75	1.68	whp non
+ 641149.35	1.15	fix: there are actually two nonfocal whoops overlapping here, so you should label each whoop separately
  641154.57	1.54	whp non
- 641159.47	2.11	fix: separate the whp non?
+ 641159.47	2.11	fix: same as the previous comment. You may want to separate the whp non into two labels
  641159.72	1.60	whp non
  641162.22	0.26	oth non
+ 641164.63	1.72	fix: same as the previous comment
  641164.68	1.66	whp non
  641170.21	1.21	whp non
  641174.31	1.00	whp non
  641179.08	1.09	whp non
+ 641192.78	2.45	fix: this is a groan
  641192.80	2.48	rum non
  641203.88	2.01	grn non
  641218.82	1.28	whp non
  641222.93	1.57	whp non
+ 641227.76	1.57	fix: we cannot be sure if this is from the focal so you can label this grn unf
  641227.81	1.52	grn foc
  641231.18	1.79	gwl non
  641259.30	2.47	fix: when there are too many nonfocal calls to tell whats happening, we should skip and label accordingly. skip: too many non-focal calls
@@ -25,6 +29,7 @@
  641433.63	0.65	whp non
  641436.50	1.10	whp non
  641437.05	0.55	whp non
+ 641441.90	1.58	fix: we cannot be sure if this is from the focal so you can label this grn unf
  641441.91	1.53	grn foc
  641453.02	0.95	grn foc
  641453.09	0.82	fix: grn unf
@@ -38,7 +43,6 @@
  641521.85	1.72	whp non
  641525.92	2.00	whp non
  641662.50	1.42	gwl non
- 641662.60	1.19	nonfix: gwl?
  641666.85	1.74	grn foc
  641666.86	1.74	fix: grn unf
  642014.12	0.91	grn non

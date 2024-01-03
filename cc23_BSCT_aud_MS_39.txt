@@ -41,10 +41,10 @@
  124033.34	0.98	grn foc
  124035.17	0.42	grn foc
  124036.09	0.41	whp non
- 124036.12	0.47	fix: grn non?
+ 124036.12	0.47	fix:grn ? non or whp ?non
  124036.66	0.51	grn foc
  124040.36	1.49	sql non
- 124040.80	0.81	nonfix: ???
+ 124040.80	0.81	fix: I'd put a question mark here because it sounds weird--> sql ? non
  124043.57	1.67	gig non
  124043.94	0.53	grn foc
  124045.61	1.20	grn foc
@@ -56,7 +56,7 @@
  124050.70	0.93	grn foc
  124052.35	0.47	fix: ?
  124052.38	0.44	whp non
- 124052.67	1.33	fix: this whole section is a groan
+ 124052.67	1.33	fix: this whole section is a groan, and no rumble
  124052.68	0.67	grn foc
  124053.80	0.23	rum ? unf
  124054.49	0.83	nonfix: grn?
@@ -206,6 +206,7 @@
  124369.47	0.71	grn foc
  124376.90	0.91	grn foc
  124378.36	0.89	grn foc
+ 124379.52	1.19	fix: str cub non
  124379.53	1.02	sql ? non
  124381.36	1.65	whp non
  124384.07	1.29	grn foc

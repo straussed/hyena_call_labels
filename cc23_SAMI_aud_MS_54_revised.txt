@@ -21,7 +21,6 @@
  641797.47	0.22	oth cub non
  641797.51	0.27	fix: this is not necessarily from a cub. Sometimes the adults do this kind of weird short sound
  641798.59	0.74	grn non
- 641801.82	1.21	nonfix: remove cub?
  641802.04	0.17	oth cub non
  641802.70	0.15	oth cub non
  641805.11	0.84	grn non
