@@ -9,8 +9,10 @@
  51731.21	2.33	grn foc
  51764.58	1.79	grn foc
  51772.33	2.68	grn foc
+ 51797.99	1.33	fix: str non
  51798.09	1.07	sql non
  51798.68	1.60	grn foc
+ 51801.08	2.40	fix: this and the following "sql"-labeled calls are all squitters (str)
  51801.13	2.34	sql non
  51802.37	1.34	grn foc
  51807.15	1.66	sql non

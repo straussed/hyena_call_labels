@@ -5,6 +5,7 @@
  641145.56	0.32	unk non
  641148.75	1.68	whp non
  641154.57	1.54	whp non
+ 641159.47	2.11	fix: separate the whp non?
  641159.72	1.60	whp non
  641162.22	0.26	oth non
  641164.68	1.66	whp non
@@ -17,6 +18,7 @@
  641222.93	1.57	whp non
  641227.81	1.52	grn foc
  641231.18	1.79	gwl non
+ 641259.30	2.47	fix: when there are too many nonfocal calls to tell whats happening, we should skip and label accordingly. skip: too many non-focal calls
  641259.77	1.64	whp non
  641260.22	1.04	grn non
  641365.67	0.67	unk
@@ -25,6 +27,7 @@
  641437.05	0.55	whp non
  641441.91	1.53	grn foc
  641453.02	0.95	grn foc
+ 641453.09	0.82	fix: grn unf
  641497.01	1.04	whp non
  641500.13	1.17	whp non
  641503.55	1.08	whp non
@@ -35,7 +38,9 @@
  641521.85	1.72	whp non
  641525.92	2.00	whp non
  641662.50	1.42	gwl non
+ 641662.60	1.19	nonfix: gwl?
  641666.85	1.74	grn foc
+ 641666.86	1.74	fix: grn unf
  642014.12	0.91	grn non
  642020.11	0.21	oth foc
  642049.08	1.24	oth non ?

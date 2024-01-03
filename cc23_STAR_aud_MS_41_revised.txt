@@ -14,7 +14,6 @@
  641634.40	0.92	grn foc
  641637.74	1.50	grn foc
  641640.49	1.53	grn foc
- 641643.03	1.73	nonfix: could this be a silent whp?
  641643.04	1.71	grn foc
  641645.76	1.32	grn foc
  641647.19	0.68	str cub non
@@ -39,7 +38,7 @@
  641740.63	1.88	grn foc
  641744.19	1.41	str cub non
  641744.48	1.86	grn foc
- 641753.41	1.81	whp foc
+ 641753.41	1.81	grn foc
  641763.71	2.10	grn foc
  641770.31	1.39	grn foc
  641773.44	1.30	grn foc

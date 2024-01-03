@@ -9,17 +9,21 @@
  641260.13	1.87	whp foc
  641563.22	0.29	unk non
  641564.98	0.82	unk non
+ 641569.33	7.53	fix: these calls should be non focal cub whoops
  641569.38	1.06	sql foc
  641571.22	0.83	sql ? foc
+ 641571.98	0.73	fix: grn foc
  641572.01	0.52	whp non
  641572.75	0.76	sql ? foc
  641574.16	0.78	sql ? foc
  641575.86	0.92	sql foc
+ 641578.71	6.67	fix: these are whp cub non
  641578.74	1.14	seq[whp+sql] foc
  641580.69	1.03	seq[whp+sql] foc
  641582.68	1.00	seq[whp+sql] foc
  641584.37	0.91	seq[whp+sql] foc
  641586.65	1.19	whp non
+ 641587.03	2.57	fix: you can add cub non to these whp labels
  641588.78	0.87	whp non
  641590.81	0.75	whp foc
  641594.55	1.00	whp foc
@@ -27,9 +31,11 @@
  641602.24	1.22	whp foc
  641606.49	1.56	whp foc
  641613.89	2.46	skp barely heardable non calls
+ 641654.46	1.81	fix: this is just a groan 
  641654.78	0.26	rum foc
  641655.55	0.58	rum foc
  641686.08	0.13	unk non
+ 641841.26	1.50	fix: this is a groan
  641841.33	1.31	rum foc
  641905.31	0.22	unk non
  642180.01	0.00	EOA

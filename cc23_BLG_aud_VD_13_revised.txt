@@ -27,7 +27,7 @@
  16026.42	0.64	str cub non
  16028.19	1.94	grn non
  16030.56	1.87	str cub non
- 16042.07	1.73	str cub non
+ 16042.07	1.73	oth non
  16045.29	1.22	str cub non
  16047.80	0.32	str cub non
  16054.81	0.86	grn foc
