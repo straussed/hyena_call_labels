@@ -1,0 +1,82 @@
+ 131149.01	0.00	soa
+ 131150.25	1.15	grn non
+ 131157.21	2.09	whp non
+ 131162.33	1.14	whp non
+ 131166.07	1.75	whp non
+ 131167.87	0.24	oth non
+ 131171.30	1.81	whp non
+ 131176.39	2.15	whp non
+ 131181.35	2.39	whp non
+ 131186.99	2.45	whp non
+ 131192.73	2.72	whp non
+ 131262.33	1.98	grn foc
+ 131267.40	2.39	grn foc
+ 131276.43	3.33	grn foc
+ 131285.38	1.11	grn foc
+ 131300.00	1.28	whp foc
+ 131305.25	1.62	whp foc
+ 131306.98	1.11	whp non
+ 131310.21	1.40	whp foc
+ 131312.99	2.65	whp non
+ 131314.32	1.94	whp foc
+ 131319.23	1.56	whp non
+ 131319.60	1.49	whp foc
+ 131323.71	1.74	whp foc
+ 131325.03	2.07	whp non
+ 131328.66	1.33	whp non
+ 131330.75	0.32	oth foc
+ 131332.94	1.64	whp unf 
+ 131333.71	0.88	grn unf
+ 131337.96	2.01	whp non
+ 131339.40	1.98	grn non
+ 131343.05	1.60	whp non
+ 131345.26	0.23	gig non
+ 131348.05	1.60	rum foc
+ 131359.94	2.96	rum foc
+ 131364.97	0.83	rum non
+ 131404.83	2.44	rum foc
+ 131432.00	1.18	grn non
+ 131434.47	1.77	grn non
+ 131438.11	2.00	grn non
+ 131444.27	2.22	grn non
+ 131448.81	1.79	grn non
+ 131456.05	1.63	grn non
+ 131459.54	2.88	seq [grn+whp] non
+ 131465.26	1.31	whp non
+ 131469.82	1.99	whp non
+ 131474.32	1.92	whp non
+ 131478.84	2.18	whp non
+ 131484.38	2.14	whp non
+ 131490.21	4.15	whp non
+ 131497.11	1.21	grn non
+ 131498.18	2.38	whp non
+ 131501.43	0.55	grn non
+ 131503.25	0.77	grn non
+ 131504.01	2.18	whp non
+ 131508.22	0.51	grn non
+ 131510.34	1.91	whp non
+ 131510.38	0.00	fix: grn ? non
+ 131514.11	1.02	grn non
+ 131518.39	0.80	grn non
+ 131533.59	0.60	oth foc
+ 131534.41	0.55	str cub non
+ 131535.78	8.29	str cub non
+ 131536.12	0.65	grn foc
+ 131540.04	0.45	oth non
+ 131541.30	0.32	oth non
+ 131545.39	1.21	str cub non
+ 131550.22	2.00	whp non
+ 131556.33	1.42	whp non
+ 131560.16	1.88	whp non
+ 131565.11	1.78	whp non
+ 131565.42	1.01	fix: grn unf
+ 131565.48	0.97	grn foc
+ 131571.23	1.80	whp non
+ 131573.95	1.03	grn foc
+ 131576.04	0.71	grn foc
+ 131579.77	1.42	grn foc
+ 131582.90	1.54	grn foc
+ 131630.58	1.42	grn foc
+ 131634.87	1.88	grn foc
+ 131659.28	1.21	grn foc
+ 131660.83	0.00	eoa

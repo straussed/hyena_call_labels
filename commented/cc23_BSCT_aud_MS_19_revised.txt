@@ -1,0 +1,20 @@
+ 20361.99	0.00	SOA
+ 20420.85	0.23	oth foc
+ 20421.26	0.22	oth foc
+ 20421.74	0.17	oth foc
+ 20424.16	0.44	oth unf
+ 20432.93	0.14	unk unf
+ 20435.56	0.23	oth foc
+ 20440.10	0.19	unk unf
+ 20440.86	0.14	unk foc
+ 20458.94	0.50	grn foc
+ 20459.97	0.23	unk unf
+ 20460.57	2.41	grn foc
+ 20464.30	4.58	grn foc
+ 20470.90	3.12	grn foc
+ 20480.94	0.22	unk non
+ 20481.27	0.53	unk non
+ 20483.54	0.73	fix: this shouldn't be a whoop. you can label oth non
+ 20483.64	0.63	whp non
+ 20499.60	2.61	rum foc
+ 20512.01	0.00	EOA
