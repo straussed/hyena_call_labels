@@ -1,30 +1,18 @@
  120109.01	0.00	SOA
- 120170.91	1.65	grn non
- 120176.72	2.34	grn non
- 120182.90	3.19	grn non
+ 120170.89	1.20	grn non
+ 120176.53	0.14	oth non
+ 120176.83	2.13	grn non
+ 120182.92	3.09	grn non
  120189.98	2.11	grn non
- 120196.00	3.60	grn non
- 120196.46	0.93	syn
- 120205.61	2.07	grn non
- 120323.19	3.82	skp I am not sure if its bird or hyena
- 120441.12	0.63	unk
- 120473.54	0.71	unk
- 120478.50	0.45	unk
- 120482.96	0.45	unk
+ 120196.13	3.56	grn non
+ 120205.60	1.82	grn non
  120631.25	4.75	rum foc
  120636.01	1.46	unk
  120637.97	0.79	rum non
  120639.18	2.95	rum non
- 120642.13	3.30	skp cub or birds 
  120645.43	1.18	rum non
  120647.07	4.12	rum foc
  120651.19	2.08	unk
  120653.27	4.09	rum foc
  120657.36	2.20	unk
- 120659.56	3.47	skp birds or cub
- 120673.04	4.93	str ?cub non
- 120678.38	9.64	str ? cub non
- 120688.26	9.24	str ? cub non
- 120697.50	9.47	str ? cub non
- 120706.97	2.20	str ? cub non
  120708.99	0.00	EOA
