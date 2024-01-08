@@ -1,19 +1,15 @@
  123973.99	0.00	SOA
- 123976.40	0.79	gig non ? 
- 123979.12	0.60	gig non ?
  123979.73	0.60	whp non
  123980.83	0.75	whp non
  123981.19	1.05	grn foc
  123982.33	0.77	gig ? non
- 123983.09	0.40	fix: grn non
  123983.10	0.39	whp non
  123983.69	0.45	fix: grn non
  123991.23	1.01	grn foc
  123992.91	1.25	whp non
- 123992.93	1.21	fix: grn non
+ 123992.93	1.21	fix: seq[grn+whp]
  123994.70	1.44	grn foc
  123998.11	1.02	whp non
- 123998.16	0.98	fix: grn non
  124000.08	1.32	grn foc
  124004.78	1.18	grn foc
  124007.31	1.09	grn foc
@@ -21,6 +17,7 @@
  124012.02	0.60	grn foc
  124014.44	0.63	grn foc
  124015.58	0.67	str cub non
+ 124017.06	0.40	fix: grn non
  124017.07	0.32	unk non
  124018.74	0.68	fix: the first whp non ends slightly later
  124018.83	0.50	whp non
@@ -30,51 +27,51 @@
  124020.78	1.12	grn foc
  124022.86	0.81	grn foc
  124024.99	0.97	grn foc
- 124026.73	0.88	fix: you can combine them both into one label
  124026.75	0.42	grn foc
  124027.22	0.38	grn foc
- 124028.63	0.49	fix: grn non
  124028.64	0.48	whp non
- 124028.65	0.00	double check
  124029.12	0.56	fix: gig non
  124029.13	0.62	unk non
  124033.34	0.98	grn foc
  124035.17	0.42	grn foc
  124036.09	0.41	whp non
- 124036.12	0.47	fix:grn ? non or whp ?non
+ 124036.12	0.47	fix:this could also be a groan, so you can put a question mark --> "whp ? non"
  124036.66	0.51	grn foc
+ 124040.36	0.92	fix: sql non
  124040.36	1.49	sql non
- 124040.80	0.81	fix: I'd put a question mark here because it sounds weird--> sql ? non
+ 124041.29	0.56	fix: whp cub non
  124043.57	1.67	gig non
  124043.94	0.53	grn foc
  124045.61	1.20	grn foc
- 124046.17	1.57	nonfix: grn?
+ 124046.34	0.47	fix: gwl non
  124046.36	0.44	unk non
+ 124047.27	0.39	fix: gwl non
  124047.28	0.38	unk non
  124047.52	0.69	grn foc
+ 124048.23	0.50	fix: gwl non
  124048.90	0.78	grn foc
  124050.70	0.93	grn foc
- 124052.35	0.47	fix: ?
+ 124052.35	0.47	fix: whp ? cub non
  124052.38	0.44	whp non
  124052.67	1.33	fix: this whole section is a groan, and no rumble
  124052.68	0.67	grn foc
  124053.80	0.23	rum ? unf
- 124054.49	0.83	nonfix: grn?
+ 124054.49	0.83	fix: whp cub non
  124054.52	0.79	whp non
- 124058.16	0.81	fix:grn?
  124058.17	0.85	gwl non
- 124059.69	1.86	nonfix:?
+ 124059.69	1.86	fix: oth non
  124059.98	0.59	unk non
  124060.94	0.51	unk non
  124065.01	1.50	gig non
  124065.46	0.34	fix: the duration of the giggle is shorter
  124065.94	0.73	grn non
- 124066.69	3.54	fix: giggle?
  124066.73	1.24	grn foc
  124068.25	0.87	grn non
+ 124069.25	0.97	fix: gig non 
  124069.26	0.94	str cub non
  124070.20	0.35	grn non
  124070.95	0.65	whp non
+ 124072.31	0.53	fix: sql non
  124072.33	0.52	unk non
  124072.85	0.92	grn non
  124075.26	0.48	whp non
@@ -83,13 +80,18 @@
  124076.25	1.42	grn foc
  124077.30	0.36	whp non
  124078.40	0.36	gwl ? non
+ 124080.45	0.42	fix: whp cub non
  124080.48	0.38	sql ? non
  124081.74	0.33	grn unf
  124082.17	0.36	grn unf
  124082.61	0.35	grn unf
+ 124086.06	0.46	fix: grn unf
  124086.09	0.43	grn non
+ 124086.69	0.78	fix: grn unf
  124086.70	0.77	grn ? non
+ 124088.20	0.48	fix: grn unf; and the grn stops earlier
  124088.21	1.16	grn ? non
+ 124090.15	0.84	fix: grn unf
  124090.15	1.07	grn ? non
  124093.03	1.13	grn ? foc
  124094.69	0.97	grn ? foc
@@ -102,42 +104,59 @@
  124104.08	0.82	unk non
  124104.89	0.67	whp non
  124105.79	1.26	grn foc
+ 124107.20	0.51	fix: whp non
  124107.22	0.95	whp non
+ 124107.63	0.39	fix: whp cub non
+ 124108.18	0.56	fix: grn non
  124108.23	1.16	unk non
+ 124108.74	0.65	fix: grn non
  124111.49	1.27	grn foc
  124113.39	1.85	grn foc
  124119.83	1.19	grn foc
+ 124125.12	3.35	fix: gig cub non
  124125.14	3.44	str ? cub non
  124126.94	1.07	grn foc
  124128.58	0.58	whp non
+ 124128.73	0.39	fix: grn non
+ 124129.14	0.49	fix: whp cub non
  124129.16	2.32	str ? cub non
+ 124129.63	0.65	fix: grn non
  124130.00	1.08	grn foc
+ 124130.93	0.37	fix: str cub non
  124131.62	1.36	grn foc
  124133.94	0.87	grn foc
  124135.07	0.91	grn foc
  124142.42	1.59	grn foc
  124144.23	1.07	grn foc
  124145.09	1.40	gig ? non
+ 124145.18	0.93	fix: gig non is correct, but the call ends earlier
+ 124147.28	0.14	fix: oth foc
+ 124147.61	0.83	fix: grn foc, the call ends earlier
  124147.63	0.96	whp foc
  124150.56	1.15	grn foc
+ 124153.19	2.43	fix: there are some giggles here, please pick them out and label accordingly :)
  124154.58	1.02	grn foc
  124156.06	1.10	grn ?  foc
+ 124156.92	0.45	fix: also some giggle around here
  124157.85	0.96	grn ? foc
  124159.69	1.09	grn ? foc
  124161.26	0.83	grn foc
  124162.76	0.80	grn ? non
+ 124172.76	0.91	fix: grn foc
  124172.76	0.88	grn ? unf
  124179.38	1.23	grn ? foc
+ 124180.61	0.63	fix: grn non
  124180.62	0.60	unk non
- 124182.42	0.62	gig ? foc
- 124183.03	0.56	grn ? foc
- 124184.48	0.88	grn ? foc
- 124185.93	0.78	grn ? foc
- 124187.45	0.70	grn ? foc
- 124188.53	0.82	grn ? foc
- 124189.92	0.83	grn ? foc
+ 124182.42	0.62	gig foc
+ 124183.03	0.56	grn foc
+ 124184.48	0.88	grn foc
+ 124185.40	0.37	fix: gig unf
+ 124185.93	0.78	grn foc
+ 124187.45	0.70	grn foc
+ 124188.05	0.29	fix: grn non
+ 124188.53	0.82	grn foc
+ 124189.92	0.83	grn foc
  124190.77	0.43	grn non
- 124191.20	0.58	str ? cub non
  124191.78	0.30	grn non
  124191.99	0.70	grn foc
  124193.41	0.95	grn foc
@@ -149,69 +168,100 @@
  124213.71	0.70	grn foc
  124215.00	0.68	grn foc
  124226.36	0.76	sql ? non
+ 124226.36	0.78	fix: whp non
  124227.63	1.39	grn foc
+ 124229.00	2.90	fix: these are actually all whoops (4 in total)
  124229.01	1.00	grn ? non
  124230.00	1.88	str ? cub non
  124230.00	0.54	grn non
  124231.07	0.75	grn non
  124231.82	1.24	grn ? non
+ 124231.87	1.19	fix: grn foc
+ 124233.49	0.75	fix: whp foc
  124233.50	0.68	grn non
+ 124234.30	0.77	fix: whp cub non
  124234.31	0.79	whp non
  124235.41	0.89	grn non
+ 124235.41	0.93	fix: whp non
+ 124235.82	0.35	fix: whp cub non
+ 124237.14	0.67	fix: whp non
  124237.15	0.95	whp non
+ 124237.42	0.42	fix: whp cub non
  124239.26	0.74	whp ? non
+ 124239.60	0.40	fix: whp cub non ; there are 2 whps overlapping
  124240.19	0.62	whp ? non
+ 124240.23	0.29	fix: whp non
+ 124240.43	0.38	fix: grn non
  124241.16	1.35	grn foc
  124242.51	0.81	whp ? non
+ 124242.78	0.31	fix: the whp non starts later and ends earlier
  124243.31	1.34	grn foc
  124244.93	0.85	grn foc
  124248.12	1.10	whp non
+ 124248.43	0.35	fix: the whp non starts later and ends earlier
  124249.99	0.63	unk non
+ 124250.01	0.60	fix: sql non
  124250.72	0.64	grn non
+ 124250.72	0.77	fix: the grn ends later
  124251.38	0.91	whp non
+ 124251.50	0.67	fix: the whp non starts later and ends earlier
  124253.13	0.82	grn foc
  124266.78	0.88	str ? cub non
+ 124267.12	0.28	fix: gig cub non 
  124269.98	4.83	unk non
+ 124270.00	0.84	fix: gig non
+ 124271.92	0.54	fix: gig non
  124279.64	1.09	str ? cub non
+ 124279.70	0.52	fix: gig non
  124292.10	0.91	grn foc
  124293.58	1.12	grn foc
  124295.39	0.71	grn foc
  124299.35	1.07	grn foc
  124314.42	1.29	grn foc
+ 124319.30	0.55	fix: whp non
  124319.33	0.76	gwl ? non
- 124320.24	0.89	str ? cub non
+ 124319.89	0.47	fix: whp cub non
  124321.85	0.89	grn foc
  124323.24	0.83	grn foc
  124324.68	0.68	grn foc
  124332.33	1.00	grn foc
  124336.32	1.07	grn non
+ 124336.32	4.61	fix: these are all nonfocal whoops. Some of them are overlapped, please label them individually
  124338.10	1.37	grn non
  124340.20	0.86	grn non
  124340.92	0.55	sql non
  124341.47	0.74	grn foc
  124343.00	0.90	grn foc
  124345.07	0.81	grn foc
+ 124347.74	3.68	nonfix: only focal calls labeled, the nonfocal ones are masked by noise
  124347.89	0.67	grn foc
  124349.03	0.83	grn foc
  124350.36	0.68	grn ffoc
  124357.21	0.79	grn foc
  124358.23	0.76	grn foc
  124358.99	1.19	gwl ? non
+ 124359.26	0.28	fix: whp cub non ; there is no gwl :)
+ 124359.29	0.88	fix: whp non
  124360.62	1.04	whp non
+ 124360.67	0.68	fix: whp cub non; ends earlier
  124362.72	0.53	grn foc
  124363.72	0.99	grn foc
  124364.87	0.92	whp non
  124366.24	0.75	grn foc
  124366.99	0.73	unk non
+ 124367.07	0.52	fix: whp non
  124369.47	0.71	grn foc
  124376.90	0.91	grn foc
  124378.36	0.89	grn foc
  124379.52	1.19	fix: str cub non
  124379.53	1.02	sql ? non
  124381.36	1.65	whp non
+ 124381.49	1.26	fix: the whp non starts later and ends earlier
  124384.07	1.29	grn foc
  124386.24	1.23	grn foc
+ 124391.76	0.97	fix: whp cub non
  124391.78	1.16	sql ? non
+ 124395.19	0.83	fix: whp cub non
  124395.19	0.83	sql ? non
  124396.56	0.98	grn foc
  124401.99	0.00	EOA
