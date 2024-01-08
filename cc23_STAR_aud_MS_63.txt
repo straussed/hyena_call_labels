@@ -7,24 +7,31 @@
  119939.72	2.12	whp foc
  119945.59	2.38	whp foc
  119952.42	2.45	whp foc
+ 120139.31	0.65	fix: grn foc
  120146.32	2.00	grn foc
  120152.37	3.00	grn foc
  120159.44	2.08	grn foc
  120165.55	3.55	grn foc
  120175.02	1.90	grn foc
  120303.01	1.04	whp foc
+ 120303.05	1.20	fix: this should be whp non
+ 120305.11	1.23	fix: this should be whp non
  120305.12	1.21	whp foc
+ 120307.28	0.58	fix: foc or non?
  120307.28	0.53	oth foc
+ 120307.92	1.11	fix: whp non
  120307.93	1.10	whp unf
  120309.54	0.87	whp non
  120310.49	4.34	str cub non
  120312.14	0.77	whp non
  120313.14	0.77	whp non
+ 120314.17	0.56	fix: when you are able to separate the calls (in this case squitters), it'd make more sense to label each call individually instead of a single over-arching label covering a wide range
  120315.58	0.43	oth non
  120316.41	0.94	str cub non
  120316.67	0.26	oth unf
  120318.93	0.33	oth non
  120319.25	1.04	whp non
+ 120319.30	0.92	fix: is this a whp?
  120320.43	1.24	whp non
  120323.50	0.52	str cub non
  120324.01	0.99	whp non
@@ -33,8 +40,12 @@
  120326.33	0.64	whp ? non
  120327.25	0.63	str cub non
  120327.76	1.20	whp non
+ 120327.85	1.12	fix: str cub non here?
+ 120327.86	0.62	fix: whp non here?
  120331.38	1.36	whp non
+ 120333.92	2.59	fix: this should be grn foc
  120333.92	2.59	grn non
+ 120336.82	0.84	fix: grn non instead?
  120336.88	0.80	whp non
  120337.94	2.56	str cub non
  120339.54	0.96	whp non
@@ -42,6 +53,7 @@
  120342.81	0.17	oth non
  120343.63	0.87	whp non
  120347.22	2.27	grn foc
+ 120351.86	1.94	 fix: the groan actually ends later
  120351.86	1.57	grn foc
  120354.05	0.67	grn foc
  120355.17	0.50	grn foc

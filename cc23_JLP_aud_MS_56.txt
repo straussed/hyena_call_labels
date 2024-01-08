@@ -25,7 +25,10 @@
  641206.47	1.22	whp non
  641211.33	0.80	whp non
  641212.26	5.47	skp barely heardable non whps
+ 641220.43	2.07	whp non
  641220.48	6.49	skp barely heardable non whps
+ 641224.49	1.36	whp non
+ 641228.25	7.28	fix: skp: too many whp non
  641228.29	7.23	whp non
  641238.44	1.81	whp non
  641240.97	0.95	whp non
@@ -52,7 +55,6 @@
  641465.84	0.83	whp non
  641479.07	0.99	gig ? foc
  641481.26	0.38	gig ? foc
- 641550.05	1.05	grn foc
  641572.04	0.67	grn non
  641630.23	0.49	whp non
  641634.71	0.75	whp non
