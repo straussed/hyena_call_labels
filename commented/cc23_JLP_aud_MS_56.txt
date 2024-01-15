@@ -1,0 +1,68 @@
+ 641000.00	0.00	SOA
+ 641002.82	1.00	grn non
+ 641004.51	1.49	grn non
+ 641007.23	1.35	grn non
+ 641008.79	0.35	grn non
+ 641009.44	0.60	grn non
+ 641012.06	1.31	grn non
+ 641014.13	1.06	grn non
+ 641019.40	0.58	grn non
+ 641020.40	1.07	grn non
+ 641022.14	0.38	grn non
+ 641022.81	0.73	grn non
+ 641023.69	2.03	grn non
+ 641026.81	0.76	grn non
+ 641028.26	0.68	grn non
+ 641041.09	0.87	grn non
+ 641075.59	0.36	fix: grn non
+ 641075.60	0.32	oth non
+ 641110.10	0.64	grn non
+ 641111.45	0.53	grn non
+ 641112.76	0.69	grn non
+ 641188.63	0.63	whp ? non
+ 641197.36	0.35	whp ? non
+ 641202.15	0.38	whp non
+ 641206.47	1.22	whp non
+ 641211.33	0.80	whp non
+ 641212.26	5.47	skp barely heardable non whps
+ 641220.48	6.49	skp barely heardable non whps
+ 641228.25	7.28	fix: skp: too many whp non
+ 641228.29	7.23	whp non
+ 641238.44	1.81	whp non
+ 641240.97	0.95	whp non
+ 641242.62	0.54	whp non
+ 641244.84	1.11	whp non
+ 641247.01	0.63	whp non
+ 641248.25	1.28	whp non
+ 641250.01	0.83	whp non
+ 641251.19	1.05	whp non
+ 641253.10	2.79	whp non
+ 641253.13	0.77	fix: whp non
+ 641253.99	1.24	fix: whp non
+ 641254.72	1.12	fix: whp non
+ 641256.99	1.06	whp non
+ 641259.01	2.51	fix: there are actually 2 whp non. You should split them up
+ 641259.08	2.39	whp non
+ 641263.50	0.90	whp non
+ 641266.35	1.18	whp non
+ 641270.08	0.68	whp non
+ 641271.00	1.12	whp non
+ 641272.67	1.14	whp non
+ 641276.00	1.91	fix: there are actually 2 whp non. You should split them up
+ 641276.01	1.87	whp non
+ 641411.40	0.44	whp non
+ 641418.10	1.29	whp non
+ 641430.03	0.70	whp non
+ 641433.60	0.94	whp non
+ 641449.18	0.78	whp non
+ 641465.84	0.83	whp non
+ 641479.07	0.99	gig ? foc
+ 641481.14	0.59	fix: oth foc
+ 641481.26	0.38	gig ? foc
+ 641572.04	0.67	grn non
+ 641630.23	0.49	whp non
+ 641634.71	0.75	whp non
+ 641638.94	0.83	whp non
+ 641671.94	1.04	whp non
+ 642178.36	0.58	whp non
+ 642200.00	0.00	EOA
