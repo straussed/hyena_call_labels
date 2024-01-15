@@ -2,7 +2,7 @@
 title: "Hyena cc23 labeling status"
 format:
   gfm:
-    output-file: 'index'
+    output-file: 'README'
 date: now
 date-format: "[Last updated on] MMMM DD, YYYY"
 editor: visual
