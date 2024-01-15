@@ -1,0 +1,44 @@
+ 16021.67	0.00	soa
+ 16036.14	3.24	grn foc
+ 16041.18	3.25	grn foc
+ 16047.03	3.32	grn foc
+ 16058.77	0.26	oth unf
+ 16089.27	2.42	grn foc
+ 16099.23	3.07	grn foc
+ 16104.81	2.82	grn foc
+ 16111.50	3.80	grn foc
+ 16117.18	3.11	grn foc
+ 16121.15	1.88	grn foc
+ 16123.71	1.73	grn foc
+ 16127.06	2.45	grn foc
+ 16130.19	1.88	grn foc
+ 16148.61	1.03	grn unf
+ 16150.46	5.09	grn unf
+ 16157.85	2.82	grn unf
+ 16161.56	1.19	grn unf
+ 16166.83	1.04	oth unf
+ 16189.22	0.96	grn unf
+ 16219.76	1.21	grn unf
+ 16222.12	0.79	oth foc
+ 16224.66	1.65	grn unf
+ 16338.76	2.21	grn foc
+ 16342.07	1.79	whp non
+ 16347.31	2.22	whp non
+ 16353.07	2.29	whp non
+ 16353.48	1.52	whp foc
+ 16358.58	0.62	whp non
+ 16359.26	2.05	whp foc
+ 16363.52	1.64	whp non
+ 16365.20	1.92	whp foc
+ 16368.24	1.83	whp non
+ 16370.88	2.07	whp foc
+ 16373.00	1.78	whp non
+ 16378.08	1.90	whp foc
+ 16378.92	1.72	whp non
+ 16458.58	1.14	grn foc
+ 16462.04	0.00	eoa
+ 16509.82	3.14	grn foc
+ 16509.97	2.07	fix: grn foc
+ 16513.18	2.94	grn foc
+ 16513.58	1.52	fix: grn foc
+ 16516.66	0.00	eoa
