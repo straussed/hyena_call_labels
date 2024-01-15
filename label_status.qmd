@@ -10,6 +10,7 @@ df-print: kable
 ---
 
 ### Labels by date and id
+
 ```{r assemble data}
 #| echo: false
 #| message: false
@@ -63,9 +64,8 @@ for(call in calls_of_interest){
   unf <- sum(grepl(call_info$label, pattern = 'unf'))
   total_inds <- length(unique(call_info$id))
   total_audits <- length(unique(call_info$aud_name))
-  CV_ind_counts <- mean(table(call_info$id))/sd(table(call_info$id))
   labeled_calls <- rbind(labeled_calls, data.frame(call, total_count, foc, non, unf, 
-                                  total_duration, total_inds, CV_ind_counts,
+                                  total_duration, total_inds,
                                   total_audits))
 }
 
@@ -120,14 +120,16 @@ ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, 
 
 ### By call type
 
-``` {r, by call type}
+```{r, by call type}
 #| echo: false
 labeled_calls
 ```
+
 ### Start and end of audit issues
+
 These audits have issues with start and end of audit:
+
 ```{r, problems}
 #| echo: false
 problems
 ```
-
