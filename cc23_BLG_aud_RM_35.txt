@@ -1,0 +1,212 @@
+ 129708.22	0.00	soa
+ 129737.24	1.97	fus[gig+whp] non
+ 129746.22	1.27	whp non
+ 129747.62	1.04	whp non
+ 129748.78	0.69	whp non
+ 129751.11	0.50	gig non
+ 129752.47	0.87	whp non
+ 129753.51	0.78	whp non
+ 129754.28	0.66	whp unf
+ 129755.46	0.55	whp non
+ 129756.80	0.46	whp unf
+ 129758.37	0.84	whp non
+ 129765.59	0.99	whp unf
+ 129766.64	0.72	gig unf
+ 129767.13	0.90	whp foc
+ 129769.44	0.69	whp foc
+ 129770.20	2.26	rum unf
+ 129772.78	0.72	gig unf
+ 129774.81	0.38	whp foc
+ 129779.98	0.84	whp foc
+ 129780.85	0.50	whp non
+ 129781.41	1.23	gig unf
+ 129782.66	1.77	gig unf
+ 129784.31	0.46	whp foc
+ 129784.71	0.73	whp non
+ 129785.44	1.11	whp unf
+ 129787.12	0.95	whp foc
+ 129788.14	1.05	whp unf
+ 129789.59	0.61	unk
+ 129790.73	0.81	whp non
+ 129791.98	0.91	whp non
+ 129793.27	0.69	whp non
+ 129794.06	0.34	whp foc
+ 129794.47	0.66	whp non
+ 129795.15	0.90	whp non
+ 129796.19	1.49	gig non
+ 129797.74	1.65	gig unf
+ 129799.39	1.05	gig foc
+ 129800.95	2.62	rum nnf
+ 129806.21	0.41	whp non
+ 129806.68	0.58	whp non
+ 129807.31	0.50	gig foc
+ 129807.85	2.21	gig non
+ 129810.08	1.02	gig nnf
+ 129812.67	0.70	whp foc
+ 129814.20	0.91	whp foc
+ 129816.45	1.39	whp foc
+ 129819.58	1.30	whp foc
+ 129822.20	1.12	whp foc
+ 129824.87	1.33	whp foc
+ 129826.53	1.16	str cub non
+ 129827.81	1.45	whp nnf
+ 129829.23	0.53	whp non
+ 129829.87	1.31	str cub non
+ 129831.31	1.33	whp foc
+ 129834.39	0.47	str cub non
+ 129834.84	1.71	whp nnf
+ 129838.35	0.46	skp
+ 129838.92	1.46	whp foc
+ 129842.49	1.08	gig foc
+ 129847.32	0.96	gig foc
+ 129849.31	0.73	gig unf
+ 129850.03	0.72	whp non
+ 129851.83	0.62	grn foc
+ 129852.55	0.52	whp foc
+ 129853.10	0.46	skp
+ 129854.21	0.90	gig non
+ 129855.11	1.08	fus[gig+whp]
+ 129856.19	0.35	gig non
+ 129857.15	1.01	gig non
+ 129859.41	0.72	whp non
+ 129859.99	0.84	rum foc
+ 129861.55	1.33	rum foc
+ 129862.87	1.01	whp non
+ 129862.95	0.37	rum foc
+ 129865.04	0.81	whp non
+ 129866.85	0.66	whp non
+ 129867.64	0.49	whp non
+ 129868.82	0.87	gig non
+ 129870.57	1.02	gig non
+ 129873.04	0.88	whp foc
+ 129878.00	2.20	rum foc
+ 129881.43	0.52	whp foc
+ 129884.34	2.26	rum unf
+ 129887.63	1.36	whp non
+ 129890.38	0.59	whp non
+ 129898.26	0.25	gig unf
+ 129909.03	0.73	gig foc
+ 129910.84	2.20	rum foc
+ 129915.30	1.49	rum foc
+ 129918.42	0.78	unk
+ 129921.09	1.66	gig non
+ 129922.75	0.75	whp foc
+ 129929.08	1.16	rum foc
+ 129930.26	0.73	whp foc
+ 129930.99	0.70	grn foc
+ 129931.99	0.43	whp non
+ 129932.48	0.55	grn foc
+ 129933.02	0.73	str cub non
+ 129933.64	0.52	grn foc
+ 129934.24	0.35	str cub non
+ 129934.57	0.61	whp unf
+ 129935.32	0.85	grn foc
+ 129936.19	0.81	whp non
+ 129937.00	3.16	gig non
+ 129940.24	0.79	str cub non
+ 129942.32	0.62	fus[rum+grn] foc
+ 129944.28	0.73	grn foc
+ 129946.19	0.85	grn foc
+ 129947.08	2.45	str cub non
+ 129949.55	1.05	whp foc
+ 129951.13	1.10	gwl unf
+ 129954.06	1.04	gig non
+ 129955.28	0.61	gig non
+ 129977.02	0.88	whp foc
+ 129981.16	2.13	oth non
+ 130021.83	0.66	grn foc
+ 130022.48	0.78	str cub non
+ 130023.43	0.66	grn foc
+ 130023.44	1.46	str cub non
+ 130040.86	0.59	oth foc
+ 130055.88	2.32	unk
+ 130059.46	1.09	unk
+ 130119.77	1.23	gig unf
+ 130121.16	1.05	grn foc
+ 130132.84	0.41	whp non
+ 130133.75	0.55	whp non
+ 130135.08	2.08	rum foc
+ 130144.84	2.29	gig non
+ 130147.16	1.74	skp
+ 130150.97	3.34	rum unf
+ 130155.41	1.02	whp non
+ 130159.34	0.87	whp foc
+ 130167.91	0.98	whp foc
+ 130174.16	1.65	rum foc
+ 130179.36	0.49	sql unf
+ 130183.22	0.58	rum unf
+ 130185.05	1.51	rum foc
+ 130189.29	2.24	rum unf
+ 130198.56	0.91	rum foc
+ 130199.47	0.43	rum non
+ 130199.92	1.86	rum non
+ 130203.10	2.06	rum foc
+ 130206.06	1.48	rum foc
+ 130209.87	0.69	grl unf
+ 130211.27	0.52	rum foc
+ 130214.28	1.37	rum unf
+ 130236.10	1.72	gig non
+ 130237.85	2.32	whp unf
+ 130240.46	1.22	sql unf
+ 130255.31	3.32	fed foc
+ 130262.12	6.48	fed foc
+ 130269.25	0.96	gig non
+ 130278.30	1.04	fed foc
+ 130280.84	2.62	fed foc
+ 130285.87	0.87	fed foc
+ 130289.73	6.98	fed foc
+ 130297.25	1.78	grn non
+ 130299.13	2.48	fed foc
+ 130307.74	2.67	fed foc
+ 130313.88	1.55	rum foc
+ 130321.27	1.51	oth foc
+ 130325.56	0.69	fed foc
+ 130328.08	6.75	fed foc
+ 130334.81	6.97	oth non
+ 130344.93	1.25	oth non
+ 130347.28	0.66	oth non
+ 130348.03	0.82	grn non
+ 130350.44	0.73	gig non
+ 130410.36	1.04	fus[gig+whp]foc
+ 130413.00	0.55	grl non
+ 130413.75	0.52	oth unf
+ 130414.94	0.61	unk
+ 130420.11	2.09	rum unf
+ 130423.65	1.80	rum non
+ 130428.83	1.62	rum foc
+ 130439.27	0.85	grl foc
+ 130454.01	0.81	unk non
+ 130456.35	0.58	unk non
+ 130458.44	0.46	unk non
+ 130460.17	0.79	unk non
+ 130462.49	0.70	unk non
+ 130464.22	0.46	unk non
+ 130496.17	2.20	rum foc
+ 130498.44	3.26	rum foc
+ 130508.08	3.08	rum foc
+ 130516.57	1.74	gig non
+ 130519.17	1.05	unk non
+ 130523.34	1.80	gig foc
+ 130533.60	2.40	rum foc
+ 130536.00	1.19	rum foc
+ 130537.33	1.11	rum foc
+ 130539.03	2.50	rum foc
+ 130541.92	0.73	grl nnf
+ 130543.10	0.37	unk non
+ 130543.74	0.66	unk non
+ 130544.33	0.55	unk non
+ 130546.09	0.62	unk non
+ 130547.50	0.41	unk non
+ 130547.85	0.49	unk non
+ 130557.59	1.28	rum foc
+ 130559.16	0.58	grl non
+ 130563.14	1.51	rum foc
+ 130574.12	2.09	oth non
+ 130576.67	1.72	oth non
+ 130579.69	0.49	oth non
+ 130580.66	1.97	oth non
+ 130585.82	0.84	grl foc
+ 130588.26	0.46	rum foc
+ 130588.59	2.47	rum foc
+ 130605.59	0.91	oth non
+ 130609.04	0.00	eoa
