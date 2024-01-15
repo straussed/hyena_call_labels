@@ -3,7 +3,7 @@ Last updated on January 15, 2024
 
 ### Labels by date and id
 
-![](label_status_files/figure-commonmark/by%20date-1.png)
+![](label_status_files/figure-commonmark/by%20date%20and%20individual-1.png)
 
 ### By call type
 
@@ -19,25 +19,6 @@ Last updated on January 15, 2024
 | str  |         258 |   1 | 256 |   1 |         423.01 |          5 |     0.9135534 |           25 |
 | oth  |         146 |  33 |  88 |  18 |         181.85 |         10 |     0.9410329 |           35 |
 | syn  |           1 |   0 |   0 |   0 |           0.09 |          1 |            NA |            1 |
-
-### By individual
-
-| id   | total_audit_hrs |
-|:-----|----------------:|
-| BAKR |       0.4671944 |
-| BLG  |       1.8588667 |
-| BSCT |       1.8961722 |
-| CAPE |       0.0500056 |
-| GYRO |       0.0833417 |
-| JLP  |       0.5499972 |
-| JOJO |       0.3334472 |
-| LMBO |       0.1669444 |
-| MCKY |       0.1000000 |
-| PALA |       0.0502667 |
-| RACH |       0.5166806 |
-| SAMI |       0.3333333 |
-| STAR |       0.9140083 |
-| STRM |       0.7361194 |
 
 ### Start and end of audit issues
 

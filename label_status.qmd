@@ -94,19 +94,28 @@ for(aud in unique(labels$aud_name)){
                            data.frame(audit = aud, duration, id = audit$id[1]))
   } 
 }
+
+audits_by_id <- audit_summary %>%
+  group_by(id) %>%
+  summarize(audit_hrs = sum(duration)/(60*60))
 ```
 
-```{r by date}
+```{r by date and individual}
 #| echo: false
-
+#| layout-ncol: 2
 library(ggplot2)
 
 ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, y = id))+
   geom_point(shape = '|') + 
+  geom_text(data = audits_by_id, aes(x = as.POSIXct('2022-12-31', 'UTC'), label = round(audit_hrs, 2)), fontface = 'bold')+
+  geom_vline(aes(xintercept = as.POSIXct('2023-01-01', 'UTC')), lty = 3)+
+  annotate('text', label = '\naudit hrs', x = as.POSIXct('2022-12-30', 'UTC'), 
+           y = length(unique(labels$id))+ 1, hjust = 0.37, fontface = 'bold.italic')+
   theme_classic()+
-  xlim(as.POSIXct('2023-01-01', 'UTC'), as.POSIXct('2023-01-25', 'UTC'))+
+  xlim(as.POSIXct('2022-12-30', 'UTC'), as.POSIXct('2023-01-25', 'UTC'))+
   xlab('Date')+
-  ylab('ID')
+  ylab('ID')+
+  scale_y_discrete(limits = rev)
 ```
 
 ### By call type
@@ -115,17 +124,6 @@ ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, 
 #| echo: false
 labeled_calls
 ```
-### By individual
-```{r by individual}
-#| echo: false
-
-audit_summary %>% 
-  group_by(id) %>%
-  summarize(total_audit_hrs = sum(duration)/(60 * 60))
-```
-
-
-
 ### Start and end of audit issues
 These audits have issues with start and end of audit:
 ```{r, problems}
