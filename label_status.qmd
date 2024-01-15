@@ -1,0 +1,135 @@
+---
+title: "Hyena cc23 labeling status"
+format:
+  gfm:
+    output-file: 'index'
+date: now
+date-format: "[Last updated on] MMMM DD, YYYY"
+editor: visual
+df-print: kable
+---
+
+### Labels by date and id
+```{r assemble data}
+#| echo: false
+#| message: false
+#| output: false
+
+library(dplyr)
+
+############## Read in labels
+label_path <- '~/Documents/code/hyena_call_labels/'
+files <- c(list.files(path = paste0(label_path, 'finished_and_checked/'), pattern = '*.txt'),
+           list.files(path = label_path, pattern = '*.txt'),
+           list.files(path = paste0(label_path, 'commented/'), pattern = '*.txt'))
+files <- list.files(path = label_path, pattern = '*.txt', recursive = T)
+
+# Remove files in /issues and /commented/archive/ to avoid duplicates or bad data
+files <- files[!grepl('archive|issues', files)]
+
+labels_list <- list()
+dups <- c()
+for(f in files){
+  f_metadata <- strsplit(gsub('.*/', '', f), c('_'))[[1]]
+  aud_name <- gsub(f_metadata[5], pattern = '.txt', replacement = '')
+  ## Skip and announce if there is a duplicate
+  if(aud_name %in% names(labels_list)){
+    dups <- c(dups, aud_name)
+    if(f == files[length(files)])
+      cat('Duplicates found: ', dups)
+    next
+  }
+  
+  labs <- read.table(paste0(label_path,f), sep = '\t')
+  labs$id <- f_metadata[2]
+  labs$aud_name <- aud_name
+  labels_list[[aud_name]] <- labs
+  if(f == files[length(files)] & length(dups))   
+    cat('Duplicates found: ', dups)
+}
+labels <- do.call(rbind, labels_list)
+names(labels) <- c('time_secs', 'duration', 'label', 'id', 'aud_name')
+
+
+calls_of_interest <- c('whp', 'grn', 'gig', 'rum', 'sql', 'grl', 'fed', 'str', 'oth', 'syn')
+
+labeled_calls <- data.frame()
+for(call in calls_of_interest){
+  call_info <- filter(labels, grepl(label, pattern = call, ignore.case = T))
+  total_count <- nrow(call_info)
+  total_duration <- sum(call_info$duration)
+  foc <- sum(grepl(call_info$label, pattern = 'foc'))
+  non <- sum(grepl(call_info$label, pattern = 'non'))
+  unf <- sum(grepl(call_info$label, pattern = 'unf'))
+  total_inds <- length(unique(call_info$id))
+  total_audits <- length(unique(call_info$aud_name))
+  CV_ind_counts <- mean(table(call_info$id))/sd(table(call_info$id))
+  labeled_calls <- rbind(labeled_calls, data.frame(call, total_count, foc, non, unf, 
+                                  total_duration, total_inds, CV_ind_counts,
+                                  total_audits))
+}
+
+problems <- data.frame()
+audit_summary <- data.frame()
+for(aud in unique(labels$aud_name)){
+  audit <- filter(labels, aud_name == aud)
+  audit$label <- tolower(audit$label)
+  start_end <- filter(audit, label %in% c('soa', 'eoa'))
+  ## is first label soa
+  if(audit[1,'label'] != 'soa' | audit[nrow(audit),'label'] != 'eoa'){
+    issue <- 'audit not bounded by soa/eoa'
+    problems <- rbind(problems, data.frame(audit = aud, issue))
+  } else if(nrow(start_end) > 2){
+    issue <- 'too many soa and eoa'
+    problems <- rbind(problems, data.frame(audit = aud, issue))
+  } else if(sum(c('soa', 'eoa') %in% tolower(start_end$label)) < 2){
+    issue <- 'soa or eoa duplicated'
+    problems <- rbind(problems, data.frame(audit = aud, issue))
+  }else{ ## Everything good, calculate duration
+    duration <- start_end[tolower(start_end$label) == 'eoa','time_secs'] - 
+      start_end[tolower(start_end$label) == 'soa','time_secs']
+    duration <- duration - sum(filter(audit, grepl(label, pattern = 'skip'))$duration)
+    
+    audit_summary <- rbind(audit_summary,
+                           data.frame(audit = aud, duration, id = audit$id[1]))
+  } 
+}
+```
+
+```{r by date}
+#| echo: false
+
+library(ggplot2)
+
+ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, y = id))+
+  geom_point(shape = '|') + 
+  theme_classic()+
+  xlim(as.POSIXct('2023-01-01', 'UTC'), as.POSIXct('2023-01-25', 'UTC'))+
+  xlab('Date')+
+  ylab('ID')
+```
+
+### By call type
+
+``` {r, by call type}
+#| echo: false
+labeled_calls
+```
+### By individual
+```{r by individual}
+#| echo: false
+
+audit_summary %>% 
+  group_by(id) %>%
+  summarize(total_audit_hrs = sum(duration)/(60 * 60))
+```
+
+
+
+### Start and end of audit issues
+These audits have issues with start and end of audit:
+```{r, problems}
+#| echo: false
+problems
+```
+
