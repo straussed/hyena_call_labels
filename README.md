@@ -1,9 +1,15 @@
 # Hyena cc23 labeling status
-Last updated on January 15, 2024
+Last updated on January 16, 2024
+
+### Current state
+
+There are 1.56 hours of calls in 8.06 hours of total audit time.
 
 ### Labels by date and id
 
 ![](label_status_files/figure-commonmark/by%20date%20and%20individual-1.png)
+
+(points represent onset times of labeled calls)
 
 ### By call type
 
