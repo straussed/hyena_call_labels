@@ -1,0 +1,32 @@
+ 9229.00	0.00	soa
+ 9759.63	0.31	oth foc
+ 9759.74	0.37	grn non
+ 9760.21	0.07	oth foc
+ 9760.81	0.50	grn non
+ 9761.49	0.13	oth foc
+ 9762.11	0.09	oth foc
+ 9762.25	0.76	grn non
+ 9764.92	0.35	grn non
+ 9767.86	0.35	grn non
+ 10095.48	0.53	str cub non
+ 10118.02	0.30	str cub non
+ 10121.64	0.39	str cub non
+ 10123.06	0.67	str cub non
+ 10126.65	0.55	str cub non
+ 10155.51	1.33	grn non
+ 10160.74	1.20	grn non
+ 10165.50	1.14	grn non
+ 10195.31	1.21	grn non
+ 10384.49	2.20	grn non
+ 10388.57	0.50	grn non
+ 10393.21	0.65	gig foc
+ 10396.88	0.52	str cub non
+ 10400.06	0.45	str cub non
+ 10402.88	0.39	str cub non
+ 10517.01	55.88	skp - grns (likely non) masked by noise
+ 10613.36	12.86	skp - grns masked by noise
+ 10898.79	1.06	rum foc
+ 10900.47	0.81	rum non
+ 10908.73	0.25	oth foc
+ 11023.83	0.13	unk
+ 11029.00	0.00	eoa
