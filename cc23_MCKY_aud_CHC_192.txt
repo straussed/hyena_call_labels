@@ -1,0 +1,20 @@
+ 39785.68	0.00	SOA
+ 39906.36	0.59	whp non
+ 39908.91	0.78	whp non
+ 39911.62	1.29	whp non
+ 39917.06	0.51	whp non
+ 39917.07	1.26	whp non
+ 39920.90	0.73	whp non
+ 39921.44	1.44	whp non
+ 39923.39	1.07	str ? non
+ 39925.27	0.95	whp non
+ 39926.03	1.26	whp non
+ 39929.08	1.03	whp non
+ 39929.24	0.93	str ? cub non
+ 39930.32	1.37	whp non
+ 39932.33	3.76	grn unf
+ 39939.40	2.27	grn non
+ 39941.69	0.86	str cub non
+ 39959.40	0.95	grn unf
+ 39983.77	1.57	grn unf
+ 40025.22	0.00	EOA
