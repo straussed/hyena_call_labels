@@ -1,0 +1,45 @@
+ 39198.00	0.00	soa
+ 39225.48	1.73	grn foc
+ 39228.38	1.31	grn foc
+ 39230.95	1.65	grn foc
+ 39237.22	1.25	fix: grn foc
+ 39240.99	1.80	grn foc
+ 39275.82	1.76	gig non
+ 39278.82	1.15	grn foc
+ 39280.12	0.81	grn foc
+ 39282.19	0.63	grn foc
+ 39282.61	0.57	sql non
+ 39284.11	0.90	sql non
+ 39285.02	0.42	gig non
+ 39287.33	0.35	oth non
+ 39288.94	0.33	sql non
+ 39290.69	0.64	oth non
+ 39292.42	0.94	grn foc
+ 39294.15	0.99	grn non
+ 39295.77	1.36	grn foc
+ 39298.88	0.43	grn non
+ 39299.61	1.35	grn foc
+ 39301.28	0.82	oth non
+ 39302.89	0.75	sql non
+ 39303.92	0.38	whp non
+ 39304.49	1.17	grn foc
+ 39306.06	1.07	whp non
+ 39306.37	1.56	grn foc
+ 39307.17	0.55	str cub non
+ 39308.68	1.91	grn foc
+ 39311.23	1.12	whp non
+ 39311.37	0.94	whp non
+ 39313.37	1.44	grn foc
+ 39315.11	1.24	whp non
+ 39318.95	1.36	whp non
+ 39320.21	0.83	grn foc
+ 39322.21	0.82	grn foc
+ 39323.38	2.01	whp non
+ 39328.81	1.32	whp non
+ 39333.95	1.43	whp non
+ 39447.75	2.24	whp non
+ 39454.42	2.10	whp non
+ 39460.83	2.14	whp non
+ 39498.01	0.00	eoa
+ 40193.18	0.81	fix: grn unf
+ 40206.88	1.14	fix: grn foc
