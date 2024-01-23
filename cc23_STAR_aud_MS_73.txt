@@ -1,0 +1,220 @@
+ 292398.00	0.00	SOA
+ 292399.04	0.53	oth non
+ 292402.01	0.29	grn foc
+ 292402.30	0.19	oth non
+ 292404.26	0.27	grn foc
+ 292446.93	12.09	skp not sure if non is fed ?
+ 292503.10	0.55	unk non
+ 292655.15	0.74	rum non
+ 292656.21	1.54	grn foc
+ 292669.85	2.90	grn foc
+ 292723.44	1.84	grn foc
+ 292740.76	2.37	grn foc
+ 292747.46	1.21	grn foc
+ 292766.90	2.22	grn foc
+ 292778.74	2.32	grn foc
+ 292801.17	2.11	grn foc
+ 292809.18	2.08	grn foc
+ 292826.06	1.61	grn foc
+ 292835.42	2.45	grn foc
+ 292841.70	1.52	grn foc
+ 292846.51	1.92	grn foc
+ 292852.62	1.84	grn foc
+ 292858.32	1.10	grn foc
+ 292865.02	1.00	grn foc
+ 292921.68	1.41	grn foc
+ 292923.16	0.16	oth non
+ 292928.31	0.95	grn foc
+ 292944.86	0.38	oth non
+ 292958.55	1.87	grn foc
+ 293044.68	1.12	grn foc
+ 293055.33	1.06	grn foc
+ 293064.96	0.93	grn foc
+ 293201.07	1.58	grn foc
+ 293226.80	1.06	grn foc
+ 293231.28	1.04	grn foc
+ 293343.31	0.80	grn foc
+ 293385.70	0.34	whp ? unk
+ 293386.03	0.68	sql unf
+ 293389.13	0.55	sql non
+ 293412.55	0.23	unk non
+ 293415.01	0.24	unk non
+ 293415.86	0.22	unk non
+ 293416.54	0.22	unk non
+ 293428.66	0.25	unk non
+ 293430.26	0.25	unk non
+ 293432.30	0.27	unk non
+ 293433.21	0.29	unk non
+ 293434.94	0.26	unk non
+ 293438.87	0.32	unk non
+ 293439.82	0.21	unk non
+ 293442.10	0.38	unk non
+ 293443.55	0.17	oth non
+ 293444.05	0.25	whp ? non
+ 293457.10	0.33	grn foc
+ 293459.93	1.34	oth non
+ 293554.93	0.50	grn ? non
+ 293555.44	0.80	rum ? non
+ 293572.07	2.77	skp some calls but not sure
+ 293659.41	2.44	grn foc
+ 293663.67	2.34	grn foc
+ 293667.17	2.07	grn foc
+ 293670.11	1.69	grn foc
+ 293673.93	1.89	grn foc
+ 293677.91	1.43	grn foc
+ 293680.75	0.95	grn foc
+ 293684.52	0.24	sql non
+ 293685.99	3.55	str cub non
+ 293689.11	0.60	grn foc
+ 293690.39	4.62	str cub non
+ 293695.61	1.64	sql non
+ 293698.45	0.36	str cub non
+ 293701.82	0.76	grn foc
+ 293702.19	0.19	str cub non
+ 293704.45	0.59	grn foc
+ 293707.99	0.64	grn foc
+ 293715.29	1.06	str cub non
+ 293716.22	0.80	grn foc
+ 293717.90	0.99	str cub non
+ 293718.89	0.65	grn foc
+ 293721.06	1.00	str cub non
+ 293725.00	0.74	str cub non
+ 293726.02	0.71	grn foc
+ 293734.85	0.68	grn foc
+ 293736.14	0.39	oth non
+ 293738.10	1.37	grn foc
+ 293743.78	1.19	grn foc
+ 293778.37	1.04	grn foc
+ 293793.93	2.10	grn foc
+ 293804.93	1.08	grn foc
+ 293808.60	0.72	grn foc
+ 293850.25	1.37	grn foc
+ 293867.01	1.80	grn foc
+ 293875.01	2.04	grn foc
+ 293879.88	2.35	grn foc
+ 293888.73	1.73	grn foc
+ 293893.00	1.77	grn foc
+ 293899.61	2.18	grn foc
+ 293903.58	1.78	grn foc
+ 293907.53	2.13	grn foc
+ 293915.25	2.55	grn foc
+ 293921.91	2.06	grn foc
+ 293927.94	1.81	grn foc
+ 293936.45	2.11	grn foc
+ 293941.79	2.40	grn foc
+ 293960.53	1.22	grn foc
+ 293990.45	0.98	grn foc
+ 294033.18	1.53	grn foc
+ 294046.28	2.91	grn foc
+ 294053.79	2.41	grn foc
+ 294061.43	0.09	unk non
+ 294061.66	1.05	grn foc
+ 294072.42	1.45	grn foc
+ 294081.64	2.34	grn foc
+ 294086.72	2.30	grn foc
+ 294095.36	2.21	grn foc
+ 294115.18	2.10	grn foc
+ 294131.14	1.91	grn foc
+ 294165.43	1.29	grn foc
+ 294175.50	0.70	grn foc
+ 294203.20	0.64	whp non
+ 294206.80	1.30	whp non
+ 294210.20	2.22	fus[whp+grn] non
+ 294214.99	2.11	fus[whp+grn] non
+ 294219.84	2.07	fud[whp+grn] non
+ 294225.13	2.44	fus[whp+grn] non
+ 294231.10	2.55	fus[whp+grn] non
+ 294237.56	2.46	fus[whp+grn] non
+ 294243.59	2.77	fus[whp+grn] non
+ 294254.50	2.84	grn foc
+ 294259.25	2.81	grn foc
+ 294264.71	3.05	grn foc
+ 294271.22	2.87	grn foc
+ 294275.88	2.31	grn foc
+ 294279.24	1.91	grn ? foc
+ 294282.11	1.56	grn foc
+ 294285.37	0.93	grn foc
+ 294288.66	1.82	grn foc
+ 294293.77	1.24	oth non
+ 294301.49	0.77	oth non
+ 294493.34	5.51	skp not sure if there is  grn or just background
+ 294519.00	0.43	grn ? non
+ 294562.59	0.41	str cub non
+ 294565.04	0.36	oth non
+ 294566.14	0.45	str ?cub non
+ 294571.75	1.45	oth non
+ 294608.38	0.66	oth non
+ 294615.34	0.46	oth non
+ 294616.71	0.46	grn ? non
+ 294690.94	0.28	oth non
+ 294892.00	0.94	whp foc
+ 294892.94	0.79	whp non
+ 294894.00	3.91	str cub non
+ 294898.06	0.86	whp ? non
+ 294900.45	1.26	whp foc
+ 294902.74	1.62	str cub non
+ 294905.36	0.39	oth non
+ 294907.42	0.84	whp non
+ 294908.47	1.10	grn ? foc
+ 294993.50	2.07	rum non
+ 295020.46	0.79	rum non
+ 295054.52	0.88	rum non
+ 295060.39	0.11	oth non
+ 295063.17	0.20	oth non
+ 295063.58	0.23	oth non
+ 295066.44	0.48	whp non
+ 295068.15	0.18	oth non
+ 295068.83	0.19	oth non
+ 295081.55	0.51	whp non
+ 295104.41	0.67	whp non
+ 295169.97	3.15	grn foc
+ 295175.81	2.65	grn foc
+ 295179.76	1.61	grn foc
+ 295182.72	2.15	grn foc
+ 295186.32	2.11	grn foc
+ 295190.59	1.63	grn foc
+ 295193.69	1.15	grn foc
+ 295196.40	1.25	grn foc
+ 295199.02	1.27	grn foc
+ 295202.79	1.08	grn foc
+ 295204.14	0.39	whp non
+ 295207.66	1.49	grn foc
+ 295208.33	1.23	whp non
+ 295212.26	0.96	whp non
+ 295216.33	1.15	whp non
+ 295219.77	1.31	whp non
+ 295223.08	2.04	whp non
+ 295282.45	0.26	oth non
+ 295284.04	0.93	str cub non
+ 295285.51	0.80	oth non
+ 295287.66	0.29	oth non
+ 295289.63	0.88	oth non
+ 295296.50	0.41	oth non
+ 295354.85	0.77	unk non
+ 295371.11	0.15	oth non
+ 295376.01	0.60	oth non
+ 295381.01	0.24	oth non
+ 295381.75	1.23	oth non
+ 295387.00	0.28	oth non
+ 295388.04	0.39	oth non
+ 295407.50	0.37	sql ? non
+ 295414.04	0.79	gig ? non
+ 295417.43	0.64	oth non
+ 295419.56	5.64	skp non calls or just background ?
+ 295426.68	0.14	oth non
+ 295431.64	0.55	gig foc
+ 295432.56	0.34	oth unf
+ 295432.95	1.05	str cub non
+ 295440.32	0.21	grn foc
+ 295440.69	0.26	oth foc
+ 295446.97	0.17	f
+ 295524.43	1.37	grn foc
+ 295530.07	1.73	grn foc
+ 295531.04	1.29	sql ? non
+ 295777.76	0.14	oth non
+ 295883.33	0.56	grn foc
+ 295884.43	0.37	sql non
+ 295917.95	2.36	rum foc
+ 295923.04	0.38	rum non
+ 295933.92	1.09	rum foc
+ 295998.00	0.00	EOA
