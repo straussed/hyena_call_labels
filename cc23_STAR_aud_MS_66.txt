@@ -1,6 +1,7 @@
  124038.00	0.00	SOA
  124039.36	0.47	whp non
  124039.61	1.62	gig non
+ 124039.99	0.42	fix: oth non
  124042.14	0.63	whp non
  124045.26	0.92	grn foc
  124047.00	0.64	grn foc
@@ -14,19 +15,23 @@
  124071.48	1.15	grn foc
  124089.03	0.33	grn unf
  124090.74	1.25	str cub non
+ 124090.98	0.00	nonfix: zebra sound?
  124092.57	1.46	grn foc
  124095.34	1.44	grn foc
  124098.55	0.89	whp non
+ 124098.62	6.24	nonfix: double check these whps
  124098.78	0.55	grn non
  124100.75	1.21	grn non
  124101.09	0.40	whp non
  124102.27	0.53	whp ? non
+ 124103.34	1.20	fix: this could be a cub whoop?
  124103.40	1.16	sql ? non
  124105.74	1.49	grn foc
  124117.02	0.40	whp non
  124118.46	1.48	grn foc
  124120.94	0.96	gig non
  124121.93	1.58	sql non
+ 124123.44	2.24	nonfix: clarify these whps
  124123.55	0.50	whp non
  124123.96	0.53	sql non
  124124.84	0.65	whp non
@@ -37,12 +42,14 @@
  124132.34	0.26	str cub non
  124134.45	0.56	whp non
  124136.02	1.58	whp non
+ 124136.07	1.58	nonfix: whp or grn? 
  124136.66	0.59	gig non
  124139.08	1.01	grn foc
  124141.70	0.25	oth unf
  124142.10	0.83	grn foc
  124143.47	0.72	grn foc
  124154.60	0.87	grn foc
+ 124156.40	8.02	fix: whp cub non
  124156.55	0.58	whp non
  124157.26	0.73	whp non
  124158.59	0.61	whp non
@@ -80,6 +87,7 @@
  124228.44	0.62	whp non
  124229.58	0.99	whp non
  124231.39	0.90	grn non
+ 124231.40	0.91	fix: whp non
  124233.28	0.57	whp non
  124235.30	0.63	whp non
  124236.45	1.38	grn foc
