@@ -2,6 +2,7 @@
  641040.13	1.15	grn non
  641044.63	1.97	grn non
  641099.92	1.66	grn non
+ 641145.48	0.41	fix: this is a nonfocal whoop
  641145.56	0.32	unk non
  641148.75	1.68	whp non
  641149.35	1.15	fix: there are actually two nonfocal whoops overlapping here, so you should label each whoop separately
