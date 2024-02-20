@@ -1,5 +1,6 @@
  121998.01	0.00	eoa
  122005.18	1.00	grn foc
+ 122009.00	15.19	fix: these should be grn foc
  122009.17	1.17	whp foc
  122012.86	1.15	whp foc
  122016.43	1.00	whp foc
@@ -16,25 +17,39 @@
  122095.75	0.86	grn non
  122097.34	0.75	grn non
  122104.16	1.14	grn foc
+ 122104.88	1.88	fix: grn or whp?
  122105.05	0.55	whp non
  122106.03	0.67	whp non
+ 122163.23	5.67	fix: there are some grn foc here
  122169.55	0.95	grn foc
+ 122171.06	1.91	fix: there are two grn foc here
+ 122174.82	0.83	fix: grn
+ 122187.25	0.83	fix: grn
+ 122192.01	0.92	fix: grn
  122201.86	0.75	grn foc
+ 122204.40	0.66	grn foc
  122207.89	0.79	grn foc
  122209.09	0.81	grn foc
+ 122220.21	2.71	fix: some grn here
  122223.59	0.70	grn foc
  122228.67	1.35	rum foc
  122233.40	0.58	grn foc
+ 122263.44	2.90	fix: there are some grn foc here
  122286.30	0.88	grm foc
  122287.49	0.65	grn foc
  122289.64	0.89	whp foc
  122295.97	0.83	grn foc
  122297.18	0.64	grn foc
+ 122301.62	4.55	fix: there are some grn foc here
  122301.81	0.98	rum foc
+ 122331.85	0.74	fix: grn foc
+ 122346.19	0.86	fix: grn
  122346.20	0.82	gwl foc
+ 122350.18	5.36	fix: these should be label oth foc?
  122350.33	0.46	gig foc
  122351.92	0.85	gig foc
  122354.31	0.30	fus[grn+whp] foc
+ 122357.20	1.14	fix: grn foc?
  122357.29	0.81	fus[grn+whp]
  122361.36	0.79	grn foc
  122362.77	0.79	grn foc
@@ -44,5 +59,6 @@
  122374.74	0.80	grn foc
  122376.21	1.03	grn foc
  122379.04	0.73	grn foc
+ 122412.44	1.20	fix: grn foc
  122413.71	0.76	grn foc
  122418.02	0.00	eoa

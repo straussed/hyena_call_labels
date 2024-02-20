@@ -3,24 +3,30 @@
  128190.06	1.67	whp non
  128195.21	1.85	whp non
  128362.56	0.47	gig non
+ 128369.20	15.47	fix: these fine, high-pitched whoops are from a cub, so you can change the labels to "whp cub non"
  128369.24	1.04	whp non
  128370.99	0.66	whp non
  128372.20	0.50	whp non
  128372.82	0.70	whp non
  128375.37	1.21	whp non
  128378.16	1.01	whp non
+ 128380.73	1.19	fix: this shouldn't be a whoop - I'd put grn ? cub non or oth cub non
  128380.84	1.03	whp non
  128383.62	1.04	whp non
  128387.33	1.85	sql non
+ 128394.08	0.67	fix: str?
  128394.12	0.59	gig non
+ 128399.94	1.25	fix: is this even from a hyena?
  128399.95	1.18	gig non
  128402.22	0.67	grn foc
+ 128402.32	8.74	fix: I need second opinions for this part
  128403.32	1.55	gig non
  128404.99	0.67	
  128404.99	0.67	sql non
  128406.37	0.64	whp non
  128407.32	2.02	rum foc
  128409.28	0.58	whp non
+ 128414.35	2.64	fix: cub whoop
  128414.73	0.46	whp non
  128416.04	0.71	whp non
  128532.71	0.43	whp non
@@ -29,5 +35,6 @@
  128544.52	1.12	whp non
  128549.19	1.39	whp non
  128554.57	1.81	whp non
+ 128569.42	3.11	fix: grn non instead of rum
  128569.42	3.08	rum non
  128598.01	0.00	eoa
