@@ -1,0 +1,34 @@
+ 9586.96	0.00	soa
+ 9826.02	0.35	grn foc
+ 9826.81	0.48	str ? non
+ 9835.81	0.56	sql non
+ 9839.00	1.07	sql foc
+ 9840.34	0.26	sql foc
+ 9846.94	0.60	grn ? foc
+ 9988.85	0.20	prd
+ 10013.29	0.91	prd
+ 10026.99	0.25	prd
+ 10028.40	0.53	prd
+ 10031.79	0.83	prd
+ 10033.31	1.48	prd
+ 10144.45	0.57	str cub non
+ 10149.97	0.90	str cub non
+ 10152.32	1.12	str cub non
+ 10153.76	0.71	str cub non
+ 10155.91	2.37	str cub non
+ 10168.39	0.63	str cub non
+ 10169.43	1.72	str cub non
+ 10172.13	0.46	str cub non
+ 10173.22	1.98	str cub non
+ 10175.93	0.95	str cub non
+ 10177.93	1.19	str cub non
+ 10179.44	0.93	str cub non
+ 10181.21	1.46	str cub non
+ 10184.41	1.04	str cub non
+ 10187.76	1.50	str cub non
+ 10192.96	0.81	str cub non
+ 10976.15	0.61	rum foc
+ 10981.47	2.02	rum foc
+ 11001.04	0.74	rum foc
+ 11044.11	0.53	unk non
+ 11093.36	0.00	eoa
