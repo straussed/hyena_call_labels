@@ -5,19 +5,18 @@
  131532.75	1.88	whp non
  131537.16	2.14	whp non
  131542.49	2.44	whp non
- 131548.60	3.24	whp non
- 131562.08	2.62	whp non
- 131568.50	1.79	whp non
+ 131548.60	3.24	whp ? non
+ 131562.08	2.62	whp ? non
+ 131568.50	1.79	oth ? non 
  131587.52	1.88	grn ? non
  131592.26	1.41	grn ? non
  131602.50	2.11	grn ? non
- 131607.92	2.08	whp non
+ 131607.92	2.08	grn ? non
  131614.05	1.49	whp non
  131618.01	1.87	whp non
  131622.72	2.11	whp non
- 131623.18	0.52	oth foc
  131628.92	2.08	whp non
- 131634.90	2.81	grn non
+ 131634.90	2.81	grn ? non (or terminal whoop?)
  131638.86	1.53	grn non
  131644.31	1.58	grn non
  131647.32	1.06	grn non

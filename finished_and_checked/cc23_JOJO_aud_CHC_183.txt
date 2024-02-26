@@ -1,12 +1,12 @@
  123527.04	0.00	SOA
- 123578.97	1.15	oth foc
+ 123578.97	1.15	whp foc
  123581.14	1.57	whp foc
  123584.05	1.20	whp foc
  123586.59	1.25	whp foc
  123591.45	1.34	whp foc
  123593.81	1.24	whp foc
  123596.08	1.18	whp foc
- 123601.20	1.28	grn foc
+ 123601.20	1.28	whp foc
  123608.11	0.71	grn foc
  123610.91	1.57	grn foc
  123613.00	1.22	grn foc
@@ -14,10 +14,11 @@
  123619.67	1.25	grn foc
  123621.26	1.65	grn foc
  123623.27	1.57	grn foc
- 123627.00	12.61	oth foc
+ 123626.95	12.66	skp some breathing noise ?
  123662.83	1.18	whp non
- 123666.13	2.19	whp non
- 123668.29	0.89	oth non
+ 123665.98	1.54	whp non
+ 123667.11	1.16	whp non
+ 123668.50	0.68	oth non
  123670.48	1.30	grn foc
  123672.39	1.17	grn foc
  123678.38	1.05	grn foc
