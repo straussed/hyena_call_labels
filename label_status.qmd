@@ -9,8 +9,6 @@ editor: visual
 df-print: kable
 ---
 
-
-
 ```{r assemble data}
 #| echo: false
 #| message: false
@@ -102,7 +100,7 @@ audits_by_id <- audit_summary %>%
 
 ### Current state
 
-There are `r round(sum(filter(labels, duration <= 100)$duration)/(60*60), 2)` hours of calls in `r round(sum(audits_by_id$audit_hrs),2)` hours of total audit time. 
+There are `r round(sum(filter(labels, duration <= 100)$duration)/(60*60), 2)` hours of calls in `r round(sum(audits_by_id$audit_hrs),2)` hours of total audit time.
 
 ### Labels by date and id
 
@@ -123,6 +121,7 @@ ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, 
   ylab('ID')+
   scale_y_discrete(limits = rev)
 ```
+
 (points represent onset times of labeled calls)
 
 ### By call type
