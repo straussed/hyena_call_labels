@@ -1,0 +1,126 @@
+ 562754.21	0.00	soa
+ 562995.77	1.21	whp foc
+ 562999.64	2.38	whp foc
+ 563004.69	2.47	whp foc
+ 563009.85	2.16	whp foc
+ 563014.45	2.27	whp foc
+ 563019.05	2.46	whp foc
+ 563023.85	2.20	whp foc
+ 563028.73	2.30	whp foc
+ 563033.46	2.27	whp foc
+ 563037.99	2.19	whp foc
+ 563572.63	0.27	sql non
+ 563579.56	0.29	oth non
+ 563885.70	0.39	sql non
+ 563916.15	0.57	gig foc
+ 564068.43	1.72	sql ? cub non
+ 564144.94	1.49	grn foc
+ 564242.38	1.38	grn foc
+ 564249.94	1.07	grn foc
+ 564313.40	1.32	grn foc
+ 564317.42	1.46	grn foc
+ 564321.65	1.25	grn foc
+ 564327.24	1.08	grn foc
+ 564331.12	0.97	grn foc
+ 564342.08	1.38	grn unf
+ 564602.38	1.68	grn foc
+ 564605.63	1.31	grn foc
+ 564608.84	1.12	grn foc
+ 564611.37	1.08	grn foc
+ 564614.67	1.18	grn foc
+ 564762.89	1.03	grn foc
+ 564770.99	0.91	grn foc
+ 564774.65	1.06	grn foc
+ 564778.28	0.79	grn foc
+ 564785.40	1.02	grn foc
+ 565414.38	1.09	gig foc
+ 565420.10	0.17	oth foc
+ 565422.01	0.21	oth foc
+ 565487.69	0.42	grn foc
+ 565904.45	0.70	gig foc
+ 567250.75	0.13	oth non
+ 567251.22	0.44	gig non
+ 567253.08	0.65	gig non
+ 567289.41	0.97	str cub non
+ 567291.16	0.54	sql non
+ 567294.07	0.41	sql cub non
+ 567309.66	0.81	sql non
+ 567345.46	0.36	sql cub non
+ 567347.34	0.53	sql cub non
+ 567350.40	0.50	sql cub non
+ 567356.52	0.37	sql cub non
+ 567357.46	0.32	sql cub non
+ 567358.64	0.18	oth non
+ 567359.26	0.53	oth non
+ 567362.40	0.15	oth non
+ 567362.64	2.11	fed foc
+ 567364.53	0.14	oth non
+ 567365.82	0.59	fus [sql + gig] foc
+ 567369.52	0.18	sql non
+ 567369.61	0.58	oth non
+ 567370.45	0.87	seq [gig + sql] non
+ 567373.69	0.63	str cub non
+ 567375.18	5.08	fed foc
+ 567383.53	1.34	seq[rum + grn] foc 
+ 567388.56	0.31	sql non
+ 567393.50	1.25	rum foc
+ 567398.49	0.79	grn foc
+ 567400.26	0.81	grn foc
+ 567427.62	0.23	sql non
+ 567428.55	0.64	gig non
+ 567440.15	0.48	sql non
+ 567445.66	0.61	sql cub non
+ 567447.71	0.40	gig non
+ 567448.71	0.43	sql non
+ 567449.13	0.35	oth non
+ 567453.91	0.63	sql non
+ 567460.28	0.25	rum foc
+ 567463.93	1.06	sql non
+ 567488.40	1.28	grn foc
+ 567490.83	0.89	grn foc
+ 567492.27	0.38	sql non
+ 567494.36	1.05	grn foc
+ 567499.61	0.33	gig non
+ 567508.52	1.51	grn foc
+ 567511.21	0.97	grn foc
+ 567533.08	1.39	str cub non
+ 567537.77	0.43	gig cub non
+ 567539.51	0.51	sql cub non
+ 567540.66	0.41	sql non
+ 567541.87	0.13	oth non
+ 567542.71	0.95	sql unf
+ 567553.75	0.92	seq[rum + grn] foc
+ 567555.28	2.71	seq[grn + rum] foc
+ 567558.90	1.74	seq[rum + gwl] ? foc
+ 567563.39	1.35	rum foc
+ 567566.77	0.29	rum foc
+ 567570.74	2.80	rum foc
+ 567576.51	2.79	seq[rum + grn] foc
+ 567595.77	0.58	grn foc
+ 567606.20	1.32	rum foc
+ 567681.44	0.56	grn foc
+ 568528.18	1.32	whp foc
+ 568532.59	2.36	whp foc
+ 568537.87	2.24	whp foc
+ 568541.45	2.32	whp foc
+ 568546.30	2.51	whp foc
+ 568551.35	2.60	whp foc
+ 568556.81	2.68	whp foc
+ 568562.69	2.73	whp foc
+ 568568.10	2.74	whp foc
+ 568573.86	2.85	whp foc
+ 568579.70	2.85	whp foc
+ 568585.50	2.76	whp foc
+ 569578.12	1.13	rum foc
+ 569804.41	1.42	rum foc
+ 572292.20	0.90	grn foc
+ 572298.39	1.26	grn foc
+ 572510.44	0.33	rum non
+ 572628.70	0.71	grn foc
+ 572651.34	0.69	grn foc
+ 572652.98	0.65	grn foc
+ 572654.95	0.60	grn foc
+ 572657.18	0.72	grn foc
+ 572659.89	0.66	grn foc
+ 573292.44	0.41	gig foc
+ 573555.05	0.00	eoa
