@@ -1,0 +1,160 @@
+ 38346.00	0.00	SOA
+ 38372.92	1.54	str cub non
+ 38374.58	0.88	seq[whp+str] unf
+ 38376.61	1.08	whp unf
+ 38379.30	1.44	whp foc
+ 38382.46	0.26	grn non
+ 38382.78	1.21	whp foc
+ 38386.32	1.18	whp foc
+ 38389.67	1.31	whp foc
+ 38392.77	1.33	whp foc
+ 38595.06	0.13	oth non
+ 39037.78	1.74	str cub non
+ 39040.12	1.00	str cub non
+ 39041.80	0.71	str cub non
+ 39042.69	1.27	sql unf
+ 39043.92	0.51	str cub non
+ 39044.71	0.15	unk
+ 39046.46	0.37	oth non
+ 39047.87	0.54	sql unf
+ 39049.17	1.24	oth non
+ 39051.69	0.39	oth non
+ 39052.50	0.79	sql foc
+ 39053.35	0.38	sql foc
+ 39053.74	1.09	whp foc
+ 39054.68	0.47	sql ? non
+ 39055.52	0.65	sql ? cub non
+ 39056.16	0.84	whp foc
+ 39057.12	0.19	str ? cub non
+ 39059.26	1.04	whp foc
+ 39061.82	1.14	whp foc
+ 39064.88	1.19	whp foc
+ 39067.06	0.14	oth non
+ 39067.27	0.47	oth non
+ 39069.16	1.33	whp foc
+ 39071.17	0.13	oth non
+ 39085.86	1.09	str cub non
+ 39088.72	1.28	skp some barely heardable str ?
+ 39091.78	1.21	gig unf
+ 39093.23	0.65	gig unf
+ 39095.00	0.66	whp non
+ 39097.47	0.95	whp non
+ 39100.89	0.71	whp non
+ 39103.03	1.14	whp non
+ 39106.40	0.51	whp non
+ 39108.98	0.98	whp non
+ 39109.96	0.76	str cub non
+ 39111.58	1.64	grn unf
+ 39113.69	0.87	sql foc
+ 39114.55	1.51	grn ? unf
+ 39116.06	0.42	str cub non
+ 39117.27	0.35	oth non
+ 39119.28	1.16	str cub non
+ 39120.83	0.26	str cub non
+ 39121.50	0.36	str cub non
+ 39123.03	0.26	oth
+ 39123.29	0.43	sql ? non
+ 39123.81	0.41	oth
+ 39125.02	0.50	str cub non
+ 39126.90	0.50	str cub non
+ 39127.42	0.44	unk
+ 39127.88	0.67	str cub non
+ 39131.71	0.61	oth non
+ 39149.56	0.25	oth non
+ 39153.30	0.14	oth non
+ 39158.99	0.88	skp same barely heardable non
+ 39194.88	0.37	str cub non
+ 39196.52	0.46	str cub non
+ 39203.78	0.80	gig ? non
+ 39205.41	0.22	oth non
+ 39212.25	0.89	whp cub non
+ 39213.14	0.72	gig ? non
+ 39215.34	0.41	oth
+ 39217.80	0.34	oth 
+ 39219.15	0.82	grn ? non
+ 39232.14	0.44	whp non
+ 39234.30	1.00	grn non
+ 39239.45	1.09	whp ? non
+ 39242.78	1.56	whp ? non
+ 39242.81	1.38	str cub non
+ 39245.19	1.07	whp cub non
+ 39251.78	3.31	str ? cub non
+ 39256.08	2.30	str ?cub non
+ 39259.01	0.28	oth non
+ 39259.22	0.34	str cub non
+ 39260.32	0.68	str cub non
+ 39260.63	0.29	sql unf
+ 39261.48	0.75	sql foc
+ 39262.50	0.58	gig foc
+ 39263.07	0.81	sql ? foc
+ 39265.65	0.43	oth
+ 39267.42	0.40	oth
+ 39268.40	0.39	str ? cub non
+ 39269.85	0.36	str cub non
+ 39270.30	0.62	sql foc
+ 39270.90	0.76	sql ? non
+ 39279.18	0.68	str cub non
+ 39283.04	0.23	oth
+ 39299.65	1.39	gig foc
+ 39340.10	0.18	oth non
+ 39342.73	0.19	oth non
+ 39344.10	0.12	oth non
+ 39351.82	2.89	gig non
+ 39356.53	0.42	str cub non
+ 39372.64	0.68	oth non
+ 39385.63	0.56	grn ? non
+ 39417.08	0.15	oth non
+ 39434.93	0.21	oth non
+ 39445.55	0.91	str cub non
+ 39447.01	0.78	gig non
+ 39448.41	0.43	gig ? non
+ 39449.63	0.73	oth non
+ 39464.30	0.25	unk
+ 39464.71	0.25	oth non
+ 39469.63	0.39	rum ? non
+ 39470.15	0.34	grn ? foc
+ 39533.80	0.12	oth non
+ 39577.27	0.16	oth non
+ 39581.70	0.49	whp ? cub non
+ 39587.08	7.56	skp some barely heardable to complicated non calls
+ 39594.72	1.37	gig unf
+ 39597.55	0.44	sql ? non
+ 39598.66	0.47	sql ? non
+ 39599.70	0.75	sql  non
+ 39600.80	0.71	sql non
+ 39601.81	0.47	sql non
+ 39602.78	0.44	oth non
+ 39604.93	0.33	sql ? non
+ 39605.88	0.64	grn non
+ 39607.05	0.30	sql non
+ 39607.42	0.43	sql non
+ 39608.22	0.58	sql non
+ 39609.17	0.55	whp ? non
+ 39609.95	0.60	whp ? non
+ 39614.50	0.39	oth non
+ 39628.37	0.77	oth non
+ 39629.66	0.84	whp ? cub non
+ 39631.14	0.55	whp ? cub non
+ 39635.56	0.20	oth non
+ 39643.04	0.73	whp ? non
+ 39649.40	1.15	whp non
+ 39651.03	0.91	whp non
+ 39652.62	0.83	whp non
+ 39654.85	0.71	whp non
+ 39658.47	0.42	whp ? non
+ 39664.63	1.53	whp non
+ 39671.27	1.02	whp non
+ 39673.77	0.84	whp non
+ 39682.42	0.55	whp ? non
+ 39684.03	0.99	whp cub non
+ 39685.79	0.84	str ? cub non
+ 39687.21	0.71	whp ? cub non
+ 39693.16	0.72	whp non
+ 39698.55	1.04	whp ? cub non
+ 39704.62	0.15	oth non
+ 39705.33	0.87	sql non
+ 39706.30	1.05	sql non
+ 39707.47	1.36	sql non
+ 39709.19	0.54	sql ? non
+ 39713.23	0.69	whp non
+ 39726.00	0.00	EOA
