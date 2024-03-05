@@ -110,13 +110,13 @@ There are `r round(sum(filter(labels, duration <= 100)$duration)/(60*60), 2)` ho
 library(ggplot2)
 
 ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, y = id))+
-  geom_point(shape = '|') + 
+  geom_point(shape = '|', alpha = 0.8) + 
   geom_text(data = audits_by_id, aes(x = as.POSIXct('2022-12-31', 'UTC'), label = round(audit_hrs, 2)), fontface = 'bold')+
   geom_vline(aes(xintercept = as.POSIXct('2023-01-01', 'UTC')), lty = 3)+
   annotate('text', label = '\naudit hrs', x = as.POSIXct('2022-12-30', 'UTC'), 
            y = length(unique(labels$id))+ 1, hjust = 0.37, fontface = 'bold.italic')+
   theme_classic()+
-  xlim(as.POSIXct('2022-12-30', 'UTC'), as.POSIXct('2023-01-25', 'UTC'))+
+  xlim(as.POSIXct('2022-12-30', 'UTC'), as.POSIXct('2023-01-21', 'UTC'))+
   xlab('Date')+
   ylab('ID')+
   scale_y_discrete(limits = rev)
