@@ -1,0 +1,159 @@
+ 128987.00	0.00	soa
+ 129369.56	1.88	grn foc
+ 129372.55	2.15	grn foc
+ 129379.15	0.96	sql non
+ 129383.16	0.82	grn non
+ 129395.02	1.13	grn non
+ 129396.60	0.89	grn non
+ 129523.62	0.71	sql non
+ 129525.04	0.11	sql non
+ 129525.46	2.11	gig non
+ 129528.44	0.32	sql non
+ 129529.62	3.94	skp to many overlapping non foc.
+ 129536.21	0.60	sql non
+ 129538.17	0.85	gig non
+ 129543.10	0.52	oth non
+ 129546.47	0.62	sql non
+ 129554.08	0.61	sql non
+ 129557.37	0.53	sql non
+ 129559.10	0.07	unk
+ 129560.39	0.32	sql non
+ 129563.55	0.81	sql non
+ 129565.16	0.62	sql non
+ 129572.03	0.50	oth non
+ 129572.03	0.49	
+ 129585.64	0.46	sql non
+ 129593.80	0.34	gig non
+ 129596.61	0.25	unk
+ 129600.72	0.54	sql non
+ 129603.06	0.32	sql non
+ 129606.42	0.72	sql non
+ 129612.56	0.50	sql non
+ 129613.21	0.18	sql non
+ 129613.57	0.57	sql non
+ 129614.33	0.46	sql non
+ 129615.12	0.91	sql non
+ 129617.17	0.31	sql non
+ 129620.10	0.97	gig non
+ 129624.16	0.63	sql non
+ 129625.49	0.30	oth non
+ 129627.32	1.04	sql non
+ 129630.21	0.42	sql non
+ 129631.01	0.76	sql non
+ 129633.71	0.27	whp non
+ 129637.47	0.42	sql non
+ 129637.90	0.32	unk
+ 129641.42	0.36	sql non
+ 129647.15	0.33	sql non
+ 129647.98	0.33	sql non
+ 129648.86	0.17	sql non
+ 129649.28	0.87	sql non
+ 129653.22	0.12	sql non
+ 129667.06	0.90	skp to quiet and noisy from the foc hyena.
+ 129685.89	0.12	oth non
+ 129686.43	0.75	sql non
+ 129688.96	0.24	sql non
+ 129689.81	0.19	sql non
+ 129690.08	0.35	sql non
+ 129690.48	0.32	sql non
+ 129690.85	0.50	oth unf
+ 129690.88	0.53	sql non
+ 129691.49	0.32	sql non
+ 129691.92	0.48	sql non
+ 129692.48	0.80	gig non
+ 129692.59	0.28	oth non
+ 129693.29	0.66	sql non
+ 129695.70	0.58	sql non
+ 129695.96	0.44	oth unf
+ 129698.70	0.53	sql non
+ 129699.65	0.22	sql non
+ 129699.76	0.66	grn non
+ 129716.07	1.28	sql non
+ 129717.42	0.43	sql non
+ 129717.93	0.65	gig non
+ 129718.65	0.19	sql non
+ 129718.92	0.18	gig non
+ 129719.96	0.44	sql non
+ 129721.12	0.34	sql non
+ 129723.02	0.54	sql non
+ 129724.12	0.22	sql non
+ 129724.76	0.06	oth non
+ 129726.48	0.18	sql non
+ 129728.87	0.58	gig non
+ 129735.45	0.28	sql non
+ 129737.65	0.45	sql non
+ 129740.41	0.08	oth non
+ 129740.88	0.22	whp non
+ 129745.74	0.30	sql non
+ 129746.55	0.34	sql non
+ 129747.03	0.08	sql non
+ 129748.03	0.48	sql non
+ 129748.97	0.22	sql non
+ 129749.85	0.46	sql non
+ 129751.34	0.23	sql non
+ 129752.09	0.24	sql non
+ 129753.03	0.59	rum non ?
+ 129754.11	0.56	sql foc
+ 129755.03	0.64	gwl foc
+ 129755.79	0.47	sql non
+ 129756.97	0.22	sql non
+ 129757.27	0.40	gwl foc
+ 129757.48	0.44	sql non
+ 129758.04	0.27	sql non
+ 129759.12	1.17	gig foc
+ 129759.12	1.17	nnf to many sql non overlapping 
+ 129760.36	0.23	
+ 129760.36	0.23	oth non
+ 129762.69	0.19	oth non
+ 129763.81	1.94	gig non
+ 129765.94	0.26	sql non
+ 129766.48	0.42	gig non
+ 129767.60	0.21	oth non
+ 129768.47	0.24	sql non
+ 129769.53	0.14	unk
+ 129775.88	0.08	unf oth 
+ 129782.18	0.08	unk
+ 129783.03	0.31	gig non
+ 129784.45	0.20	whp non
+ 129794.95	0.16	unf oth
+ 129796.16	1.38	sql non
+ 129884.14	0.32	whp non
+ 129886.68	1.10	whp non
+ 129893.88	1.12	whp non
+ 130087.77	0.93	whp non
+ 130089.48	0.23	oth non
+ 130100.63	0.64	whp non
+ 130240.92	0.53	rum non
+ 130470.48	0.15	unk
+ 130471.55	0.14	unk
+ 130581.51	1.27	unf gig
+ 130583.10	0.38	unf gig
+ 130614.31	0.75	gig non
+ 130622.31	0.23	oht foc
+ 130623.22	0.79	rum non ?
+ 131084.93	1.65	whp non
+ 131090.32	1.64	whp non
+ 131095.58	1.83	whp non
+ 131100.51	2.14	whp non
+ 131106.84	2.33	whp non
+ 131113.18	2.83	whp foc
+ 131141.17	0.22	oth foc
+ 131180.44	0.15	oth foc
+ 131190.91	1.75	whp non
+ 131194.66	2.00	grn non
+ 131199.27	1.65	grn non
+ 131206.94	2.57	fus [grn+whp] non
+ 131213.50	3.79	whp non
+ 131220.23	1.21	whp non
+ 131223.96	1.79	whp non
+ 131229.08	1.96	whp non
+ 131234.23	2.24	whp non
+ 131239.23	2.43	whp non
+ 131244.84	2.46	whp non
+ 131250.55	2.74	whp non
+ 131264.58	1.24	whp non
+ 131268.62	1.21	whp non
+ 131273.32	1.14	whp non
+ 131281.58	2.42	unk
+ 131313.92	1.57	whp non
+ 131387.01	0.00	eoa
