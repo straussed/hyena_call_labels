@@ -1,12 +1,13 @@
  36981.69	0.00	soa
  36996.55	1.11	whp foc
+ 37004.02	0.60	oth foc
  37004.91	2.03	whp foc
  37010.92	2.27	whp foc
  37022.72	2.32	whp foc
  37031.47	2.38	whp foc
- 37102.24	2.01	rum foc
- 37105.71	2.80	rum foc
- 37114.82	2.44	rum foc
+ 37102.24	2.01	grn foc
+ 37105.71	2.80	grn foc
+ 37114.82	2.44	grn foc
  37150.08	2.94	grn foc
  37154.64	1.60	grn foc
  37158.30	2.33	grn foc

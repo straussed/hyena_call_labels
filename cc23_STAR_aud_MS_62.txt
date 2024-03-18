@@ -11,7 +11,7 @@
  47708.74	1.94	whp non
  47712.34	0.59	str cub non
  47713.79	4.92	str cub non
- 47716.65	1.15	whp non
+ 47716.65	1.15	whp ? non
  47719.41	1.56	str cub non
  47721.58	1.27	str cub non
  47724.76	2.57	str cub non
