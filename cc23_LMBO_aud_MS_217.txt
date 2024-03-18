@@ -1,0 +1,26 @@
+ 39801.00	0.00	SOA
+ 39988.09	0.23	oth foc
+ 39990.38	0.28	oth foc
+ 39990.71	0.29	oth foc
+ 40009.75	0.15	oh foc
+ 40273.74	4.56	gig foc
+ 40278.48	5.93	str ? cub non
+ 40568.03	0.25	str cub non
+ 40569.32	0.44	str cub non
+ 40569.98	0.60	str cub non
+ 40570.58	0.85	sql ? unf
+ 40571.52	0.64	sql ? unf
+ 40572.49	0.82	sql ? unf
+ 40573.99	0.24	str cub non
+ 40574.86	0.56	gig unf
+ 40580.79	0.66	whp foc
+ 40582.93	1.01	whp foc
+ 40585.55	1.06	whp foc
+ 40587.81	1.04	whp foc
+ 40590.42	1.11	whp foc
+ 40594.98	0.84	str cub non
+ 40598.79	0.41	gig ? unf
+ 40599.63	0.16	oth non
+ 40606.67	0.97	gig ? unf
+ 40612.70	0.40	oth unf
+ 40701.01	0.00	EOA

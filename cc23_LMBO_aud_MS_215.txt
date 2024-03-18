@@ -1,0 +1,50 @@
+ 36502.00	0.00	SOA
+ 36640.67	1.22	whp foc
+ 36644.11	1.47	whp foc
+ 36648.25	1.30	whp foc
+ 36652.24	1.49	whp foc
+ 36656.54	1.67	whp foc
+ 36660.88	1.61	whp foc
+ 36665.33	1.75	whp foc
+ 36923.01	1.90	grn ? foc
+ 36962.23	1.49	whp foc
+ 36967.22	1.27	whp foc
+ 36971.36	1.32	whp foc
+ 36975.96	1.40	whp foc
+ 36980.54	1.45	whp foc
+ 36985.91	1.56	whp foc
+ 36991.44	1.49	whp foc
+ 36995.90	1.62	whp foc
+ 37037.74	1.28	whp foc
+ 37048.82	1.37	whp foc
+ 37053.73	1.42	whp foc
+ 37060.45	1.50	whp foc
+ 37070.64	1.36	whp foc
+ 37073.80	1.30	whp foc
+ 37077.87	1.54	whp foc
+ 37088.41	1.36	whp foc
+ 37091.96	0.97	whp foc
+ 37101.80	1.36	whp foc
+ 37105.13	1.00	whp foc
+ 37115.14	1.31	whp foc
+ 37119.68	1.16	whp foc
+ 37124.22	1.28	whp foc
+ 37144.93	1.11	whp foc
+ 37147.53	1.80	whp foc
+ 37162.56	1.12	whp foc
+ 37167.22	1.62	whp foc
+ 37173.76	1.41	whp foc
+ 37176.54	1.62	whp foc
+ 37180.10	1.55	whp foc
+ 37183.48	1.81	whp foc
+ 37186.80	0.93	whp foc
+ 37189.23	1.10	whp foc
+ 37191.97	1.14	whp foc
+ 37198.52	0.39	str ? cub non
+ 37200.49	0.39	sql ? non
+ 37234.30	0.16	oth non
+ 37234.53	0.20	oth non
+ 37234.88	1.73	grn non
+ 37272.85	0.14	oth non
+ 37273.09	0.16	oth non
+ 37401.00	0.00	EOA
