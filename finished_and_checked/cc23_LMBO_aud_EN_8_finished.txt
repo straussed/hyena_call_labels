@@ -1,0 +1,31 @@
+ 60141.01	0.00	soa
+ 60149.25	1.25	grn unf
+ 60155.01	1.19	grn foc
+ 60166.97	1.07	grn foc
+ 60191.69	1.08	grn foc
+ 60236.64	0.73	grn foc
+ 60245.11	1.00	grn foc
+ 60247.19	1.49	grn foc
+ 60260.96	1.07	grn foc
+ 60266.20	1.61	grn foc
+ 60269.03	0.61	grn foc
+ 60269.91	0.85	grn foc
+ 60340.23	1.13	grn foc
+ 60347.42	1.17	grn foc
+ 60373.37	0.97	str cub non
+ 60375.48	1.41	grn foc
+ 60380.16	1.53	grn foc
+ 60385.38	0.94	unk
+ 60389.21	1.10	grn foc
+ 60410.73	0.96	unk
+ 60413.50	1.09	unk
+ 60419.11	0.16	oth unf
+ 60420.38	0.66	str cub non
+ 60422.61	0.24	oth unf
+ 60425.19	0.22	oth unf
+ 60425.63	0.53	oth non
+ 60427.77	0.56	oth non
+ 60575.32	0.76	gig ? non
+ 60608.00	0.75	str cub non
+ 60612.94	0.58	str cub non
+ 60621.01	0.00	eoa
