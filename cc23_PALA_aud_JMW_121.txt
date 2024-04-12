@@ -1,0 +1,290 @@
+ 799604.00	0.00	soa
+ 799750.85	15.65	hnt
+ 799765.76	0.87	prd
+ 799766.73	0.39	prd
+ 799767.09	4.25	fed ? foc
+ 799767.51	0.63	prd
+ 799769.63	1.76	prd
+ 799771.44	1.46	prd
+ 799773.76	6.44	fed foc
+ 799773.99	2.54	prd
+ 799778.17	1.53	prd
+ 799780.10	2.27	prd
+ 799781.89	3.16	fed foc
+ 799783.86	0.83	prd
+ 799786.85	4.08	prd
+ 799787.12	4.67	fed foc
+ 799794.38	2.40	prd 
+ 799796.40	12.67	fed foc
+ 799798.78	3.48	prd
+ 799803.75	1.44	prd
+ 799805.73	2.45	prd
+ 799809.79	1.29	prd
+ 799812.77	3.66	fed ? foc
+ 799812.90	1.40	prd
+ 799815.60	1.27	prd
+ 799818.43	3.72	fed foc
+ 799818.51	1.26	prd
+ 799825.03	6.84	fed foc
+ 799832.15	3.74	fed ? foc
+ 799832.81	0.78	prd
+ 799838.06	4.30	fed ? foc
+ 799844.19	7.99	fed ? foc
+ 799854.79	11.04	fed ? foc
+ 799867.27	3.73	fed foc
+ 799871.58	11.00	fed foc
+ 799883.65	6.78	fed ? foc
+ 799891.20	0.13	oth non
+ 799904.06	28.92	fed foc
+ 799958.52	19.89	fed ? foc
+ 799979.28	8.54	fed ? foc
+ 799992.95	10.58	fed foc
+ 800001.40	0.50	unk non
+ 800003.58	7.41	fed ? foc
+ 800015.64	16.16	fed foc
+ 800036.03	13.29	fed foc
+ 800066.06	2.04	fed foc
+ 800069.43	20.20	fed foc
+ 800090.12	7.80	fed foc
+ 800101.19	3.16	fed foc
+ 800118.11	0.51	grn ? foc
+ 800143.10	0.41	grn ? foc
+ 800146.99	9.35	fed ? foc
+ 800156.50	4.09	fed foc
+ 800166.44	3.24	fed ? foc
+ 800193.82	3.02	skp - non calls masked by PALA noise
+ 800197.38	1.68	sql foc
+ 800228.33	6.81	fed foc
+ 800228.78	0.47	oth non
+ 800235.03	1.51	seq[sql + gig] non
+ 800235.95	2.02	gig cub non
+ 800238.50	6.38	fed foc
+ 800243.59	1.10	whp non
+ 800247.72	9.61	fed foc
+ 800249.31	0.95	whp non
+ 800252.95	0.99	whp non
+ 800254.10	0.14	oth non
+ 800257.44	1.19	whp non
+ 800260.22	3.67	fed foc
+ 800263.69	1.21	whp non
+ 800267.00	8.47	fed ? foc
+ 800267.20	1.60	whp non
+ 800269.01	0.63	sql cub non
+ 800272.54	1.66	sql cub non
+ 800274.58	0.19	oth non
+ 800275.42	0.35	oth non
+ 800276.28	0.26	gig unf
+ 800286.93	6.73	fed foc
+ 800291.32	0.29	gig ? non
+ 800302.51	5.98	fed foc
+ 800310.63	10.86	fed foc
+ 800323.62	12.03	fed foc
+ 800339.54	6.58	fed foc
+ 800351.67	5.57	fed ? foc
+ 800357.33	0.51	gwl non
+ 800357.64	0.20	sql non
+ 800358.05	0.43	oth non
+ 800358.73	0.76	gig non
+ 800362.85	3.49	fed foc
+ 800370.28	14.84	fed foc
+ 800372.03	0.47	sql cub non
+ 800386.19	0.47	sql non
+ 800389.48	0.15	oth foc
+ 800395.32	12.51	fed ? foc
+ 800396.26	1.72	gig ? non
+ 800409.45	0.99	gig non
+ 800411.41	9.95	fed foc
+ 800422.23	1.81	rum non
+ 800430.74	2.73	fed foc
+ 800434.97	8.51	fed foc
+ 800435.96	0.07	oth non
+ 800448.47	2.30	fed foc
+ 800451.66	7.64	fed foc
+ 800452.37	0.49	oth non
+ 800454.74	0.41	gig ? non
+ 800458.09	1.07	sql non
+ 800471.63	0.66	oth non
+ 800475.48	3.99	fed foc
+ 800485.81	0.60	str ? cub non
+ 800489.96	19.75	fed ? foc
+ 800507.10	0.23	oth non
+ 800512.91	3.99	fed foc
+ 800517.62	0.19	oth non
+ 800519.02	0.30	oth non
+ 800519.55	0.55	sql non
+ 800521.14	0.61	sql non
+ 800522.38	1.70	sql non
+ 800526.13	1.91	whp non
+ 800529.99	1.62	whp non
+ 800532.78	1.66	whp non
+ 800534.87	1.38	rum non
+ 800536.35	1.17	whp non
+ 800537.60	1.36	unk non
+ 800538.80	1.72	rum non
+ 800540.40	2.23	whp non
+ 800543.04	8.49	fed ? foc
+ 800543.93	1.40	whp non
+ 800548.14	0.41	oth non
+ 800551.73	0.47	gig foc
+ 800556.46	4.05	fed foc
+ 800564.03	0.33	sql non
+ 800570.68	0.74	sql non
+ 800571.91	1.01	sql non
+ 800572.31	0.40	gig non
+ 800572.99	0.29	oth non
+ 800573.99	1.08	gwl non
+ 800574.27	0.60	oth non
+ 800575.46	6.33	fed ? foc
+ 800575.90	0.66	sql ? non
+ 800581.08	0.21	oth non
+ 800581.94	0.38	oth non
+ 800582.76	0.52	gwl non
+ 800583.30	0.91	sql non
+ 800584.85	2.14	fed foc
+ 800588.18	0.87	sql non
+ 800589.71	1.14	seq[gwl + gig] foc
+ 800591.79	1.67	seq[rum + grn] non
+ 800596.13	0.17	oth non
+ 800616.88	2.24	grn non
+ 800628.73	0.25	oth foc
+ 800631.90	0.77	gig non
+ 800638.31	10.07	fed foc
+ 800641.88	0.33	oth non
+ 800644.13	0.45	unk non
+ 800646.76	0.28	oth non
+ 800649.87	19.14	fed foc
+ 800650.70	0.65	oth non
+ 800651.75	0.22	oth non
+ 800653.75	0.37	oth non
+ 800657.91	0.57	gig ? non
+ 800660.73	0.14	oth non
+ 800665.53	0.44	oth non
+ 800666.83	0.67	oth non
+ 800668.47	0.39	oth non
+ 800669.73	0.53	sql unf
+ 800678.32	4.88	fed foc
+ 800684.01	0.81	unk non
+ 800687.02	0.97	sql non
+ 800689.27	1.26	rum non
+ 800690.90	0.63	oth non
+ 800692.97	0.13	oth unf
+ 800693.10	8.68	fed foc
+ 800703.59	0.17	oth unf
+ 800703.91	16.88	fed ? foc
+ 800706.25	1.09	sql ? non
+ 800708.23	0.57	sql non
+ 800709.16	0.58	sql non
+ 800711.39	0.25	gig non
+ 800714.53	0.32	unk non
+ 800721.46	3.04	fed foc
+ 800725.77	0.65	sql non
+ 800727.64	0.68	rum foc
+ 800728.56	0.70	unk non
+ 800729.33	1.05	rum non
+ 800735.57	0.67	gig non
+ 800737.34	0.47	oth non
+ 800763.23	0.26	oth foc
+ 800763.83	0.29	oth non
+ 800764.26	0.54	gig foc
+ 800764.82	6.81	skp - maybe short calls masked by PALA noise
+ 800773.30	3.56	fed foc
+ 800782.21	10.30	fed foc
+ 800787.74	0.23	gig non
+ 800795.27	0.57	sql non
+ 800810.27	10.62	skp - faint non calls
+ 800823.57	0.45	oth non
+ 800825.17	0.50	gwl non
+ 800828.80	0.16	oth unf
+ 800830.13	0.57	oth unf
+ 800832.38	0.37	gig unf
+ 800833.18	5.99	fed ? foc
+ 800842.66	0.43	oth unf
+ 800848.03	0.87	grn ? foc
+ 800849.34	1.06	str cub non
+ 800849.52	0.87	grn unf
+ 800851.02	0.67	sql non
+ 800852.50	0.89	grn unf
+ 800853.95	0.45	gig non
+ 800854.40	1.43	seq[sql + gwl] non
+ 800856.60	2.52	rum non
+ 800860.60	0.34	sql non
+ 800868.19	0.85	rum non
+ 800875.19	3.37	fed foc
+ 800883.86	3.56	fed foc
+ 800884.04	0.69	oth non
+ 800887.92	0.95	rum non
+ 800897.19	4.72	fed foc
+ 800900.07	0.64	oth non
+ 800902.98	0.65	sql foc
+ 800904.02	0.85	gwl unf
+ 800916.75	12.93	nnf - some calls masked by PALA fd
+ 800918.54	9.87	fed foc
+ 800930.06	0.99	grn non
+ 800931.04	0.87	sql non
+ 800932.68	0.30	sql non
+ 800932.91	0.74	grn non
+ 800932.97	8.16	fed ? foc
+ 800935.74	0.14	oth non
+ 800937.59	0.72	str ? cub non
+ 800938.62	0.61	oth non
+ 800947.55	1.88	sql non
+ 800949.69	0.35	oth unf
+ 800950.96	0.74	oth non
+ 800953.48	2.61	grn non
+ 800958.63	0.30	oth foc
+ 800959.57	0.78	rum non
+ 800962.86	0.79	grn non
+ 800964.87	0.63	sql foc
+ 800965.98	0.18	oth foc
+ 800966.87	0.42	oth foc
+ 800971.22	0.51	sql non
+ 800971.99	0.60	sql non
+ 800972.79	4.35	sql non
+ 800977.74	1.86	skp - non calls masked by noise
+ 800981.52	0.31	oth unf
+ 800983.36	6.17	fed foc
+ 800987.58	0.18	oth non
+ 800990.24	4.67	fed foc
+ 800992.09	2.05	grn non
+ 800996.88	0.32	oth non
+ 800997.38	0.72	str ? cub non
+ 800998.43	0.51	sql non
+ 800999.33	0.70	str cub non
+ 801001.01	0.16	oth non
+ 801003.05	0.82	rum non
+ 801008.64	2.77	sql non
+ 801011.67	2.83	sql non
+ 801014.81	3.80	sql non
+ 801019.19	0.51	oth non
+ 801020.89	2.25	grn non
+ 801022.23	0.67	grn non
+ 801026.53	6.50	skp - faint grns hidden by noise
+ 801043.67	0.80	sql ? non
+ 801050.91	0.69	grn foc
+ 801142.33	2.20	gwl unf
+ 801144.62	1.40	gig foc
+ 801146.02	0.46	gig non
+ 801162.52	2.53	fed foc
+ 801165.91	5.64	fed ? foc
+ 801190.69	0.34	oth non
+ 801191.68	0.31	oth non
+ 801201.47	0.39	oth non
+ 801202.27	0.28	oth non
+ 801204.97	0.33	sql non
+ 801205.52	0.89	gwl non
+ 801206.12	1.04	sql cub non
+ 801209.39	0.89	sql non
+ 801210.30	1.12	sql unf
+ 801211.91	0.68	gig non
+ 801212.55	0.69	gwl non
+ 801217.24	0.66	sql non
+ 801218.57	1.62	sql ? non
+ 801220.96	9.50	skp - non sqls masked by noise
+ 801231.52	0.98	sql non
+ 801233.09	0.92	sql non
+ 801234.07	1.09	sql non
+ 801236.30	0.58	gig non
+ 801239.63	0.98	grn non
+ 801244.15	0.76	sql non
+ 801246.51	0.74	sql non
+ 801249.01	0.00	eoa
