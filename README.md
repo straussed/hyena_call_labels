@@ -1,9 +1,9 @@
 # Hyena cc23 labeling status
-Last updated on May 08, 2024
+Last updated on May 20, 2024
 
 ### Current state
 
-There are 5.11 hours of calls in 44.18 hours of total audit time.
+There are 5.16 hours of calls in 48.92 hours of total audit time.
 
 ### Labels by date and id
 
@@ -15,15 +15,15 @@ There are 5.11 hours of calls in 44.18 hours of total audit time.
 
 | call | total_count |  foc |  non | unf | total_duration | total_inds | total_audits |
 |:-----|------------:|-----:|-----:|----:|---------------:|-----------:|-------------:|
-| whp  |        2825 | 1127 | 1676 |  18 |        4023.61 |         15 |          149 |
-| grn  |        3013 | 2038 |  873 |  88 |        3813.85 |         15 |          128 |
-| gig  |         623 |   87 |  475 |  58 |         642.81 |         15 |           72 |
-| rum  |         334 |  192 |  131 |  11 |         506.55 |         13 |           50 |
-| sql  |        1270 |  132 | 1021 | 115 |        1072.05 |         15 |           66 |
+| whp  |        2834 | 1127 | 1685 |  18 |        4039.06 |         15 |          151 |
+| grn  |        3069 | 2083 |  884 |  88 |        3894.67 |         15 |          135 |
+| gig  |         636 |   90 |  483 |  60 |         653.63 |         15 |           77 |
+| rum  |         342 |  198 |  133 |  11 |         523.94 |         13 |           52 |
+| sql  |        1277 |  134 | 1026 | 115 |        1082.15 |         15 |           70 |
 | grl  |           3 |    0 |    3 |   0 |           1.29 |          2 |            3 |
 | fed  |         551 |  538 |    3 |  11 |        6086.02 |         10 |           17 |
-| str  |         857 |    2 |  847 |   3 |         991.48 |         14 |           68 |
-| oth  |        1404 |  159 | 1119 | 108 |         623.35 |         15 |          113 |
+| str  |         865 |    2 |  855 |   3 |        1004.19 |         14 |           70 |
+| oth  |        1445 |  166 | 1152 | 108 |         649.84 |         15 |          123 |
 | syn  |          11 |    0 |    0 |   0 |           4.52 |          3 |            4 |
 
 ### Start and end of audit issues
