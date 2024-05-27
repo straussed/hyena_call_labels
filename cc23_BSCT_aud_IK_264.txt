@@ -1,0 +1,24 @@
+ 60711.99	0.00	soa
+ 60752.20	0.76	oth unf
+ 60946.91	0.37	oth unf
+ 61064.57	0.15	oth cub?
+ 61080.17	0.41	oth non cub?
+ 61082.45	0.20	oth non
+ 61084.80	0.24	oth non cub?
+ 61138.12	0.50	oth foc
+ 61143.46	0.51	oth non
+ 61146.65	0.25	oth cub? non
+ 61152.46	0.29	oth non
+ 61179.92	0.35	oth non
+ 61183.28	0.28	oth non
+ 61195.57	0.44	oth foc
+ 61224.33	0.36	rum unf
+ 61239.60	0.89	rum foc
+ 61259.02	0.97	rum foc
+ 61262.47	0.97	rum foc
+ 61265.97	0.84	rum foc
+ 61278.98	1.36	rum foc
+ 61288.90	1.48	rum foc
+ 61293.15	0.52	rum foc
+ 61296.48	0.69	rum foc
+ 61311.98	0.00	eoa

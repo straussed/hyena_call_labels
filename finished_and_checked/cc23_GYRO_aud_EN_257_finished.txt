@@ -1,0 +1,24 @@
+ 31283.50	0.00	soa
+ 31397.34	0.89	oth unf
+ 31401.32	0.44	oth unf
+ 31402.80	0.79	oth unf
+ 31404.50	1.25	oth unf
+ 31407.46	1.69	oth unf
+ 31412.57	0.58	oth unf
+ 31414.39	3.97	oth unf
+ 31422.06	1.06	oth unf
+ 31425.58	1.10	oth unf
+ 31427.65	0.18	oth unf
+ 31432.52	1.89	oth unf
+ 31434.42	0.24	oth foc
+ 31435.53	0.55	oth unf
+ 31437.76	1.61	oth unf
+ 31440.42	1.47	oth unf
+ 31447.36	0.19	oth unf
+ 31448.09	0.16	oth unf
+ 31449.93	4.52	str cub non
+ 31473.52	0.32	oth non
+ 31501.00	0.96	str cub non
+ 31552.85	0.34	oth non
+ 31577.41	0.61	oth non
+ 31883.50	0.00	eoa
