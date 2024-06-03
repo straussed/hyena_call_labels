@@ -1,9 +1,9 @@
 # Hyena cc23 labeling status
-Last updated on May 27, 2024
+Last updated on June 03, 2024
 
 ### Current state
 
-There are 5.25 hours of calls in 57.74 hours of total audit time.
+There are 5.38 hours of calls in 66.43 hours of total audit time.
 
 ### Labels by date and id
 
@@ -15,19 +15,19 @@ There are 5.25 hours of calls in 57.74 hours of total audit time.
 
 | call | total_count |  foc |  non | unf | total_duration | total_inds | total_audits |
 |:-----|------------:|-----:|-----:|----:|---------------:|-----------:|-------------:|
-| whp  |        2937 | 1133 | 1782 |  18 |        4182.97 |         15 |          152 |
-| grn  |        3094 | 2083 |  905 |  92 |        3925.74 |         15 |          136 |
-| gig  |         654 |   90 |  499 |  62 |         684.01 |         15 |           78 |
-| rum  |         362 |  215 |  135 |  12 |         547.73 |         14 |           54 |
-| sql  |        1293 |  134 | 1041 | 116 |        1099.57 |         15 |           71 |
-| gwl  |         171 |   67 |   90 |  16 |         151.15 |         12 |           29 |
-| fed  |         551 |  538 |    3 |  11 |        6086.02 |         10 |           17 |
-| str  |         873 |    2 |  863 |   3 |        1016.18 |         14 |           72 |
-| oth  |        1541 |  170 | 1221 | 130 |         711.26 |         15 |          128 |
+| whp  |        3040 | 1185 | 1823 |  25 |        4296.58 |         15 |          156 |
+| grn  |        3244 | 2198 |  938 |  94 |        4124.36 |         15 |          156 |
+| gig  |         666 |  103 |  487 |  71 |         740.56 |         15 |           82 |
+| rum  |         385 |  250 |  116 |  18 |         588.32 |         15 |           66 |
+| sql  |        1256 |  139 |  997 | 118 |        1072.85 |         15 |           79 |
+| gwl  |         164 |   68 |   81 |  17 |         145.44 |         13 |           30 |
+| fed  |         550 |  548 |    3 |   0 |        6085.40 |         10 |           17 |
+| str  |         880 |    2 |  870 |   3 |        1031.89 |         15 |           78 |
+| oth  |        1569 |  199 | 1192 | 158 |         749.52 |         15 |          158 |
+| fus  |          49 |   16 |   28 |   3 |          74.95 |         10 |           25 |
+| seq  |          99 |   34 |   53 |  14 |         195.45 |         13 |           37 |
+| unk  |         355 |    8 |   86 |   7 |         261.18 |         15 |           94 |
 | syn  |          11 |    0 |    0 |   0 |           4.52 |          3 |            4 |
-| fus  |          46 |   14 |   28 |   3 |          70.81 |         10 |           25 |
-| seq  |         101 |   35 |   54 |  14 |         197.84 |         13 |           38 |
-| unk  |         331 |    8 |   73 |   7 |         257.02 |         14 |           78 |
 
 ### Start and end of audit issues
 
@@ -35,9 +35,16 @@ These audits have issues with start and end of audit:
 
 | audit | issue                        |
 |:------|:-----------------------------|
+| 320   | audit not bounded by soa/eoa |
 | 414   | audit not bounded by soa/eoa |
 | 188   | audit not bounded by soa/eoa |
+| 330   | audit not bounded by soa/eoa |
+| 253   | audit not bounded by soa/eoa |
+| 334   | too many soa and eoa         |
 | 9     | audit not bounded by soa/eoa |
+| 333   | too many soa and eoa         |
+| 254   | audit not bounded by soa/eoa |
+| 305   | audit not bounded by soa/eoa |
 | 412   | audit not bounded by soa/eoa |
 | 66    | audit not bounded by soa/eoa |
 | 75    | audit not bounded by soa/eoa |

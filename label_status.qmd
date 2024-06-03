@@ -116,7 +116,7 @@ ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, 
   annotate('text', label = '\naudit hrs', x = as.POSIXct('2022-12-30', 'UTC'), 
            y = length(unique(labels$id))+ 1, hjust = 0.37, fontface = 'bold.italic')+
   theme_classic()+
-  xlim(as.POSIXct('2022-12-30', 'UTC'), as.POSIXct('2023-01-29', 'UTC'))+
+  xlim(as.POSIXct('2022-12-30', 'UTC'), as.POSIXct('2023-01-23', 'UTC'))+
   xlab('Date')+
   ylab('ID')+
   scale_y_discrete(limits = rev)
