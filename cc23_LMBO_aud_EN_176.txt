@@ -1,2 +1,47 @@
  288201.01	0.00	soa
- 288216.02	0.00	eoa
+ 288284.17	0.32	oth non
+ 288482.11	1.82	sqr cub non
+ 288484.31	1.07	sqr cub non
+ 288485.84	3.43	sqr cub non
+ 288489.68	2.00	seq[rum+grn] foc
+ 288491.67	0.36	sqr cub non
+ 288492.05	1.45	gig non
+ 288493.66	0.74	sqr cub non
+ 288495.06	1.93	sql non
+ 288498.96	2.74	sql non
+ 288505.67	0.60	oth non
+ 288507.78	1.37	grn non
+ 288511.44	1.53	rum ? foc
+ 288512.33	1.51	grn non
+ 288514.94	2.85	grn non
+ 288515.28	1.08	rum foc
+ 288521.54	1.40	grn non
+ 288523.05	0.61	grn ? non
+ 288524.25	2.07	grn non
+ 288527.21	2.46	grn non
+ 288550.66	1.11	grn foc
+ 288564.09	1.36	grn non
+ 288569.41	0.83	rum ? non
+ 288570.74	1.18	grn unf
+ 288575.67	1.03	grn unf
+ 288580.87	1.14	grn non
+ 288584.66	2.02	grn non
+ 288595.13	1.42	grn non
+ 288631.62	1.27	grn non
+ 288657.28	0.53	grn non
+ 288692.94	2.14	grn non
+ 288700.02	1.82	grn non
+ 288724.00	2.16	grn non
+ 288749.28	2.71	seq[sql+whp] non
+ 288754.31	0.88	whp non
+ 288756.97	1.01	whp non
+ 288759.93	1.35	whp non
+ 288763.72	2.01	whp non
+ 288768.27	1.19	whp non
+ 288772.52	1.47	whp non
+ 288775.65	1.72	whp non
+ 288779.79	2.04	whp non
+ 288784.24	1.91	whp non
+ 288804.59	0.67	grn non
+ 289035.42	1.66	unk
+ 289101.02	0.00	eoa
