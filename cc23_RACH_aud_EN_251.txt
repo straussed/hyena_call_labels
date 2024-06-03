@@ -1,0 +1,45 @@
+ 19410.00	0.00	soa
+ 19414.84	0.37	grn non
+ 19422.72	0.18	grn non
+ 19427.71	0.39	grn non
+ 19429.75	0.93	grn non
+ 19439.51	0.26	grn non
+ 19475.19	0.45	grn non
+ 19477.93	0.49	grn non
+ 19483.54	0.25	grn non
+ 19488.53	0.64	grn non
+ 19493.78	0.38	grn non
+ 19504.25	0.50	grn non
+ 19506.87	0.46	grn non
+ 19522.44	0.14	grn non
+ 19525.26	0.45	grn non
+ 19557.36	2.36	sqr cub non
+ 19561.82	1.25	sqr cub non
+ 19664.53	0.72	grn non
+ 19670.23	0.81	grn non
+ 19690.23	0.36	sql non
+ 19716.37	0.28	oth non
+ 19729.68	0.31	sql non
+ 19730.01	0.32	grn foc
+ 19731.37	0.53	oth foc
+ 19737.83	0.38	oth non
+ 19740.26	0.53	grn foc
+ 19774.71	0.31	oth non
+ 19778.86	1.51	grn non
+ 19783.64	0.21	grn non
+ 19788.77	0.17	grn non
+ 19825.50	1.05	rum foc
+ 19847.66	0.18	grn non
+ 19855.39	0.54	sql non
+ 19857.32	0.65	grn non
+ 19859.25	0.49	grn non
+ 19860.58	0.25	grn non
+ 19861.31	0.29	grn non
+ 19867.16	0.16	grn non
+ 19869.17	0.35	grn non
+ 19870.84	0.60	grn non
+ 19872.87	0.56	grn non
+ 19876.78	0.23	grn non
+ 19961.79	0.31	grn non
+ 19988.10	0.34	grn non
+ 20010.00	0.00	eoa

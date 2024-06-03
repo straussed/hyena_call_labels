@@ -1,0 +1,18 @@
+ 31320.00	0.00	soa
+ 31439.66	0.86	sqr ? cub non
+ 31441.51	0.88	sqr cub non
+ 31444.36	1.47	sqr cub non
+ 31451.70	3.04	sqr cub non
+ 31474.45	1.30	sqr cub non
+ 31484.63	0.29	oth non
+ 31486.38	4.51	sqr cub non
+ 31500.08	0.55	grn ? non
+ 31510.31	0.29	oth non
+ 31513.07	0.64	oth non
+ 31514.52	1.57	oth non
+ 31527.47	1.48	grn non
+ 31589.65	0.30	oth non
+ 31655.32	0.45	oth non
+ 31658.72	0.58	oth non
+ 31660.23	0.46	oth non
+ 31920.00	0.00	eoa
