@@ -50,7 +50,7 @@ labels <- do.call(rbind, labels_list)
 names(labels) <- c('time_secs', 'duration', 'label', 'id', 'aud_name')
 
 
-calls_of_interest <- c('whp', 'grn', 'gig', 'rum', 'sql', 'grl', 'fed', 'str', 'oth', 'syn')
+calls_of_interest <- c('whp', 'grn', 'gig', 'rum', 'sql', 'gwl', 'fed', 'str', 'oth', 'fus', 'seq', 'unk', 'syn')
 
 labeled_calls <- data.frame()
 for(call in calls_of_interest){
