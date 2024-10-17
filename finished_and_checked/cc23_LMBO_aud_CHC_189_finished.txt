@@ -1,0 +1,12 @@
+ 38960.54	0.00	SOA
+ 39028.64	3.88	str cub non
+ 39033.99	0.91	fus [str + sql] cub non
+ 39035.11	0.71	str cub non
+ 39038.68	0.95	fus [str + sql] cub non
+ 39040.35	2.71	seq[sql+gig] foc
+ 39043.07	0.71	grn foc
+ 39044.63	0.66	whp foc
+ 39046.28	0.75	whp ? foc
+ 39048.38	0.76	grn foc
+ 39050.35	3.37	fus[gig+sql] ? foc
+ 39141.02	0.00	EOA

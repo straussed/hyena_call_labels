@@ -1,0 +1,72 @@
+ 531798.00	0.00	soa
+ 531800.08	0.99	whp non
+ 531804.36	1.59	whp non
+ 531809.67	1.83	whp non
+ 531874.40	0.46	unk non
+ 532092.32	1.13	grn foc
+ 532100.16	3.61	sql non
+ 532104.30	0.59	sql non
+ 532104.89	1.16	grn foc
+ 532105.44	1.69	sql non
+ 532106.63	1.03	grn foc
+ 532107.82	1.35	sql non
+ 532107.87	3.00	gig non
+ 532109.26	0.59	sql non
+ 532110.09	0.78	sql non
+ 532111.99	1.51	gig non
+ 532113.93	0.76	whp ? non
+ 532115.79	1.03	grn foc
+ 532117.20	0.69	whp non
+ 532117.85	0.98	grn foc
+ 532118.91	0.78	whp non
+ 532119.16	0.83	grn foc
+ 532120.86	0.72	whp non
+ 532122.64	1.01	whp non
+ 532123.75	1.27	grn foc
+ 532124.62	1.03	whp non
+ 532125.93	1.43	grn foc
+ 532127.06	0.99	whp non
+ 532128.01	1.27	grn foc
+ 532129.01	1.23	whp non
+ 532131.57	1.23	whp non
+ 532135.00	0.59	grn foc
+ 532135.54	1.01	whp ? non
+ 532136.57	1.25	grn foc
+ 532138.94	1.20	whp non
+ 532138.98	0.82	grn foc
+ 532140.79	0.68	grn foc
+ 532143.47	1.02	grn non
+ 532147.81	0.71	whp non
+ 532149.61	1.18	grn foc
+ 532150.72	2.39	sql non
+ 532151.44	1.16	grn foc
+ 532153.14	0.34	sql non
+ 532153.57	0.29	oth non
+ 532153.68	0.74	grn foc
+ 532154.30	4.70	gig non
+ 532159.65	0.58	whp non
+ 532160.49	0.51	grn foc
+ 532160.80	0.61	whp non
+ 532162.28	0.82	whp non
+ 532164.31	0.91	whp non
+ 532166.18	0.90	whp non
+ 532166.89	1.19	grn foc
+ 532168.38	1.11	whp non
+ 532170.55	0.51	oth non
+ 532175.84	1.76	grn foc
+ 532176.46	0.95	str cub non ?
+ 532180.63	1.14	sql ? non
+ 532182.19	0.40	str cub non ?
+ 532183.74	2.06	sql non
+ 532188.57	1.19	grn foc
+ 532195.62	1.52	grn foc
+ 532201.64	1.39	grn foc
+ 532219.25	1.35	grn foc
+ 532221.17	1.01	str cub non ?
+ 532221.61	0.58	gig non
+ 532234.78	0.93	str cub non
+ 532248.41	0.60	str cub non ?
+ 532251.28	0.38	str cub non
+ 532251.67	0.68	sql ? non
+ 532348.53	0.36	grn foc
+ 532397.99	0.00	eoa

@@ -1,0 +1,19 @@
+ 31320.00	0.00	soa
+ 31439.66	0.86	str cub non
+ 31441.51	0.88	str cub non
+ 31444.36	1.47	str cub non
+ 31451.70	3.04	str cub non
+ 31474.45	1.30	str cub non
+ 31484.84	0.16	oth non
+ 31486.38	4.51	str cub non
+ 31500.08	0.55	grn ? non
+ 31510.45	0.11	syn
+ 31513.33	0.39	oth non
+ 31514.70	0.09	oth non
+ 31515.80	0.26	oth unk
+ 31527.47	1.48	grn non
+ 31589.78	0.12	oth non
+ 31655.32	0.45	oth non
+ 31658.89	0.26	oth non
+ 31660.23	0.46	oth non
+ 31920.00	0.00	eoa

@@ -237,7 +237,6 @@
  130355.38	0.81	oth non
  130362.83	0.62	fed ? unf
  130369.24	0.38	str cub non
- 130382.31	0.00	checkpoint
  130410.77	0.56	oth non
  130412.16	0.72	oth non
  130413.05	0.42	gwl ? non

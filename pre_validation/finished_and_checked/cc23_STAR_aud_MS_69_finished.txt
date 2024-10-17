@@ -1,0 +1,33 @@
+ 9798.00	0.00	SOA
+ 10051.12	1.61	grn foc
+ 10054.33	2.44	grn foc
+ 10057.56	1.99	igrn foc
+ 10060.25	1.95	grn foc
+ 10061.08	0.81	str cub non
+ 10063.25	2.07	grn foc
+ 10063.41	0.67	str cub non
+ 10066.17	1.76	grn foc
+ 10066.99	0.87	str cub non
+ 10068.48	0.69	str cub non
+ 10068.89	1.16	grn foc
+ 10071.47	1.46	grn foc
+ 10078.05	1.22	grn foc
+ 10079.97	1.33	grn foc
+ 10081.17	0.37	str cub non
+ 10081.99	1.22	grn foc
+ 10083.78	7.61	str cub non
+ 10086.17	0.52	grn foc
+ 10088.74	1.59	grn foc
+ 10091.42	1.40	grn foc
+ 10091.93	4.47	str cub non
+ 10094.76	2.46	str cub non
+ 10098.49	2.83	str cub non
+ 10101.83	2.53	grn foc
+ 10103.77	0.87	str cub non
+ 10106.63	0.58	grn foc
+ 10112.37	1.31	grn foc
+ 10124.96	1.38	grn foc
+ 10130.15	1.20	grn foc
+ 10134.77	1.44	grn foc
+ 10138.27	0.88	grn foc
+ 10158.00	0.00	EOA

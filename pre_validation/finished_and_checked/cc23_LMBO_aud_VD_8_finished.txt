@@ -1,0 +1,21 @@
+ 60140.05	0.00	soa
+ 60155.08	1.02	grn foc
+ 60167.06	1.14	grn foc
+ 60191.69	1.14	grn foc
+ 60236.58	0.82	grn foc
+ 60245.11	1.06	grn foc
+ 60247.22	1.26	grn foc
+ 60260.98	1.02	grn foc
+ 60266.21	1.58	grn foc
+ 60269.02	1.69	grn foc
+ 60340.21	1.14	grn foc
+ 60347.40	1.21	grn foc
+ 60375.48	1.42	grn foc
+ 60380.18	1.54	grn foc
+ 60389.20	1.13	grn foc
+ 60419.09	0.16	oth foc
+ 60422.72	0.17	oth foc
+ 60425.26	0.73	oth non
+ 60427.84	0.45	oth non
+ 60575.63	0.47	skp either hyena or bird
+ 60621.01	0.00	eoa

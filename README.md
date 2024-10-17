@@ -1,9 +1,9 @@
 # Hyena cc23 labeling status
-Last updated on August 04, 2024
+Last updated on October 17, 2024
 
 ### Current state
 
-There are 6.16 hours of calls in 106.29 hours of total audit time.
+There are 6.53 hours of calls in 134.17 hours of total audit time.
 
 ### Labels by date and id
 
@@ -15,19 +15,19 @@ There are 6.16 hours of calls in 106.29 hours of total audit time.
 
 | call | total_count |  foc |  non | unf | total_duration | total_inds | total_audits |
 |:-----|------------:|-----:|-----:|----:|---------------:|-----------:|-------------:|
-| whp  |        3496 | 1312 | 2141 |  36 |        4873.50 |         15 |          164 |
-| grn  |        4177 | 2997 | 1015 | 151 |        4971.82 |         15 |          167 |
-| gig  |         831 |  138 |  587 | 101 |         940.19 |         15 |           89 |
-| rum  |         736 |  561 |  153 |  21 |        1046.05 |         15 |           73 |
-| sql  |        1544 |  170 | 1240 | 132 |        1391.07 |         15 |           87 |
-| gwl  |         280 |   80 |  181 |  21 |         269.35 |         13 |           33 |
-| fed  |         550 |  548 |    3 |   0 |        6085.40 |         10 |           17 |
-| str  |         920 |    2 |  910 |   3 |        1062.40 |         15 |           82 |
-| oth  |        2223 |  374 | 1575 | 253 |        1018.26 |         15 |          170 |
-| fus  |          65 |   26 |   32 |   5 |          97.80 |         11 |           28 |
-| seq  |         120 |   40 |   68 |  14 |         233.63 |         13 |           39 |
-| unk  |         428 |    8 |   86 |   7 |         314.80 |         15 |          100 |
-| syn  |          11 |    0 |    0 |   0 |           4.52 |          3 |            4 |
+| whp  |        3633 | 1339 | 2263 |  28 |        5183.45 |         15 |          173 |
+| grn  |        4364 | 3154 | 1051 | 153 |        5134.66 |         15 |          170 |
+| gig  |         897 |  130 |  668 |  96 |        1003.97 |         15 |           95 |
+| rum  |         766 |  514 |  230 |  23 |        1102.63 |         15 |           70 |
+| sql  |        1536 |  130 | 1274 | 128 |        1423.44 |         15 |           95 |
+| gwl  |         328 |   70 |  238 |  20 |         327.51 |         13 |           37 |
+| fed  |         576 |  552 |    2 |  12 |        6418.35 |         11 |           19 |
+| str  |         983 |    0 |  977 |   0 |        1107.78 |         15 |           90 |
+| oth  |        3040 |  577 | 2115 | 335 |        1376.05 |         15 |          193 |
+| fus  |          73 |   27 |   41 |   5 |         115.42 |         12 |           31 |
+| seq  |         132 |   44 |   76 |  12 |         252.09 |         15 |           42 |
+| unk  |         457 |    4 |   74 |   5 |         302.59 |         14 |          103 |
+| syn  |          10 |    0 |    0 |   0 |           3.08 |          3 |            3 |
 
 ### Start and end of audit issues
 
@@ -35,27 +35,18 @@ These audits have issues with start and end of audit:
 
 | audit | issue                        |
 |:------|:-----------------------------|
+| 348   | audit not bounded by soa/eoa |
 | 414   | audit not bounded by soa/eoa |
-| 188   | audit not bounded by soa/eoa |
 | 330   | audit not bounded by soa/eoa |
-| 253   | audit not bounded by soa/eoa |
+| 376   | audit not bounded by soa/eoa |
+| 34    | audit not bounded by soa/eoa |
+| 377   | audit not bounded by soa/eoa |
 | 396   | audit not bounded by soa/eoa |
 | 334   | too many soa and eoa         |
 | 9     | audit not bounded by soa/eoa |
-| 333   | too many soa and eoa         |
-| 254   | audit not bounded by soa/eoa |
+| 372   | audit not bounded by soa/eoa |
 | 440   | audit not bounded by soa/eoa |
-| 305   | audit not bounded by soa/eoa |
-| 412   | audit not bounded by soa/eoa |
 | 66    | audit not bounded by soa/eoa |
-| 75    | audit not bounded by soa/eoa |
-| 167   | audit not bounded by soa/eoa |
-| 60    | audit not bounded by soa/eoa |
-| 64    | audit not bounded by soa/eoa |
-| 68    | audit not bounded by soa/eoa |
-| 446   | audit not bounded by soa/eoa |
-| 34    | audit not bounded by soa/eoa |
-| 19    | audit not bounded by soa/eoa |
-| 37    | audit not bounded by soa/eoa |
 | 42    | audit not bounded by soa/eoa |
-| 100   | audit not bounded by soa/eoa |
+| 60    | audit not bounded by soa/eoa |
+| 19    | audit not bounded by soa/eoa |

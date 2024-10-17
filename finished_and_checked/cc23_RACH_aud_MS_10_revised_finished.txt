@@ -1,0 +1,35 @@
+ 39960.00	0.00	SOA
+ 40021.00	0.20	whp non
+ 40023.22	0.88	whp non
+ 40026.13	1.08	whp non
+ 40031.41	0.54	whp foc
+ 40031.78	0.94	whp non
+ 40035.17	0.83	whp foc
+ 40036.00	1.26	whp non
+ 40037.28	0.91	sql non
+ 40039.67	1.09	whp foc
+ 40040.48	1.13	whp non
+ 40043.45	1.19	whp foc
+ 40044.80	1.29	whp non
+ 40046.60	4.04	seq[whp+grn] foc
+ 40053.02	2.92	seq[whp+grn] foc
+ 40163.23	0.24	oth unf
+ 40199.19	0.89	sql non
+ 40202.14	1.33	skp maybe cub but too much back noise
+ 40254.95	1.44	whp non
+ 40255.69	1.24	whp non
+ 40258.14	1.33	whp non
+ 40262.74	1.68	whp non
+ 40263.18	1.15	whp non
+ 40266.47	1.32	whp non
+ 40268.97	2.83	whp non
+ 40270.60	1.21	whp non
+ 40274.13	2.71	whp non
+ 40277.39	0.69	whp foc
+ 40280.92	0.92	whp foc
+ 40284.65	1.06	whp foc
+ 40288.19	1.09	whp foc
+ 40291.66	1.24	whp foc
+ 40295.83	1.33	whp foc
+ 40299.44	1.65	whp foc
+ 40320.02	0.00	EOA
