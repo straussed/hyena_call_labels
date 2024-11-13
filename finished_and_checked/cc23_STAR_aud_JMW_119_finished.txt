@@ -1,0 +1,81 @@
+  0.00	0.00	soa
+ 791206.69	0.00	soa
+ 791282.11	0.94	oth non
+ 791283.28	0.29	gig non
+ 791284.20	0.53	grn foc
+ 791285.67	0.47	sql cub non
+ 791286.03	0.73	grn foc
+ 791286.55	0.91	sql cub non
+ 791287.90	7.20	fed ? foc
+ 791287.92	0.29	sql cub non
+ 791289.58	0.29	sql cub non
+ 791294.41	0.32	sql cub non
+ 791298.60	0.41	oth non
+ 791298.93	2.62	fed ? foc
+ 791302.06	0.61	oth non
+ 791302.63	0.41	sql cub non
+ 791303.94	0.73	grn ? non
+ 791305.80	0.21	oth non
+ 791318.38	0.49	sql cub non
+ 791321.30	18.98	fed foc
+ 791339.35	0.51	unk non
+ 791340.26	0.36	oth unf
+ 791341.30	6.17	fed foc
+ 791349.50	4.56	fed foc
+ 791355.63	2.06	fed ? foc
+ 791358.93	6.13	fed foc
+ 791371.39	10.09	fed foc
+ 791382.96	0.56	sql non
+ 791389.42	6.76	fed foc
+ 791398.51	6.28	fed foc
+ 791404.93	0.82	gig non
+ 791413.14	1.85	fed ? foc
+ 791430.60	0.45	sql non
+ 791431.04	1.77	gig non
+ 791432.95	0.56	sql non
+ 791433.71	0.83	sql non
+ 791434.43	0.30	sql non
+ 791435.01	0.13	oth non
+ 791435.68	0.41	gig non
+ 791436.52	1.50	seq[sql+gig] cub non
+ 791437.79	0.35	gig cub non
+ 791439.41	0.43	gig non
+ 791451.03	1.02	rum unf
+ 791453.93	0.91	sql unf
+ 791455.38	1.05	gig foc
+ 791459.40	0.75	gig foc
+ 791460.10	0.30	oth foc
+ 791462.59	0.96	gig cub non
+ 791463.76	0.52	sql non
+ 791464.94	3.78	gig foc
+ 791465.15	1.70	gig non
+ 791468.18	0.54	sql ? non
+ 791473.52	4.82	fed foc
+ 791493.24	0.44	oth non
+ 791495.03	0.62	sql ? non
+ 791519.23	1.25	gwl non
+ 791521.71	0.47	oth non
+ 791522.93	3.93	seq[sql + str] cub non
+ 791526.96	0.41	oth non
+ 791527.61	0.80	str cub non
+ 791529.28	0.60	sql non
+ 791530.10	1.38	sql non
+ 791537.02	0.69	str cub non
+ 791551.29	1.65	oth non
+ 791563.45	0.53	oth non
+ 791577.20	0.93	gig ? non
+ 791583.25	0.76	whp ? non
+ 791585.45	1.04	whp ? non
+ 791588.06	1.07	whp non
+ 791590.90	1.13	whp non
+ 791593.81	1.18	whp non
+ 791596.72	1.50	whp non
+ 791599.59	1.55	whp ? non
+ 791602.73	2.08	whp non
+ 791606.60	1.21	whp non
+ 791610.90	0.45	oth non
+ 791614.97	0.59	oth non
+ 791617.87	0.29	oth non
+ 791647.19	0.44	oth non
+ 791712.43	1.95	rum non
+ 791718.00	0.00	eoa

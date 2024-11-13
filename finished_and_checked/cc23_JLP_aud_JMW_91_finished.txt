@@ -1,0 +1,302 @@
+ 539000.15	0.00	soa
+ 539256.13	0.39	grn unf
+ 539259.22	0.12	oth unf
+ 539259.72	0.07	oth unf
+ 539263.16	0.48	oth unf
+ 539264.37	0.19	oth unf
+ 539265.23	0.12	oth unf
+ 539265.65	0.37	oth unf
+ 539269.09	0.11	oth unf
+ 539274.54	0.17	oth unf
+ 539281.94	0.15	oth unf
+ 539282.62	0.17	oth unf
+ 539283.36	0.13	oth unf
+ 539285.87	0.13	oth non
+ 539286.58	0.11	oth non
+ 539287.28	0.14	oth non
+ 539301.03	40.82	fed foc
+ 539350.50	29.96	fed foc
+ 539389.37	4.51	fed foc
+ 539395.26	7.60	fed foc
+ 539404.73	13.02	fed foc
+ 539418.64	5.87	fed foc
+ 539428.51	5.39	fed ? foc
+ 539435.35	6.64	fed foc
+ 539443.53	8.46	fed foc
+ 539453.55	0.18	sql non
+ 539463.21	6.64	fed ? foc
+ 539483.69	4.67	fed foc
+ 539510.15	1.90	fed foc
+ 539536.92	30.60	fed foc
+ 539569.25	6.46	fed foc
+ 539576.66	2.23	fed foc
+ 539587.54	5.86	fed ? foc
+ 539602.38	9.69	fed foc
+ 539613.74	25.39	fed foc
+ 539638.34	2.02	rum non
+ 539643.90	6.66	fed foc
+ 539654.05	27.97	fed foc
+ 539684.24	6.94	fed foc
+ 539691.92	3.91	fed foc
+ 539697.29	4.77	fed foc
+ 539706.59	12.01	fed foc
+ 539725.64	8.31	fed foc
+ 539734.72	0.77	rum foc
+ 539738.07	2.74	fed foc
+ 539741.49	6.76	fed foc
+ 539751.70	16.20	fed ? foc
+ 539768.00	7.51	fed foc
+ 539776.87	0.15	oth non
+ 539782.27	10.23	fed foc
+ 539792.45	15.75	fed foc
+ 539810.02	4.76	fed foc
+ 539818.20	4.61	fed foc
+ 539824.20	1.74	fed foc
+ 539826.91	3.43	fed foc
+ 539833.48	3.02	rum foc
+ 539841.71	1.38	rum foc
+ 539857.20	6.11	fed foc
+ 539864.67	2.20	fed foc
+ 539869.33	5.11	fed foc
+ 539879.00	3.60	fed foc
+ 539883.49	10.51	fed foc
+ 539897.13	4.67	fed foc
+ 539901.81	8.39	fed foc
+ 539911.43	9.42	fed foc
+ 539926.48	4.73	fed foc
+ 539936.15	4.53	fed foc
+ 539947.74	17.15	fed foc
+ 539967.40	4.46	fed ? foc
+ 539969.80	1.92	seq[str + gig] cub non
+ 539973.43	1.31	str ? cub non
+ 539974.77	0.77	gig non
+ 539976.79	0.69	gig non
+ 539979.30	1.42	str cub non
+ 539982.92	0.31	unk non
+ 539991.13	0.65	oth non
+ 539992.23	0.25	oth non
+ 539993.21	1.11	sql cub non
+ 540012.99	0.89	str ? cub non
+ 540015.39	1.10	str cub non
+ 540021.29	24.43	fed foc
+ 540024.63	0.51	oth non
+ 540038.76	0.16	oth non
+ 540047.71	0.16	oth non
+ 540048.62	0.25	oth non
+ 540050.03	3.60	fed foc
+ 540055.40	3.65	fed foc
+ 540059.25	0.22	oth non
+ 540060.09	0.16	oth non
+ 540065.87	2.55	fed foc
+ 540069.42	13.43	fed ? foc
+ 540078.15	1.10	str cub non
+ 540092.31	0.59	oth ? non
+ 540098.89	2.80	fed foc
+ 540102.22	6.42	fed foc
+ 540112.47	3.45	fed foc
+ 540117.50	4.28	fed ? foc
+ 540123.41	8.43	fed ? foc
+ 540137.10	2.14	fed foc
+ 540138.72	0.17	oth non
+ 540147.97	12.16	fed foc
+ 540160.35	2.34	skp - foc call? degraded
+ 540163.20	0.63	oth unf
+ 540164.66	0.11	oth unf
+ 540165.63	16.74	fed ? foc
+ 540187.72	9.57	fed foc
+ 540201.02	2.72	fed foc
+ 540222.17	4.27	fed ? foc
+ 540225.62	0.35	oth non
+ 540231.55	10.85	fed foc
+ 540243.83	17.36	fed foc
+ 540247.52	0.38	oth non
+ 540265.01	1.03	rum foc
+ 540266.35	0.83	rum non
+ 540272.48	8.50	fed foc
+ 540280.79	0.87	oth non
+ 540287.78	6.07	fed foc
+ 540296.02	0.65	str cub non
+ 540300.08	6.93	fed foc
+ 540312.04	0.88	rum non
+ 540319.61	11.19	fed foc
+ 540333.38	0.57	rum foc
+ 540337.92	10.76	fed foc
+ 540349.97	6.13	fed foc
+ 540357.98	6.54	fed foc
+ 540367.25	4.71	fed foc
+ 540374.19	7.06	fed foc
+ 540383.16	0.30	fed foc
+ 540386.00	3.19	fed ? foc
+ 540394.92	10.23	fed ? foc
+ 540416.95	11.14	fed foc
+ 540435.21	7.84	fed ? foc
+ 540464.25	4.19	fed foc
+ 540469.68	10.70	fed foc
+ 540486.81	6.83	fed ? foc
+ 540506.63	7.32	fed foc
+ 540516.33	3.85	fed foc
+ 540521.94	0.11	oth non
+ 540522.94	0.16	oth non
+ 540530.67	1.40	gig ? non
+ 540532.59	0.58	rum non
+ 540543.79	1.35	fed foc
+ 540548.97	0.15	oth non
+ 540555.59	1.42	rum foc
+ 540568.05	3.00	fed foc
+ 540575.78	0.11	oth non
+ 540582.15	1.12	fed foc
+ 540583.84	0.38	oth non
+ 540584.77	1.26	fed foc
+ 540603.16	8.12	fed foc
+ 540613.38	4.25	fed foc
+ 540619.49	0.68	fed foc
+ 540624.63	10.99	fed foc
+ 540654.42	3.22	fed foc
+ 540661.38	3.58	fed ? foc
+ 540669.46	6.29	fed foc
+ 540685.48	10.92	fed foc
+ 540730.54	0.40	fus[sql + str] ? cub non
+ 540732.84	4.23	fed foc
+ 540742.35	6.98	fed ? foc
+ 540776.07	1.01	rum foc
+ 540782.59	0.11	oth non
+ 540783.29	0.11	oth non
+ 540791.61	0.92	rum non
+ 540804.84	3.97	fed foc
+ 540810.05	4.03	fed foc
+ 540814.88	0.15	oth non
+ 540816.14	1.69	gig non
+ 540818.97	1.54	gig non
+ 540821.80	0.24	oth non
+ 540828.92	2.49	fed foc
+ 540844.37	1.26	str cub cub
+ 540866.31	1.36	rum foc
+ 540867.01	1.04	rum non
+ 540873.89	0.27	oth ? foc
+ 540894.49	0.90	fed foc
+ 540897.66	1.44	rum ? non
+ 540913.09	1.84	fed foc
+ 540916.84	9.29	fed foc
+ 540927.65	4.23	fed foc
+ 540941.74	2.94	fed foc
+ 540946.29	6.27	fed foc
+ 540955.10	1.08	rum foc
+ 540964.67	1.77	grn non
+ 540965.09	0.83	grn foc
+ 540969.05	1.02	grn non
+ 540970.00	0.28	oth cub non
+ 540974.20	0.13	oth foc
+ 540974.52	0.10	oth foc
+ 540975.07	1.19	whp cub non
+ 540977.31	0.93	whp cub non
+ 540978.26	3.36	fed foc
+ 540979.20	1.13	whp cub non
+ 540981.57	0.81	seq[whp + sql] cub non
+ 540982.76	0.59	fus[sql + str] cub non
+ 540983.21	0.95	grn non
+ 540984.22	1.70	fus [sql + whp] ? cub non
+ 540986.66	1.17	whp ? cub non
+ 540988.08	0.70	whp cub non
+ 540989.00	0.48	whp cub non
+ 540990.63	1.70	whp cub non
+ 540993.99	8.95	fed foc
+ 541004.30	0.67	str cub non
+ 541005.92	0.47	gig cub non
+ 541008.38	0.15	oth non
+ 541008.77	16.04	fed foc
+ 541020.19	0.95	str cub non
+ 541022.62	1.48	str cub non
+ 541025.45	0.60	oth non
+ 541027.00	2.60	rum foc
+ 541032.00	0.65	rum non
+ 541033.00	0.89	rum foc
+ 541035.38	0.51	rum non
+ 541039.33	2.27	grn non
+ 541041.79	0.75	str cub non
+ 541043.14	0.30	oth non
+ 541043.44	1.99	nnf - non calls masked by JLP noise
+ 541045.40	0.53	oth non
+ 541045.93	0.75	str cub non
+ 541046.61	0.96	grn non
+ 541046.98	0.13	oth non
+ 541047.36	0.15	oth non
+ 541048.14	0.83	str cub non
+ 541048.19	0.49	oth non
+ 541049.29	2.02	grn non
+ 541051.59	0.72	grn non
+ 541051.95	1.46	str cub non
+ 541054.11	0.99	str cub non
+ 541057.00	0.21	str cub non
+ 541059.45	1.39	grn non
+ 541059.85	0.99	str cub non
+ 541061.31	0.93	str cub non
+ 541061.89	1.08	grn non
+ 541063.33	0.78	grn non
+ 541064.52	0.69	grn non
+ 541064.73	0.13	oth non
+ 541065.50	0.47	grn non
+ 541066.91	0.38	str cub non
+ 541067.43	0.91	grn non
+ 541068.09	0.51	str cub non
+ 541068.49	0.53	oth non
+ 541069.94	0.45	oth non
+ 541070.70	0.96	grn non
+ 541071.96	0.69	grn non
+ 541077.54	0.61	oth non
+ 541078.94	0.75	grn foc
+ 541111.63	1.26	grn non
+ 541113.08	0.94	grn non
+ 541114.56	0.63	grn non
+ 541115.35	0.13	oth non
+ 541121.73	3.66	skp - faint oth non calls masked by JLP noise
+ 541125.51	2.06	str cub non
+ 541129.17	0.10	oth non
+ 541129.59	0.11	oth non
+ 541129.93	8.52	fed foc
+ 541135.42	0.13	oth foc
+ 541143.91	0.16	oth non
+ 541145.03	0.49	grn non
+ 541146.43	0.41	oth non
+ 541148.52	0.29	gig ? non
+ 541148.87	1.23	grn foc
+ 541151.29	0.77	grn foc
+ 541152.99	0.31	str ? cub non
+ 541153.54	1.02	grn foc
+ 541154.60	4.65	skp - small str noises
+ 541159.74	1.09	grn foc
+ 541168.15	0.55	grn non
+ 541172.28	1.47	rum foc
+ 541176.13	3.88	rum foc
+ 541184.56	1.65	rum foc
+ 541189.40	0.95	rum non
+ 541190.31	2.37	rum foc
+ 541199.37	0.90	rum foc
+ 541204.75	0.49	rum foc
+ 541205.57	1.19	rum foc
+ 541209.14	0.99	rum foc
+ 541210.55	0.50	rum foc
+ 541214.89	1.35	rum foc
+ 541219.92	0.27	oth cub non
+ 541221.39	0.43	rum non
+ 541227.11	0.81	grn non
+ 541233.41	2.12	grn non
+ 541237.17	2.04	grn non
+ 541237.30	0.16	oth non
+ 541239.91	1.26	grn non
+ 541240.11	0.65	str ? cub non
+ 541242.15	0.79	gig foc
+ 541244.10	1.58	grn non
+ 541245.94	1.97	str cub non
+ 541247.97	1.14	grn non
+ 541249.82	0.77	grn non
+ 541250.12	0.85	seq[sql + str] cub non
+ 541252.36	0.94	grn non
+ 541256.60	0.86	str cub non
+ 541260.30	1.15	whp non
+ 541263.62	1.97	whp non
+ 541267.76	2.10	whp non
+ 541272.36	2.56	whp non
+ 541276.77	3.24	whp non
+ 541301.77	8.18	skp - very faint str noises
+ 541313.01	0.97	seq[sql + gig] non
+ 541315.02	0.00	eoa

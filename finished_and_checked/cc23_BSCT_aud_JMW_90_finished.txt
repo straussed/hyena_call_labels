@@ -1,0 +1,52 @@
+ 267201.99	0.00	soa
+ 267277.16	0.53	prd ?
+ 267354.44	0.73	prd ?
+ 267367.83	0.53	prd ?
+ 267369.08	0.70	unk non
+ 267383.43	0.21	oth non
+ 267384.73	0.58	oth ? non
+ 267400.06	0.73	gwl non
+ 267400.64	0.82	sql non
+ 267401.73	0.33	sql non
+ 267407.69	0.95	gig non
+ 267409.46	2.23	seq[str + gig] cub non
+ 267413.02	1.01	str cub non
+ 267414.48	0.54	gig cub non
+ 267417.29	0.23	str cub non
+ 267417.76	0.91	oth non
+ 267422.31	1.23	fed foc
+ 267425.37	0.47	gig non
+ 267425.92	0.63	str cub non
+ 267427.52	0.66	oth non
+ 267428.35	1.27	str cub non
+ 267430.39	0.55	gig non
+ 267431.41	0.15	oth non
+ 267431.92	0.27	sql non
+ 267432.22	0.12	oth non
+ 267435.38	0.94	sql non
+ 267437.37	0.30	oth non
+ 267438.96	0.86	sql non
+ 267440.59	0.19	oth non
+ 267441.81	0.95	sql non
+ 267442.66	0.28	oth non
+ 267443.91	0.33	oth non
+ 267447.81	0.43	str cub non
+ 267451.59	1.52	fus[str + sql] cub non
+ 267453.11	0.89	str cub non
+ 267455.29	3.11	fus[str + sql] cub non
+ 267458.89	1.10	seq[sql + gig] cub non
+ 267460.83	0.31	grn foc
+ 267461.64	0.40	str cub non
+ 267462.85	0.35	str cub non
+ 267463.39	0.57	str cub non
+ 267464.58	0.55	str cub non
+ 267465.60	0.55	str cub non
+ 267467.03	6.32	seq[sql + gig] non
+ 267473.83	1.63	gig non
+ 267475.86	1.30	fus[sql + gig] non
+ 267477.41	1.03	seq[sql + gig] non
+ 267526.69	0.79	sql non
+ 267527.83	0.93	sql non
+ 267529.10	0.61	gig non
+ 267535.12	7.04	skp - very faint non calls
+ 267802.00	0.00	eoa
