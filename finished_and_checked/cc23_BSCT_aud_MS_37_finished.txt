@@ -30,7 +30,7 @@
  122228.44	1.29	grn foc
  122231.23	1.23	grn foc
  122259.77	1.34	grn foc
- 122262.89	0.89	wgrn foc
+ 122262.89	0.89	grn foc
  122360.41	1.12	grn foc
  122365.59	0.97	grn foc
  122368.58	0.62	whp foc
@@ -45,7 +45,7 @@
  122404.62	1.45	whp foc
  122408.66	1.47	whp foc
  122413.54	1.55	whp foc
- 122417.70	1.51	whp fcoc
+ 122417.70	1.51	whp foc
  122424.57	1.18	grn foc
  122441.63	1.42	grn foc
  122444.29	1.34	grn foc
@@ -141,7 +141,7 @@
  122806.75	1.21	whp cub non
  122806.91	1.41	grn foc
  122809.08	1.30	whp cub non
- 122812.11	1.64	fwhp cub non
+ 122812.11	1.64	whp cub non
  122813.51	2.10	whp non
  122814.49	1.76	grn foc
  122815.53	1.34	whp cub non

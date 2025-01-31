@@ -1,7 +1,7 @@
  9798.00	0.00	SOA
  10051.12	1.61	grn foc
  10054.33	2.44	grn foc
- 10057.56	1.99	igrn foc
+ 10057.56	1.99	grn foc
  10060.25	1.95	grn foc
  10061.08	0.81	str cub non
  10063.25	2.07	grn foc

@@ -29,7 +29,7 @@
  10178.68	0.35	unk
  10179.44	0.93	str cub non
  10180.95	1.19	str cub non
- 10184.44	0.97	sstr cub non
+ 10184.44	0.97	str cub non
  10187.80	0.70	str cub non
  10192.96	0.81	str cub non
  10976.15	0.61	rum foc

@@ -17,14 +17,11 @@ df-print: kable
 library(dplyr)
 
 ############## Read in labels
-label_path <- '~/Documents/code/hyena_call_labels/'
-files <- c(list.files(path = paste0(label_path, 'finished_and_checked/'), pattern = '*.txt'),
-           list.files(path = label_path, pattern = '*.txt'),
-           list.files(path = paste0(label_path, 'commented/'), pattern = '*.txt'))
-files <- list.files(path = label_path, pattern = '*.txt', recursive = T)
+label_path <- '~/Documents/code/hyena_call_labels/finished_and_checked/'
+files <- c(list.files(path = label_path, pattern = '*.txt'))
 
 # Remove files in /issues and /commented/archive/ to avoid duplicates or bad data
-files <- files[!grepl('archive|issues', files)]
+#files <- files[!grepl('archive|issues', files)]
 
 labels_list <- list()
 dups <- c()
@@ -96,6 +93,11 @@ for(aud in unique(labels$aud_name)){
 audits_by_id <- audit_summary %>%
   group_by(id) %>%
   summarize(audit_hrs = sum(duration)/(60*60))
+
+labels %>% 
+  filter(grepl('fed', label)) %>% 
+  group_by(id) %>% 
+  summarize(total_feeding = sum(duration)/60)
 ```
 
 ### Current state

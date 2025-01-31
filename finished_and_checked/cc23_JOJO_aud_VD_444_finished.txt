@@ -188,7 +188,7 @@
  357547.40	0.32	oth non
  357565.62	1.42	str cub non
  357567.54	0.46	oth non
- 357595.91	1.43	fus[sgl+gig] non
+ 357595.91	1.43	fus[sql+gig] non
  357619.69	1.17	rum non
  357622.15	0.55	grn foc
  357657.31	0.81	gig foc

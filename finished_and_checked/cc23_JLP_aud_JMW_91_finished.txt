@@ -169,7 +169,7 @@
  540818.97	1.54	gig non
  540821.80	0.24	oth non
  540828.92	2.49	fed foc
- 540844.37	1.26	str cub cub
+ 540844.37	1.26	str cub non
  540866.31	1.36	rum foc
  540867.01	1.04	rum non
  540873.89	0.27	oth ? foc
