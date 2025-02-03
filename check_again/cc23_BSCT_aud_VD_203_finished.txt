@@ -1,0 +1,15 @@
+ 128422.01	0.00	soa
+ 128423.37	0.68	whp non
+ 128425.43	0.89	whp non
+ 128427.57	1.28	whp non
+ 128429.99	1.30	whp non
+ 128434.77	1.05	whp non
+ 128439.50	1.12	fix: str cub non or sql non
+ 128443.93	0.09	oth non
+ 128456.91	0.13	oth foc
+ 128499.97	1.55	str cub non
+ 128540.23	0.94	whp non
+ 128544.17	0.87	whp non
+ 128548.52	1.13	whp non
+ 128553.35	1.23	whp non
+ 128842.00	0.00	eoa

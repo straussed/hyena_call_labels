@@ -1,0 +1,36 @@
+ 640979.99	0.00	soa
+ 641221.77	0.54	whp foc
+ 641225.85	1.93	whp foc
+ 641232.32	2.17	whp foc
+ 641239.71	1.32	whp foc
+ 641245.22	1.46	whp foc
+ 641249.98	1.57	whp foc
+ 641255.03	1.68	whp foc
+ 641260.13	1.87	whp foc
+ 641563.22	0.29	unk non
+ 641564.98	0.82	unk non
+ 641569.38	1.06	whp cub non
+ 641569.38	0.00	fix I´m not sure, but I though we label all cub calls as str? even tho whp cub would make sense.
+ 641571.22	0.83	whp cub non
+ 641571.98	0.56	grn foc
+ 641572.75	0.76	whp cub non
+ 641574.16	0.78	whp cub non
+ 641575.86	0.92	whp cub non
+ 641578.71	1.20	whp cub non
+ 641580.69	1.03	whp cub non
+ 641582.68	1.00	whp cub non
+ 641584.37	0.91	whp cub non
+ 641586.65	1.19	whp cub non
+ 641588.78	0.87	whp cub non
+ 641590.85	0.71	whp foc
+ 641594.55	1.06	whp foc
+ 641598.41	1.11	whp foc
+ 641602.28	1.22	whp foc
+ 641606.49	1.61	whp foc
+ 641613.89	2.46	skp barely heardable non calls
+ 641654.71	0.35	grn foc
+ 641655.54	0.63	grn foc
+ 641686.08	0.13	unk non
+ 641841.26	1.50	grn foc
+ 641905.31	0.22	unk non
+ 642180.01	0.00	eoa

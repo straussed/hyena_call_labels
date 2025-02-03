@@ -1,0 +1,855 @@
+ 460398.00	0.00	SOA
+ 460498.81	0.00	fix: unsure
+ 460499.13	0.15	oth non
+ 460499.82	0.08	oth non
+ 460500.46	1.04	gig non
+ 460502.12	0.79	gig ? non
+ 460506.50	1.36	grn foc
+ 460521.91	1.01	grn foc
+ 460550.93	0.69	grn foc
+ 460559.95	1.13	grn foc
+ 460567.43	2.34	grn foc
+ 460575.70	0.00	fix: collar noise? unsure whether vocalisation
+ 460576.14	0.72	rum non
+ 460592.88	0.21	oth non
+ 460623.02	0.00	fix: collar noise?
+ 460623.66	0.35	rum ? non
+ 460669.79	1.26	grn foc
+ 460672.80	1.69	grn foc
+ 460686.69	1.74	grn foc
+ 460693.15	1.56	whp foc
+ 460697.37	1.98	whp foc
+ 460702.55	2.08	whp foc
+ 460707.92	2.15	whp foc
+ 460713.46	2.07	whp foc
+ 460718.63	2.30	whp foc
+ 460724.23	2.59	whp foc
+ 460760.16	0.00	fix: collar noise?
+ 460761.06	0.84	rum ? non
+ 460763.49	0.73	rum ? non
+ 460766.43	0.66	rum ? non
+ 460774.90	0.00	fix: collar noise
+ 460776.09	0.70	rum ? non
+ 460787.09	1.10	grn foc
+ 460791.24	1.00	grn foc
+ 460794.89	1.53	grn foc
+ 460833.66	1.63	grn foc
+ 460838.65	1.50	grn foc
+ 460845.73	1.59	grn foc
+ 460850.20	1.25	grn foc
+ 460863.84	1.32	grn foc
+ 460867.93	1.39	grn foc
+ 460873.25	1.08	grn foc
+ 460876.70	1.10	grn foc
+ 460881.04	1.44	grn foc
+ 460888.83	1.44	grn foc
+ 460893.49	1.35	grn foc
+ 460897.78	1.44	grn foc
+ 460902.22	1.56	grn foc
+ 460909.57	1.56	grn foc
+ 460915.56	1.17	grn foc
+ 460921.42	0.00	fix: collar sounds?
+ 460921.99	1.49	rum ? non
+ 460937.83	0.00	fix: collar sounds?
+ 460938.34	1.08	rum ? non
+ 460952.21	1.57	grn foc
+ 460963.94	1.42	grn foc
+ 460968.49	1.03	grn foc
+ 461091.30	0.00	fix: too faint?
+ 461091.92	0.14	oth unf
+ 461186.50	1.08	grn foc
+ 461214.67	1.35	grn foc
+ 461219.35	1.40	grn foc
+ 461227.04	0.82	grn foc
+ 461232.66	1.18	grn foc
+ 461239.54	1.41	grn foc
+ 461251.60	0.99	grn foc
+ 461258.41	0.95	grn foc
+ 461264.05	1.49	grn foc
+ 461275.28	0.66	grn foc
+ 461279.73	0.00	fix: again, leaning towards this being collar noise 
+ 461279.76	1.57	rum ? non
+ 461282.25	1.60	grn foc
+ 461297.94	1.37	grn foc
+ 461305.72	1.26	grn foc
+ 461318.11	0.89	grn foc
+ 461327.26	0.69	grn foc
+ 461336.61	0.91	grn foc
+ 461377.94	1.06	grn foc
+ 461393.93	1.40	grn foc
+ 461403.65	0.00	fix: collar sounds?
+ 461404.25	1.00	rum ? non
+ 461414.41	1.71	grn foc
+ 461420.41	1.58	grn foc
+ 461429.44	0.00	fix: collar sounds?
+ 461429.84	1.05	rum ? non
+ 461441.44	1.42	grn foc
+ 461447.48	1.21	grn foc
+ 461461.60	0.97	grn foc
+ 461469.23	1.11	grn foc
+ 461478.72	1.19	grn foc
+ 461488.23	1.37	grn foc
+ 461494.16	1.33	grn foc
+ 461504.68	0.00	fix: collar sounds?
+ 461505.29	0.88	rum ? non
+ 461524.37	1.40	grn foc
+ 461534.25	1.39	grn foc
+ 461606.13	0.00	fix: collar noise?
+ 461606.92	1.15	rum ? non
+ 461609.94	0.41	rum ? non
+ 461616.23	1.00	whp foc
+ 461619.87	1.93	whp foc
+ 461624.64	2.10	whp foc
+ 461629.67	2.21	whp foc
+ 461636.46	2.53	whp foc
+ 461642.61	2.35	whp foc
+ 461649.55	2.34	whp foc
+ 461664.44	1.69	grn foc
+ 461675.74	1.22	grn foc
+ 461684.71	1.24	grn foc
+ 461710.84	0.61	grn foc
+ 461715.79	1.42	grn foc
+ 461721.41	1.01	grn foc
+ 461738.98	1.38	grn foc
+ 461744.59	1.39	grn foc
+ 461751.33	1.18	grn foc
+ 461972.74	0.00	fix: collar noise?
+ 461973.51	0.52	rum ? non
+ 462477.43	1.11	whp foc
+ 462481.77	1.99	whp foc
+ 462486.78	1.98	whp foc
+ 462492.08	2.22	whp foc
+ 462497.72	2.22	whp foc
+ 462503.56	2.31	whp foc
+ 462550.04	0.98	grn foc
+ 462567.34	1.74	grn foc
+ 462578.68	1.58	grn foc
+ 462587.66	1.89	grn foc
+ 462591.64	1.89	grn foc
+ 462595.96	1.81	grn foc
+ 462600.78	1.36	grn foc
+ 462609.83	1.89	grn foc
+ 462613.40	1.89	grn foc
+ 462617.62	1.99	grn foc
+ 462621.29	1.88	grn foc
+ 462623.97	1.34	grn foc
+ 462626.05	1.31	grn foc
+ 462628.29	1.60	grn foc
+ 462632.12	1.84	grn foc
+ 462635.97	1.60	grn foc
+ 462643.37	1.57	grn foc
+ 462646.95	1.46	grn foc
+ 462649.15	1.49	grn foc
+ 462653.14	1.58	grn foc
+ 462657.47	1.71	grn foc
+ 462660.99	1.53	grn foc
+ 462664.21	1.44	grn foc
+ 462666.72	1.40	grn foc
+ 462669.09	1.59	grn foc
+ 462674.01	1.36	grn foc
+ 462677.41	1.24	grn foc
+ 462680.73	1.19	grn foc
+ 462684.52	1.55	grn foc
+ 462687.91	1.62	grn foc
+ 462697.08	1.70	grn foc
+ 462700.12	1.58	grn foc
+ 462702.82	1.33	grn foc
+ 462707.77	1.46	grn foc
+ 462711.98	1.51	grn foc
+ 462716.93	1.31	grn foc
+ 462720.86	1.55	grn foc
+ 462724.29	1.35	grn foc
+ 462726.47	0.00	fix: unsure, consistent with rum pattern
+ 462727.20	0.64	rum ? non
+ 462729.32	1.92	grn foc
+ 462732.14	1.53	grn foc
+ 462735.08	1.77	grn foc
+ 462738.93	1.32	grn foc
+ 462744.02	1.20	grn foc
+ 462746.47	1.48	grn foc
+ 462767.23	1.43	grn foc
+ 462770.43	1.46	grn foc
+ 462773.60	1.50	grn foc
+ 462778.53	1.28	grn foc
+ 462781.99	1.36	grn foc
+ 462789.15	1.25	grn foc
+ 462793.72	1.52	grn foc
+ 462807.21	1.36	grn foc
+ 462811.30	1.39	grn foc
+ 462815.76	1.24	grn foc
+ 462821.02	1.15	grn foc
+ 462825.22	1.60	grn foc
+ 462832.32	1.25	grn foc
+ 462835.29	1.20	grn foc
+ 462839.50	2.26	grn foc
+ 462846.67	1.56	grn foc
+ 462850.73	1.67	grn foc
+ 462856.22	1.37	grn foc
+ 462861.73	1.59	grn foc
+ 462864.20	1.47	grn foc
+ 462873.88	0.88	grn foc
+ 462875.67	1.24	grn foc
+ 462877.54	1.12	grn foc
+ 462879.35	0.79	grn foc
+ 462881.25	1.03	grn foc
+ 462883.96	1.05	grn foc
+ 462919.08	1.24	grn foc
+ 462920.85	1.24	grn foc
+ 462922.83	1.26	grn foc
+ 462924.74	1.61	grn foc
+ 462926.93	1.53	grn foc
+ 462929.12	1.56	grn foc
+ 462931.43	1.27	grn foc
+ 462933.78	1.68	grn foc
+ 462939.56	1.76	grn foc
+ 462941.72	1.18	grn foc
+ 462944.68	1.27	grn foc
+ 462984.59	0.00	fix: unsure - faint
+ 462984.78	1.05	grn ? foc
+ 462986.83	1.30	grn foc
+ 462988.58	0.00	fix: unsure - audible non-foc grns?
+ 462989.35	0.97	whp  ? non
+ 462991.03	1.27	whp ? non
+ 462993.08	0.27	oth non
+ 462993.76	0.00	fix: leaning towards str
+ 462994.44	1.19	sql non
+ 462996.35	1.46	sql ? non
+ 462998.47	0.00	fix: unsure whether cub or adult
+ 462999.02	1.13	whp cub non
+ 463001.37	0.00	fix: leaning towards str
+ 463001.97	1.37	sql non
+ 463006.27	0.00	fix: leaning towards str - until 33:40
+ 463007.12	0.70	sql non
+ 463007.86	0.88	sql non
+ 463008.74	0.39	sql non
+ 463009.13	0.92	sql non
+ 463010.05	0.69	sql non
+ 463010.74	0.76	sql non
+ 463011.52	0.53	sql non
+ 463012.15	0.42	sql ? non
+ 463013.55	0.44	sql non
+ 463014.11	1.47	sql non
+ 463014.47	0.61	grn unf
+ 463015.31	0.00	fix: unsure whether whp, focality
+ 463015.42	0.89	whp unf
+ 463016.38	1.45	grn non
+ 463016.78	0.49	sql non
+ 463017.78	0.61	sql non
+ 463018.64	0.00	fix: unsure
+ 463019.03	0.71	gig ? non
+ 463019.59	0.86	whp ? unf
+ 463020.25	0.79	grn non
+ 463021.58	0.20	oth non
+ 463022.56	0.66	grn non
+ 463023.32	0.78	grn non
+ 463024.15	1.40	grn foc
+ 463024.97	1.11	grn non
+ 463026.08	1.10	fix: two non-foc hyenas?
+ 463026.14	0.89	str ? cub non
+ 463026.21	0.49	oth ? unf
+ 463028.52	0.98	grn non
+ 463028.94	0.57	grn non
+ 463030.26	0.77	grn non
+ 463031.02	0.73	grn non
+ 463031.81	1.04	grn non
+ 463033.28	0.79	grn non
+ 463034.67	0.45	grn non
+ 463035.56	0.87	grn non
+ 463036.77	0.74	grn non
+ 463039.25	1.85	grn foc
+ 463041.10	1.40	gig non
+ 463041.65	0.86	str cub non
+ 463042.74	0.00	fix: unsure
+ 463043.20	0.72	str ? cub non
+ 463045.08	0.75	str ? cub non
+ 463047.19	2.52	grn foc
+ 463049.43	0.65	fix: unsure
+ 463049.60	0.47	rum ? non
+ 463051.18	1.85	grn foc
+ 463053.03	0.95	grn non
+ 463054.76	1.56	grn foc
+ 463056.78	1.46	grn foc
+ 463061.77	2.12	grn foc
+ 463063.77	1.02	grn non
+ 463065.08	0.59	gig non
+ 463066.24	1.13	grn foc
+ 463067.59	1.14	grn foc
+ 463069.09	0.64	grn foc
+ 463075.36	0.70	grn foc
+ 463096.45	2.15	grn foc
+ 463099.13	0.79	grn foc
+ 463101.96	0.00	fix: unsure
+ 463102.41	0.62	grn ? unf
+ 463116.44	1.24	grn foc
+ 463122.29	1.37	grn foc
+ 463131.46	1.73	grn foc
+ 463136.44	1.68	grn foc
+ 463160.45	0.00	fix: collar sounds?
+ 463161.39	2.00	unk
+ 463164.45	0.81	rum foc
+ 463180.75	1.81	grn foc
+ 463192.44	1.40	grn foc
+ 463197.58	2.42	grn foc
+ 463204.45	2.59	grn foc
+ 463210.94	2.43	grn foc
+ 463216.26	2.10	grn foc
+ 463222.05	0.00	fix: unsure as to how an audible, non-foc rum might sound
+ 463222.73	0.46	rum ? non
+ 463228.54	2.08	grn foc
+ 463235.83	2.20	grn foc
+ 463243.43	1.95	grn foc
+ 463246.60	1.70	grn foc
+ 463262.42	2.11	grn foc
+ 463276.70	2.22	grn foc
+ 463279.09	0.66	whp non
+ 463281.98	1.77	grn foc
+ 463283.11	1.31	whp non
+ 463285.45	1.42	grn foc
+ 463287.10	1.62	whp non
+ 463289.38	1.20	grn foc
+ 463291.58	1.80	whp non
+ 463291.90	1.25	grn foc
+ 463296.20	1.97	whp non
+ 463297.17	1.14	grn foc
+ 463300.66	0.61	grn foc
+ 463301.13	2.18	whp non
+ 463306.23	2.38	whp non
+ 463307.62	1.00	grn foc
+ 463316.09	2.03	grn foc
+ 463338.05	2.25	grn foc
+ 463345.88	2.20	grn foc
+ 463356.56	1.81	grn foc
+ 463367.91	1.99	grn foc
+ 463375.89	1.93	grn foc
+ 463385.56	2.65	grn foc
+ 463390.91	1.24	grn foc
+ 463396.01	1.14	grn foc
+ 463398.52	1.51	grn foc
+ 463399.17	0.61	str cub non
+ 463400.93	1.40	grn foc
+ 463409.49	1.64	grn foc
+ 463498.15	0.44	grn foc
+ 463501.24	0.61	grn foc
+ 463525.20	2.26	grn foc
+ 463528.64	2.19	grn foc
+ 463586.73	0.00	fix: maybe non?
+ 463587.59	1.44	grn foc
+ 463591.40	0.53	grn foc
+ 463592.06	0.77	grn foc
+ 463595.32	0.60	grn foc
+ 463604.13	0.00	fix: too faint, unsure
+ 463604.77	0.39	grn ? foc
+ 463616.04	1.24	grn foc
+ 463619.49	1.67	grn foc
+ 463624.11	2.66	grn foc
+ 463628.13	1.92	grn foc
+ 463630.67	1.11	grn foc
+ 463631.37	0.28	gig non
+ 463632.38	1.35	grn foc
+ 463634.79	2.02	grn foc
+ 463638.26	1.53	grn foc
+ 463640.55	1.53	grn foc
+ 463645.57	0.00	fix: too short to be gig?
+ 463645.78	0.94	grn foc
+ 463646.32	0.23	gig ? non
+ 463648.70	1.21	grn foc
+ 463648.70	0.44	gig non
+ 463657.63	0.48	gig non
+ 463664.46	1.23	grn foc
+ 463670.85	1.45	grn foc
+ 463673.95	1.55	grn foc
+ 463683.38	0.00	fix: same hyena? seq[str+gig]?
+ 463683.86	0.45	str cub non
+ 463684.46	1.56	grn foc
+ 463685.10	0.32	gig non
+ 463687.52	0.46	str cub non
+ 463690.20	0.00	fix: unsure whether accelerometer activity from rustling or if grn is focal
+ 463691.13	1.41	grn unf
+ 463704.35	0.52	grn foc
+ 463850.95	0.75	whp non
+ 463854.62	1.12	whp non
+ 463859.76	1.31	whp non
+ 463864.32	1.56	whp non
+ 463869.53	1.74	whp non
+ 463875.57	0.00	fix: unsure whether final whp in bout or grn
+ 463876.82	1.19	whp ? non
+ 463879.03	0.77	gig non
+ 463884.79	0.00	fix: see previous fix
+ 463885.72	0.70	whp non
+ 463896.96	1.06	grn foc
+ 463927.29	0.00	fix: unsure - lots of faint calls
+ 463928.11	1.15	str cub non
+ 463951.66	0.82	grn foc
+ 463953.54	1.95	grn foc
+ 463956.50	1.52	grn foc
+ 463959.18	0.00	fix: unsure whether hyena
+ 463959.64	1.53	gig ? non
+ 464001.24	1.15	grn foc
+ 464025.77	0.91	grn foc
+ 464041.51	1.31	grn foc
+ 464055.65	0.80	grn foc
+ 464187.18	0.16	oth non
+ 464249.08	2.07	grn foc
+ 464254.54	2.39	grn foc
+ 464260.23	2.15	grn foc
+ 464268.08	2.16	grn foc
+ 464274.35	2.04	grn foc
+ 464280.01	2.32	grn foc
+ 464286.02	1.86	grn foc
+ 464289.04	1.70	grn foc
+ 464292.87	2.02	grn foc
+ 464297.46	1.38	grn foc
+ 464303.58	1.47	grn foc
+ 464325.86	0.94	grn foc
+ 464400.17	0.56	oth foc
+ 464400.97	0.20	oth non
+ 464409.36	0.20	oth non
+ 464421.56	0.00	fix: unsure as to following call types
+ 464422.27	0.60	gwl ? non
+ 464423.40	0.37	oth non
+ 464423.66	1.89	str ? cub non
+ 464424.62	0.67	oth non
+ 464704.77	1.54	whp foc
+ 464710.05	2.13	whp foc
+ 464714.31	0.00	fix: brief rum before whp?
+ 464715.12	0.37	grn foc
+ 464715.51	2.24	fus[whp+grn] foc
+ 464715.57	0.00	fix: just whp?
+ 464720.69	0.00	fix: brief rum before whp?
+ 464721.12	0.26	grn foc
+ 464721.38	2.35	whp foc
+ 464726.94	0.28	grn foc
+ 464727.03	0.00	fix: brief rum before whp?
+ 464727.22	2.55	fus[grn+whp] foc
+ 464733.57	2.50	fus[grn+whp] foc
+ 464733.78	0.00	fix: brief rum before whp?
+ 464739.31	2.87	fus[grn+whp] foc
+ 464739.43	0.00	fix: just whp?
+ 464747.71	3.79	whp foc
+ 464747.83	0.00	fix: unsure - last whp in bout?
+ 465098.80	1.07	rum foc
+ 465397.69	0.26	oth non
+ 465483.67	0.00	fix: unsure
+ 465484.24	0.52	oth unf
+ 465697.48	0.19	oth non
+ 466000.66	0.17	oth non
+ 466002.70	0.17	oth non
+ 466007.04	0.21	oth non
+ 466009.38	0.08	oth non
+ 466064.18	0.11	oth non
+ 466178.74	0.99	grn foc
+ 466187.73	0.96	grn foc
+ 466193.50	1.77	grn foc
+ 466205.77	2.65	whp foc
+ 466212.22	2.49	whp foc
+ 466217.34	2.58	whp foc
+ 466222.30	1.50	whp non
+ 466223.17	2.66	whp foc
+ 466226.45	1.28	whp non
+ 466228.46	2.40	whp foc
+ 466231.32	1.48	whp non
+ 466233.71	2.48	whp foc
+ 466236.24	2.00	whp non
+ 466239.32	2.65	whp foc
+ 466242.01	1.42	whp non
+ 466245.83	2.96	whp foc
+ 466263.30	1.49	grn foc
+ 466269.53	2.14	grn foc
+ 466273.28	1.69	grn foc
+ 466277.25	1.98	grn foc
+ 466284.96	1.50	grn foc
+ 466289.32	1.29	grn foc
+ 466302.47	1.64	grn foc
+ 466305.90	1.64	grn foc
+ 466309.70	1.64	grn foc
+ 466326.17	1.93	grn foc
+ 466335.31	1.63	grn foc
+ 466342.00	1.41	grn foc
+ 466344.81	1.46	grn foc
+ 466349.14	1.52	grn foc
+ 466357.78	1.40	grn foc
+ 466364.35	1.24	grn foc
+ 466367.57	1.53	grn foc
+ 466370.53	1.35	grn foc
+ 466378.83	1.42	grn foc
+ 466383.02	0.97	grn foc
+ 466385.80	1.42	grn foc
+ 466389.50	1.55	grn foc
+ 466394.76	1.58	grn foc
+ 466398.33	1.37	grn foc
+ 466404.52	1.09	grn foc
+ 466408.50	1.50	grn foc
+ 466426.75	1.32	grn foc
+ 466436.30	1.26	grn foc
+ 466458.75	1.46	grn foc
+ 466460.84	1.30	grn foc
+ 466462.95	1.44	grn foc
+ 466465.78	1.37	grn foc
+ 466472.89	1.23	grn foc
+ 466475.59	1.54	grn foc
+ 466479.02	1.20	grn foc
+ 466487.45	1.02	grn foc
+ 466489.97	1.28	grn foc
+ 466492.62	1.50	grn foc
+ 466495.45	1.40	grn foc
+ 466497.91	1.19	grn foc
+ 466500.16	1.39	grn foc
+ 466502.05	1.61	grn foc
+ 466503.83	0.00	fix: gig non?
+ 466504.20	0.52	oth unf
+ 466504.73	1.12	grn foc
+ 466506.74	0.17	oth non
+ 466507.91	1.93	grn foc
+ 466509.80	0.00	fix: unsure - seq[gig+oth]?
+ 466510.03	0.41	gig ? non
+ 466510.44	0.38	whp ? non
+ 466511.52	0.00	fix: unsure - str cub?
+ 466511.62	1.39	whp non
+ 466515.98	1.64	grn foc
+ 466521.80	2.00	grn foc
+ 466526.90	1.61	grn foc
+ 466544.52	0.98	grn foc
+ 466609.22	1.39	grn foc
+ 466624.68	1.45	grn foc
+ 466632.55	0.00	fix: unsure
+ 466633.11	2.25	seq[grn+whp] foc
+ 466638.34	1.40	whp foc
+ 466642.40	2.39	whp foc
+ 466648.46	2.45	whp foc
+ 466654.40	2.62	whp foc
+ 466664.13	2.79	whp foc
+ 466671.76	2.41	whp foc
+ 466679.14	2.62	whp foc
+ 466685.09	2.58	whp foc
+ 466697.43	1.59	grn foc
+ 466744.73	2.45	grn foc
+ 466751.61	2.08	grn foc
+ 466782.51	2.01	grn foc
+ 466798.09	1.92	grn foc
+ 466805.06	1.65	grn foc
+ 466825.44	1.39	grn foc
+ 466835.52	1.93	grn foc
+ 466855.35	2.02	grn foc
+ 466859.08	1.92	grn foc
+ 466875.05	1.79	grn foc
+ 466882.86	1.55	grn foc
+ 466890.51	2.05	grn foc
+ 466898.82	2.00	grn foc
+ 466905.13	2.61	grn foc
+ 466909.09	1.61	grn foc
+ 466912.51	1.63	grn foc
+ 466917.24	2.00	grn foc
+ 466926.68	1.70	grn foc
+ 466933.66	2.03	grn foc
+ 466940.08	1.91	grn foc
+ 466945.92	1.94	grn foc
+ 466952.04	1.24	grn foc
+ 466958.53	1.96	grn foc
+ 466968.13	2.06	grn foc
+ 466974.24	1.87	grn foc
+ 466987.92	1.96	grn foc
+ 467005.68	2.12	grn foc
+ 467012.34	1.88	grn foc
+ 467019.62	1.96	grn foc
+ 467039.51	2.20	grn foc
+ 467051.32	1.52	grn foc
+ 467066.77	1.89	grn foc
+ 467071.95	2.43	grn foc
+ 467077.11	2.30	grn foc
+ 467080.68	1.84	grn foc
+ 467083.74	1.74	grn foc
+ 467087.01	1.68	grn foc
+ 467094.97	2.12	grn foc
+ 467103.13	1.96	grn foc
+ 467111.54	2.14	grn foc
+ 467114.86	0.00	fix: unsure
+ 467115.52	1.96	seq[oth+grn] foc
+ 467122.71	2.26	grn foc
+ 467126.81	0.00	fix: unsure
+ 467127.48	2.47	seq[grn+whp] ? foc
+ 467137.20	2.19	grn foc
+ 467143.83	2.18	grn foc
+ 467148.60	1.73	grn foc
+ 467152.51	1.69	grn foc
+ 467159.51	2.05	grn foc
+ 467163.73	1.44	grn foc
+ 467166.92	2.33	grn foc
+ 467172.41	1.64	grn foc
+ 467177.65	1.67	grn foc
+ 467203.57	1.71	grn foc
+ 467208.93	0.93	grn foc
+ 467212.91	1.27	grn foc
+ 467312.51	0.19	oth non
+ 467391.14	1.92	grn foc
+ 467407.15	1.41	grn foc
+ 467412.15	2.97	grn foc
+ 467418.50	2.25	grn foc
+ 467430.71	2.17	grn foc
+ 467434.71	1.85	grn foc
+ 467438.29	2.20	grn foc
+ 467442.84	1.90	grn foc
+ 467446.62	1.50	grn foc
+ 467450.57	1.71	grn foc
+ 467456.53	2.00	grn foc
+ 467461.20	1.65	grn foc
+ 467468.90	2.44	grn foc
+ 467483.10	1.86	grn foc
+ 467486.87	1.78	grn foc
+ 467491.51	1.68	grn foc
+ 467495.50	1.79	grn foc
+ 467504.26	1.59	grn foc
+ 467521.75	1.11	grn foc
+ 467538.21	0.00	fix: unsure whether vocalisation
+ 467539.33	0.25	oth unf
+ 467546.91	1.77	grn foc
+ 467552.03	1.55	grn foc
+ 467566.37	0.73	grn foc
+ 467578.56	1.10	grn foc
+ 467582.97	0.80	whp non
+ 467585.40	0.97	grn foc
+ 467585.97	1.29	whp non
+ 467589.34	2.65	whp non
+ 467594.52	1.27	grn foc
+ 467594.75	2.88	whp non
+ 467600.56	1.69	whp non
+ 467604.48	1.66	whp non
+ 467608.54	2.04	whp non
+ 467613.17	1.76	whp non
+ 467617.36	2.25	whp non
+ 467622.61	1.59	whp non
+ 467627.95	1.92	whp non
+ 467633.09	2.28	whp non
+ 467634.66	1.53	grn foc
+ 467638.65	3.24	whp non
+ 467660.76	1.03	grn foc
+ 467674.70	0.00	fix: unsure whether foc or non
+ 467675.57	0.64	gig unf
+ 467691.59	1.25	grn foc
+ 467697.21	1.55	grn foc
+ 467703.70	1.84	grn foc
+ 467710.36	1.81	grn foc
+ 467724.13	1.04	grn foc
+ 467728.03	2.30	grn foc
+ 467752.66	0.00	fix: unsure
+ 467753.56	2.25	whp ? non
+ 467769.78	1.11	grn foc
+ 467773.41	2.03	grn foc
+ 467776.67	1.30	grn foc
+ 467780.49	1.20	grn foc
+ 467782.35	0.00	fix: unsure - gig?
+ 467783.13	0.29	str ? cub non
+ 467784.40	1.97	grn foc
+ 467791.70	1.66	grn foc
+ 467797.81	1.41	grn foc
+ 467806.84	1.82	grn foc
+ 467817.47	1.45	grn foc
+ 467835.72	1.62	grn foc
+ 467841.46	1.49	grn foc
+ 467848.11	1.80	grn foc
+ 467862.78	2.13	grn foc
+ 467872.64	0.64	grn foc
+ 467898.64	1.37	grn foc
+ 467911.60	1.84	grn foc
+ 467927.21	1.99	grn foc
+ 467939.55	1.39	grn foc
+ 467953.20	1.71	grn foc
+ 467993.45	0.94	grn foc
+ 468005.55	1.54	grn foc
+ 468024.89	0.96	grn foc
+ 468043.09	1.85	grn foc
+ 468055.47	1.54	grn foc
+ 468079.74	1.50	grn foc
+ 468092.72	1.40	grn foc
+ 468132.34	1.10	grn foc
+ 468156.79	1.71	grn foc
+ 468262.94	0.93	grn foc
+ 468342.88	0.93	grn foc
+ 468349.42	1.85	grn foc
+ 468360.55	1.60	grn foc
+ 468365.30	1.56	grn foc
+ 468369.33	1.86	grn foc
+ 468381.24	1.49	grn foc
+ 468392.92	2.65	grn foc
+ 468400.48	1.06	grn foc
+ 468406.09	2.15	grn foc
+ 468424.03	1.71	grn foc
+ 468433.28	2.19	grn foc
+ 468440.05	3.14	grn foc
+ 468511.03	0.96	grn foc
+ 468543.64	1.90	grn foc
+ 468556.19	2.09	grn foc
+ 468564.22	2.57	grn foc
+ 468572.94	2.52	grn foc
+ 468584.33	1.63	grn foc
+ 468588.77	2.13	grn foc
+ 468593.28	1.81	grn foc
+ 468598.08	1.62	grn foc
+ 468624.13	1.38	grn foc
+ 468637.56	1.95	grn foc
+ 468646.93	2.39	grn foc
+ 468651.75	1.66	grn foc
+ 468674.87	1.82	grn foc
+ 468698.18	2.64	grn foc
+ 468702.90	1.36	grn foc
+ 468718.16	1.32	grn foc
+ 468734.05	0.66	whp non
+ 468751.97	0.00	fix: unsure whether vocalisation
+ 468752.75	0.29	oth foc
+ 468754.00	0.00	fix: whp non, in close proximity to focal hyena?
+ 468754.81	1.40	whp non
+ 468760.73	2.59	whp foc
+ 468764.98	1.88	whp non
+ 468766.72	2.55	whp foc
+ 468770.25	1.97	whp non
+ 468772.28	2.81	whp foc
+ 468776.39	1.95	whp non
+ 468778.45	2.47	whp foc
+ 468782.76	1.73	whp non
+ 468784.31	2.58	whp foc
+ 468788.55	0.00	fix: unsure whether one or two non-focal hyenas
+ 468789.08	1.11	whp non
+ 468790.18	0.80	whp non
+ 468790.63	2.71	whp foc
+ 468794.40	1.69	whp non
+ 468799.79	2.57	whp non
+ 468805.67	2.48	whp non
+ 468807.25	1.08	grn foc
+ 468829.67	1.67	grn foc
+ 468887.34	1.24	grn foc
+ 469133.81	1.27	grn foc
+ 469137.81	0.00	fix: unsure
+ 469138.39	0.64	oth non
+ 469155.97	0.29	oth unf
+ 469157.06	0.00	fix: unsure - one long oth?
+ 469157.66	0.14	oth non
+ 469157.81	1.67	whp ? non
+ 469191.11	1.29	grn foc
+ 469208.71	1.53	grn foc
+ 469227.07	0.93	grn foc
+ 469231.38	0.26	oth non
+ 469298.62	1.70	grn foc
+ 469321.69	1.44	grn foc
+ 469337.57	1.58	grn foc
+ 469348.61	1.91	grn foc
+ 469355.64	2.13	grn foc
+ 469363.46	1.25	grn foc
+ 469376.76	1.33	grn foc
+ 469386.60	0.60	whp non
+ 469389.66	1.18	whp non
+ 469393.83	1.89	whp non
+ 469398.18	1.01	grn foc
+ 469398.26	2.04	whp non
+ 469402.76	1.57	whp non
+ 469404.25	1.86	grn foc
+ 469407.41	1.89	whp non
+ 469408.74	2.08	grn foc
+ 469412.32	1.13	whp non
+ 469412.90	2.04	grn foc
+ 469417.44	0.00	fix: unsure
+ 469418.00	1.59	oth unf
+ 469438.05	1.41	grn foc
+ 469447.76	1.67	grn foc
+ 469459.00	1.96	grn foc
+ 469464.80	2.76	grn foc
+ 469470.35	2.32	grn foc
+ 469473.73	2.13	grn foc
+ 469476.64	1.99	grn foc
+ 469480.04	2.10	grn foc
+ 469483.53	1.88	grn foc
+ 469486.34	1.88	grn foc
+ 469489.71	1.91	grn foc
+ 469492.71	1.94	grn foc
+ 469496.20	1.91	grn foc
+ 469499.35	1.85	grn foc
+ 469503.50	1.88	grn foc
+ 469507.44	1.66	grn foc
+ 469511.41	1.37	grn foc
+ 469514.55	1.54	grn foc
+ 469526.54	1.99	grn foc
+ 469536.87	2.36	grn foc
+ 469545.07	2.45	grn foc
+ 469559.81	3.23	grn foc
+ 469564.50	1.96	grn foc
+ 469575.57	2.87	grn foc
+ 469583.67	2.29	grn foc
+ 469588.70	3.21	grn foc
+ 469597.97	2.76	grn foc
+ 469605.48	2.86	grn foc
+ 469614.34	2.57	grn foc
+ 469617.99	2.20	grn foc
+ 469621.09	2.02	grn foc
+ 469622.69	0.00	fix: unsure whether bird or str
+ 469623.77	1.98	grn foc
+ 469624.02	1.22	unk
+ 469625.76	0.33	grn ? unf
+ 469626.28	1.75	grn foc
+ 469626.66	0.00	fix: unsure
+ 469628.04	0.34	grn ? unf
+ 469628.63	2.37	grn foc
+ 469630.99	0.43	rum ? unf
+ 469631.69	2.28	grn foc
+ 469631.93	0.00	fix: unsure - rums (?) too faint?
+ 469633.97	0.43	rum ? unf
+ 469634.92	2.58	grn foc
+ 469638.12	2.25	grn foc
+ 469641.71	2.52	grn foc
+ 469644.98	1.95	grn foc
+ 469647.50	1.73	grn foc
+ 469649.98	2.44	grn foc
+ 469653.17	2.09	grn foc
+ 469657.00	2.30	grn foc
+ 469660.48	1.49	grn foc
+ 469663.28	1.67	grn foc
+ 469668.00	1.23	grn foc
+ 469671.83	1.33	grn foc
+ 469675.46	0.69	gig non
+ 469678.53	1.59	grn foc
+ 469682.41	1.73	grn foc
+ 469686.01	1.85	grn foc
+ 469689.10	1.31	grn foc
+ 469692.03	0.85	sql ? non
+ 469692.90	1.12	grn foc
+ 469693.76	0.69	sql non
+ 469694.14	0.00	fix: unsure
+ 469694.51	0.55	sql non
+ 469694.89	0.69	grn foc
+ 469695.26	0.56	sql non
+ 469695.77	0.00	fix: one long sql?
+ 469695.88	0.82	sql non
+ 469697.06	1.15	grn foc
+ 469698.83	1.73	grn foc
+ 469701.32	1.53	grn foc
+ 469705.18	1.64	grn foc
+ 469709.99	1.82	grn foc
+ 469712.63	1.30	grn foc
+ 469715.64	1.70	grn foc
+ 469718.10	1.55	grn foc
+ 469722.86	1.45	grn foc
+ 469731.59	1.18	grn foc
+ 469734.22	2.26	grn foc
+ 469736.76	1.54	grn foc
+ 469739.37	1.06	grn foc
+ 469742.45	1.72	grn foc
+ 469744.73	0.92	grn foc
+ 469745.83	0.78	str cub non
+ 469746.06	0.00	fix: non-focal gig?
+ 469746.83	0.37	str cub non
+ 469747.21	0.65	gig ? unf
+ 469747.99	1.31	str cub non
+ 469752.21	0.79	grn foc
+ 469758.99	0.53	gig non
+ 469760.89	0.20	oth non
+ 469788.41	1.35	grn foc
+ 469801.41	0.99	grn foc
+ 469812.74	2.00	grn foc
+ 469818.86	1.22	grn foc
+ 469821.98	0.00	fix: unsure - str followed by gig?
+ 469822.92	1.88	str cub non
+ 469823.57	1.58	gig ? non
+ 469825.90	0.95	grn foc
+ 469827.97	0.86	grn foc
+ 469828.70	0.59	str cub non
+ 469830.78	1.81	str cub non
+ 469880.66	0.00	fix: collar sounds?
+ 469881.92	0.44	rum ? foc
+ 469998.00	0.00	EOA

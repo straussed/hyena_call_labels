@@ -1,0 +1,29 @@
+ 16021.99	0.00	SOA
+ 16031.04	3.64	grn unf
+ 16041.06	3.42	grn foc
+ 16046.94	3.61	grn foc
+ 16089.26	2.49	grn ? foc
+ 16099.23	3.04	grn foc
+ 16104.82	2.82	grn foc
+ 16111.54	3.78	grn foc
+ 16117.19	3.11	grn foc
+ 16121.24	1.81	grn focal
+ 16123.69	1.55	grn foc
+ 16127.11	2.50	grn foc
+ 16130.21	1.67	grn foc
+ 16338.27	2.37	grl foc
+ 16347.47	2.13	whp non
+ 16353.47	1.51	whp foc
+ 16358.80	2.61	whp non
+ 16358.87	2.68	whp foc
+ 16363.60	1.99	whp non
+ 16365.21	1.94	whp foc
+ 16368.13	2.13	whp non
+ 16370.81	2.06	whp foc
+ 16373.08	1.74	whp non
+ 16378.07	2.01	whp foc
+ 16378.89	1.78	whp non
+ 16509.94	1.99	grn ? foc
+ 16513.57	1.78	grn ? foc
+ 16518.24	1.30	grn ? foc
+ 16612.35	0.00	eoa

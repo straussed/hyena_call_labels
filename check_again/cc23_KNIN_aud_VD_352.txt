@@ -1,0 +1,7 @@
+ 478135.00	0.00	soa
+ 478290.34	0.07	oth foc
+ 478510.13	0.00	fix: unsure
+ 478510.73	0.14	oth foc
+ 478511.80	0.00	fix: unsure - sounds like burp?
+ 478512.52	0.14	oth foc
+ 478735.00	0.00	eoa

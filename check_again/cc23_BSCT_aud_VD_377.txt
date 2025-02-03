@@ -1,0 +1,92 @@
+ 629450.26	1.77	whp foc
+ 629452.00	0.00	soa
+ 629457.96	1.73	whp foc
+ 629459.06	0.00	fix: unsure
+ 629459.68	0.67	unk
+ 629463.85	1.68	whp foc
+ 629469.36	1.75	whp foc
+ 629474.59	1.88	whp foc
+ 629476.35	0.71	unk
+ 629479.80	1.69	whp foc
+ 629495.14	1.84	grn foc
+ 629498.90	1.66	grn foc
+ 629502.65	0.97	grn foc
+ 629505.48	0.79	grn foc
+ 629507.71	1.27	grn foc
+ 629513.48	1.26	grn foc
+ 629516.71	0.79	grn foc
+ 629520.86	0.74	grn foc
+ 629528.70	0.31	oth foc
+ 629536.84	0.63	grn foc
+ 629542.43	0.74	str cub ? non
+ 629543.38	1.68	oth foc
+ 629543.40	1.37	str cub non
+ 629544.24	0.00	fix: unsure whether whp - yawn-like?
+ 629544.86	1.57	whp non
+ 629545.94	0.00	fix: three hyenas?
+ 629546.57	2.24	skp, to many overlapping calls.
+ 629546.58	0.99	oth non
+ 629546.76	0.91	sql ? non
+ 629547.49	1.29	str ? cub non
+ 629548.14	0.64	sql ? non
+ 629549.14	0.73	whp foc
+ 629549.73	1.06	str cub non
+ 629549.92	0.00	fix: unsure whether str or sql
+ 629550.87	3.47	sql non
+ 629554.45	1.22	whp foc
+ 629556.17	1.25	whp foc
+ 629557.42	0.49	oth non
+ 629557.46	0.00	fix: unsure
+ 629557.91	1.66	sql non
+ 629559.44	0.40	oth non
+ 629559.76	0.72	whp foc
+ 629561.00	1.73	sql non
+ 629561.85	0.41	oth non
+ 629562.17	0.00	fix: unsure whether whp
+ 629562.98	2.15	whp foc
+ 629563.87	1.61	sql non
+ 629565.87	1.66	sql non
+ 629568.09	0.08	oth foc
+ 629568.21	2.03	sql non
+ 629570.25	0.43	oth non
+ 629570.44	1.71	sql non
+ 629573.57	1.39	sql non
+ 629576.11	1.60	sql non
+ 629577.87	1.15	grn non
+ 629578.87	0.09	oth foc
+ 629579.10	2.07	sql non
+ 629581.84	1.98	sql non
+ 629583.88	0.85	grn non
+ 629584.21	0.00	fix: unsure whether whp
+ 629584.81	1.98	whp foc
+ 629586.85	1.72	whp ? non
+ 629589.39	1.37	sql non
+ 629589.91	1.03	grn non
+ 629591.72	2.38	whp foc
+ 629593.82	2.17	whp ? non
+ 629594.29	1.32	grn ? non
+ 629596.29	1.23	grn foc
+ 629600.58	0.88	str cub non
+ 629605.27	0.00	fix: unsure
+ 629605.81	0.44	str cub non
+ 629631.72	0.57	gig unf
+ 629688.00	0.00	fix: grn?
+ 629688.56	1.16	whp non
+ 629705.79	1.07	grn foc
+ 629708.31	0.00	fix: two hyenas?
+ 629709.34	1.39	grn foc
+ 629709.87	0.55	oth non
+ 629711.71	1.17	grn foc
+ 629713.61	0.56	oth foc
+ 629713.72	0.50	oth non
+ 629757.25	2.17	grn non
+ 629759.96	1.06	grn foc
+ 629762.12	0.97	grn foc
+ 629764.07	0.82	grn non
+ 629766.96	0.92	grn foc
+ 629796.45	1.24	grn foc
+ 629800.29	0.83	grrn foc
+ 629803.25	1.51	grn foc
+ 629810.82	1.11	grn foc
+ 630010.85	3.20	grn foc
+ 630052.00	0.00	eoa

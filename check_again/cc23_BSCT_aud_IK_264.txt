@@ -1,0 +1,24 @@
+ 60712.01	0.00	soa
+ 60752.20	0.76	oth unf
+ 60946.91	0.37	oth unf
+ 61064.54	0.23	oth cub non
+ 61080.17	0.41	oth cub non
+ 61082.45	0.20	oth cub non
+ 61084.84	0.38	unk
+ 61138.12	0.50	oth foc
+ 61143.40	0.18	oth non
+ 61143.74	0.25	oth non
+ 61146.77	0.42	oth non
+ 61152.46	0.29	oth non
+ 61179.92	0.35	oth non
+ 61183.28	0.28	oth non
+ 61195.57	0.44	oth foc
+ 61239.60	0.89	grn foc
+ 61258.97	0.77	fix: seq[grn+rum] ? foc
+ 61262.42	0.94	grn foc
+ 61265.96	0.85	grn foc
+ 61278.97	0.57	grn foc
+ 61288.90	1.48	fix: grn or rum ? foc
+ 61293.15	0.52	rum foc
+ 61296.48	0.69	rum foc
+ 61312.01	0.00	eoa

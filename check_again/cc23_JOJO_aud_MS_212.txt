@@ -1,0 +1,42 @@
+ 223787.00	0.00	SOA
+ 223862.92	0.87	grn foc
+ 223867.58	1.67	grn foc
+ 223876.49	0.64	grn foc
+ 223881.23	0.68	grn foc
+ 223888.22	0.97	grn foc
+ 223899.13	0.40	oth unf
+ 223899.57	0.00	fix: unsure whether these fall under giggles
+ 223903.00	0.28	oth non
+ 223905.98	0.57	oth non
+ 223914.93	1.63	grn foc
+ 223918.51	1.41	grn foc
+ 223923.78	1.38	grn foc
+ 223928.97	2.31	grn foc
+ 223932.74	1.84	grn foc
+ 223935.31	1.53	grn foc
+ 223937.90	1.87	grn foc
+ 223941.49	1.49	grn foc
+ 223945.76	1.79	grn foc
+ 223952.48	2.09	grn foc
+ 223955.62	1.87	grn foc
+ 223959.95	2.03	grn foc
+ 223965.54	2.00	grn foc
+ 223970.95	1.83	grn foc
+ 223975.78	1.79	grn foc
+ 223981.92	1.69	grn foc
+ 223985.58	1.35	grn foc
+ 223987.97	1.57	grn foc
+ 223991.67	1.05	grn foc
+ 223995.43	1.35	grn foc
+ 224001.19	1.19	grn foc
+ 224007.90	1.31	grn foc
+ 224013.88	1.49	grn foc
+ 224018.83	1.75	grn foc
+ 224051.26	0.30	oth foc
+ 224052.51	0.91	grn foc
+ 224054.84	1.47	grn foc
+ 224063.64	1.05	grn foc
+ 224070.34	1.50	grn foc
+ 224090.10	0.73	grn foc
+ 224106.70	0.41	oth non
+ 224147.00	0.00	EOA

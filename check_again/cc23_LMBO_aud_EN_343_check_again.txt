@@ -1,0 +1,6 @@
+ 453201.00	0.00	soa
+ 453881.96	1.90	whp non
+ 453888.70	2.72	fix: whp non
+ 453897.59	2.89	fix (inaudible): whp non
+ 453907.44	2.62	whp non
+ 454131.02	0.00	eoa

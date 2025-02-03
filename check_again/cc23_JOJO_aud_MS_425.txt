@@ -1,0 +1,6 @@
+ 814967.00	0.00	SOA
+ 815059.83	0.00	fix: long enough to be a grn?
+ 815060.60	0.48	grn ? foc
+ 815308.29	0.00	fix: unsure
+ 815309.03	0.52	oth unf
+ 815567.00	0.00	EOA

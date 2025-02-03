@@ -1,0 +1,223 @@
+ 629479.00	0.00	soa
+ 629479.31	0.00	fix: just grn?
+ 629479.41	1.85	fus[whp+gwl] foc
+ 629482.30	1.09	grn foc
+ 629482.71	1.62	whp ? non
+ 629482.72	0.00	fix: grn, as opposed to whp?
+ 629484.35	0.87	grn foc
+ 629485.36	1.79	whp ? non
+ 629485.38	0.00	fix: whp-like, but unsure whether whp
+ 629485.93	1.22	grn foc
+ 629487.34	0.92	grn foc
+ 629488.07	0.59	whp ? non
+ 629488.92	0.00	fix: unsure; too short to be whp?
+ 629489.01	0.73	grn foc
+ 629489.26	0.39	whp non
+ 629489.75	1.14	grn ? non
+ 629491.21	0.00	fix: distant whp?
+ 629491.42	1.19	oth non
+ 629492.60	0.77	grn foc
+ 629493.46	0.96	grn non
+ 629494.53	0.85	grn foc
+ 629496.05	0.00	fix: unsure - whp-like
+ 629496.57	1.69	whp ? non
+ 629498.28	1.04	gwl foc
+ 629498.38	0.00	fix: grn 'bout'?
+ 629499.32	0.83	oth non
+ 629500.16	0.93	grn foc
+ 629501.13	0.62	oth non
+ 629501.81	0.93	grn foc
+ 629502.74	0.83	oth non
+ 629504.04	1.01	grn foc
+ 629505.05	1.07	oth non
+ 629506.12	0.98	grn foc
+ 629507.23	0.00	fix: distant whp?
+ 629507.55	0.96	str cub non
+ 629508.90	0.74	grn foc
+ 629515.79	0.00	fix: only grns?
+ 629516.06	0.00	fix: unsure
+ 629516.17	1.32	grn ? non
+ 629516.62	0.46	grn foc
+ 629518.02	0.67	grn foc
+ 629519.73	0.67	grn foc
+ 629520.43	0.89	grn ? non
+ 629521.35	0.62	grn foc
+ 629522.75	0.76	grn foc
+ 629523.64	0.50	oth non
+ 629524.34	0.70	grn foc
+ 629525.94	0.62	grn foc
+ 629526.72	0.70	oth non
+ 629527.66	0.93	grn foc
+ 629529.11	0.35	oth non
+ 629529.47	0.97	grn foc
+ 629530.23	0.82	oth non
+ 629534.93	1.43	grn foc
+ 629542.32	0.00	fix: grn 'bout'?
+ 629543.07	1.42	grn foc
+ 629544.50	0.00	fix: unsure
+ 629544.61	0.77	whp ? non
+ 629545.40	0.93	grn foc
+ 629547.20	1.02	grn foc
+ 629549.07	0.98	grn foc
+ 629551.31	0.00	fix: unsure
+ 629551.91	0.59	grn ? non
+ 629552.47	1.13	grn foc
+ 629554.86	0.00	fix: unsure
+ 629555.34	1.68	oth ? non
+ 629559.07	1.38	grn foc
+ 629561.32	0.91	grn foc
+ 629563.58	0.94	grn foc
+ 629566.90	1.01	grn foc
+ 629568.29	0.00	fix: unsure whether grns
+ 629568.82	0.24	str cub non
+ 629569.13	1.21	grn ? foc
+ 629570.40	0.59	str cub non
+ 629571.02	1.48	grn ? foc
+ 629572.50	0.56	oth non
+ 629573.09	1.31	grn ? foc
+ 629574.11	3.08	fix: too many overlapping calls - three hyenas?
+ 629574.12	0.66	str cub non
+ 629574.78	2.41	sql non
+ 629574.99	1.06	whp non
+ 629575.70	0.74	whp non
+ 629577.29	3.62	str cub non
+ 629578.21	0.56	grn non
+ 629578.99	0.00	fix: multiple str cubs?
+ 629580.09	0.41	grn non
+ 629580.94	0.00	fix: unsure
+ 629580.99	1.51	fus[gwl+whp] ? non
+ 629582.43	0.37	oth non
+ 629582.62	1.31	fus[whp+gwl] ? non
+ 629583.95	0.38	oth non
+ 629584.33	1.10	str cub non
+ 629584.39	0.00	fix: unsure
+ 629584.45	1.23	whp ? non
+ 629585.89	0.91	grn foc
+ 629586.30	0.71	gwl ? non
+ 629586.58	0.41	fix: unsure
+ 629587.43	1.85	str cub non
+ 629588.17	0.00	fix: focality
+ 629588.46	0.42	oth unf
+ 629589.54	0.70	whp non
+ 629590.49	1.55	str cub non
+ 629592.76	1.31	str cub non
+ 629594.76	2.01	str cub non
+ 629595.82	0.00	fix: unsure
+ 629596.64	0.94	whp ? foc
+ 629597.10	1.59	str cub non
+ 629598.90	0.00	fix: unsure - whp-like
+ 629599.05	2.69	whp ? non
+ 629599.83	1.57	str cub non
+ 629602.53	1.75	str cub non
+ 629604.45	1.05	grn foc
+ 629605.40	2.32	str cub non
+ 629608.19	2.17	str cub non
+ 629610.46	0.95	grn foc
+ 629611.36	1.91	whp ? non
+ 629612.19	1.12	grn unf
+ 629612.32	3.02	whp ? non
+ 629613.54	0.00	fix: again, unsure - whp-like
+ 629615.84	1.46	str cub non
+ 629616.47	1.07	grn foc
+ 629617.85	0.00	fix: unsure
+ 629618.30	2.31	whp ? non
+ 629618.44	1.29	grn foc
+ 629620.11	2.13	whp ? non
+ 629620.83	1.42	whp ? foc
+ 629622.27	0.31	oth unf
+ 629622.65	1.39	grn foc
+ 629623.01	0.91	grn non
+ 629624.09	0.79	grn foc
+ 629624.95	0.31	oth unf
+ 629625.31	0.64	grn foc
+ 629626.62	0.54	grn foc
+ 629627.37	0.36	str cub non
+ 629627.75	0.93	grn foc
+ 629628.66	0.00	fix: unsure
+ 629629.17	0.65	rum ? foc
+ 629630.52	0.00	fix: focality
+ 629630.78	1.54	oth unf
+ 629632.37	1.19	gig non
+ 629633.60	0.59	whp non
+ 629634.98	0.37	unk
+ 629635.30	0.00	fix: focality
+ 629635.84	0.70	oth unf
+ 629636.59	0.31	oth non
+ 629637.48	0.49	oth non
+ 629640.92	0.44	oth non
+ 629643.01	0.26	oth non
+ 629643.78	0.00	fix: unsure
+ 629644.48	1.17	whp ? unf
+ 629658.21	0.58	gig non
+ 629663.34	0.00	fix: unsure, extension of gig?
+ 629664.13	0.52	oth non
+ 629664.81	0.00	fix: unsure
+ 629665.41	1.26	grn unf
+ 629707.46	1.05	oth non
+ 629709.91	0.76	whp non
+ 629714.55	2.27	whp non
+ 629715.56	0.00	fix: seq[whp+grn]?
+ 629716.56	1.45	grn foc
+ 629728.13	1.65	grn non
+ 629732.41	0.99	grn non
+ 629733.90	1.03	grn non
+ 629735.89	1.18	grn foc
+ 629736.51	0.43	gig non
+ 629737.48	0.50	grn foc
+ 629737.62	0.06	oth non
+ 629738.25	0.33	grn foc
+ 629739.06	0.44	grn foc
+ 629740.16	0.56	grn foc
+ 629740.17	0.08	oth non
+ 629752.33	1.45	grn foc
+ 629757.13	0.77	grn foc
+ 629761.57	0.79	whp non
+ 629764.37	0.85	whp non
+ 629765.65	1.03	whp non
+ 629767.70	1.02	whp non
+ 629768.66	1.52	whp non
+ 629773.48	1.40	whp non
+ 629777.38	1.63	whp non
+ 629781.31	2.04	whp non
+ 629783.46	0.00	fix: unsure, whp-like
+ 629783.98	1.39	whp ? non
+ 629785.73	1.61	grn foc
+ 629788.15	1.48	grn foc
+ 629790.09	1.05	grn foc
+ 629791.98	0.50	grn non
+ 629793.51	0.79	grn non
+ 629798.12	0.20	oth non
+ 629799.06	0.46	grn foc
+ 629802.94	0.98	grn foc
+ 629807.59	1.26	grn foc
+ 629815.55	0.78	grn foc
+ 629817.69	0.12	oth non
+ 629822.57	1.52	whp non
+ 629823.00	1.20	grn non
+ 629826.84	0.79	grn non
+ 629829.80	1.44	grn non
+ 629837.11	1.37	grn non
+ 629844.30	0.16	oth foc
+ 629848.51	0.00	fix: focality
+ 629848.58	0.35	oth unf
+ 629852.96	1.46	whp non
+ 629856.60	0.58	whp non
+ 629858.89	1.59	whp non
+ 629888.09	2.08	whp non
+ 629893.10	1.20	whp non
+ 629896.64	0.00	fix: leaning towards it being one hyena
+ 629897.22	0.89	whp non
+ 629897.69	1.33	whp non
+ 629902.99	1.36	whp non
+ 629909.76	2.64	whp non
+ 629919.25	0.79	whp non
+ 629925.46	2.14	whp non
+ 629932.62	2.28	whp non
+ 629942.34	0.86	whp non
+ 629950.60	1.25	whp non
+ 630009.35	0.96	grn unf
+ 630010.02	0.00	fix: focality
+ 630011.86	1.29	grn foc
+ 630015.14	1.20	grn foc
+ 630037.83	0.81	grn non
+ 630079.01	0.00	eoa

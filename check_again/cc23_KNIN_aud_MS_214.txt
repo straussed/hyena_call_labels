@@ -1,0 +1,28 @@
+ 36295.00	0.00	SOA
+ 36606.94	0.17	oth foc
+ 36612.95	2.31	whp foc
+ 36619.23	2.46	whp foc
+ 36625.76	2.68	whp foc
+ 36633.77	2.45	whp foc
+ 36640.47	2.17	whp foc
+ 37070.83	0.56	whp foc
+ 37073.40	1.84	whp foc
+ 37078.29	1.58	whp foc
+ 37082.89	1.23	whp foc
+ 37087.34	1.41	whp foc
+ 37091.54	1.42	whp foc
+ 37095.40	1.42	whp foc
+ 37099.36	1.52	whp foc
+ 37103.59	1.53	whp foc
+ 37107.57	1.73	whp foc
+ 37111.45	2.43	whp foc
+ 37763.61	1.16	whp foc
+ 37767.61	2.20	whp foc
+ 37773.99	2.30	whp foc
+ 37780.72	2.61	whp foc
+ 37789.17	2.49	whp foc
+ 37934.47	0.00	fix - unsure whether following sequence consists of grn or whp
+ 37934.59	1.46	grn ? non
+ 37944.13	1.52	grn non
+ 37954.55	1.73	grn non
+ 38215.01	0.00	EOA

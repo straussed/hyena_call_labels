@@ -1,0 +1,52 @@
+ 288201.00	0.00	soa
+ 288449.07	0.49	oth foc
+ 288452.20	0.68	oth foc
+ 288453.09	0.35	oth foc
+ 288481.72	3.69	str non
+ 288485.96	3.30	str cub non
+ 288489.57	2.19	seq[grn + whp] ? foc
+ 288491.38	2.46	gig unf
+ 288493.97	0.47	str cub non
+ 288495.05	2.01	sql ? foc
+ 288498.92	1.67	sql foc
+ 288500.13	1.70	oth non
+ 288504.21	0.44	unk
+ 288505.64	0.58	oth foc
+ 288507.81	1.35	whp non
+ 288511.41	1.60	grn foc
+ 288512.39	1.38	whp ? non
+ 288514.88	2.92	fix: or is it just one grn
+ 288514.90	1.81	grn foc
+ 288516.66	1.15	grn non
+ 288521.48	1.55	grn non
+ 288523.01	0.70	oth non
+ 288524.17	2.18	grn foc
+ 288527.23	2.51	fix: not sure if there is one or more grn
+ 288527.23	2.51	grn non
+ 288550.60	1.19	grn foc
+ 288564.04	1.70	rum non
+ 288569.35	0.87	rum non
+ 288570.84	1.18	grn foc
+ 288575.59	1.11	grn foc
+ 288580.99	1.06	grn foc
+ 288584.64	2.08	grn foc
+ 288595.10	1.45	grn foc
+ 288631.58	1.33	grn foc
+ 288657.25	0.68	grn unf
+ 288692.89	2.24	grn foc
+ 288700.07	1.40	grn unf
+ 288723.89	1.69	grn non
+ 288749.32	1.83	str cub non
+ 288751.15	0.88	whp non
+ 288754.24	0.99	whp non
+ 288756.90	1.08	whp non
+ 288759.91	1.41	whp non
+ 288763.67	2.08	fix: not sure
+ 288763.68	2.06	seq [whp + gwl] non
+ 288768.21	1.31	whp non
+ 288772.50	1.51	whp non
+ 288775.64	1.75	whp non
+ 288779.79	2.16	whp non
+ 288784.22	1.95	whp non
+ 288999.03	0.89	unk
+ 289101.02	0.00	eoa

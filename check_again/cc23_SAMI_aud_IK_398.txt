@@ -1,0 +1,61 @@
+ 728640.99	0.00	soa
+ 728736.12	0.50	oth non
+ 728739.29	0.25	oth non
+ 728742.20	0.50	oth non
+ 728745.03	0.65	oth non
+ 728748.91	0.24	oth non
+ 728752.07	1.04	whp non
+ 728753.09	0.00	fix: unsure - foc?
+ 728753.15	0.65	oth unf
+ 728755.64	0.27	oth foc
+ 728757.72	0.00	fix: unsure whether foc or non
+ 728758.27	0.42	oth unf
+ 728759.78	0.38	oth unf
+ 728760.88	2.49	oth unf
+ 728765.11	0.91	oth unf
+ 728766.03	1.72	oth unf
+ 728767.98	0.00	fix: non, but with accelerometer rustling noise?
+ 728768.62	0.98	sql foc
+ 728770.37	0.42	oth non
+ 728774.75	0.27	oth foc
+ 728776.16	0.45	oth foc
+ 728777.73	0.00	fix: unsure whether foc, non
+ 728778.76	0.27	oth foc
+ 728782.71	1.22	oth foc
+ 728785.41	1.38	oth foc
+ 728788.37	1.25	oth unf
+ 728790.71	1.14	oth unf
+ 728793.98	0.57	oth unf
+ 728795.72	0.69	oth unf
+ 728796.85	1.26	oth unf
+ 728798.59	1.45	oth unf
+ 728801.55	0.54	oth unf
+ 728804.49	0.00	fix: unsure
+ 728804.77	0.80	rum ? unf
+ 728806.32	0.85	oth foc
+ 728809.00	0.99	oth foc
+ 728811.65	1.42	oth foc
+ 728814.63	1.37	oth foc
+ 728816.22	0.15	oth foc
+ 728817.01	0.00	fix: unsure - giggle-like
+ 728817.97	1.27	oth foc
+ 728819.99	2.48	oth foc
+ 728823.30	1.44	oth foc
+ 728826.30	0.75	oth foc
+ 728850.17	0.00	fix: unsure
+ 728850.78	1.41	oth unf
+ 729065.05	0.55	oth non
+ 729068.38	0.55	oth non
+ 729071.87	0.86	oth non
+ 729075.62	0.87	oth non
+ 729082.18	0.83	oth non
+ 729215.22	2.22	oth non
+ 729221.95	1.76	oth non
+ 729225.72	0.00	fix: unsure
+ 729226.51	0.53	str ? cub non
+ 729226.98	1.29	oth non
+ 729228.97	0.58	oth non
+ 729230.48	0.74	oth non
+ 729234.99	0.79	oth non
+ 729237.17	0.64	oth non
+ 729241.01	0.00	eoa

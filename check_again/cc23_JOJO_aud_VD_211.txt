@@ -1,0 +1,23 @@
+ 218747.00	0.00	soa
+ 218921.67	2.94	grn foc
+ 218925.45	0.00	fix: inclined to say these are longer groans, but not entirely sure
+ 218926.80	3.51	whp foc
+ 218932.88	3.46	whp foc
+ 218940.28	3.17	whp foc
+ 218945.49	2.80	whp foc
+ 218957.77	2.51	whp foc
+ 218965.20	3.10	whp foc
+ 218972.88	2.34	whp foc
+ 218987.44	0.00	fix: gig?
+ 218988.04	0.36	str cub non ?
+ 218988.43	2.15	whp foc
+ 219172.40	0.47	whp foc
+ 219175.70	2.29	whp foc
+ 219181.12	2.29	whp foc
+ 219185.87	2.24	whp foc
+ 219190.26	1.59	whp foc
+ 219194.27	2.04	whp foc
+ 219198.68	1.88	whp foc
+ 219203.01	1.99	whp foc
+ 219207.71	2.36	whp foc
+ 219287.01	0.00	eoa

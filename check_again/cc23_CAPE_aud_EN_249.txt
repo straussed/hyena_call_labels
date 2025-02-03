@@ -1,0 +1,7 @@
+ 12816.00	0.00	soa
+ 13024.60	0.32	sql non
+ 13025.33	0.62	oth non
+ 13026.60	0.22	oth non
+ 13027.13	0.28	oth non
+ 13048.52	0.48	fix: can be sequal but not sure
+ 13416.00	0.00	eoa
