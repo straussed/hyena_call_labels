@@ -6,7 +6,7 @@
  1748725.91	0.25	str cub non
  1748731.85	0.46	str cub non
  1748733.31	0.20	oth non
- 1748741.07	0.42	str cub non
+ 1748741.07	0.42	sql non
  1748744.54	1.20	str cub non
  1748774.07	0.19	oth unf
  1748775.41	0.20	oth unf
