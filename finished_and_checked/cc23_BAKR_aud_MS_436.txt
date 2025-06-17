@@ -1,7 +1,6 @@
  878906.00	0.00	SOA
  879190.95	2.02	grn foc
  879193.80	3.22	grn foc
- 879197.44	0.00	fix - unsure whether focal or non focal; seq[oth+grn]?
  879197.44	0.89	oth non
  879198.40	0.19	oth non
  879198.87	0.17	oth non

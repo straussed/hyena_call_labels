@@ -1,6 +1,4 @@
  291805.99	0.00	soa
- 291806.48	0.56	oth foc
- 291806.49	0.54	fix: can this fall under oth?
  291984.40	0.17	oth foc
  291987.90	1.25	whp foc
  291991.72	1.32	whp foc

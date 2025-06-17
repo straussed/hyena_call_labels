@@ -2,13 +2,11 @@
  36640.67	1.22	whp foc
  36644.11	1.47	whp foc
  36648.25	1.30	whp foc
- 36651.14	0.00	fix: call following whp?
  36652.24	1.49	whp foc
- 36653.72	0.92	grn ? non
  36656.54	1.67	whp foc
  36660.88	1.61	whp foc
  36665.33	1.75	whp foc
- 36923.01	1.90	grn ? foc
+ 36923.01	1.90	grn foc
  36962.23	1.49	whp foc
  36967.22	1.27	whp foc
  36971.36	1.32	whp foc
@@ -17,10 +15,7 @@
  36985.91	1.56	whp foc
  36991.44	1.49	whp foc
  36995.90	1.62	whp foc
- 37037.01	0.00	fix: two hyenas?
- 37037.74	1.28	whp foc
- 37037.78	0.81	grn unf
- 37038.16	0.85	grn unf
+ 37037.74	1.28	grn foc
  37048.82	1.37	grn foc
  37053.73	1.42	grn foc
  37060.45	1.50	grn foc
@@ -28,7 +23,7 @@
  37073.80	1.30	grn foc
  37077.87	1.54	grn foc
  37088.41	1.36	grn foc
- 37091.96	0.97	gnr foc
+ 37091.96	0.97	grn foc
  37101.80	1.36	grn foc
  37105.13	1.00	grn foc
  37115.14	1.31	grn foc
@@ -40,15 +35,13 @@
  37167.22	1.62	grn foc
  37173.76	1.41	grn foc
  37176.54	1.62	grn foc
- 37178.91	0.00	fix: unsure - two hyenas?
- 37180.10	1.55	fus[grn+whp] foc
- 37183.48	1.81	fus[grn+whp] foc
+ 37180.10	1.55	whp foc
+ 37183.48	1.81	whp foc
  37186.80	0.93	whp foc
  37189.23	1.10	whp foc
  37191.97	1.14	whp foc
- 37197.84	0.00	fix: unsure
- 37198.52	0.39	str ? cub non
- 37200.49	0.39	sql ? non
+ 37198.52	0.35	sql foc
+ 37200.47	0.51	sql foc
  37234.30	0.16	oth non
  37234.53	0.20	oth non
  37234.88	1.73	grn non
