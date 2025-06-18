@@ -1,42 +1,42 @@
  39726.71	0.00	soa
- 39736.13	0.62	whp non
- 39738.20	0.62	whp non
- 39740.14	0.48	whp cub non
- 39741.48	1.81	whp non
- 39748.48	0.26	unk
- 39755.52	1.41	whp non
- 39763.64	1.71	whp non
+ 39736.13	0.62	oth non
+ 39738.20	0.62	oth non
+ 39740.14	0.48	oth non
+ 39741.48	1.81	oth non
+ 39755.52	1.41	oth non
+ 39763.64	1.71	oth non
  39765.97	0.12	oth non
  39772.52	0.63	sql non
  39773.66	0.64	sql non
  39774.98	0.49	sql non
  39776.87	0.62	oth non
- 39777.49	1.63	whp non
- 39784.68	2.17	whp non 
- 39787.84	0.84	sql non
+ 39777.49	1.63	oth non
+ 39784.68	2.17	oth non
+ 39787.84	0.84	oth non
  39791.18	1.07	sql non
- 39792.97	1.23	whp non
- 39794.94	1.22	whp non
+ 39792.97	1.23	sql non
+ 39794.94	1.22	oth non
  39797.01	0.18	oth non
  39804.62	1.55	sql non
  39807.24	2.07	sql non
- 39811.53	0.48	whp non
- 39813.49	0.71	whp non
+ 39811.53	0.48	oth non
+ 39813.49	0.71	oth non
  39818.04	0.33	oth non
  39824.68	0.50	sql cub non
- 39826.90	0.76	sql cub non ?
- 39828.36	0.46	whp non
- 39829.66	1.91	whp non
+ 39826.90	0.76	sql cub non 
+ 39828.36	0.46	oth non
+ 39829.66	1.91	oth non
  39832.36	0.27	oth non
- 39834.84	0.55	unk
- 39836.14	1.05	whp non
- 39843.12	0.53	whp non
+ 39834.84	0.55	oth non
+ 39836.14	1.05	oth non
+ 39843.12	0.53	oth non
  39851.54	1.27	grn non
  39859.49	0.65	sql non
  39860.54	0.78	sql non
  39861.63	0.74	sql non
  39862.84	1.46	sql non
  39865.59	0.16	sql non
+ 39868.39	0.81	grn non
  39869.19	0.50	sql non
  39869.68	0.55	grn non
  39870.26	0.91	oth non
@@ -46,7 +46,7 @@
  39884.81	0.21	sql non
  39885.92	0.45	sql non
  39886.99	0.47	sql non
- 39887.90	0.26	oth non
+ 39887.90	0.26	sql non
  39889.33	2.82	fus [sql+gig] non
  39892.57	0.49	sql non
  39893.50	0.63	sql non
@@ -58,30 +58,33 @@
  39898.16	1.23	sql non
  39899.74	2.72	sql non
  39902.71	1.42	sql non
- 39904.46	0.72	str cub non ?
+ 39904.46	0.72	oth non
  39906.36	0.75	sql non
- 39907.86	0.78	whp non
- 39910.08	0.90	whp non
- 39912.65	0.83	whp non
+ 39907.86	0.78	oth non
+ 39910.08	0.90	oth non
+ 39912.65	0.83	oth non
  39914.23	0.23	oth non
- 39917.64	0.33	whp non
+ 39917.64	0.33	sql non
  39918.53	1.71	sql non
- 39920.29	0.51	grn foc
+ 39920.29	0.51	grn non
  39920.41	0.15	sql non
  39920.71	0.49	sql non
  39921.51	0.75	sql non
  39922.65	0.55	sql non
  39923.20	0.44	sql non
  39925.69	2.87	sql non
+ 39928.36	0.46	gig non
  39932.92	0.65	sql non
+ 39934.75	1.03	grn non
  39939.58	1.07	sql non
  39940.86	0.21	sql non
  39941.46	0.55	sql non
  39942.33	0.68	sql non
  39943.67	0.42	sql non
  39944.51	2.58	sql non
- 39947.63	1.80	fus [whp+sql] non ?
+ 39947.63	1.80	sql non
  39949.47	3.34	gig non
+ 39957.20	1.10	grn non
  39966.30	0.33	grn non
  39969.45	0.77	whp non
  39972.24	1.18	whp non
@@ -89,19 +92,19 @@
  39977.62	1.29	whp non
  39981.78	1.05	sql cub non ?
  39982.12	1.24	whp non
- 39983.58	1.06	oth foc
- 39985.79	1.19	grn foc
+ 39983.58	1.06	gwl foc
+ 39985.79	1.19	gwl foc
  39987.12	0.06	oth non
  39988.34	2.37	rum foc
  39991.65	0.54	whp non
- 39992.66	0.46	gig non
- 39993.72	0.78	rum non
+ 39992.66	0.46	gig foc
+ 39993.72	0.78	rum foc
  39994.65	1.03	whp non
  39995.31	0.41	gig non
  39997.78	1.57	sql non
  39999.64	1.10	whp non
  39999.65	0.27	sql non
- 40001.58	0.28	oth non
+ 40001.58	0.28	gig non
  40002.08	0.39	sql non
  40002.85	0.99	sql non
  40004.13	0.80	sql non
@@ -110,27 +113,20 @@
  40010.99	0.30	sql non
  40011.49	0.51	gig non
  40011.84	0.74	sql non
- 40012.99	0.43	sql cub non ?
- 40014.01	0.18	oth non
+ 40012.99	0.43	sql non
+ 40014.01	0.18	gig non
  40024.06	1.54	sql non
  40029.11	0.51	sql non
  40050.80	1.02	rum foc
- 40064.82	0.63	str cub non ?
- 40065.66	0.29	oth non
  40100.07	0.07	oth non
  40103.84	1.29	rum foc
  40112.28	3.95	rum foc
  40125.21	0.39	gig non
- 40131.30	0.38	oth non
- 40132.19	0.52	sql cub non ?
- 40137.16	0.87	grn non
- 40145.49	0.48	sql cub non ?
+ 40131.33	2.34	str cub non
  40154.16	0.60	str cub non
- 40179.16	0.66	sql cub non ?
+ 40179.16	0.66	sql cub non 
  40183.40	0.52	grn non
- 40184.56	0.10	str cub non
- 40184.71	0.62	grn non
- 40185.37	0.08	str cub non
+ 40184.64	0.71	grn non
  40197.77	0.88	whp non
  40200.82	0.99	whp non
  40201.75	1.47	whp non
@@ -141,7 +137,7 @@
  40220.22	1.52	whp non
  40231.00	0.89	whp non
  40234.58	0.79	whp non
- 40235.73	1.17	str non cub ?
+ 40235.73	1.17	str non cub 
  40237.94	1.07	whp non
  40242.03	1.27	whp non
  40245.83	1.41	whp non

@@ -1,85 +1,97 @@
  1748243.50	0.00	soa
- 1748531.29	0.44	oth non
- 1748535.26	0.16	oth non
- 1748536.21	0.52	str cub ? non
+ 1748531.29	0.44	prd
+ 1748533.38	15.15	fed foc
+ 1748535.26	0.16	prd
  1748548.66	0.89	sql ? unf
+ 1748550.22	15.30	fed ? foc
  1748556.88	0.17	oth non
- 1748565.35	0.35	oth non
+ 1748566.22	13.24	fed foc
  1748568.05	0.16	oth non
  1748570.52	1.36	str ? cub non
  1748573.26	0.93	oth non
- 1748579.19	0.33	oth non
+ 1748579.19	0.33	sql non
+ 1748580.33	11.54	fed foc
  1748581.28	0.30	sql non
- 1748583.66	0.56	oth non
+ 1748592.63	12.52	fed foc
  1748604.82	1.51	sql ? non
- 1748607.43	0.42	str cub non
+ 1748607.43	0.42	sql non
+ 1748609.34	15.70	fed foc
  1748626.10	1.38	sql non
- 1748629.41	0.31	sql ? non
- 1748647.09	0.40	str cub non
- 1748651.83	1.10	str cub non
+ 1748627.38	28.92	fed foc
+ 1748629.41	0.31	sql non
+ 1748647.09	0.40	gig non
+ 1748651.83	1.10	sql non
  1748654.14	0.14	oth non
- 1748654.76	0.60	str cub non
- 1748655.38	0.26	sql unf
+ 1748654.69	0.97	sql non
  1748656.30	0.42	oth non
  1748658.26	0.48	sql non
- 1748664.62	0.56	str ? cub non
- 1748673.38	0.21	str ? cub non
+ 1748664.62	0.56	sql non
+ 1748669.60	18.76	fed foc
+ 1748673.38	0.21	sql non
  1748674.84	0.16	oth non
  1748676.85	0.08	oth foc
  1748682.28	0.57	oth non
  1748685.29	2.57	str cub non
  1748688.74	0.74	gig foc
- 1748689.86	1.86	str ? cub non
+ 1748689.64	14.79	fed foc
+ 1748689.86	1.86	sql cub non
  1748693.60	0.38	oth non
  1748700.49	0.29	oth non
- 1748714.29	0.43	sql ? non
+ 1748705.33	22.74	fed foc
+ 1748714.29	0.43	sql non
  1748715.45	0.32	oth non
  1748715.97	0.33	oth non
  1748718.37	0.43	oth non
  1748727.79	1.69	sql non
- 1748729.86	0.89	str cub non
- 1748731.23	0.66	str cub non
- 1748733.48	1.24	gig ? unf
- 1748737.50	0.49	str cub non
+ 1748729.86	0.89	sql non
+ 1748731.23	0.66	sql non
+ 1748733.48	1.24	seq[gig+sql]  unf
+ 1748735.10	8.62	fed foc
+ 1748737.50	0.49	sql non
  1748742.19	0.87	oth non
- 1748744.36	0.84	str cub non
- 1748746.60	0.44	gig ? non
- 1748747.74	0.50	gig ? non
+ 1748744.36	0.84	sql non
+ 1748746.60	0.44	gig non
+ 1748747.74	0.50	gig non
  1748749.25	0.68	oth non
- 1748750.01	0.56	str cub non
+ 1748750.01	0.56	sql non
  1748752.69	0.67	oth non
  1748754.02	1.31	sql non
- 1748755.58	1.49	str ? cub non
+ 1748755.58	1.49	oth non
  1748756.16	0.27	oth non
+ 1748756.23	34.42	fed foc
  1748762.56	0.16	oth non
  1748764.37	0.87	sql non
  1748771.90	0.38	oth non
- 1748774.95	0.22	sql ? non
+ 1748774.95	0.22	sql non
  1748795.23	0.66	sql ? non
- 1748796.18	0.79	str cub non
- 1748796.63	0.34	oth non
- 1748801.49	0.98	str cub non
- 1748802.84	0.62	gwl unf
+ 1748796.17	0.82	oth unf
+ 1748801.49	0.98	sql non
+ 1748802.84	0.62	gwl foc
+ 1748811.69	6.53	fed foc
  1748814.58	0.41	oth non
  1748815.45	0.24	oth non
- 1748816.60	1.16	str cub non
- 1748818.55	0.74	sql unf
+ 1748816.60	1.16	sql non
+ 1748818.55	0.74	sql foc
  1748819.51	0.48	sql non
- 1748825.17	0.52	str cub non
+ 1748821.64	14.05	fed ? foc
+ 1748825.17	0.52	sql non
  1748828.78	0.65	oth non
  1748832.10	0.30	oth non
- 1748832.87	0.78	str ? cub non
+ 1748832.87	0.78	sql non
  1748836.06	0.20	oth non
  1748837.37	0.98	sql non
  1748840.10	0.86	sql non
- 1748848.09	0.73	str cub non
+ 1748840.87	5.90	fed foc
+ 1748848.09	0.73	sql non
  1748850.65	0.53	oth non
  1748853.63	0.32	oth non
+ 1748862.89	3.97	fed ? foc
  1748863.23	0.46	gig non
  1748864.26	0.52	oth non
- 1748867.32	0.68	str cub non
+ 1748867.32	0.68	sql non
  1748868.09	0.20	oth non
- 1748870.78	0.53	str cub non
+ 1748870.78	0.53	sql non
+ 1748870.85	32.91	fed foc
  1748873.86	0.83	str cub non
  1748878.94	0.68	sql non
  1748880.02	0.99	sql non
@@ -87,82 +99,90 @@
  1748887.77	0.37	oth non
  1748888.14	0.26	sql non
  1748889.43	0.75	sql non
- 1748894.56	0.64	str cub non
- 1748899.00	1.11	str cub non
+ 1748894.56	0.64	sql non
+ 1748899.00	1.11	sql non
  1748899.74	0.16	oth unf
  1748905.77	0.64	oth non
- 1748908.52	0.91	str cub non
- 1748909.66	0.74	str cub non
- 1748910.91	0.53	str cub non
- 1748911.73	1.16	skp, overlapping
- 1748913.94	1.08	str cub non
- 1748915.52	0.98	oth non
+ 1748908.52	0.91	sql non
+ 1748908.66	24.39	fed ? foc
+ 1748909.66	0.74	sql non
+ 1748910.91	0.53	sql non
+ 1748911.66	0.97	sql non
+ 1748912.12	0.35	sql non
+ 1748913.94	1.08	sql non
+ 1748915.52	0.98	oth foc
  1748917.89	0.71	sql non
  1748918.20	0.68	oth non
  1748919.25	0.73	sql non
  1748921.16	0.15	oth non
  1748922.21	0.70	sql non
- 1748922.90	0.75	gig ? non
+ 1748922.90	0.75	gig non
  1748927.52	0.58	oth non
- 1748928.66	1.35	str ? cub non
+ 1748928.66	1.35	sql non
  1748930.02	0.44	oth non
  1748930.30	0.56	oth non
- 1748931.85	0.71	sql ? non
- 1748932.96	0.35	sql ? non
- 1748934.06	0.93	sql unf
- 1748937.33	0.65	str cub non
+ 1748931.85	0.71	sql non
+ 1748932.96	0.35	sql non
+ 1748934.06	0.93	sql foc
+ 1748937.33	0.65	sql non
  1748938.77	0.35	oth non
- 1748941.33	0.57	str cub non
- 1748942.12	0.87	str cub non
+ 1748941.33	0.57	sql non
+ 1748942.12	0.87	sql non
  1748942.89	0.09	oth unf
- 1748944.82	0.28	str cub non
- 1748945.44	0.71	str ? cub non
+ 1748944.82	0.28	sql non
+ 1748945.44	0.71	sql non
  1748947.85	0.24	oth non
  1748948.21	0.13	oth non
+ 1748952.06	40.49	fed foc
  1748954.11	0.19	oth non
- 1748956.83	1.58	str cub non
- 1748958.81	0.48	sql ? non
- 1748959.68	0.64	str ? cub non
- 1748961.37	0.43	str ? cub non
+ 1748956.83	1.58	sql ? non
+ 1748958.81	0.48	sql non
+ 1748959.68	0.64	sql non
+ 1748961.37	0.43	sql non
  1748969.20	0.62	sql non
- 1748971.54	0.20	oth non
+ 1748971.54	0.20	oth foc
  1748978.15	0.68	oth non
- 1748980.76	0.77	str cub non
- 1748983.22	0.46	str cub non
- 1748988.13	1.36	sql ? non
+ 1748980.76	0.77	sql non
+ 1748983.22	0.46	sql non
+ 1748988.13	1.36	sql non
  1749013.23	0.22	oth non
  1749015.75	0.48	oth non
+ 1749030.17	10.66	fed foc
  1749034.16	0.47	oth non
  1749037.33	0.78	str cub non
  1749039.62	0.22	oth non
  1749040.37	0.66	sql non
  1749043.42	0.50	gig non
  1749049.03	0.38	gig non
- 1749052.70	3.06	str cub non
- 1749074.95	0.45	oth non
- 1749079.08	0.50	str cub non
- 1749092.64	0.49	str cub non
+ 1749049.47	6.50	fed ? foc
+ 1749052.70	3.06	sql cub non
+ 1749071.11	18.27	fed foc
+ 1749074.95	0.45	oth foc
+ 1749079.08	0.50	sql non
+ 1749092.64	0.49	sql non
  1749094.80	0.36	oth non
  1749098.93	1.42	rum foc
  1749109.31	0.19	oth non
  1749115.81	2.01	gig non
- 1749126.81	0.33	skp not heardable non
+ 1749126.81	0.33	oth foc
  1749127.52	0.88	gwl ? non
- 1749128.67	0.38	oth non
+ 1749128.67	0.38	sql non
+ 1749131.00	14.43	fed ? foc
  1749131.29	1.48	oth non
  1749133.28	0.30	oth non
- 1749134.84	1.05	str cub non
+ 1749134.84	1.05	sql non
  1749136.95	0.61	gig ? non
- 1749137.78	0.42	sql ? non
+ 1749137.78	0.42	sql non
  1749141.55	0.29	sql ? non
  1749142.02	0.21	oth non
  1749142.26	0.30	oth non
  1749145.63	0.31	sql ? non
  1749146.00	0.06	oth unf
- 1749149.75	1.07	sql non
+ 1749146.29	10.45	fed ? foc
+ 1749149.75	1.07	oth unf
  1749151.75	0.20	oth non
  1749153.22	0.20	oth non
- 1749153.59	0.78	sql non
+ 1749153.59	0.78	oth non
  1749159.94	0.40	oth non
  1749161.67	0.56	oth non
  1749163.34	0.12	oth non
@@ -170,12 +190,12 @@
  1749170.01	0.32	oth non
  1749172.10	0.35	oth non
  1749174.78	0.26	oth non
+ 1749175.21	31.23	fed foc
  1749179.12	0.39	oth non
  1749181.27	0.20	oth non
  1749182.59	1.44	gig non
  1749188.55	0.47	sql non
- 1749191.83	0.46	oth non
- 1749192.44	0.52	oth non
+ 1749191.83	1.15	gwl non
  1749195.27	0.42	oth non
  1749196.88	0.20	oth non
  1749205.93	0.44	oth non
@@ -184,7 +204,7 @@
  1749209.48	0.30	oth non
  1749212.53	0.12	oth non
  1749217.88	0.21	oth non
- 1749220.26	0.46	str ? cub non
+ 1749220.26	0.46	sql non
  1749233.21	0.17	oth non
  1749241.10	0.33	sql foc
  1749241.49	0.41	sql foc
@@ -194,32 +214,32 @@
  1749243.51	0.55	sql foc
  1749244.15	0.65	sql non
  1749260.31	0.52	oth non
- 1749265.82	0.62	oth non
- 1749267.24	1.32	str ? cub non
+ 1749265.82	0.62	oth unf
+ 1749267.24	1.32	sql unf
  1749278.69	0.66	oth non
  1749279.83	0.16	oth non
  1749280.10	0.29	oth non
- 1749284.37	0.34	sql ? non
- 1749291.81	0.48	str cub non
- 1749292.43	0.66	oth non
- 1749293.22	0.23	oth non
- 1749294.55	0.51	str cub non
+ 1749283.13	18.55	fed foc
+ 1749284.37	0.34	sql non
+ 1749291.81	0.48	sql non
+ 1749292.43	0.66	sql foc
+ 1749293.22	0.23	gig foc
+ 1749294.55	0.51	sql non
  1749298.06	0.45	oth non
- 1749299.87	0.56	str cub non
- 1749304.46	0.55	str cub non
+ 1749299.87	0.56	sql cub non
+ 1749304.46	0.55	sql cub non
  1749312.19	0.51	oth non
- 1749327.26	1.45	str  ? cub non
- 1749329.32	1.18	str cub non
- 1749337.62	0.46	str ? cub non
- 1749343.42	0.83	oth non
+ 1749319.49	8.05	fed ? foc
+ 1749327.26	1.45	sql cub non
+ 1749329.32	1.18	sql cub non
+ 1749337.62	0.46	sql non
+ 1749343.42	0.83	gwl non
  1749344.31	0.78	oth non
- 1749355.36	1.14	str cub non
+ 1749355.36	1.14	sql non
  1749374.55	0.27	oth non
  1749376.06	0.44	oth non
- 1749402.45	0.25	oth non
- 1749404.49	0.38	oth non
- 1749405.75	0.75	oth non
+ 1749405.11	1.28	gig non
  1749435.49	0.31	oth non
- 1749437.00	0.61	sql ? non
+ 1749437.00	0.61	sql non
  1749439.27	0.33	oth non
  1749444.00	0.00	eoa

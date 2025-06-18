@@ -1,6 +1,7 @@
  38346.00	0.00	SOA
- 38373.33	1.10	sql non
- 38374.64	0.77	oth unf
+ 38373.65	0.37	gig foc
+ 38373.95	0.55	whp foc
+ 38374.64	0.77	whp foc
  38376.61	1.08	whp foc
  38379.33	1.39	whp foc
  38382.78	1.16	whp foc
@@ -40,7 +41,7 @@
  39106.40	0.51	whp non
  39108.98	0.98	whp non
  39109.96	0.76	sql non
- 39111.69	1.53	grn non
+ 39111.69	1.53	whp non
  39113.64	0.91	sql unf
  39114.67	1.37	whp non
  39116.08	0.39	sql non
@@ -48,14 +49,11 @@
  39119.28	1.08	sql non
  39120.83	0.26	sql non
  39121.58	0.28	gig non
- 39123.03	0.26	oth
- 39123.29	0.43	sql ? non
- 39123.79	0.70	sql non
- 39124.54	1.08	sql non
+ 39123.20	1.30	sql non
+ 39125.10	0.53	sql non
  39126.90	0.50	sql non
  39127.42	0.44	gwl non
  39127.88	0.67	sql non
- 39194.93	0.32	sql non
  39203.86	0.89	gig non
  39205.20	0.52	gig non
  39212.25	0.89	sql non
@@ -65,14 +63,14 @@
  39219.15	0.82	grn non
  39232.14	0.44	whp non
  39234.25	1.05	whp non
- 39239.45	1.09	whp ? non
+ 39239.45	1.09	whp non
  39242.78	1.56	whp non
  39242.81	1.38	sql non
  39245.19	1.07	sql non
  39252.23	1.49	sql non
  39254.13	0.93	sql non
  39255.80	0.58	oth non
- 39256.78	0.56	oth non
+ 39256.78	0.56	oth unf
  39257.68	0.61	sql non
  39259.01	0.28	gwl non
  39259.22	0.34	sql non
@@ -81,38 +79,33 @@
  39261.48	0.75	sql non
  39262.50	0.58	gig foc
  39263.17	0.75	sql foc
- 39265.65	0.43	gwl non
- 39267.42	0.40	fus[gwl+sql] non
+ 39265.65	0.43	oth non
+ 39267.42	0.40	oth non
  39268.40	0.39	oth non
  39269.92	0.34	gig non
- 39270.30	0.62	sql foc
+ 39270.30	0.62	sql unf
  39271.09	0.56	sql non
  39279.18	0.68	sql non
  39283.04	0.23	sql non
  39299.65	1.39	gig foc
- 39340.10	0.18	oth non
- 39342.73	0.19	oth non
- 39344.10	0.12	oth non
- 39351.44	1.03	seq[sql+gig] non
- 39352.64	0.24	gig foc
+ 39305.13	3.06	fed foc
+ 39351.44	1.03	gig non
+ 39352.64	0.24	gig unf
  39353.04	1.01	sql unf
- 39354.11	0.56	gig foc
+ 39354.11	0.56	gig unf
  39356.53	0.42	sql non
  39372.64	0.68	oth non
  39385.69	0.50	grn non
  39417.08	0.15	oth non
- 39434.93	0.21	oth non
  39445.55	0.91	sql non
  39447.03	0.72	gig non
  39448.41	0.43	gig non
  39449.63	0.73	gwl non
- 39464.30	0.25	unk
- 39464.71	0.25	oth non
  39470.19	0.31	grn foc
- 39533.80	0.12	oth non
  39577.27	0.16	oth non
- 39581.84	0.36	sql non
- 39587.08	7.56	skp some barely heardable to complicated non calls
+ 39591.31	1.47	gwl non
+ 39592.68	0.51	sql non
+ 39593.28	1.45	gwl non
  39594.72	1.37	gig foc
  39597.55	0.44	sql non
  39598.66	0.47	sql non
@@ -120,7 +113,7 @@
  39600.80	0.71	sql non
  39601.81	0.47	sql non
  39602.85	0.33	sql non
- 39604.93	0.33	sql ? non
+ 39604.93	0.33	sql non
  39606.00	0.60	grn non
  39607.05	0.30	sql non
  39607.42	0.43	sql non
@@ -131,15 +124,12 @@
  39628.37	0.77	sql non
  39629.67	0.87	sql non
  39631.14	0.55	sql non
- 39635.56	0.20	oth non
  39643.04	0.73	whp ? non
  39649.42	1.06	sql non
  39651.07	0.85	sql non
- 39652.62	0.83	sql non
- 39654.86	0.38	oth non
- 39658.47	0.42	oth non
+ 39652.62	0.83	oth non
  39664.63	1.53	whp non
- 39671.27	1.02	sql non
+ 39671.27	1.02	oth non
  39673.77	0.84	oth non
  39682.42	0.55	sql non
  39684.06	0.88	sql non

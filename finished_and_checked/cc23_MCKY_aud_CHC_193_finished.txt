@@ -5,11 +5,11 @@
  40372.68	1.68	whp non
  40377.82	1.72	whp non
  40383.63	2.42	whp non
- 40436.91	0.50	sql non
+ 40436.91	0.50	gwl non
  40437.15	2.01	rum non
  40437.88	0.40	sql non
- 40439.76	1.10	rum non
- 40446.44	0.38	oth non
+ 40439.76	1.10	gig non
+ 40446.44	0.38	whp non
  40448.41	0.90	whp non
  40464.76	0.52	gig non
  40466.61	0.63	gig non

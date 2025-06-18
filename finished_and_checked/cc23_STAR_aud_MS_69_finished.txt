@@ -20,6 +20,7 @@
  10088.74	1.59	grn foc
  10091.42	1.40	grn foc
  10091.93	4.47	str cub non
+ 10094.69	2.59	grn foc
  10094.76	2.46	str cub non
  10098.49	2.83	str cub non
  10101.83	2.53	grn foc
