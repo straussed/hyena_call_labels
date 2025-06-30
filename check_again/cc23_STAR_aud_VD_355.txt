@@ -1,5 +1,0 @@
- 488268.00	0.00	soa
- 488278.45	0.00	fix: unsure what precedes grn
- 488279.22	0.39	grn foc
- 488490.96	0.42	grn foc
- 488868.00	0.00	eoa

@@ -1,0 +1,32 @@
+ 38901.01	0.00	SOA
+ 39028.75	0.41	sql non
+ 39029.86	0.26	sql non
+ 39030.91	0.51	sql non
+ 39031.81	0.32	sql non
+ 39032.31	0.27	sql non
+ 39032.97	0.32	sql ? non
+ 39033.56	1.32	sql unf
+ 39035.11	0.42	sql ? non
+ 39036.76	1.23	oth non
+ 39038.76	1.01	sql unf
+ 39040.47	2.47	seq [sql+gig] foc
+ 39042.94	0.79	whp foc
+ 39044.60	0.66	whp foc
+ 39046.22	0.81	whp foc
+ 39048.30	0.86	whp foc
+ 39049.45	4.44	sql foc
+ 39053.93	0.71	sql non
+ 39056.88	0.45	sql non
+ 39276.89	18.35	fed foc
+ 39296.47	4.78	fed ? foc
+ 39313.34	11.71	fed foc
+ 39326.72	5.41	fed foc
+ 39332.81	20.77	fed foc
+ 39354.74	13.43	fed foc
+ 39369.35	17.47	fed foc
+ 39388.03	27.42	fed foc
+ 39416.49	40.28	fed foc
+ 39458.61	21.64	fed foc
+ 39480.84	29.94	fed foc
+ 39511.21	19.85	fed foc
+ 39531.96	0.00	eoa

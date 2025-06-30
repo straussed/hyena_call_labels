@@ -1,6 +1,0 @@
- 733428.00	0.00	soa
- 733980.72	0.00	fix: unsure whether non or foc; grn?
- 733981.28	0.46	oth non
- 733988.43	0.00	fix: long enough to be grn? also unsure whether foc or unf
- 733989.38	0.91	grn non
- 734028.04	0.00	eoa
