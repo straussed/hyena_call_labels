@@ -2,26 +2,27 @@
  128184.48	2.11	whp non
  128189.93	1.83	whp non
  128195.21	1.85	whp non
- 128362.52	0.85	gig non
+ 128362.52	0.85	str cub non
  128369.24	1.04	whp cub non
  128370.99	0.66	whp cub non
  128372.20	0.50	whp cub non
  128372.82	0.70	whp cub non
- 128375.37	1.21	whp non
+ 128375.37	1.21	whp cub non
  128378.16	1.01	whp cub non
- 128380.73	1.19	oth cub non
+ 128380.73	1.19	whp cub non
  128383.62	1.04	whp non
  128387.17	2.01	sql non
- 128394.08	0.67	str ? non
- 128399.94	1.25	is this even from a hyena ? 
- 128402.22	0.67	grn foc
- 128402.32	8.74	fix: I need second opinions for this part
+ 128394.08	0.67	gig non
+ 128399.05	1.00	grn foc
+ 128399.94	1.25	sql non
+ 128402.23	1.10	grn foc
  128403.32	1.55	gig non
- 128404.99	0.67	
- 128404.99	0.67	sql non
- 128406.37	0.64	whp non
- 128407.32	2.02	rum foc
- 128409.28	0.58	whp non
+ 128404.99	0.67	whp cub non
+ 128406.37	0.64	whp cub non
+ 128407.32	2.02	grn foc
+ 128407.68	0.55	whp cub non
+ 128409.28	0.58	whp cub non
+ 128410.48	0.65	whp cub non
  128414.73	0.46	whp cub non
  128416.04	0.71	whp cub non
  128532.71	0.43	whp non

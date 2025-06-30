@@ -4,8 +4,7 @@
  223876.49	0.64	grn foc
  223881.23	0.68	grn foc
  223888.22	0.97	grn foc
- 223899.13	0.40	oth unf
- 223899.57	0.00	fix: unsure whether these fall under giggles
+ 223899.13	0.40	gig unf
  223903.00	0.28	oth non
  223905.98	0.57	oth non
  223914.93	1.63	grn foc
