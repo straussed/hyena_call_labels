@@ -1,0 +1,39 @@
+ 728640.99	0.00	soa
+ 728752.07	1.04	whp non
+ 728753.15	0.65	oth non
+ 728755.64	0.27	oth unf
+ 728758.27	0.42	oth non
+ 728759.78	0.38	oth unf
+ 728760.88	2.49	str ? cub non
+ 728765.05	2.73	str ? cub non
+ 728768.62	0.98	sql unf
+ 728770.37	0.42	oth non
+ 728774.75	0.27	oth foc
+ 728776.16	0.45	oth foc
+ 728777.60	1.40	str ? cub non
+ 728782.71	1.22	str ? cub non
+ 728785.41	1.38	str ? cub non
+ 728788.37	1.25	str ? cub non
+ 728790.71	1.14	str ? cub non
+ 728793.98	0.57	str ? cub non
+ 728795.72	0.69	str ? cub non
+ 728796.85	1.26	str ? cub non
+ 728798.59	1.45	str ? cub non
+ 728801.55	0.54	str ? cub non
+ 728806.32	0.85	str ? cub non
+ 728809.00	0.99	str ? cub non
+ 728811.65	1.42	str ? cub non
+ 728814.63	1.37	str ? cub non
+ 728816.22	0.15	oth foc
+ 728817.97	1.27	str ? cub non
+ 728819.99	2.48	str ? cub non
+ 728823.30	1.44	str ? cub non
+ 728826.30	0.75	str ? cub non
+ 729215.64	1.88	oth non
+ 729221.95	1.76	oth non
+ 729226.49	1.82	str ? cub non
+ 729228.97	0.58	oth non
+ 729230.48	0.74	oth non
+ 729234.99	0.79	oth non
+ 729237.17	0.64	oth non
+ 729241.01	0.00	eoa
