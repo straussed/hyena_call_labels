@@ -29,7 +29,7 @@
  1236037.50	1.11	rum foc
  1236056.84	1.89	grn foc
  1236061.88	2.88	oth non
- 1236094.47	3.27	seq[grn+oth+sql] non ?
+ 1236094.47	3.27	seq[grn+oth+sql] non
  1236101.25	2.23	grn foc
  1236108.68	2.72	grn foc
  1236123.99	0.80	grn foc
@@ -60,6 +60,7 @@
  1236306.03	0.36	gig foc
  1236306.47	0.33	oth foc
  1236307.14	1.45	whp foc
+ 1236309.78	0.99	grn non
  1236310.37	0.67	sql non
  1236310.82	1.61	whp foc
  1236314.21	1.67	whp foc
@@ -75,24 +76,28 @@
  1236325.66	2.15	whp foc
  1236326.49	1.65	whp non
  1236327.89	0.58	sql non
+ 1236329.38	1.88	whp non
  1236329.81	2.03	whp foc
  1236333.02	1.97	whp non
  1236333.68	0.52	oth non
  1236334.32	2.42	whp foc
  1236337.14	1.58	whp non
  1236339.03	2.38	whp foc
- 1236342.09	0.85	str cub non
+ 1236342.09	0.85	sql non
  1236343.24	0.35	grn non
  1236343.69	1.51	whp foc
  1236347.32	1.06	grn non
  1236351.12	1.13	grn foc
  1236353.07	1.33	grn foc
  1236356.01	1.30	grn foc
- 1236358.27	0.97	whp non
+ 1236358.27	0.97	grn non
+ 1236359.61	0.40	grn foc
  1236359.80	0.32	oth non
  1236362.65	1.37	grn non
+ 1236365.70	1.44	grn non
  1236369.45	1.52	grn non
  1236376.92	0.38	gig unf
+ 1236378.68	0.52	sql non
  1236403.49	0.86	grn foc
  1236413.83	0.96	whp non
  1236416.69	1.08	whp non
@@ -134,21 +139,24 @@
  1236496.37	0.37	sql non
  1236497.06	1.41	grn non
  1236497.21	0.85	whp non
+ 1236497.97	0.39	oth non
  1236499.01	0.81	sql non
  1236500.07	0.50	sql foc
  1236501.13	0.42	sql non
  1236501.77	0.54	gig foc
- 1236502.44	0.54	sql foc
+ 1236502.44	0.54	oth foc
+ 1236503.06	0.67	oth non
  1236503.11	0.91	oth foc
  1236503.95	0.50	whp non
  1236504.29	0.52	sql foc
- 1236504.33	0.62	grn non
  1236504.95	0.88	whp non
+ 1236505.63	1.49	oth non
  1236505.72	0.47	sql unf
  1236506.42	0.62	sql unf
  1236507.05	1.81	skp to many overlapping none focals.
- 1236508.64	1.17	whp non
+ 1236508.61	1.33	oth non
  1236509.24	0.51	sql non
+ 1236509.91	0.54	sql non
  1236509.92	1.02	whp non
  1236511.15	1.54	whp non
  1236512.32	1.04	whp non
@@ -158,19 +166,25 @@
  1236516.82	1.74	whp non
  1236518.54	2.00	whp non
  1236522.89	2.17	whp non
- 1236528.78	1.54	whp non
+ 1236528.78	1.54	oth non
  1236545.89	1.38	gig foc
- 1236547.86	0.06	oth non
+ 1236546.27	1.21	oth non
+ 1236547.86	0.06	oth foc
+ 1236547.92	1.77	gig non
  1236548.12	0.96	sql foc
  1236549.41	3.29	skp to many overlapping and no visual difference
  1236552.78	1.33	grn foc
- 1236554.22	1.02	gig non
+ 1236554.21	2.02	gig non
  1236555.19	0.31	sql non
+ 1236555.53	1.36	oth non
  1236557.09	0.59	whp non
+ 1236557.38	2.62	gig non
  1236557.47	0.68	sql non
  1236558.15	0.90	sql non
  1236559.05	0.93	gig non
+ 1236559.59	1.54	oth non
  1236559.63	1.64	gig foc
+ 1236561.38	0.63	oth non
  1236561.80	0.24	gig foc
  1236562.55	0.67	grn non
  1236564.15	0.66	grn non
@@ -205,23 +219,32 @@
  1236634.56	0.84	grn non
  1236645.97	0.87	sql non
  1236647.23	0.80	grn non
+ 1236655.53	0.93	grn non
  1236656.55	0.74	grn foc
  1236658.17	1.23	grn non
  1236669.94	1.29	grn non
  1236672.66	1.04	grn non
  1236678.64	0.56	grn non
+ 1236682.72	1.45	gig ? non
  1236684.86	0.79	grn non
  1236686.03	2.24	oth non
+ 1236689.27	1.58	grn non
  1236690.93	0.46	sql non
  1236691.64	0.38	sql non
  1236693.01	1.07	sql non
  1236693.81	0.77	sql non
- 1236695.68	1.24	grn non
- 1236698.84	1.53	grn non
+ 1236695.68	1.24	grn foc
+ 1236698.18	0.73	grn non
+ 1236698.84	1.53	grn foc
  1236700.52	0.53	oth non
  1236701.73	0.87	grn non
+ 1236703.46	1.21	grn non
+ 1236705.97	0.86	grn non
  1236719.46	1.30	grn non
+ 1236722.41	1.13	grn non
  1236725.26	0.54	grn non
+ 1236731.27	0.93	grn non
+ 1236733.12	1.08	grn non
  1236735.38	1.16	grn foc
  1236737.87	0.71	grn non
  1236746.56	1.45	grn non
@@ -230,22 +253,25 @@
  1236749.70	0.58	gig foc
  1236749.85	0.64	grn non
  1236750.79	0.34	gig non
- 1236750.94	0.71	whp non
- 1236751.39	0.61	whp non
+ 1236750.92	0.79	oth non
+ 1236751.39	0.61	grn non
  1236752.30	0.39	grn non
  1236753.87	1.05	grn non
  1236761.08	0.58	grn non
- 1236761.63	0.29	sql non
- 1236762.29	0.44	sql non
- 1236762.97	0.42	whp non
+ 1236761.64	1.80	oth non
  1236763.67	0.40	oth non
  1236764.09	1.90	grn non
  1236766.61	0.52	str cub non
- 1236771.28	2.35	gig non
+ 1236768.77	1.45	grn non
+ 1236769.20	1.11	str cub non
+ 1236771.23	0.67	sql non
+ 1236771.90	1.79	gig non
  1236773.65	0.52	gig non
  1236777.55	0.49	gig non
  1236782.27	0.70	grn non
  1236784.45	0.86	grn non
+ 1236788.41	0.51	oth non
+ 1236788.92	1.13	grn non
  1236790.90	0.86	grn non
  1236795.27	1.41	grn non
  1236799.01	1.03	grn non
@@ -253,23 +279,26 @@
  1236801.30	1.43	grn non
  1236803.27	2.12	sql non
  1236803.63	1.12	grn non
+ 1236805.35	1.29	grn non
  1236806.60	1.81	sql non
  1236808.63	1.88	whp foc
- 1236810.26	1.07	whp non
- 1236813.24	1.57	oth foc
+ 1236810.26	1.07	oth non
+ 1236813.24	1.57	gwl ? non
  1236816.24	0.63	whp foc
  1236817.10	0.18	sql non
  1236817.58	2.06	gig foc
  1236820.02	0.35	oth non
  1236820.56	0.59	oth non
- 1236821.48	2.66	skp calls not distinguishabel
+ 1236821.48	2.66	skp calls not distinguishable
  1236824.32	1.42	whp non
  1236825.32	1.00	whp non
  1236825.90	0.68	gig non
  1236826.32	0.85	whp non
  1236827.23	0.76	whp non
  1236828.13	0.98	whp non
- 1236829.15	1.63	skp calls not distinguishabel
+ 1236829.12	0.94	whp non
+ 1236829.44	1.31	whp non
+ 1236830.24	0.51	oth non
  1236830.75	0.84	whp non
  1236831.72	0.73	whp non
  1236832.58	1.39	whp non
@@ -281,10 +310,12 @@
  1236839.35	1.02	whp non
  1236839.90	1.20	whp non
  1236840.91	1.45	whp non
- 1236842.89	1.23	rum non
+ 1236842.71	2.01	whp non
  1236844.25	0.44	oth non
  1236844.54	1.54	whp non
- 1236847.48	3.79	skp to many overlapping
+ 1236847.48	3.79	nnf - too many calls
+ 1236847.75	3.04	gig foc
+ 1236850.77	0.59	sql foc
  1236852.24	0.27	oth non
  1236854.29	0.30	oth non
  1236854.71	0.39	oth non
@@ -298,55 +329,72 @@
  1236859.37	0.07	othnon
  1236859.92	0.47	sql non
  1236860.39	0.40	sql non
- 1236861.31	0.52	whp non
+ 1236861.31	0.52	oth non
  1236861.94	0.50	gig non
  1236864.12	0.27	sql non
+ 1236864.45	0.74	oth non
  1236865.61	0.66	grn non
  1236866.02	2.08	sql non
- 1236878.53	0.40	whp non
+ 1236878.53	0.40	oth non
+ 1236882.32	0.91	grn non
  1236885.46	0.90	grn non
  1236887.21	0.60	grn non
- 1236887.90	0.23	gig non
- 1236888.39	1.70	gig non
- 1236890.29	0.09	oth non
- 1236890.59	0.57	sql non
- 1236891.26	0.22	sql non
+ 1236887.88	1.28	sql non
+ 1236887.89	2.54	gig non
+ 1236890.55	1.11	oth non
  1236891.53	1.93	skp to many overlapping
- 1236893.62	2.28	gig non
+ 1236893.41	0.44	sql non
+ 1236893.52	1.07	gig unf
  1236894.39	0.41	sql non
- 1236894.41	0.21	oth non
+ 1236894.73	1.10	oth non
  1236901.53	1.19	grn non
  1236908.62	0.87	grn non
  1236912.60	1.09	sql non
+ 1236919.36	1.42	grn non
  1236921.50	1.11	grn non
  1236925.45	0.89	grn non
- 1236927.12	0.00	----------------------------------------pause---------------------------------------
  1236933.72	0.72	grn non
- 1236934.46	0.83	unk non
+ 1236934.46	0.83	str cub non
  1236935.72	0.68	grn non
  1236936.49	1.55	grn non
+ 1236936.73	3.99	str cub non
  1236938.99	0.69	grn non
- 1236939.95	0.47	unk non
  1236940.14	0.58	grn non
+ 1236941.07	1.16	grn non
+ 1236942.77	1.46	grn non
  1236945.95	1.82	rum foc
- 1236955.55	1.84	fix: seq[gig+sql] non
- 1236958.02	0.72	fix: sql cub non
- 1236972.96	0.64	whp non
- 1236975.61	0.77	fix: whp non
+ 1236955.54	3.29	str cub non
+ 1236956.06	1.26	grn non
+ 1236966.81	1.36	grn non
+ 1236972.96	0.64	grn non
+ 1236975.61	0.77	grn non
+ 1236977.39	0.98	grn non
  1236978.77	0.97	grn non
- 1236988.58	0.42	unk
- 1236995.73	0.84	fix: unk non
+ 1236981.97	1.62	grn non
+ 1236988.58	0.42	str cub non
+ 1236994.15	1.04	grn non
+ 1236995.73	0.84	grn non
  1237010.64	0.44	gig non
- 1237078.14	2.05	gig non
- 1237112.75	0.72	whp non
- 1237115.82	1.01	whp non
- 1237116.96	0.49	oth non
+ 1237045.71	0.68	grn non
+ 1237046.66	0.66	grn non
+ 1237046.77	1.22	str cub non
+ 1237078.14	2.05	str cub non
+ 1237108.69	1.08	grn non
+ 1237111.56	2.71	grn non
+ 1237112.75	0.72	grn non
+ 1237114.83	2.70	str cub non
+ 1237115.82	1.01	grn non
+ 1237118.07	1.28	grn non
  1237118.92	0.74	oth non
  1237120.61	0.89	whp non
- 1237132.07	0.83	whp non
- 1237158.83	0.97	whp non
- 1237172.41	0.88	whp non
- 1237180.51	0.07	unk
+ 1237129.63	0.95	grn non
+ 1237132.07	0.83	grn non
+ 1237158.83	0.97	oth non
+ 1237172.41	0.88	grn non
+ 1237175.15	2.72	grn non
+ 1237179.60	1.46	grn non
+ 1237180.51	0.07	oth non
+ 1237188.84	0.32	oth non
  1237190.03	1.39	whp non
  1237194.87	0.94	whp non
  1237198.44	1.57	whp non
@@ -360,36 +408,44 @@
  1237221.85	1.92	whp non
  1237226.57	2.16	whp non
  1237250.02	0.07	oth non
- 1237251.11	0.28	oth non
- 1237251.45	1.14	gig non
+ 1237251.11	0.28	gwl non
+ 1237251.45	1.14	gig foc
+ 1237251.86	0.39	oth non
  1237252.99	0.44	sql non
- 1237253.46	0.57	unk
+ 1237253.46	0.57	oth unf
  1237254.38	0.20	sql non
- 1237254.66	1.47	skp to quiet, to many overlapping
- 1237256.29	0.87	whp non
- 1237258.17	0.84	unk non
- 1237276.17	2.35	whp non
+ 1237254.64	0.67	oth non
+ 1237255.22	0.20	oth unf
+ 1237256.29	0.87	grn non
+ 1237258.17	0.84	grn non
+ 1237258.98	1.36	grn non
+ 1237276.17	2.35	grn non
  1237277.01	0.79	grn foc
- 1237281.82	0.64	whp non
- 1237298.03	0.05	unk
+ 1237281.82	0.64	grn non
+ 1237287.58	1.70	grn non
+ 1237290.35	1.41	grn non
+ 1237294.58	1.18	grn non
+ 1237298.03	0.05	oth non
  1237299.18	0.18	oth non
- 1237301.52	0.65	sql non
+ 1237301.52	0.65	str cub non
  1237309.36	0.82	whp non
  1237310.18	0.84	gig non
  1237331.00	1.27	grn non
  1237342.04	0.45	oth non
- 1237360.10	0.28	sql non
  1237366.95	0.93	grn non
  1237367.38	0.66	oth non
- 1237383.80	1.55	whp non
- 1237388.24	1.40	sql non
+ 1237383.80	1.55	oth non
+ 1237384.76	1.76	grn non
+ 1237387.61	2.02	grn non
+ 1237388.24	1.40	str cub non
  1237390.64	0.79	grn non
- 1237391.43	0.47	sql non
- 1237395.42	1.57	unk
- 1237420.16	0.07	unk
+ 1237391.43	0.47	str cub non
+ 1237395.42	1.57	oth non
+ 1237420.16	0.07	oth non
  1237460.48	2.58	grn non
- 1237480.74	1.77	whp non
- 1237521.44	0.18	unk
+ 1237480.74	1.77	grn non
+ 1237484.07	1.61	grn non
  1237600.88	0.74	grn non
- 1237605.62	1.02	whp non
+ 1237602.37	1.41	grn non
+ 1237605.62	1.02	grn non
  1237943.99	0.00	eoa
