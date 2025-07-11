@@ -143,8 +143,8 @@
  627905.09	2.70	fed ? foc
  627908.30	2.29	grn non
  627910.95	4.33	fed ? foc
- 627915.28	0.33	str ? cub non
- 627918.04	0.45	str ? cub non
+ 627915.28	0.33	oth non
+ 627918.04	0.45	str cub non
  627919.50	0.59	str cub non
  627951.02	0.95	sql unf
  627954.80	9.80	fed ? foc

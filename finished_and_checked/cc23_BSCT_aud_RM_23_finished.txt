@@ -1,10 +1,9 @@
- 40221.01	0.00	soa
- 40221.29	0.86	sql non
- 40230.19	0.42	oth non
- 40255.53	0.93	sql non
- 40260.11	0.50	oth non
- 40261.18	0.90	oth non
+ 40224.87	0.00	soa
+ 40230.19	0.42	str cub non
+ 40255.53	0.93	str cub non
+ 40260.05	2.05	str cub non
  40264.65	0.99	str cub non
+ 40276.58	1.61	whp non
  40277.28	1.80	whp foc
  40280.09	1.47	whp non
  40284.81	1.73	whp foc
@@ -15,20 +14,29 @@
  40297.36	1.63	whp foc
  40299.20	0.60	whp non
  40306.80	1.05	whp non
+ 40315.43	0.43	gig foc
+ 40319.96	0.22	oth foc
  40493.45	1.65	whp non
  40498.72	1.66	whp non
  40503.66	1.70	whp non
  40508.88	1.59	whp non
  40513.99	1.84	whp non
  40519.77	2.45	whp non
- 40548.60	1.02	oth non
+ 40547.96	1.66	grn non
+ 40556.94	1.98	grn non
+ 40562.84	1.88	grn non
  40569.50	0.40	gig ? unf
- 40570.89	3.16	gig unf
- 40574.12	0.76	oth unf
+ 40570.86	4.09	gig non
+ 40572.18	0.91	sql non
+ 40573.11	1.03	gwl non
+ 40574.12	0.76	gwl non
  40574.87	1.95	gig non
+ 40575.41	0.45	sql non
+ 40576.42	0.56	gig non
+ 40584.75	0.97	whp non
  40587.29	1.03	whp non
  40589.70	0.77	whp non
  40592.26	0.89	whp non
- 40595.98	0.66	gig ? non
- 40614.34	0.67	gig unf
+ 40595.98	0.66	gig non
+ 40614.34	0.67	gig non
  40617.01	0.00	eoa

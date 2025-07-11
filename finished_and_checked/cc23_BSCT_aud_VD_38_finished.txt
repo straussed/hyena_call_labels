@@ -1,8 +1,9 @@
  122931.99	0.00	soa
- 122956.12	1.65	grn foc
+ 122956.12	1.65	whp foc
  122959.73	1.20	whp foc
  122963.76	1.52	whp foc
  122971.79	1.50	whp foc
+ 122976.91	1.60	whp non
  122977.62	1.58	whp foc
  122981.13	2.09	whp non
  122983.43	1.68	whp foc
@@ -11,16 +12,15 @@
  122990.43	2.07	whp non
  122992.85	2.24	whp foc
  122994.61	1.66	grn non
- 122996.36	2.12	whp foc
- 122996.61	1.27	whp non
+ 122996.36	2.12	grn foc
+ 122996.51	1.51	whp non
  122999.14	2.70	grn foc
  122999.16	1.65	whp non
  123002.14	1.20	sql non
  123002.58	2.15	grn foc
  123003.90	0.84	grn non
  123005.00	1.07	whp non
- 123006.81	2.01	grn non
- 123006.83	1.90	sql foc
+ 123006.80	2.11	grn foc
  123006.95	0.53	sql non
  123007.50	1.30	whp non
  123009.02	0.47	grn non
@@ -36,20 +36,20 @@
  123028.91	0.82	grn foc
  123033.98	0.79	sql cub non
  123035.51	1.57	sql cub non
- 123038.07	1.17	seq [sql whp] cub non
+ 123038.07	1.17	fus [sql + whp] cub non
  123039.32	2.17	grn foc
- 123040.14	2.19	seq [sql whp] cub non
+ 123040.10	0.87	sql cub non
+ 123041.15	0.87	whp cub non
  123043.27	1.24	whp cub non
  123046.22	1.35	whp cub non
  123049.50	1.68	whp non
  123050.18	0.69	grn foc
  123053.45	1.60	whp non
  123053.76	1.38	grn foc
- 123065.23	0.48	grn unf
- 123075.89	3.03	grn unf
- 123086.05	0.84	grn unf
- 123091.64	0.97	grn unf
- 123094.57	0.67	grn unf
- 123351.12	0.28	grn unf
+ 123065.23	0.48	grn foc
+ 123075.89	3.03	grn foc
+ 123086.05	0.84	grn foc
+ 123091.64	0.97	grn foc
+ 123094.57	0.67	grn foc
  123354.30	0.62	gig non
  123442.01	0.00	eoa
