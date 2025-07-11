@@ -3,16 +3,16 @@
  47479.02	1.97	whp foc
  47485.89	2.59	whp foc
  47492.25	2.36	whp foc
- 47492.74	1.91	whp non
  47498.61	2.27	whp foc
  47505.27	2.45	whp foc
- 47704.09	2.17	whp non
- 47707.03	1.00	str cub non
- 47708.77	1.28	whp non
- 47712.37	0.50	str cub non
- 47713.70	0.58	str cub non
+ 47704.09	2.17	grn non
+ 47707.03	1.00	oth non
+ 47708.77	1.28	oth non
+ 47712.37	0.50	oth non
+ 47713.70	0.58	oth non
  47714.93	3.65	str cub non
- 47716.49	1.29	grn non
+ 47716.49	1.29	oth non
+ 47721.49	1.32	str cub non
  47724.94	5.23	str cub non
  47732.11	1.91	grn foc
  47732.12	3.39	str cub non

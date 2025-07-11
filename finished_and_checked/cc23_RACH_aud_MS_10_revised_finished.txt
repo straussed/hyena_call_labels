@@ -6,16 +6,16 @@
  40031.78	0.94	whp non
  40035.17	0.83	whp foc
  40036.00	1.26	whp non
- 40037.28	0.91	sql non
+ 40037.26	1.32	sql non
  40039.67	1.09	whp foc
  40040.48	1.13	whp non
  40043.45	1.19	whp foc
  40044.80	1.29	whp non
- 40046.60	4.04	seq[whp+grn] foc
- 40053.02	2.92	seq[whp+grn] foc
+ 40046.59	3.24	whp foc
+ 40049.74	0.87	grn foc
+ 40053.02	2.92	grn foc
  40163.23	0.24	oth unf
- 40199.19	0.89	sql non
- 40202.14	1.33	skp maybe cub but too much back noise
+ 40199.09	1.36	oth non
  40254.95	1.44	whp non
  40255.69	1.24	whp non
  40258.14	1.33	whp non
