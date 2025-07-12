@@ -1,25 +1,21 @@
  375287.00	0.00	SOA
  376744.43	0.34	oth foc
- 376757.28	0.40	unk
- 377695.84	0.51	grn foc
+ 377695.84	0.51	oth foc
  380107.25	1.47	str cub non
  380109.06	1.21	str cub non
- 380110.29	0.28	grn foc
  380114.44	0.80	str cub non
  380123.09	1.21	str cub non
  380126.50	0.98	str cub non
  380132.25	0.55	oth foc
- 380215.90	1.40	str cub non
+ 380215.90	1.40	sql cub non
  380220.81	0.59	str cub non
  380224.99	1.50	str cub non
  380226.81	0.74	str cub non
- 380227.61	0.26	oth foc
  380228.78	0.85	str cub non
  380231.46	0.98	str cub non
  380233.16	0.78	str cub non
  380235.96	0.73	str cub non
- 380236.43	0.29	oth unf
- 380240.58	0.53	oth foc
+ 380240.58	0.53	oth non
  380241.71	1.17	str cub non
  380244.27	0.51	str cub non
  380249.72	1.11	str cub non
@@ -33,42 +29,50 @@
  380916.88	2.72	grn foc
  380952.25	2.20	gig foc
  380952.94	2.58	oth non
- 380956.42	1.20	gig foc
- 381249.33	0.52	oth unf
- 383133.58	0.54	oth unf
- 383651.08	0.30	oth unf
- 384653.12	0.40	oth non
+ 380956.42	1.20	sql foc
+ 381027.44	1.58	fed ? foc
+ 381040.74	6.14	fed ? foc
+ 381051.28	27.75	fed foc
+ 381083.72	5.65	fed ? foc
+ 381099.71	34.45	fed foc
+ 381136.05	9.41	fed foc
+ 381147.29	19.08	fed foc
+ 381183.64	14.37	fed foc
+ 381203.28	5.29	fed foc
+ 381211.64	14.15	fed foc
+ 381227.82	8.28	fed foc
+ 381240.98	10.04	fed foc
+ 381249.33	0.52	oth foc
+ 381264.31	22.49	fed foc
+ 381297.50	13.76	fed foc
+ 381325.05	27.78	fed foc
+ 381355.38	21.40	fed foc
+ 381387.59	15.73	fed foc
+ 381406.73	21.36	fed foc
+ 381431.89	3.02	fed foc
+ 381436.41	9.20	fed foc
+ 381448.58	23.09	fed foc
+ 381476.31	28.45	fed ? foc
+ 381508.53	12.66	fed foc
+ 381533.17	14.11	fed foc
+ 381556.04	3.38	fed foc
+ 381562.44	14.51	fed ? foc
+ 381582.48	9.59	fed foc
+ 381605.47	3.52	fed foc
+ 381634.74	9.20	fed foc
  386135.50	0.21	oth non
  389167.76	0.60	grn foc
  391189.81	0.26	oth non
+ 391190.50	0.72	oth non
  391194.43	0.43	oth non
- 391196.54	0.50	sql unf
+ 391196.54	0.50	sql non
  391209.10	0.41	oth foc
- 391214.92	0.36	sql unf
- 391219.80	0.47	sql unf
+ 391214.92	0.36	sql non
+ 391219.80	0.47	sql non
  391224.92	0.30	oth unf
  391227.65	0.26	oth unf
- 391341.57	0.29	unk
- 391344.37	0.25	unk
- 391350.97	0.28	unk
- 391365.89	0.23	unk
- 391507.97	0.33	unk
- 391811.77	0.22	oth non
- 391818.00	0.40	oth foc
- 392129.89	0.43	grn foc
- 392971.31	0.39	oth foc
+ 392129.89	0.43	oth foc
  393628.42	0.48	oth foc
  394327.46	0.44	oth foc
  395113.53	0.40	oth foc
- 397782.75	0.37	unk
- 399415.26	0.20	oth unf
- 399417.92	0.28	oth unf
- 399420.52	0.15	oth unf
- 399453.37	0.23	oth unf
- 399457.11	0.28	oth unf
- 402390.40	0.41	oth foc
- 402427.23	0.30	oth unf
- 402450.49	0.31	oth unf
- 402517.71	0.18	oth unf
- 403321.39	0.52	rum foc
  403487.00	0.00	EOA

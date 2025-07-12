@@ -1,11 +1,8 @@
  641055.00	0.00	soa
- 641514.13	0.69	fix: this is a nonfocal whoop
- 641514.21	0.54	grn non
- 641516.94	0.62	whp non
- 641517.42	0.54	whp non
- 641517.82	0.50	oth foc
- 641520.39	0.69	whp non
- 641520.95	0.68	whp non
+ 641514.21	0.54	whp non
+ 641516.84	1.21	whp non
+ 641517.82	0.50	grn foc
+ 641520.30	1.40	whp non
  641523.57	0.49	oth foc
  641524.10	0.98	whp non
  641525.23	0.98	whp foc

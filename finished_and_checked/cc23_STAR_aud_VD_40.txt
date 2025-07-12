@@ -21,8 +21,7 @@
  641197.58	1.92	whp foc
  641202.36	2.02	whp foc
  641207.13	2.06	whp foc
- 641211.94	2.28	seq [whp+grn] foc
- 641212.02	2.13	fix: this is just a grn
+ 641211.94	2.28	grn foc
  641219.71	2.30	grn foc
  641225.03	2.17	grn foc
  641229.69	2.40	grn foc

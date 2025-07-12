@@ -1,13 +1,15 @@
  123973.99	0.00	SOA
+ 123976.19	1.02	gig non
+ 123979.26	1.78	gig non
  123979.84	0.36	oth non
- 123980.83	0.75	whp non
+ 123980.83	0.75	oth non
  123981.19	1.05	grn foc
- 123982.33	0.77	gig ? non
- 123983.10	0.39	whp non
- 123983.69	0.45	grn non
+ 123982.33	0.77	gig non
+ 123983.10	0.39	oth non
+ 123983.69	0.45	oth non
  123991.28	0.89	grn foc
  123992.82	0.48	grn non
- 123993.33	0.77	whp non
+ 123993.33	0.77	oth non
  123994.21	0.42	grn non
  123994.70	1.44	grn foc
  123998.11	1.02	whp non
@@ -16,13 +18,14 @@
  124007.31	1.09	grn foc
  124009.69	0.77	grn foc
  124011.94	1.10	grn foc
- 124013.61	0.38	grn non
+ 124012.90	0.95	whp non
+ 124013.86	0.63	gig non
  124014.34	1.02	grn foc
- 124015.58	0.67	str cub non
+ 124015.58	0.67	gig non
  124017.06	0.39	oth non
  124018.73	0.70	whp non
  124019.44	0.54	whp non
- 124020.19	0.37	whp non
+ 124020.19	0.37	grn non
  124020.77	1.15	grn foc
  124022.84	0.83	grn foc
  124024.99	0.97	grn foc
@@ -31,73 +34,81 @@
  124029.12	0.57	gig non
  124033.34	0.98	grn foc
  124035.17	0.42	grn foc
- 124036.12	0.47	whp ? non
+ 124036.12	0.47	oth non
  124036.66	0.51	grn foc
- 124040.36	0.92	sql non
- 124041.29	0.56	oth non
+ 124040.54	1.37	whp cub non
+ 124043.33	0.91	whp cub non
  124043.57	1.67	gig non
  124043.94	0.53	grn foc
  124045.61	1.20	grn foc
- 124046.34	0.47	gwl non
- 124047.27	0.39	gwl non
+ 124046.34	0.47	oth non
+ 124047.27	0.39	oth non
  124047.52	0.69	grn foc
- 124048.23	0.50	gwl non
+ 124048.23	0.50	oth non
  124049.07	0.89	grn foc
  124050.73	0.90	grn foc
  124052.35	0.47	oth non
  124052.67	1.33	grn foc
  124054.58	0.65	whp cub non
- 124058.17	0.85	gwl non
+ 124058.17	0.85	oth non
  124059.69	1.86	oth non
+ 124064.67	0.84	gig non
  124065.46	0.34	gig non
  124065.94	0.73	grn non
  124066.73	1.24	grn foc
  124068.25	0.87	grn non
  124069.25	0.97	gig non 
  124070.20	0.35	grn non
- 124070.95	0.65	sql non
- 124072.31	0.53	sql non
+ 124070.95	0.65	oth non
+ 124072.31	0.53	oth non
  124072.85	0.92	grn non
- 124075.26	0.48	whp non
- 124075.99	0.59	whp non
- 124076.07	0.46	whp non
+ 124075.26	0.48	oth non
+ 124076.07	0.46	oth non
  124076.25	1.42	grn foc
- 124077.30	0.36	whp non
- 124078.40	0.36	gwl ? non
+ 124076.47	0.53	oth non
+ 124077.30	0.36	oth non
+ 124078.40	0.36	oth non
  124080.45	0.42	whp cub non
- 124082.22	0.30	oth foc
- 124086.06	0.46	grn unf
- 124086.69	0.78	grn unf
- 124088.20	0.48	grn unf
- 124090.15	0.84	grn unf
- 124093.03	1.13	grn ? foc
- 124094.69	0.97	grn ? foc
+ 124082.02	0.88	grn foc
+ 124086.06	0.46	grn foc
+ 124086.69	0.78	grn foc
+ 124088.20	0.48	grn foc
+ 124090.15	0.84	grn foc
+ 124093.03	1.13	grn foc
+ 124094.69	0.97	grn foc
  124096.56	1.41	grn foc
+ 124096.62	0.57	oth non
  124098.30	1.04	grn foc
  124099.47	0.44	oth non
  124101.34	0.36	grn foc
- 124102.61	0.59	whp non
+ 124102.61	0.59	oth non
  124102.82	1.11	grn foc
- 124104.22	0.42	gwl non
- 124105.00	0.67	whp non
+ 124104.22	0.42	oth non
+ 124105.00	0.67	oth non
  124105.83	1.23	grn foc
- 124107.23	0.51	gwl non
+ 124107.23	0.51	oth non
  124107.63	0.39	whp cub non
- 124108.06	0.67	gwl non
+ 124108.06	0.67	oth non
  124108.74	0.65	grn non
  124111.50	1.07	grn foc
  124113.44	1.81	grn foc
- 124117.69	0.57	whp non
+ 124117.69	0.57	oth non
  124119.98	1.43	grn foc
- 124125.12	3.35	gig non
+ 124125.02	0.86	gig non
+ 124125.81	0.49	whp cub non
+ 124126.53	0.59	whp cub non
+ 124127.04	0.64	whp cub non
  124127.06	0.85	grn foc
+ 124127.64	0.50	oth non
+ 124127.80	0.73	whp cub non
  124128.79	1.93	nnf to many overlapping 
  124130.00	1.08	grn foc
  124130.93	0.37	str cub non
- 124131.11	0.64	gwl non
+ 124131.11	0.64	oth non
  124131.74	1.52	grn foc
  124134.04	0.71	grn foc
  124135.09	0.85	grn foc
+ 124140.04	0.77	grn foc
  124142.71	1.02	grn foc
  124144.23	1.07	grn foc
  124145.18	0.93	gig non
@@ -111,11 +122,12 @@
  124157.92	0.94	grn foc
  124159.84	0.98	grn foc
  124161.39	0.58	grn foc
- 124162.90	0.49	gwl ? non
+ 124162.90	0.49	oth non
  124172.91	0.60	grn foc
- 124179.36	0.87	oth foc
- 124180.61	0.63	grn non
- 124182.45	1.12	seq[gig+grn] foc
+ 124179.36	0.87	grn foc
+ 124180.41	1.93	nnf - hyena lion
+ 124182.41	0.55	gig foc
+ 124182.97	0.63	grn foc
  124184.58	0.70	grn foc
  124185.40	0.37	gig non
  124186.04	0.67	grn foc
@@ -123,10 +135,8 @@
  124188.05	0.29	oth non
  124188.57	0.73	grn foc
  124189.92	0.83	grn foc
- 124190.77	0.43	unk
- 124191.71	0.43	unk
+ 124190.78	2.74	nnf - hyena lion
  124192.13	0.51	grn foc
- 124192.72	0.27	unk
  124193.58	0.68	grn foc
  124194.85	0.54	grn foc
  124196.22	0.46	grn foc
@@ -136,11 +146,13 @@
  124213.76	0.66	grn foc
  124215.12	0.44	grn foc
  124226.32	0.70	whp non
- 124227.86	1.01	whp foc
- 124229.11	0.33	whp no
+ 124226.65	0.42	oth non
+ 124227.86	1.01	grn foc
+ 124229.11	0.33	oth non
  124229.67	0.90	whp non
  124230.23	0.08	oth non
- 124230.99	0.30	whp non
+ 124230.99	0.30	oth non
+ 124231.12	0.55	oth non
  124231.56	1.79	whp non
  124231.91	1.18	grn foc
  124233.43	0.81	whp non
@@ -158,7 +170,7 @@
  124240.23	0.29	oth non
  124240.43	0.38	grn non
  124241.41	1.02	grn foc
- 124242.78	0.31	whp non
+ 124242.78	0.31	oth non
  124243.47	1.08	grn foc
  124245.06	0.62	grn foc
  124248.43	0.35	whp non
@@ -177,49 +189,45 @@
  124299.59	0.60	grn foc
  124314.42	1.29	grn foc
  124319.41	0.98	whp non
- 124319.48	0.48	str cub non
+ 124319.65	1.02	whp cub non
  124321.82	0.68	grn foc
  124323.38	0.62	grn foc
  124324.68	0.68	grn foc
  124332.42	0.80	grn foc
- 124336.35	1.22	unk
- 124338.19	0.43	unk
- 124338.48	0.94	whp non
- 124339.55	0.60	unk
- 124340.21	0.60	unk
- 124340.96	0.60	str cub non
+ 124336.02	5.61	nnf - lion hyena
  124341.66	0.48	grn foc
  124342.97	0.75	grn foc
  124345.08	0.67	grn foc
- 124347.74	3.68	nnf to many backgrounf noise
+ 124347.74	3.68	nnf - lion hyena
  124347.89	0.67	grn foc
  124349.16	0.59	grn foc
  124350.45	0.49	grn foc
  124357.31	0.50	grn foc
  124358.32	0.68	grn foc
- 124359.26	0.28	unk
- 124359.29	0.88	unk
+ 124359.26	0.28	whp cub non
+ 124359.29	0.88	oth non
  124360.67	0.68	whp cub non
- 124361.50	0.77	grn non
+ 124361.50	0.77	oth non
  124362.81	0.40	grn foc
  124363.74	0.89	grn foc
- 124364.95	0.54	whp non
+ 124364.95	0.54	whp cub non
  124366.32	0.58	grn foc
  124367.07	0.52	oth non
  124369.54	0.57	grn foc
  124377.24	0.52	grn foc
  124378.38	1.07	grn foc
- 124379.61	0.89	str cub non
+ 124379.61	0.89	oth non
  124380.56	0.62	oth non
  124381.41	1.31	whp non
- 124382.86	0.20	unk
  124384.21	1.00	grn foc
  124386.31	1.16	grn foc
- 124390.03	0.79	str cub non
- 124391.94	0.66	str cub non
+ 124388.10	1.08	whp cub non
+ 124390.03	0.79	whp cub non
+ 124391.94	0.66	whp cub non
+ 124394.57	0.85	oth non
  124395.19	0.83	whp cub non
+ 124395.78	0.57	oth non
  124396.56	0.98	grn foc
- 124407.36	0.66	gig non
  124407.90	0.83	grn foc
  124409.45	1.07	grn foc
  124413.74	0.86	gig non
@@ -228,8 +236,9 @@
  124422.11	0.62	grn foc
  124426.21	0.95	grn foc
  124428.17	0.96	grn foc
- 124431.46	0.42	oth non
+ 124431.46	0.42	whp non
  124433.13	0.86	whp non
+ 124434.86	1.09	oth non
  124434.91	0.38	unk
  124435.55	0.48	oth non
  124436.23	0.62	grn foc
@@ -239,12 +248,14 @@
  124445.18	1.05	whp non
  124446.24	0.74	whp non
  124447.22	0.21	oth non
- 124449.22	0.65	whp foc
- 124456.52	0.59	unk
- 124457.73	1.20	whp ? non
+ 124449.22	0.65	oth non
+ 124456.52	0.59	oth non
+ 124457.73	1.20	oth non
+ 124457.99	1.19	grn non
+ 124459.82	0.68	grn non
  124460.68	0.74	oth non
- 124471.31	1.05	whp non
- 124471.85	0.90	whp non
+ 124471.31	1.05	oth non
+ 124471.85	0.90	oth non
  124488.04	0.46	grn non
  124501.13	0.39	oth non
  124559.64	0.91	grn foc
@@ -252,4 +263,3 @@
  124575.07	1.37	grn foc
  124594.26	1.73	grn foc
  124641.89	0.00	eoa
-

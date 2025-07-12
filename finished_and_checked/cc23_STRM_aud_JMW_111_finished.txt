@@ -27,25 +27,26 @@
  704248.24	8.89	fed ? foc
  704291.27	0.90	grn foc
  704295.13	1.19	grn foc
- 704318.88	0.16	unk non
+ 704318.88	0.16	oth non
  704330.33	0.36	rum ? foc
  704363.33	1.60	gig non
  704372.02	0.20	oth non
  704381.45	0.33	sql non
  704388.37	0.81	sql non
- 704398.01	0.60	fus [str + gig] cub non
+ 704398.01	0.60	gig cub non
  704407.12	1.87	gig cub non
  704413.27	1.13	gig non
- 704418.04	0.50	gig ? non
- 704425.39	0.27	str cub non
- 704463.24	0.29	grn foc
- 704506.15	1.84	gig cub non
- 704514.04	1.23	fus [str + gig ] cub non
- 704533.75	2.21	fus [str + gig] cub non
+ 704418.04	0.50	gig non
+ 704425.39	0.27	sql cub non
+ 704463.24	0.29	oth foc
+ 704506.15	1.84	gig non
+ 704513.98	0.81	sql non
+ 704514.80	0.92	gig non
+ 704533.75	2.21	sql cub non
  704536.77	0.23	sql cub non
- 704537.43	0.48	fus [str + gig] cub non
+ 704537.43	0.48	oth cub non
  704562.54	0.54	gig cub non
  704651.00	0.74	whp non
  704652.60	6.52	skp - non calls masked by loud rain
- 704659.14	0.85	sql non
+ 704659.14	0.85	oth non
  704775.02	0.00	eoa

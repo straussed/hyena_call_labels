@@ -16,22 +16,24 @@
  1139827.53	0.37	prd
  1139829.29	0.21	prd
  1139831.04	0.31	prd
- 1139889.87	19.86	nnf - calls masked by GYRO fed noises
+ 1139889.78	0.65	gig non
+ 1139892.51	0.62	gig non
  1139921.35	0.57	gwl non
  1139922.45	1.07	gig non
- 1139937.94	0.50	gwl ? non
- 1139939.71	0.37	str ? cub non
+ 1139937.94	0.50	oth non
+ 1139939.71	0.37	oth non
  1139945.68	0.15	oth non
  1139949.51	0.15	oth foc
- 1139952.62	0.41	sql non
+ 1139952.62	0.41	oth non
  1139961.03	0.14	oth non
- 1139961.72	1.50	str cub non
+ 1139961.72	1.50	sql non
  1139963.99	0.43	oth non
- 1139976.55	0.76	fus[sql + str] cub non
- 1139977.36	8.02	nnf - nonfocal calls masked by GYRO fed noises
- 1139985.47	1.00	seq[gig + sql] non
- 1139987.10	9.20	nnf - nonfocal calls masked by GYRO fed noises
- 1139998.42	0.29	oth non
+ 1139976.55	0.76	oth non
+ 1139985.52	0.52	gig non
+ 1139986.04	0.53	oth non
+ 1139988.08	0.48	sql non
+ 1139991.32	0.37	oth non
+ 1139994.94	0.85	sql non
  1139999.08	13.40	fed foc
  1140007.54	0.99	grn non
  1140009.41	0.60	grn non
@@ -50,12 +52,13 @@
  1140048.78	0.48	sql non
  1140049.26	0.30	gig non
  1140049.61	0.83	whp non
- 1140050.08	0.37	gig ? non
- 1140050.91	0.45	gig ? non
+ 1140050.08	0.37	oth non
+ 1140050.91	0.45	oth non
  1140054.78	0.64	sql non
  1140056.48	0.22	sql cub non
  1140056.81	0.91	gig non
- 1140058.41	3.14	seq [sql+gig] cub non
+ 1140058.40	0.56	sql non
+ 1140058.94	2.64	gig non
  1140061.63	1.44	gig non
  1140063.31	0.58	oth non
  1140067.38	0.00	eoa
