@@ -6,7 +6,8 @@
  486305.43	1.47	str cub non
  486314.81	0.34	oth foc
  486316.72	0.68	grn foc
- 486323.16	1.61	grn foc
+ 486323.28	0.51	oth unf
+ 486323.73	1.06	grn foc
  486328.42	0.52	oth non
  486329.12	4.00	str cub non
  486329.41	2.09	oth non
@@ -16,11 +17,12 @@
  486335.16	4.97	str cub non
  486335.81	0.06	oth non
  486336.48	0.08	oth non
- 486336.62	0.54	seq[oth+gig] non
+ 486336.62	0.54	oth non
  486337.35	0.20	oth non
  486337.91	0.74	oth non
- 486339.31	0.66	gig non
- 486341.05	4.20	nnf too many overlapping wierd calls
+ 486339.31	0.66	oth non
+ 486341.00	4.27	str cub non
+ 486341.52	3.74	str cub non
  486345.44	0.36	gig unf
  486347.57	0.61	oth non
  486348.08	0.61	str cub non
@@ -30,13 +32,40 @@
  486350.73	0.38	oth non
  486351.48	0.33	str cub non
  486351.81	0.41	gig non
- 486352.93	2.87	gig non
- 486353.40	2.11	sql ? non
- 486357.47	1.66	gig unf
+ 486352.93	2.87	gig unf
+ 486353.40	2.11	str ? cub non
+ 486357.47	1.66	gig foc
  486370.48	0.60	gig foc
  486371.91	0.08	oth foc
+ 486381.52	4.23	fed ? foc
+ 486405.40	2.24	fed ? foc
  486408.11	0.32	oth non
- 486520.93	0.30	oth non
+ 486414.01	5.54	fed foc
+ 486425.86	13.00	fed foc
+ 486441.46	7.72	fed foc
+ 486451.17	3.18	fed foc
+ 486457.31	7.88	fed ? foc
+ 486496.46	4.11	fed foc
+ 486508.13	11.55	fed foc
+ 486520.93	0.30	oth foc
+ 486533.92	3.27	fed foc
+ 486544.92	4.29	fed foc
+ 486564.24	10.45	fed foc
+ 486598.22	7.37	fed foc
+ 486615.86	9.45	fed foc
+ 486629.15	9.77	fed foc
+ 486655.42	27.16	fed foc
+ 486684.50	13.97	fed ? foc
+ 486707.51	13.40	fed foc
+ 486725.42	4.43	fed foc
+ 486735.00	6.79	fed foc
+ 486745.74	10.67	fed foc
+ 486765.37	5.99	fed foc
+ 486773.65	11.34	fed foc
+ 486789.48	17.30	fed foc
+ 486816.07	9.41	fed ? foc
+ 486826.15	7.04	fed foc
+ 486857.68	3.10	fed ? foc
  487264.15	0.36	grn foc
  487265.31	0.44	grn foc
  487265.76	2.98	sql non

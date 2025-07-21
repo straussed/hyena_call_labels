@@ -1,6 +1,5 @@
  124711.98	0.00	soa
- 125354.24	2.13	fed foc
- 125431.43	1.76	fed foc
+ 125378.57	3.56	fed foc
  125459.48	37.57	fed foc
  125498.08	20.32	fed foc
  125533.97	43.41	fed foc
@@ -39,36 +38,31 @@
  126255.23	9.47	fed foc
  126267.66	10.59	fed foc
  126278.91	30.34	fed foc
- 126309.29	2.95	fed foc
  126314.71	29.85	fed foc
- 126350.64	1.07	rum foc
  126354.64	21.92	fed foc
- 126376.67	0.14	oth unf
  126376.97	9.48	fed foc
- 126386.80	2.52	fed foc
  126389.32	7.64	fed foc
- 126397.01	2.66	fed foc
  126401.36	14.29	fed foc
- 126424.27	2.92	fed foc
  126427.90	8.18	fed foc
- 126437.22	7.54	fed foc
  126454.77	11.36	fed foc
- 126466.27	2.99	fed foc
  126469.42	81.98	fed foc
  126557.06	21.04	fed foc
  126578.29	0.49	gig non
- 126579.91	0.00	fix, I have the feeling that in this audit the labels got moved back by a couple of seconds. See the gig and in the fed. is there a way to relining?
+ 126581.67	25.07	fed ? foc
  126590.54	0.38	sql non
  126593.61	0.53	gig non
  126596.91	0.17	oth non
  126597.37	0.57	sql non
+ 126608.88	11.42	fed ? foc
  126622.48	1.33	rum foc
+ 126622.79	1.38	rum non
  126632.93	7.77	fed foc
- 126635.23	0.67	gig non
+ 126635.23	0.67	oth non
  126639.81	0.63	sql non
  126640.67	0.43	sql non
- 126644.63	0.25	sql non
+ 126644.63	0.25	oth non
  126645.71	0.24	sql non
+ 126645.90	4.35	fed ? foc
  126646.87	0.41	oth non
  126650.17	0.21	oth non
  126650.70	0.19	oth non
@@ -78,11 +72,12 @@
  126687.91	1.30	rum foc
  126703.38	3.92	fed foc
  126720.02	1.21	str cub non
+ 126725.41	1.07	sql non
  126728.68	0.34	oth non
  126729.90	0.38	grn foc
  126740.62	0.53	gig non
  126741.97	34.86	fed foc
- 126751.50	0.40	gig non
+ 126751.50	0.40	oth non
  126752.34	0.27	oth non
  126773.91	0.15	oth non
  126808.79	0.49	gig non
@@ -104,33 +99,37 @@
  127001.14	0.87	gig non
  127007.25	0.88	str cub non
  127015.12	1.26	rum foc
- 127026.11	1.05	rum ? non
- 127030.27	0.42	grn foc
+ 127026.11	1.05	rum non
  127072.20	0.22	sql non
  127086.76	1.64	str cub non
  127094.44	0.73	grn foc
  127097.25	0.89	oth non
- 127103.57	0.43	sql cub non
+ 127103.57	0.43	oth non
  127106.10	0.29	oth non
  127106.57	1.54	gig cub non
  127106.88	0.76	gwl non
  127108.49	0.64	gwl non
  127109.83	0.65	gwl non
  127111.74	0.53	gig non
- 127112.12	0.55	sql cub non
- 127112.96	0.75	sql cub non
- 127114.26	0.80	sql cub non
- 127116.29	1.78	seq[sql + gig] cub non
- 127132.72	0.40	sql ? cub non
- 127156.14	0.38	gig cub non
- 127194.16	0.82	seq[sql + gig] non
+ 127112.12	0.55	sql non
+ 127112.96	0.75	sql non
+ 127114.26	0.80	sql non
+ 127116.26	0.93	sql non
+ 127117.18	0.95	gig non
+ 127132.72	0.40	sql ? non
+ 127156.14	0.38	oth non
+ 127168.82	7.49	fed foc
+ 127180.46	15.87	fed ? foc
+ 127194.16	0.82	gig non
  127195.14	0.30	sql non
  127195.77	0.50	sql non
- 127209.96	0.31	sql non
- 127241.17	0.76	sql ? non
+ 127206.30	8.31	fed foc
+ 127209.96	0.31	oth non
+ 127241.17	0.76	oth non
  127244.23	0.80	sql non
- 127245.16	3.43	skp - non calls masked by KNIN noise
- 127260.90	0.55	gwl unf
+ 127245.16	3.43	nnf - non calls masked by KNIN noise
+ 127245.28	10.29	fed ? foc
+ 127260.90	0.55	gwl non
  127298.20	0.87	whp non
  127300.04	1.11	rum foc
  127300.70	0.83	whp non

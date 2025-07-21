@@ -1,7 +1,6 @@
  292398.00	0.00	soa
  292399.04	0.53	oth non
  292402.30	0.19	oth non
- 292503.10	0.55	unk non
  292656.21	1.54	grn foc
  292669.85	2.90	grn foc
  292723.44	1.84	grn foc
@@ -20,7 +19,6 @@
  292865.02	1.00	grn foc
  292921.68	1.41	grn foc
  292928.31	0.95	grn foc
- 292944.86	0.38	oth non
  292958.55	1.87	grn foc
  293044.68	1.12	grn foc
  293055.33	1.06	grn foc
@@ -29,25 +27,22 @@
  293226.80	1.06	grn foc
  293231.28	1.04	grn foc
  293343.16	0.95	grn foc
- 293385.70	0.35	whp unf
- 293386.03	0.68	sql unf
+ 293385.70	0.35	oth non
+ 293386.03	0.68	sql non
  293389.13	0.55	sql non
- 293412.55	0.23	unk non
- 293415.01	0.24	unk non
- 293415.86	0.22	unk non
- 293416.54	0.22	unk non
- 293428.66	0.25	unk non
- 293430.26	0.25	unk non
- 293432.30	0.27	unk non
- 293433.21	0.29	unk non
- 293434.94	0.26	unk non
- 293442.10	0.38	unk non
- 293443.55	0.17	oth non
- 293444.05	0.25	oth non
- 293457.10	0.33	grn foc
- 293460.03	1.19	gig non
- 293554.93	0.50	grn ? non
- 293555.44	0.80	rum ? non
+ 293403.51	13.68	fed foc
+ 293418.74	17.82	fed foc
+ 293438.56	8.24	fed foc
+ 293443.55	0.17	oth foc
+ 293444.05	0.25	oth foc
+ 293447.88	5.14	fed foc
+ 293460.03	1.19	gig unf
+ 293467.14	10.23	fed foc
+ 293494.20	3.90	fed ? foc
+ 293504.13	2.53	fed foc
+ 293530.47	7.64	fed foc
+ 293555.44	0.80	rum non
+ 293569.80	6.42	fed ? foc
  293659.41	2.44	grn foc
  293663.67	2.34	grn foc
  293667.17	2.07	grn foc
@@ -55,17 +50,17 @@
  293673.93	1.89	grn foc
  293677.81	1.54	grn foc
  293680.75	0.95	grn foc
- 293684.52	0.24	str cub non
- 293684.77	0.36	rum non
+ 293684.74	0.96	rum non
  293685.59	1.20	gig non
  293687.39	0.99	str cub non
- 293688.75	1.23	str cub non
+ 293688.75	1.23	sql non
  293689.11	0.60	grn foc
- 293690.31	0.75	str cub non
- 293691.36	2.05	str cub non
+ 293690.31	0.75	sql non
+ 293691.34	1.44	sql non
+ 293692.77	0.64	whp cub non
  293694.10	0.79	sql non
  293695.61	1.64	sql non
- 293698.45	0.36	str cub non
+ 293698.45	0.36	sql non
  293701.82	0.76	grn foc
  293702.19	0.19	gig non
  293704.45	0.59	grn foc
@@ -104,7 +99,6 @@
  294033.16	1.67	grn foc
  294046.28	2.91	grn foc
  294053.78	2.46	grn foc
- 294061.43	0.09	unk 
  294061.66	1.05	grn foc
  294072.42	1.45	grn foc
  294081.64	2.34	grn foc
@@ -116,12 +110,12 @@
  294175.09	1.24	grn foc
  294203.20	0.70	whp non
  294206.80	1.30	whp non
- 294210.20	2.22	whp foc
+ 294210.20	2.22	whp non
  294214.97	2.52	whp non
  294219.84	2.07	whp non
- 294225.13	2.44	fus[whp+grn] non
- 294231.10	2.55	fus[whp+grn] non
- 294237.56	2.46	fus[whp+grn] non
+ 294225.13	2.44	whp non
+ 294231.10	2.55	whp non
+ 294237.56	2.46	whp non
  294243.57	2.90	whp non
  294254.50	2.84	grn foc
  294259.25	2.81	grn foc
@@ -133,31 +127,20 @@
  294284.79	2.06	grn foc
  294288.66	1.82	grn foc
  294293.78	1.23	oth non
- 294301.49	0.77	oth non
- 294519.00	0.43	grn ? non
- 294562.66	0.45	unk
  294565.19	0.18	oth non
- 294565.94	0.68	unk
  294571.75	1.45	oth non
- 294616.65	0.59	oth foc
- 294892.00	0.94	whp foc
- 294892.94	0.79	sql non
- 294894.01	1.17	sql non
- 294895.34	2.61	sql non
- 294898.06	0.86	whp ? non
- 294900.45	1.26	whp foc
+ 294573.60	15.03	fed ? foc
+ 294596.42	3.51	fed ? foc
+ 294608.25	9.85	fed foc
+ 294892.00	0.94	grn foc
+ 294892.94	0.79	oth non
+ 294894.01	1.17	oth non
+ 294895.33	3.64	str cub non
+ 294900.45	1.26	grn foc
  294902.74	1.62	str cub non
  294905.36	0.39	oth non
- 294907.42	0.84	whp non
- 294908.47	1.10	whp ? foc
- 295060.39	0.11	oth non
- 295063.17	0.20	oth non
- 295063.58	0.23	oth non
- 295066.44	0.48	whp non
- 295068.15	0.18	oth non
- 295068.83	0.19	oth non
- 295081.55	0.51	whp non
- 295104.41	0.67	whp non
+ 294907.42	0.84	oth non
+ 294908.47	1.10	grn foc
  295169.97	3.15	grn foc
  295175.81	2.65	grn foc
  295179.76	1.61	grn foc
@@ -175,37 +158,25 @@
  295216.33	1.15	whp non
  295219.77	1.31	whp non
  295223.08	2.04	whp non
- 295282.45	0.26	oth non
- 295284.04	0.93	str cub non
- 295285.51	0.80	oth non
- 295287.66	0.29	oth non
- 295289.63	0.88	oth non
- 295296.50	0.41	oth non
- 295354.85	0.77	unk non
+ 295284.04	0.93	sql non
+ 295336.65	8.89	fed ? foc
+ 295348.23	7.50	fed ? foc
+ 295357.20	9.35	fed ? foc
  295371.11	0.15	oth non
- 295376.01	0.60	oth non
  295381.01	0.24	oth non
- 295381.75	1.23	oth non
  295387.00	0.28	oth non
- 295388.04	0.39	oth non
+ 295395.58	9.47	fed ? foc
  295407.50	0.37	sql ? non
- 295414.04	0.79	gig ? non
- 295415.07	1.04	unk
- 295416.19	0.76	unk
- 295417.43	0.64	unk
- 295419.56	5.64	skp non calls or just background ?
+ 295414.04	0.79	gig non
+ 295421.25	0.32	rum foc
  295426.68	0.14	oth non
  295431.64	0.55	gig foc
- 295432.56	0.34	gig foc
- 295432.95	1.05	unk
- 295440.32	0.21	oth foc
- 295440.69	0.26	oth foc
+ 295432.56	0.34	oth foc
  295524.43	1.37	grn foc
  295530.07	1.73	grn foc
  295531.04	1.29	str cub non
- 295777.76	0.14	oth non
  295883.33	0.56	grn foc
- 295884.43	0.37	sql non
+ 295884.43	0.37	oth cub non
  295917.95	2.36	rum foc
  295923.04	0.38	rum non
  295933.92	1.09	rum foc
