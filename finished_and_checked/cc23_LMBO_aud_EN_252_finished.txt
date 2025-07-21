@@ -1,7 +1,15 @@
  19431.01	0.00	soa
- 19577.85	2.74	sql non
- 19582.38	1.17	sql non
- 19584.14	3.14	sql non
- 19587.66	0.74	sql non
- 19781.57	0.42	grn non
+ 19577.85	2.74	str cub non
+ 19582.38	1.17	str cub non
+ 19584.14	3.14	str cub non
+ 19587.66	0.74	str cub non
+ 19744.35	12.76	fed ? foc
+ 19759.72	19.49	fed foc
+ 19781.16	27.43	fed ? foc
+ 19810.55	17.40	fed foc
+ 19829.45	16.28	fed foc
+ 19853.88	2.03	fed ? foc
+ 19863.16	22.81	fed foc
+ 19888.43	19.79	fed foc
+ 19922.63	13.69	fed ? foc
  20031.01	0.00	eoa
