@@ -1,6 +1,6 @@
  15828.52	0.00	soa
- 15983.31	0.63	gig non
- 15985.01	4.64	seq [gig+str] non
+ 15983.31	0.63	str cub non
+ 15985.01	4.64	str cub non
  15990.30	1.48	str cub non
  15992.32	1.21	str cub non
  15993.22	1.43	grn  non
@@ -11,34 +11,27 @@
  15999.45	0.58	str cub non
  16000.85	1.41	grn non
  16001.01	3.91	str cub non
- 16003.18	0.24	unk non
- 16004.25	0.53	sql non
- 16004.28	0.60	grn non
  16004.78	1.30	grn non
- 16005.79	4.09	str cub non
- 16006.13	2.94	str cub non
+ 16005.79	4.11	oth cub non
  16009.68	1.60	grn non
- 16011.88	0.85	str cub non
- 16013.39	3.00	str cub non
+ 16011.88	0.85	oth cub non
+ 16013.39	3.00	oth cub non
  16013.53	1.26	grn non
- 16018.47	1.23	str cub non
+ 16018.47	1.23	oth cub non
  16022.28	1.06	str cub non
  16022.78	1.39	grn non
  16026.42	0.64	str cub non
  16028.19	1.94	grn non
  16030.56	1.87	str cub non
- 16042.07	1.73	oth non
+ 16042.07	1.73	oth cub non
  16045.29	1.22	str cub non
  16047.80	0.32	str cub non
  16054.81	0.86	grn foc
  16055.88	0.17	oth non
  16060.49	0.13	oth non 
  16062.35	0.46	oth foc
- 16063.97	0.88	unk unf
- 16077.16	1.29	gig foc
- 16078.30	0.77	gig non
+ 16077.10	4.15	oth unf
  16079.79	0.69	grn non
- 16080.12	1.09	gig ? unf
  16089.13	0.67	str cub non
  16097.07	1.03	str cub non
  16098.95	0.25	oth non
@@ -49,6 +42,4 @@
  16122.36	1.02	str cub non
  16124.07	1.50	str cub non
  16126.18	0.86	str cub non
- 16138.23	0.48	oth non
- 16199.67	0.41	unk
  16309.01	0.00	eoa
