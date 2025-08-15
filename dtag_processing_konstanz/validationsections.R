@@ -19,13 +19,14 @@ library(stringr)
 library(glue)
 library(lubridate)
 
-base_folder <- "/Users/mfaiss/Documents/Hyena project/a2v_validation"
+base_folder <- "/Users/mfaiss/Documents/Hyena project/hyena_call_labels"
+
 setwd(base_folder)
 
-source("cue2utc.R")
+source("dtag_processing_konstanz/cue2utc.R")
 
 # folder with converted a2v predictions
-a2v_predictions <- glue("{base_folder}/converted_files/all_predictions_0_5")
+a2v_predictions <- glue("{base_folder}/a2v_validation/converted_files/all_predictions_0_5")
 
 # folder that contains reference times for UTC conversion
 ref_time_folder <- "/Volumes/cc23_4/cc23_cue_tables_csv"
@@ -33,30 +34,30 @@ ref_time_folder <- "/Volumes/cc23_4/cc23_cue_tables_csv"
 # labeling tracking file that contains already labeled sections
 # download as .csv from google drive before running the script to have the most 
 # up to date version
-label_tracking <- read_csv(glue("{base_folder}/Labeling Effort Tracking Spreadsheet - assignments.csv"),
+label_tracking <- read_csv(glue("{base_folder}/a2v_validation/Labeling Effort Tracking Spreadsheet - assignments.csv"),
                            col_select=c("tag", "time_vector", "end_time"), col_types = c("ccc"))
 
 ################################################################################
 # setting parameters
 
 # how long should the validatio sections be?
-file_length_min <- 10
+file_length_min <- 1
 
 # minimum and maximum number of labels of interest per section
 min_predictions <- 20
 max_predictions <- 40
 
 # which labels to focus on
-use_labels <- paste(c("gig", "rum", "sql", "gwl"), collapse = "|")
+use_labels <- paste(c("grn"), collapse = "|")
 
 ################################################################################
 
 # output directory
-out_dir <- glue("{base_folder}/a2v_easy_validation")
+out_dir <- glue("{base_folder}/a2v_validation/a2v_easy_validation")
 if (!file.exists(out_dir)){dir.create(out_dir)}
 
 # create output folder
-out_folder <- glue("{out_dir}/aggressioncalls_{file_length_min}m_{min_predictions}-{max_predictions}lbl")
+out_folder <- glue("{out_dir}/groan_snores_{file_length_min}m_{min_predictions}-{max_predictions}lbl")
 if (!file.exists(out_folder)){dir.create(out_folder)}
 
 # list of all prediction files
@@ -172,8 +173,8 @@ for (individual in names(individual_files)) {
           # cat("\n")
           # cat(glue("overlap: {interval_to_check}"))
         } else {
-          cat("\n")
-          cat(glue("no overlap: {interval_to_check}"))
+          # cat("\n")
+          # cat(glue("no overlap: {interval_to_check}"))
           
           # add soa and eoa
           soa_row <- tibble(start = start_sec, length = 0.00, label = "soa")
@@ -194,7 +195,6 @@ for (individual in names(individual_files)) {
                                      trim=TRUE))
           
           write_delim(final_tibble, out_name, delim = "\t", col_names = FALSE)
-          
         }
       }
     }
