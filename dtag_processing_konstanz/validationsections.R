@@ -41,11 +41,12 @@ label_tracking <- read_csv(glue("{base_folder}/a2v_validation/Labeling Effort Tr
 # setting parameters
 
 # how long should the validatio sections be?
-file_length_min <- 1
+file_length_min <- 3
 
 # minimum and maximum number of labels of interest per section
-min_predictions <- 20
-max_predictions <- 40
+# for snores: so far there are between 15 and 42 snores per minute
+min_predictions <- 45
+max_predictions <- 126
 
 # which labels to focus on
 use_labels <- paste(c("grn"), collapse = "|")
