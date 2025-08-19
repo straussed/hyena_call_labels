@@ -17,7 +17,7 @@ df-print: kable
 library(dplyr)
 
 ############## Read in labels
-label_path <- '~/Documents/code/hyena_call_labels/finished_and_checked/'
+label_path <- 'finished_and_checked/'
 files <- c(list.files(path = label_path, pattern = '*.txt'))
 
 # Remove files in /issues and /commented/archive/ to avoid duplicates or bad data
@@ -47,7 +47,7 @@ labels <- do.call(rbind, labels_list)
 names(labels) <- c('time_secs', 'duration', 'label', 'id', 'aud_name')
 
 
-calls_of_interest <- c('whp', 'grn', 'gig', 'rum', 'sql', 'gwl', 'fed', 'str', 'oth', 'fus', 'seq', 'unk', 'syn')
+calls_of_interest <- c('whp', 'grn', 'gig', 'rum', 'sql', 'gwl', 'fed', 'str', 'oth', 'fus', 'seq', 'unk', 'syn', 'snr')
 
 labeled_calls <- data.frame()
 for(call in calls_of_interest){
@@ -130,7 +130,8 @@ ggplot(data = labels, aes(x = as.POSIXct('2023-01-01', tz = 'UTC') + time_secs, 
 
 ```{r, by call type}
 #| echo: false
-labeled_calls
+library(knitr)
+kable(labeled_calls, align = c('l', 'r', 'r', 'r', 'r', 'r', 'r', 'r'))
 ```
 
 ### Start and end of audit issues
