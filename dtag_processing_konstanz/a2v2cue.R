@@ -23,7 +23,7 @@ library(stringr)
 filter_calls <- "all"
 
 # filter out low confidence score predictions, set to 0 to get all predictions 
-min_confidence <- 0
+min_confidence <- 0.3
 
 # add confidence score to label
 add_conf <- FALSE
@@ -50,10 +50,10 @@ cue_tables <- "/Volumes/cc23_4/cc23_cue_tables_csv"
 
 # location of the animal2vec predictions
 # a2v_files <- "/Volumes/EAS_shared/hyena/working/analysis/animal2vec/predictions/2025_01_17_round_two/csv"
-a2v_files <- "/Users/mfaiss/Documents/Hyena project/a2v_validation/2025_01_17_round_two"
+a2v_files <- "/Users/mfaiss/Documents/Hyena project/hyena_call_labels/a2v_validation/2025_01_17_round_two"
 
 # output directory where the folder with converted cue files will be
-out_dir <- "/Users/mfaiss/Documents/Hyena project/a2v_validation/converted_files"
+out_dir <- "/Users/mfaiss/Documents/Hyena project/hyena_call_labels/a2v_validation/converted_files"
 
 ################################################################################
 
