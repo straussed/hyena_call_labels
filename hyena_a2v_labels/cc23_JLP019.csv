@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_JLP",788780,11190.107583333,2023-01-10 17:03:00,0,"soa","407","IK","cc23_JLP019.wav","cc23_JLP_aud_IK_407_finished.txt",11190.107583333
+"cc23_JLP",789379.98,11790.087583333,2023-01-10 17:13:00,0,"eoa","407","IK","cc23_JLP019.wav","cc23_JLP_aud_IK_407_finished.txt",11790.087583333

@@ -1,0 +1,6 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_JLP",825980,12841.279916667,2023-01-11 03:23:00,0,"soa","429","MS","cc23_JLP020.wav","cc23_JLP_aud_MS_429_finished.txt",12841.279916667
+"cc23_JLP",826368.07,13229.349916667,2023-01-11 03:29:28,0.83,"grn foc","429","MS","cc23_JLP020.wav","cc23_JLP_aud_MS_429_finished.txt",13229.349916667
+"cc23_JLP",826414.03,13275.3099166671,2023-01-11 03:30:14,1,"grn foc","429","MS","cc23_JLP020.wav","cc23_JLP_aud_MS_429_finished.txt",13275.3099166671
+"cc23_JLP",826426.06,13287.3399166671,2023-01-11 03:30:26,1.72,"grn foc","429","MS","cc23_JLP020.wav","cc23_JLP_aud_MS_429_finished.txt",13287.3399166671
+"cc23_JLP",826579.99,13441.269916667,2023-01-11 03:33:00,0,"eoa","429","MS","cc23_JLP020.wav","cc23_JLP_aud_MS_429_finished.txt",13441.269916667

@@ -1,0 +1,15 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_BSCT",60711.99,3109.3286875,2023-01-02 06:48:30,0,"soa","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3109.3286875
+"cc23_BSCT",61138.12,3535.4586875,2023-01-02 06:55:36,0.5,"oth foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3535.4586875
+"cc23_BSCT",61143.46,3540.7986875,2023-01-02 06:55:41,0.51,"oth non","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3540.7986875
+"cc23_BSCT",61183.06,3580.3986875,2023-01-02 06:56:21,0.59,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3580.3986875
+"cc23_BSCT",61195.41,3592.7486875,2023-01-02 06:56:33,0.71,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3592.7486875
+"cc23_BSCT",61239.6,3636.9386875,2023-01-02 06:57:17,0.89,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3636.9386875
+"cc23_BSCT",61259.02,3656.3586875,2023-01-02 06:57:37,0.97,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3656.3586875
+"cc23_BSCT",61262.47,3659.8086875,2023-01-02 06:57:40,0.97,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3659.8086875
+"cc23_BSCT",61265.97,3663.3086875,2023-01-02 06:57:44,0.84,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3663.3086875
+"cc23_BSCT",61278.98,3676.3186875,2023-01-02 06:57:57,1.36,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3676.3186875
+"cc23_BSCT",61288.9,3686.2386875,2023-01-02 06:58:07,1.48,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3686.2386875
+"cc23_BSCT",61293.15,3690.4886875,2023-01-02 06:58:11,0.52,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3690.4886875
+"cc23_BSCT",61296.48,3693.8186875,2023-01-02 06:58:14,0.69,"snr foc","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3693.8186875
+"cc23_BSCT",61311.98,3709.3186875,2023-01-02 06:58:30,0,"eoa","264","IK","cc23_BSCT003.wav","cc23_BSCT_aud_IK_264_finished.txt",3709.3186875

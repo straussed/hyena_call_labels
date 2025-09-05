@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_RACH",102060,15655.25215625,2023-01-02 18:18:00,0,"soa","269","IK","cc23_RACH004.wav","cc23_RACH_aud_IK_269_finished.txt",15655.25215625
+"cc23_RACH",102660,16255.25215625,2023-01-02 18:28:00,0,"eoa","269","IK","cc23_RACH004.wav","cc23_RACH_aud_IK_269_finished.txt",16255.25215625

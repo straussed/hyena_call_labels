@@ -1,0 +1,75 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_BSCT",16822,16822,2023-01-01 18:37:00,0,"soa","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16822
+"cc23_BSCT",16857.54,16857.54,2023-01-01 18:37:35,0.56,"oth foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16857.54
+"cc23_BSCT",16860.76,16860.76,2023-01-01 18:37:39,1.67,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16860.76
+"cc23_BSCT",16861.72,16861.72,2023-01-01 18:37:40,1.77,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16861.72
+"cc23_BSCT",16865.9,16865.9,2023-01-01 18:37:44,1.46,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16865.9
+"cc23_BSCT",16866.69,16866.69,2023-01-01 18:37:44,1.72,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16866.69
+"cc23_BSCT",16870.77,16870.77,2023-01-01 18:37:49,1.4,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16870.77
+"cc23_BSCT",16871.39,16871.39,2023-01-01 18:37:49,1.7,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16871.39
+"cc23_BSCT",16875.76,16875.76,2023-01-01 18:37:54,1.47,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16875.76
+"cc23_BSCT",16876.41,16876.41,2023-01-01 18:37:54,1.74,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16876.41
+"cc23_BSCT",16880.32,16880.32,2023-01-01 18:37:58,1.41,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16880.32
+"cc23_BSCT",16881.07,16881.07,2023-01-01 18:37:59,1.69,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16881.07
+"cc23_BSCT",16884.77,16884.77,2023-01-01 18:38:03,1.63,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16884.77
+"cc23_BSCT",16885.7,16885.7,2023-01-01 18:38:04,1.67,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16885.7
+"cc23_BSCT",16889.33,16889.33,2023-01-01 18:38:07,1.11,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16889.33
+"cc23_BSCT",16890.57,16890.57,2023-01-01 18:38:08,1.64,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16890.57
+"cc23_BSCT",16893.35,16893.35,2023-01-01 18:38:11,1.28,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16893.35
+"cc23_BSCT",16894.88,16894.88,2023-01-01 18:38:13,1.72,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16894.88
+"cc23_BSCT",16898.34,16898.34,2023-01-01 18:38:16,1.4,"whp non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16898.34
+"cc23_BSCT",16899.15,16899.15,2023-01-01 18:38:17,2.43,"whp foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16899.15
+"cc23_BSCT",16910.29,16910.29,2023-01-01 18:38:28,0.58,"str cub non","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16910.29
+"cc23_BSCT",16910.86,16910.86,2023-01-01 18:38:29,1.01,"grn foc","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16910.86
+"cc23_BSCT",16912,16912,2023-01-01 18:38:30,0,"eoa","18","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_18_finished.txt",16912
+"cc23_BSCT",20361.99,20361.99,2023-01-01 19:36:00,0,"soa","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20361.99
+"cc23_BSCT",20420.85,20420.85,2023-01-01 19:36:59,0.23,"oth foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20420.85
+"cc23_BSCT",20421.26,20421.26,2023-01-01 19:36:59,0.22,"oth foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20421.26
+"cc23_BSCT",20421.74,20421.74,2023-01-01 19:37:00,0.17,"oth foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20421.74
+"cc23_BSCT",20432.93,20432.93,2023-01-01 19:37:11,0.14,"oth foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20432.93
+"cc23_BSCT",20435.56,20435.56,2023-01-01 19:37:13,0.23,"oth foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20435.56
+"cc23_BSCT",20458.94,20458.94,2023-01-01 19:37:37,0.5,"oth foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20458.94
+"cc23_BSCT",20459.97,20459.97,2023-01-01 19:37:38,0.23,"oth foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20459.97
+"cc23_BSCT",20460.57,20460.57,2023-01-01 19:37:38,2.41,"grn foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20460.57
+"cc23_BSCT",20464.3,20464.3,2023-01-01 19:37:42,4.58,"grn foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20464.3
+"cc23_BSCT",20470.9,20470.9,2023-01-01 19:37:49,3.12,"grn foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20470.9
+"cc23_BSCT",20480.9,20480.9,2023-01-01 19:37:59,0.95,"oth non","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20480.9
+"cc23_BSCT",20483.54,20483.54,2023-01-01 19:38:01,0.73,"oth non","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20483.54
+"cc23_BSCT",20499.6,20499.6,2023-01-01 19:38:17,2.61,"rum foc","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20499.6
+"cc23_BSCT",20512.01,20512.01,2023-01-01 19:38:30,0,"eoa","19","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_19_finished.txt",20512.01
+"cc23_BSCT",16021.81,16021.81,2023-01-01 18:23:40,0,"soa","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16021.81
+"cc23_BSCT",16030.99,16030.99,2023-01-01 18:23:49,3.88,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16030.99
+"cc23_BSCT",16036.29,16036.29,2023-01-01 18:23:54,2.74,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16036.29
+"cc23_BSCT",16041.14,16041.14,2023-01-01 18:23:59,3.34,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16041.14
+"cc23_BSCT",16047,16047,2023-01-01 18:24:05,3.13,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16047
+"cc23_BSCT",16058.87,16058.87,2023-01-01 18:24:17,0.14,"oth foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16058.87
+"cc23_BSCT",16089.23,16089.23,2023-01-01 18:24:47,2.42,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16089.23
+"cc23_BSCT",16099.2,16099.2,2023-01-01 18:24:57,2.73,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16099.2
+"cc23_BSCT",16104.67,16104.67,2023-01-01 18:25:02,2.95,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16104.67
+"cc23_BSCT",16111.51,16111.51,2023-01-01 18:25:09,3.58,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16111.51
+"cc23_BSCT",16117.11,16117.11,2023-01-01 18:25:15,3.15,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16117.11
+"cc23_BSCT",16121.15,16121.15,2023-01-01 18:25:19,1.89,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16121.15
+"cc23_BSCT",16123.67,16123.67,2023-01-01 18:25:21,1.76,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16123.67
+"cc23_BSCT",16126.92,16126.92,2023-01-01 18:25:25,2.11,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16126.92
+"cc23_BSCT",16130.07,16130.07,2023-01-01 18:25:28,2.09,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16130.07
+"cc23_BSCT",16161.5,16161.5,2023-01-01 18:25:59,1.29,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16161.5
+"cc23_BSCT",16166.32,16166.32,2023-01-01 18:26:04,1.57,"grn ? foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16166.32
+"cc23_BSCT",16221.32,16221.32,2023-01-01 18:26:59,1.77,"grn ? foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16221.32
+"cc23_BSCT",16224.5,16224.5,2023-01-01 18:27:02,2.64,"grn ? foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16224.5
+"cc23_BSCT",16337.25,16337.25,2023-01-01 18:28:55,0.3,"oth non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16337.25
+"cc23_BSCT",16338.76,16338.76,2023-01-01 18:28:57,2.13,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16338.76
+"cc23_BSCT",16341.78,16341.78,2023-01-01 18:29:00,2.18,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16341.78
+"cc23_BSCT",16347.35,16347.35,2023-01-01 18:29:05,2.2,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16347.35
+"cc23_BSCT",16353.1,16353.1,2023-01-01 18:29:11,2.22,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16353.1
+"cc23_BSCT",16353.55,16353.55,2023-01-01 18:29:11,1.46,"whp foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16353.55
+"cc23_BSCT",16358.75,16358.75,2023-01-01 18:29:17,2.12,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16358.75
+"cc23_BSCT",16359.36,16359.36,2023-01-01 18:29:17,1.86,"whp foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16359.36
+"cc23_BSCT",16363.42,16363.42,2023-01-01 18:29:21,1.77,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16363.42
+"cc23_BSCT",16365.19,16365.19,2023-01-01 18:29:23,1.94,"whp foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16365.19
+"cc23_BSCT",16368.25,16368.25,2023-01-01 18:29:26,1.88,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16368.25
+"cc23_BSCT",16370.79,16370.79,2023-01-01 18:29:29,2.13,"whp foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16370.79
+"cc23_BSCT",16372.94,16372.94,2023-01-01 18:29:31,1.91,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16372.94
+"cc23_BSCT",16378.11,16378.11,2023-01-01 18:29:36,1.89,"whp foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16378.11
+"cc23_BSCT",16378.89,16378.89,2023-01-01 18:29:37,1.72,"whp non","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16378.89
+"cc23_BSCT",16458.49,16458.49,2023-01-01 18:30:56,0.61,"grn foc","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16458.49
+"cc23_BSCT",16461.97,16461.97,2023-01-01 18:31:00,0,"eoa","3","MS","cc23_BSCT001.wav","cc23_BSCT_aud_MS_3_finished.txt",16461.97

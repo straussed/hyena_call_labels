@@ -1,0 +1,11 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_STAR",187398,14589.89628125,2023-01-03 18:00:00,0,"soa","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14589.89628125
+"cc23_STAR",187435.29,14627.18628125,2023-01-03 18:00:37,0.25,"oth foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14627.18628125
+"cc23_STAR",187435.77,14627.66628125,2023-01-03 18:00:38,0.21,"oth foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14627.66628125
+"cc23_STAR",187516.26,14708.15628125,2023-01-03 18:01:58,0.66,"oth foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14708.15628125
+"cc23_STAR",187519.45,14711.34628125,2023-01-03 18:02:01,1.87,"whp foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14711.34628125
+"cc23_STAR",187528.45,14720.34628125,2023-01-03 18:02:10,2.89,"whp foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14720.34628125
+"cc23_STAR",187535.83,14727.72628125,2023-01-03 18:02:18,2.77,"whp foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14727.72628125
+"cc23_STAR",187543.43,14735.32628125,2023-01-03 18:02:25,2.89,"whp foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14735.32628125
+"cc23_STAR",187551.04,14742.93628125,2023-01-03 18:02:33,2.72,"whp foc","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14742.93628125
+"cc23_STAR",187698,14889.89628125,2023-01-03 18:05:00,0,"eoa","70","MS","cc23_STAR009.wav","cc23_STAR_aud_MS_70_finished.txt",14889.89628125

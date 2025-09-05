@@ -1,0 +1,12 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_MCKY",643806.01,10177.8044375,2023-01-09 00:49:00,0,"soa","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10177.8044375
+"cc23_MCKY",643870.93,10242.7244375,2023-01-09 00:50:05,2.38,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10242.7244375
+"cc23_MCKY",643874.98,10246.7744374999,2023-01-09 00:50:09,2.18,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10246.7744374999
+"cc23_MCKY",643879.75,10251.5444374999,2023-01-09 00:50:14,1.75,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10251.5444374999
+"cc23_MCKY",643884.41,10256.2044375,2023-01-09 00:50:19,2.36,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10256.2044375
+"cc23_MCKY",643889.92,10261.7144375,2023-01-09 00:50:24,2.93,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10261.7144375
+"cc23_MCKY",643905.77,10277.5644375,2023-01-09 00:50:40,1.78,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10277.5644375
+"cc23_MCKY",643911.25,10283.0444374999,2023-01-09 00:50:46,1.34,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10283.0444374999
+"cc23_MCKY",643916.07,10287.8644374999,2023-01-09 00:50:50,1.86,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10287.8644374999
+"cc23_MCKY",643921.48,10293.2744374999,2023-01-09 00:50:56,1.87,"whp non","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10293.2744374999
+"cc23_MCKY",644166.01,10537.8044375,2023-01-09 00:55:00,0,"eoa","59","MS","cc23_MCKY028.wav","cc23_MCKY_aud_MS_59_finished.txt",10537.8044375

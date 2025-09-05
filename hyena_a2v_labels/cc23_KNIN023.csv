@@ -1,0 +1,5 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_KNIN",466465,5644.19321875001,2023-01-06 23:30:53,0,"soa","350","VD","cc23_KNIN023.wav","cc23_KNIN_aud_VD_350_finished.txt",5644.19321875001
+"cc23_KNIN",467065,6244.19321875001,2023-01-06 23:40:53,0,"eoa","350","VD","cc23_KNIN023.wav","cc23_KNIN_aud_VD_350_finished.txt",6244.19321875001
+"cc23_KNIN",478135,17314.19321875,2023-01-07 02:45:23,0,"soa","352","VD","cc23_KNIN023.wav","cc23_KNIN_aud_VD_352_finished.txt",17314.19321875
+"cc23_KNIN",478735,17914.19321875,2023-01-07 02:55:23,0,"eoa","352","VD","cc23_KNIN023.wav","cc23_KNIN_aud_VD_352_finished.txt",17914.19321875

@@ -1,0 +1,10 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_KNIN",17095,17095,2023-01-01 18:41:23,0,"soa","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17095
+"cc23_KNIN",17384.12,17384.12,2023-01-01 18:46:12,0.99,"whp foc","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17384.12
+"cc23_KNIN",17388.06,17388.06,2023-01-01 18:46:16,1.77,"whp foc","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17388.06
+"cc23_KNIN",17392.95,17392.95,2023-01-01 18:46:21,1.89,"whp foc","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17392.95
+"cc23_KNIN",17397.91,17397.91,2023-01-01 18:46:26,2.12,"whp foc","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17397.91
+"cc23_KNIN",17403.38,17403.38,2023-01-01 18:46:31,2.24,"whp foc","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17403.38
+"cc23_KNIN",17409.09,17409.09,2023-01-01 18:46:37,1.76,"whp foc","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17409.09
+"cc23_KNIN",17413.71,17413.71,2023-01-01 18:46:42,2.98,"whp foc","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17413.71
+"cc23_KNIN",17695,17695,2023-01-01 18:51:23,0,"eoa","213","MS","cc23_KNIN001.wav","cc23_KNIN_aud_MS_213_finished.txt",17695

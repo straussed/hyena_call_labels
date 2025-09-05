@@ -1,0 +1,4 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_PALA",613874,9061.18531249999,2023-01-08 16:24:30,0,"soa","372","VD","cc23_PALA024.wav","cc23_PALA_aud_VD_372.txt",9061.18531249999
+"cc23_PALA",613985.98,9173.16531249997,2023-01-08 16:26:22,0.54,"unk","372","VD","cc23_PALA024.wav","cc23_PALA_aud_VD_372.txt",9173.16531249997
+"cc23_PALA",614474.01,9661.1953125,2023-01-08 16:34:30,0,"eoa","372","VD","cc23_PALA024.wav","cc23_PALA_aud_VD_372.txt",9661.1953125

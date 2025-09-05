@@ -1,0 +1,20 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_RACH",12870,12870,2023-01-01 17:31:30,0,"soa","250","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_250_finished.txt",12870
+"cc23_RACH",13079.49,13079.49,2023-01-01 17:34:59,0.17,"oth non","250","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_250_finished.txt",13079.49
+"cc23_RACH",13080.22,13080.22,2023-01-01 17:35:00,0.47,"sql non","250","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_250_finished.txt",13080.22
+"cc23_RACH",13080.93,13080.93,2023-01-01 17:35:01,0.2,"oth non","250","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_250_finished.txt",13080.93
+"cc23_RACH",13330.85,13330.85,2023-01-01 17:39:11,0.91,"rum foc","250","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_250_finished.txt",13330.85
+"cc23_RACH",13470,13470,2023-01-01 17:41:30,0,"eoa","250","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_250_finished.txt",13470
+"cc23_RACH",19410,19410,2023-01-01 19:20:30,0,"soa","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19410
+"cc23_RACH",19557.36,19557.36,2023-01-01 19:22:57,2.36,"str cub non","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19557.36
+"cc23_RACH",19561.82,19561.82,2023-01-01 19:23:02,1.25,"str cub non","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19561.82
+"cc23_RACH",19730.02,19730.02,2023-01-01 19:25:50,0.58,"oth foc","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19730.02
+"cc23_RACH",19740.27,19740.27,2023-01-01 19:26:00,0.59,"oth foc","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19740.27
+"cc23_RACH",19783.64,19783.64,2023-01-01 19:26:43,0.21,"oth non","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19783.64
+"cc23_RACH",19788.77,19788.77,2023-01-01 19:26:49,0.17,"oth foc","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19788.77
+"cc23_RACH",19825.5,19825.5,2023-01-01 19:27:25,1.05,"rum foc","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19825.5
+"cc23_RACH",19855.39,19855.39,2023-01-01 19:27:55,0.54,"oth non","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19855.39
+"cc23_RACH",19857.61,19857.61,2023-01-01 19:27:57,0.33,"oth non","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19857.61
+"cc23_RACH",19876.78,19876.78,2023-01-01 19:28:17,0.23,"oth non","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19876.78
+"cc23_RACH",19961.79,19961.79,2023-01-01 19:29:42,0.31,"oth foc","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",19961.79
+"cc23_RACH",20010,20010,2023-01-01 19:30:30,0,"eoa","251","EN","cc23_RACH001.wav","cc23_RACH_aud_EN_251_finished.txt",20010

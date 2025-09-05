@@ -1,0 +1,6 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_BSCT",223102,21492.42815625,2023-01-04 03:55:00,0,"soa","299","EN","cc23_BSCT008.wav","cc23_BSCT_aud_EN_299_finished.txt",21492.42815625
+"cc23_BSCT",223335.17,21725.59815625,2023-01-04 03:58:53,1.95,"grn non","299","EN","cc23_BSCT008.wav","cc23_BSCT_aud_EN_299_finished.txt",21725.59815625
+"cc23_BSCT",223421.18,21811.60815625,2023-01-04 04:00:19,1.67,"rum foc","299","EN","cc23_BSCT008.wav","cc23_BSCT_aud_EN_299_finished.txt",21811.60815625
+"cc23_BSCT",223423.39,21813.81815625,2023-01-04 04:00:21,1.16,"rum foc","299","EN","cc23_BSCT008.wav","cc23_BSCT_aud_EN_299_finished.txt",21813.81815625
+"cc23_BSCT",223702,22092.42815625,2023-01-04 04:05:00,0,"eoa","299","EN","cc23_BSCT008.wav","cc23_BSCT_aud_EN_299_finished.txt",22092.42815625

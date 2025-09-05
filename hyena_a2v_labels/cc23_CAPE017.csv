@@ -1,0 +1,7 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_CAPE",699996.03,8788.68500000006,2023-01-09 16:24:30,0,"soa","383","IK","cc23_CAPE017.wav","cc23_CAPE_aud_IK_383_finished.txt",8788.68500000006
+"cc23_CAPE",700626.04,9418.69500000007,2023-01-09 16:35:00,0,"eoa","383","IK","cc23_CAPE017.wav","cc23_CAPE_aud_IK_383_finished.txt",9418.69500000007
+"cc23_CAPE",701016,9808.65500000003,2023-01-09 16:41:30,0,"soa","385","IK","cc23_CAPE017.wav","cc23_CAPE_aud_IK_385_finished.txt",9808.65500000003
+"cc23_CAPE",701616.01,10408.665,2023-01-09 16:51:30,0,"eoa","385","IK","cc23_CAPE017.wav","cc23_CAPE_aud_IK_385_finished.txt",10408.665
+"cc23_CAPE",713646.06,22438.7150000001,2023-01-09 20:12:00,0,"soa","392","IK","cc23_CAPE017.wav","cc23_CAPE_aud_IK_392.txt",22438.7150000001
+"cc23_CAPE",714245.95,23038.605,2023-01-09 20:22:00,0,"eoa","392","IK","cc23_CAPE017.wav","cc23_CAPE_aud_IK_392.txt",23038.605

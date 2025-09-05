@@ -1,0 +1,5 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_JOJO",612587,7764.82609374996,2023-01-08 16:05:00,0,"soa","370","VD","cc23_JOJO023.wav","cc23_JOJO_aud_VD_370.txt",7764.82609374996
+"cc23_JOJO",612611.01,7788.83609374997,2023-01-08 16:05:24,0.64,"oth non","370","VD","cc23_JOJO023.wav","cc23_JOJO_aud_VD_370.txt",7788.83609374997
+"cc23_JOJO",612704.21,7882.03609374992,2023-01-08 16:06:57,1.28,"oth non","370","VD","cc23_JOJO023.wav","cc23_JOJO_aud_VD_370.txt",7882.03609374992
+"cc23_JOJO",613187,8364.82609374996,2023-01-08 16:15:00,0,"eoa","370","VD","cc23_JOJO023.wav","cc23_JOJO_aud_VD_370.txt",8364.82609374996

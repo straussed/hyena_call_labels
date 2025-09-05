@@ -1,0 +1,4 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_SAMI",225877.780375,0,2023-01-04 04:41:07,0,"soa","303","EN","cc23_SAMI011.wav","cc23_SAMI_aud_EN_303_finished.txt",0
+"cc23_SAMI",226105.21,227.42962499999,2023-01-04 04:44:54,0.52,"oth unf","303","EN","cc23_SAMI011.wav","cc23_SAMI_aud_EN_303_finished.txt",227.42962499999
+"cc23_SAMI",226171.01,293.229625000007,2023-01-04 04:46:00,0,"eoa","303","EN","cc23_SAMI011.wav","cc23_SAMI_aud_EN_303_finished.txt",293.229625000007

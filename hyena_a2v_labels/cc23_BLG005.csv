@@ -1,0 +1,4 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_BLG",80119.01,22516.66403125,2023-01-02 12:11:30,0,"soa","265","IK","cc23_BLG005.wav","cc23_BLG_aud_IK_265_finished.txt",22516.66403125
+"cc23_BLG",80224.97,22622.62403125,2023-01-02 12:13:16,0.34,"oth cub non","265","IK","cc23_BLG005.wav","cc23_BLG_aud_IK_265_finished.txt",22622.62403125
+"cc23_BLG",80719,23116.65403125,2023-01-02 12:21:30,0,"eoa","265","IK","cc23_BLG005.wav","cc23_BLG_aud_IK_265_finished.txt",23116.65403125

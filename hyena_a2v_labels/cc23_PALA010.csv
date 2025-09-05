@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_PALA",270554,11348.56934375,2023-01-04 17:02:30,0,"soa","307","EN","cc23_PALA010.wav","cc23_PALA_aud_EN_307_finished.txt",11348.56934375
+"cc23_PALA",271154,11948.56934375,2023-01-04 17:12:30,0,"eoa","307","EN","cc23_PALA010.wav","cc23_PALA_aud_EN_307_finished.txt",11948.56934375

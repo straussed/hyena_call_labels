@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"CC23_CAPE",804036,26427.913583333,NA,0,"soa","415","MS","CC23_CAPE019.wav","CC23_CAPE_aud_MS_415_finished.txt",26427.913583333
+"CC23_CAPE",804636.01,27027.923583333,NA,0,"eoa","415","MS","CC23_CAPE019.wav","CC23_CAPE_aud_MS_415_finished.txt",27027.923583333

@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_JOJO",445157,13141.0894375,2023-01-06 17:34:30,0,"soa","332","EN","cc23_JOJO017.wav","cc23_JOJO_aud_EN_332_finished.txt",13141.0894375
+"cc23_JOJO",445757,13741.0894375,2023-01-06 17:44:30,0,"eoa","332","EN","cc23_JOJO017.wav","cc23_JOJO_aud_EN_332_finished.txt",13741.0894375

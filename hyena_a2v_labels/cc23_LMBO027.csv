@@ -1,0 +1,4 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_LMBO",612501,7671.62428125006,2023-01-08 16:05:00,0,"soa","371","VD","cc23_LMBO027.wav","cc23_LMBO_aud_VD_371.txt",7671.62428125006
+"cc23_LMBO",613073.7,8244.32428125001,2023-01-08 16:14:33,0.66,"oth foc","371","VD","cc23_LMBO027.wav","cc23_LMBO_aud_VD_371.txt",8244.32428125001
+"cc23_LMBO",613101,8271.62428125006,2023-01-08 16:15:00,0,"eoa","371","VD","cc23_LMBO027.wav","cc23_LMBO_aud_VD_371.txt",8271.62428125006

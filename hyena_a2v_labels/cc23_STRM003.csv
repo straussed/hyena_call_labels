@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_STRM",80145,22542.75178125,2023-01-02 12:11:30,0,"soa","266","IK","cc23_STRM003.wav","cc23_STRM_aud_IK_266_finished.txt",22542.75178125
+"cc23_STRM",80745.01,23142.76178125,2023-01-02 12:21:30,0,"eoa","266","IK","cc23_STRM003.wav","cc23_STRM_aud_IK_266_finished.txt",23142.76178125

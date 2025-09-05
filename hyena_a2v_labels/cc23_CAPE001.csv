@@ -1,0 +1,7 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_CAPE",12816,12816,2023-01-01 17:31:30,0,"soa","249","EN","cc23_CAPE001.wav","cc23_CAPE_aud_EN_249.txt",12816
+"cc23_CAPE",13024.54,13024.54,2023-01-01 17:34:58,1.42,"str cub non","249","EN","cc23_CAPE001.wav","cc23_CAPE_aud_EN_249.txt",13024.54
+"cc23_CAPE",13026.6,13026.6,2023-01-01 17:35:00,0.22,"oth non","249","EN","cc23_CAPE001.wav","cc23_CAPE_aud_EN_249.txt",13026.6
+"cc23_CAPE",13027.13,13027.13,2023-01-01 17:35:01,0.28,"oth non","249","EN","cc23_CAPE001.wav","cc23_CAPE_aud_EN_249.txt",13027.13
+"cc23_CAPE",13048.52,13048.52,2023-01-01 17:35:22,0.48,"str cub non","249","EN","cc23_CAPE001.wav","cc23_CAPE_aud_EN_249.txt",13048.52
+"cc23_CAPE",13416,13416,2023-01-01 17:41:30,0,"eoa","249","EN","cc23_CAPE001.wav","cc23_CAPE_aud_EN_249.txt",13416

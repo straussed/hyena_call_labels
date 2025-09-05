@@ -1,0 +1,9 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_STAR",113717.99,27314.01596875,2023-01-02 21:32:00,0,"soa","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27314.01596875
+"cc23_STAR",114280.34,27876.36596875,2023-01-02 21:41:22,0.94,"grn non","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27876.36596875
+"cc23_STAR",114284.65,27880.67596875,2023-01-02 21:41:26,0.05,"oth non","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27880.67596875
+"cc23_STAR",114300.83,27896.85596875,2023-01-02 21:41:43,0.66,"oth cub non","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27896.85596875
+"cc23_STAR",114302.55,27898.57596875,2023-01-02 21:41:44,0.06,"oth cub non","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27898.57596875
+"cc23_STAR",114304.18,27900.20596875,2023-01-02 21:41:46,0.62,"oth cub non","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27900.20596875
+"cc23_STAR",114306.81,27902.83596875,2023-01-02 21:41:49,0.54,"oth cub non","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27902.83596875
+"cc23_STAR",114317.99,27914.01596875,2023-01-02 21:42:00,0,"eoa","278","VD","cc23_STAR005.wav","cc23_STAR_aud_VD_278_finished.txt",27914.01596875

@@ -1,0 +1,49 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_RACH",31320,2518.62821875,2023-01-01 22:39:00,0,"soa","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2518.62821875
+"cc23_RACH",31439.66,2638.28821875,2023-01-01 22:40:59,0.86,"str cub non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2638.28821875
+"cc23_RACH",31441.51,2640.13821875,2023-01-01 22:41:01,0.88,"str cub non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2640.13821875
+"cc23_RACH",31444.36,2642.98821875,2023-01-01 22:41:04,1.47,"str cub non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2642.98821875
+"cc23_RACH",31451.7,2650.32821875,2023-01-01 22:41:12,3.04,"str cub non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2650.32821875
+"cc23_RACH",31474.45,2673.07821875,2023-01-01 22:41:34,1.3,"str cub non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2673.07821875
+"cc23_RACH",31484.84,2683.46821875,2023-01-01 22:41:45,0.16,"oth non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2683.46821875
+"cc23_RACH",31486.38,2685.00821875,2023-01-01 22:41:46,4.51,"str cub non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2685.00821875
+"cc23_RACH",31514.7,2713.32821875,2023-01-01 22:42:15,0.09,"oth foc","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2713.32821875
+"cc23_RACH",31589.78,2788.40821875,2023-01-01 22:43:30,0.12,"oth non","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",2788.40821875
+"cc23_RACH",31920,3118.62821875,2023-01-01 22:49:00,0,"eoa","256","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_256_finished.txt",3118.62821875
+"cc23_RACH",46620,17818.62821875,2023-01-02 02:54:00,0,"soa","258","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_258_finished.txt",17818.62821875
+"cc23_RACH",47220.01,18418.63821875,2023-01-02 03:04:00,0,"eoa","258","EN","cc23_RACH002.wav","cc23_RACH_aud_EN_258_finished.txt",18418.63821875
+"cc23_RACH",39960,11158.62821875,2023-01-02 01:03:00,0,"soa","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11158.62821875
+"cc23_RACH",40021,11219.62821875,2023-01-02 01:04:01,0.2,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11219.62821875
+"cc23_RACH",40023.22,11221.84821875,2023-01-02 01:04:03,0.88,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11221.84821875
+"cc23_RACH",40026.13,11224.75821875,2023-01-02 01:04:06,1.08,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11224.75821875
+"cc23_RACH",40031.41,11230.03821875,2023-01-02 01:04:11,0.54,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11230.03821875
+"cc23_RACH",40031.78,11230.40821875,2023-01-02 01:04:12,0.94,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11230.40821875
+"cc23_RACH",40035.17,11233.79821875,2023-01-02 01:04:15,0.83,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11233.79821875
+"cc23_RACH",40036,11234.62821875,2023-01-02 01:04:16,1.26,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11234.62821875
+"cc23_RACH",40037.26,11235.88821875,2023-01-02 01:04:17,1.32,"sql non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11235.88821875
+"cc23_RACH",40039.67,11238.29821875,2023-01-02 01:04:20,1.09,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11238.29821875
+"cc23_RACH",40040.48,11239.10821875,2023-01-02 01:04:20,1.13,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11239.10821875
+"cc23_RACH",40043.45,11242.07821875,2023-01-02 01:04:23,1.19,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11242.07821875
+"cc23_RACH",40044.8,11243.42821875,2023-01-02 01:04:25,1.29,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11243.42821875
+"cc23_RACH",40046.59,11245.21821875,2023-01-02 01:04:26,3.24,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11245.21821875
+"cc23_RACH",40049.74,11248.36821875,2023-01-02 01:04:30,0.87,"grn foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11248.36821875
+"cc23_RACH",40053.02,11251.64821875,2023-01-02 01:04:33,2.92,"grn foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11251.64821875
+"cc23_RACH",40163.23,11361.85821875,2023-01-02 01:06:23,0.24,"oth unf","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11361.85821875
+"cc23_RACH",40199.09,11397.71821875,2023-01-02 01:06:59,1.36,"oth non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11397.71821875
+"cc23_RACH",40254.95,11453.57821875,2023-01-02 01:07:55,1.44,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11453.57821875
+"cc23_RACH",40255.69,11454.31821875,2023-01-02 01:07:56,1.24,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11454.31821875
+"cc23_RACH",40258.14,11456.76821875,2023-01-02 01:07:58,1.33,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11456.76821875
+"cc23_RACH",40262.74,11461.36821875,2023-01-02 01:08:03,1.68,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11461.36821875
+"cc23_RACH",40263.18,11461.80821875,2023-01-02 01:08:03,1.15,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11461.80821875
+"cc23_RACH",40266.47,11465.09821875,2023-01-02 01:08:06,1.32,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11465.09821875
+"cc23_RACH",40268.97,11467.59821875,2023-01-02 01:08:09,2.83,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11467.59821875
+"cc23_RACH",40270.6,11469.22821875,2023-01-02 01:08:10,1.21,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11469.22821875
+"cc23_RACH",40274.13,11472.75821875,2023-01-02 01:08:14,2.71,"whp non","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11472.75821875
+"cc23_RACH",40277.39,11476.01821875,2023-01-02 01:08:17,0.69,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11476.01821875
+"cc23_RACH",40280.92,11479.54821875,2023-01-02 01:08:21,0.92,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11479.54821875
+"cc23_RACH",40284.65,11483.27821875,2023-01-02 01:08:24,1.06,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11483.27821875
+"cc23_RACH",40288.19,11486.81821875,2023-01-02 01:08:28,1.09,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11486.81821875
+"cc23_RACH",40291.66,11490.28821875,2023-01-02 01:08:31,1.24,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11490.28821875
+"cc23_RACH",40295.83,11494.45821875,2023-01-02 01:08:36,1.33,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11494.45821875
+"cc23_RACH",40299.44,11498.06821875,2023-01-02 01:08:39,1.65,"whp foc","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11498.06821875
+"cc23_RACH",40320.02,11518.64821875,2023-01-02 01:09:00,0,"eoa","10","MS","cc23_RACH002.wav","cc23_RACH_aud_MS_10_revised_finished.txt",11518.64821875

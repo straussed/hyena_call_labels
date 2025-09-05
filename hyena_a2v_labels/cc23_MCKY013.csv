@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_MCKY",281766,22554.61175,2023-01-04 20:15:00,0,"soa","311","IK","cc23_MCKY013.wav","cc23_MCKY_aud_IK_311_finished.txt",22554.61175
+"cc23_MCKY",282366,23154.61175,2023-01-04 20:25:00,0,"eoa","311","IK","cc23_MCKY013.wav","cc23_MCKY_aud_IK_311_finished.txt",23154.61175

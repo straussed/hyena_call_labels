@@ -1,0 +1,11 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_CAPE",103866.01,17465.289375,2023-01-02 18:49:00,0,"soa","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17465.289375
+"cc23_CAPE",103882.99,17482.269375,2023-01-02 18:49:17,0.21,"oth foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17482.269375
+"cc23_CAPE",103883.87,17483.149375,2023-01-02 18:49:17,0.87,"whp foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17483.149375
+"cc23_CAPE",103887.41,17486.689375,2023-01-02 18:49:21,2.15,"whp foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17486.689375
+"cc23_CAPE",103893.22,17492.499375,2023-01-02 18:49:27,1.99,"whp foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17492.499375
+"cc23_CAPE",103898.81,17498.089375,2023-01-02 18:49:32,2.27,"whp foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17498.089375
+"cc23_CAPE",103905,17504.279375,2023-01-02 18:49:39,2.47,"whp foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17504.279375
+"cc23_CAPE",103911.87,17511.149375,2023-01-02 18:49:45,2.73,"whp foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17511.149375
+"cc23_CAPE",103918.3,17517.579375,2023-01-02 18:49:52,2.2,"whp foc","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17517.579375
+"cc23_CAPE",103926.03,17525.309375,2023-01-02 18:50:00,0,"eoa","170","IK","cc23_CAPE003.wav","cc23_CAPE_aud_IK_170_finished.txt",17525.309375

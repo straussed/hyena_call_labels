@@ -1,0 +1,10 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_STRM",813555.01,7122.43778124999,2023-01-10 23:55:00,0,"soa","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7122.43778124999
+"cc23_STRM",814011.18,7578.60778125003,2023-01-11 00:02:37,1.76,"whp non","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7578.60778125003
+"cc23_STRM",814016.05,7583.47778125003,2023-01-11 00:02:41,1.87,"whp non","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7583.47778125003
+"cc23_STRM",814020.27,7587.69778125,2023-01-11 00:02:46,1.88,"whp non","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7587.69778125
+"cc23_STRM",814024.3,7591.72778125003,2023-01-11 00:02:50,1.91,"whp non","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7591.72778125003
+"cc23_STRM",814029.27,7596.69778125,2023-01-11 00:02:55,2.09,"whp non","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7596.69778125
+"cc23_STRM",814034.69,7602.11778124992,2023-01-11 00:03:00,2.11,"whp non","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7602.11778124992
+"cc23_STRM",814041.55,7608.97778125003,2023-01-11 00:03:07,2.05,"whp non","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7608.97778125003
+"cc23_STRM",814155,7722.42778124998,2023-01-11 00:05:00,0,"eoa","421","MS","cc23_STRM034.wav","cc23_STRM_aud_MS_421_finished.txt",7722.42778124998

@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_GYRO",882804,18800.866708333,2023-01-11 19:11:00,0,"soa","437","MS","cc23_GYRO021.wav","cc23_GYRO_aud_MS_437_finished.txt",18800.866708333
+"cc23_GYRO",883404,19400.866708333,2023-01-11 19:21:00,0,"eoa","437","MS","cc23_GYRO021.wav","cc23_GYRO_aud_MS_437_finished.txt",19400.866708333

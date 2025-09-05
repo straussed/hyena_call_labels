@@ -1,0 +1,9 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_GYRO",643344,7959.87387500005,2023-01-09 00:40:00,0,"soa","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",7959.87387500005
+"cc23_GYRO",643423.96,8039.83387500001,2023-01-09 00:41:20,2.22,"whp foc","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",8039.83387500001
+"cc23_GYRO",643429.71,8045.58387500001,2023-01-09 00:41:26,2.25,"whp foc","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",8045.58387500001
+"cc23_GYRO",643435.83,8051.70387500001,2023-01-09 00:41:32,2.32,"whp foc","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",8051.70387500001
+"cc23_GYRO",643442.48,8058.35387500003,2023-01-09 00:41:39,2.72,"whp foc","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",8058.35387500003
+"cc23_GYRO",643449.25,8065.12387500005,2023-01-09 00:41:46,2.75,"whp foc","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",8065.12387500005
+"cc23_GYRO",643456.59,8072.46387500002,2023-01-09 00:41:53,3.19,"whp foc","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",8072.46387500002
+"cc23_GYRO",643644.03,8259.90387500008,2023-01-09 00:45:00,0,"eoa","55","MS","cc23_GYRO016.wav","cc23_GYRO_aud_MS_55_finished.txt",8259.90387500008

@@ -1,0 +1,5 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_MCKY",96065.99,9662.15603125001,2023-01-02 16:40:00,0,"soa","268","IK","cc23_MCKY004.wav","cc23_MCKY_aud_IK_268_finished.txt",9662.15603125001
+"cc23_MCKY",96665.89,10262.05603125,2023-01-02 16:50:00,0,"eoa","268","IK","cc23_MCKY004.wav","cc23_MCKY_aud_IK_268_finished.txt",10262.05603125
+"cc23_MCKY",101946,15542.16603125,2023-01-02 18:18:00,0,"soa","270","IK","cc23_MCKY004.wav","cc23_MCKY_aud_IK_270_finished.txt",15542.16603125
+"cc23_MCKY",102546,16142.16603125,2023-01-02 18:28:00,0,"eoa","270","IK","cc23_MCKY004.wav","cc23_MCKY_aud_IK_270_finished.txt",16142.16603125

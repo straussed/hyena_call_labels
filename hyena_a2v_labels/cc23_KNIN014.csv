@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_KNIN",271735,12523.53703125,2023-01-04 17:25:23,0,"soa","308","EN","cc23_KNIN014.wav","cc23_KNIN_aud_EN_308_finished.txt",12523.53703125
+"cc23_KNIN",272335,13123.53703125,2023-01-04 17:35:23,0,"eoa","308","EN","cc23_KNIN014.wav","cc23_KNIN_aud_EN_308_finished.txt",13123.53703125

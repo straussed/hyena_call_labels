@@ -1,0 +1,3 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_SNUG",661247.9983125,0,2023-01-09 05:37:54,0,"soa","448","MS","cc23_SNUG031.wav","cc23_SNUG_aud_MS_448.txt",0
+"cc23_SNUG",662383.7,1135.7016875,2023-01-09 05:56:50,0,"eoa","448","MS","cc23_SNUG031.wav","cc23_SNUG_aud_MS_448.txt",1135.7016875

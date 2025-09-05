@@ -1,0 +1,4 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_BAKR",113805.270125,0,2023-01-02 21:33:19,0,"soa","277","MS","cc23_BAKR007.wav","cc23_BAKR_aud_MS_277_finished.txt",0
+"cc23_BAKR",114287.09,481.819875000001,2023-01-02 21:41:21,0.63,"oth non","277","MS","cc23_BAKR007.wav","cc23_BAKR_aud_MS_277_finished.txt",481.819875000001
+"cc23_BAKR",114326.01,520.739874999999,2023-01-02 21:42:00,0,"eoa","277","MS","cc23_BAKR007.wav","cc23_BAKR_aud_MS_277_finished.txt",520.739874999999

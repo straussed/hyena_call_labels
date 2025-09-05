@@ -1,0 +1,39 @@
+"tag","tag_time","wav_time","utc_time","duration","label","audit_number","labeler","wav_file","audit_file","time"
+"cc23_BLG",46549,17747.8705,2023-01-02 02:52:00,0,"soa","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17747.8705
+"cc23_BLG",46549.34,17748.2105,2023-01-02 02:52:01,0.26,"unk","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17748.2105
+"cc23_BLG",46550.25,17749.1205,2023-01-02 02:52:02,0.15,"unk","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17749.1205
+"cc23_BLG",46551.11,17749.9805,2023-01-02 02:52:02,0.21,"unk","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17749.9805
+"cc23_BLG",46551.99,17750.8605,2023-01-02 02:52:03,0.23,"unk","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17750.8605
+"cc23_BLG",46552.81,17751.6805,2023-01-02 02:52:04,0.18,"unk","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17751.6805
+"cc23_BLG",46553.81,17752.6805,2023-01-02 02:52:05,0.26,"unk","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17752.6805
+"cc23_BLG",46554.81,17753.6805,2023-01-02 02:52:06,0.19,"unk","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17753.6805
+"cc23_BLG",46561.36,17760.2305,2023-01-02 02:52:13,1.26,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17760.2305
+"cc23_BLG",46564.68,17763.5505,2023-01-02 02:52:16,0.49,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17763.5505
+"cc23_BLG",46567.99,17766.8605,2023-01-02 02:52:19,1.24,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17766.8605
+"cc23_BLG",46571.64,17770.5105,2023-01-02 02:52:23,1.23,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17770.5105
+"cc23_BLG",46575.35,17774.2205,2023-01-02 02:52:27,0.89,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17774.2205
+"cc23_BLG",46578.9,17777.7705,2023-01-02 02:52:30,1.36,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17777.7705
+"cc23_BLG",46582.63,17781.5005,2023-01-02 02:52:34,1.41,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17781.5005
+"cc23_BLG",46586.62,17785.4905,2023-01-02 02:52:38,1.44,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17785.4905
+"cc23_BLG",46589.65,17788.5205,2023-01-02 02:52:41,0.57,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17788.5205
+"cc23_BLG",46591.57,17790.4405,2023-01-02 02:52:43,0.66,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17790.4405
+"cc23_BLG",46592.01,17790.8805,2023-01-02 02:52:43,1.31,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17790.8805
+"cc23_BLG",46595.76,17794.6305,2023-01-02 02:52:47,2.41,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17794.6305
+"cc23_BLG",46601.01,17799.8805,2023-01-02 02:52:52,2.66,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17799.8805
+"cc23_BLG",46606.41,17805.2805,2023-01-02 02:52:58,2.85,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17805.2805
+"cc23_BLG",46612.13,17811.0005,2023-01-02 02:53:03,1.78,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17811.0005
+"cc23_BLG",46616.32,17815.1905,2023-01-02 02:53:08,1.91,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17815.1905
+"cc23_BLG",46620.9,17819.7705,2023-01-02 02:53:12,2.09,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17819.7705
+"cc23_BLG",46626.03,17824.9005,2023-01-02 02:53:17,2.44,"whp non","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17824.9005
+"cc23_BLG",46669.01,17867.8805,2023-01-02 02:54:00,0,"eoa","17","EN","cc23_BLG003.wav","cc23_BLG_aud_EN_17_finished.txt",17867.8805
+"cc23_BLG",39709.53,10908.4005,2023-01-02 00:58:01,0,"soa","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10908.4005
+"cc23_BLG",39749.66,10948.5305,2023-01-02 00:58:41,0.49,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10948.5305
+"cc23_BLG",39752.7,10951.5705,2023-01-02 00:58:44,1.33,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10951.5705
+"cc23_BLG",39757.89,10956.7605,2023-01-02 00:58:49,2.44,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10956.7605
+"cc23_BLG",39762.89,10961.7605,2023-01-02 00:58:54,2.62,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10961.7605
+"cc23_BLG",39768.78,10967.6505,2023-01-02 00:59:00,2.9,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10967.6505
+"cc23_BLG",39775.8,10974.6705,2023-01-02 00:59:07,3.36,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10974.6705
+"cc23_BLG",39783.56,10982.4305,2023-01-02 00:59:15,2.3,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10982.4305
+"cc23_BLG",39789.33,10988.2005,2023-01-02 00:59:21,2.56,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10988.2005
+"cc23_BLG",39796.27,10995.1405,2023-01-02 00:59:28,4.47,"whp non","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",10995.1405
+"cc23_BLG",39829.33,11028.2005,2023-01-02 01:00:01,0,"eoa","15","VD","cc23_BLG003.wav","cc23_BLG_aud_VD_15_finished.txt",11028.2005
