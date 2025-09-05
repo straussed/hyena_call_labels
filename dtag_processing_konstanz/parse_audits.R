@@ -37,6 +37,9 @@ parse_audits <- function(audit_files, cuetab_folder){
     ##lowercase labels
     labels$label <- tolower(labels$label)
     
+    ##trim whitespace
+    labels$label <- trimws(labels$label)
+    
     ## skip file and complain if soa and eoa are missing or there are too many
     if(sum(labels$label == 'soa') != 1 | sum(labels$label == 'eoa') != 1){
       warning(paste0('Audit ', paste(labeler, audit_number, sep = '_'), ' has soa/eoa issue. Skipping!'))
@@ -65,8 +68,8 @@ parse_audits <- function(audit_files, cuetab_folder){
       overlaps <- intervals::interval_overlap(audit_interval, existing_audits)[[1]]
       if(length(overlaps)){
         percent_overlap <- 100 * suppressWarnings(intervals::size(intervals::interval_intersection(existing_audits[overlaps], audit_interval))/intervals::size(intervals::interval_union(existing_audits[overlaps], audit_interval)))
-        warning('Overlapping audits - skipping second audit: ', label_info_list$file_name[same_tag_audits][[overlaps]], ' - ', file_name, '\n   %overlap = ', percent_overlap)
-        next
+        warning('Overlapping audits: ', label_info_list$file_name[same_tag_audits][[overlaps]], ' - ', file_name, '\n   %overlap = ', percent_overlap)
+        #next
       }
     }
     
