@@ -16,7 +16,7 @@ library(tidyr)
 library(stringr)
 library(readr)
 library(gtools)
-library(stringr)
+library(purrr)
 
 # to filter for only groan or only feeding predictions etc.
 # enter "feeding" or "groan", or "all" to not filter the predictions
@@ -46,13 +46,13 @@ replacement_map <- c(
 
 # the location of the cue tables containing the relative time of each wav file 
 # to the collar start time
-cue_tables <- "/Volumes/cc23_4/cc23_cue_tables_csv"
+cue_tables <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/cc23_cue_tables_csv"
 
 # location of the animal2vec predictions
-a2v_files <- "/Users/mfaiss/Documents/Hyenaproject/Hyena Data/2025_01_17_round_two"
+a2v_files <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/a2v_predictions/2025_10_29_new_predictions_with_new_groundtruth/csv"
 
 # output directory where the folder with converted cue files will be
-out_dir <- "/Users/mfaiss/Documents/Hyena project/hyena_call_labels/a2v_validation/converted_files"
+out_dir <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/a2v_predictions/2025_10_29_new_predictions_with_new_groundtruth"
 
 ################################################################################
 
@@ -64,6 +64,21 @@ wav_preds <- function(file_name, cue_table){
   wav_df <- read_delim(sprintf("%s/%s", a2v_files, file_name), 
                        delim = "\t", col_types = "cccc", 
                        col_select=c(Start, Duration, Name, Description))
+  
+  # split the "Description" column into two separate values
+  wav_df <- wav_df %>%
+    mutate(
+      # split the string at spaces
+      split_desc = str_split(Description, " ")
+    ) %>%
+    mutate(
+      # take the first element for the "Description" column
+      Description = map_chr(split_desc, ~ .x[1]),
+      # if there is a second element, assign it to a new column "Description2"
+      Description2 = map_chr(split_desc, ~ ifelse(length(.x) > 1, .x[2], NA))
+    ) %>%
+    # drop the intermediate list column
+    select(-split_desc)
   
   # remove predictions with low confidence score
   wav_df <- wav_df %>% filter(Description >= min_confidence)
