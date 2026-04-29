@@ -196,10 +196,10 @@ if (min_confidence != 0){
   conf_out_folder <- sprintf("%s/%s_predictions/confs", out_dir, filter_calls)
 }
 
-if (!file.exists(cue_out_folder)){
+if (!file.exists(cue_out_folder) & cuefiles){
   dir.create(cue_out_folder, recursive = TRUE, showWarnings = FALSE)
 }
-if (!file.exists(conf_out_folder)){
+if (!file.exists(conf_out_folder) & validation_gt){
   dir.create(conf_out_folder, recursive = TRUE, showWarnings = FALSE)
 }
 
@@ -289,8 +289,8 @@ for (individual in names(individual_files)) {
                                  trim=TRUE))
       
       # write a text file containing all converted predictions for this hyena
-      write_delim(individual_df, cue_out_name, delim = "\t", col_names = FALSE)
-      write_delim(valid_df, conf_out_name, delim = "\t", col_names = FALSE)
+      if (cuefiles){write_delim(individual_df, cue_out_name, delim = "\t", col_names = FALSE)}
+      if (validation_gt){write_delim(valid_df, conf_out_name, delim = "\t", col_names = FALSE)}
     }
   }
   
@@ -335,8 +335,8 @@ for (individual in names(individual_files)) {
                                    trim=TRUE))
         
         # write a text file containing all converted predictions for this hyena
-        write_delim(wav_df, cue_out_name, delim = "\t", col_names = FALSE)
-        write_delim(valid_file, conf_out_name, delim = "\t", col_names = FALSE)
+        if (cuefiles){write_delim(wav_df, cue_out_name, delim = "\t", col_names = FALSE)}
+        if (validation_gt){write_delim(valid_file, conf_out_name, delim = "\t", col_names = FALSE)}
       }
     }
   }
