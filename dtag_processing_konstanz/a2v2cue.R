@@ -5,6 +5,8 @@
 ## files are for each wav file and give the times within the wav file itself.
 ## This script converts the times to be relative to the start of the collar and
 ## creates one long file including all predictions for each hyena.
+## If specified, the script can also produce files that contain the call and 
+## focal confidence scores for each prediction in order to calculate PR curves.
 
 
 ## Written by Marius Faiß January 2025
@@ -18,15 +20,31 @@ library(readr)
 library(gtools)
 library(purrr)
 
+# FILTERING PARAMETERS
 # to filter for only groan or only feeding predictions etc.
 # enter "feeding" or "groan", or "all" to not filter the predictions
 filter_calls <- "all"
 
-# filter out low confidence score predictions, set to 0 to get all predictions 
-min_confidence <- 0.3
+# filter out low confidence score predictions (calls), set to 0 to get all predictions 
+min_confidence <- 0
 
-# add confidence score to label
-add_conf <- FALSE
+# OUTPUT FILES
+# create validation ground truth files with confidence scores
+validation_gt <- TRUE
+
+# create cue files for viewing in MATLAB
+cuefiles <- FALSE
+
+if (cuefiles) {
+  # add confidence score to label for viewing in MATLAB
+  add_conf <- FALSE
+
+  # add focal confidence score to label for viewing in MATLAB
+  add_focalconf <- FALSE
+} else {
+  add_conf <- FALSE
+  add_focalconf <- FALSE
+}
 
 # convert call names to label cues
 replacement_map <- c(
@@ -39,7 +57,8 @@ replacement_map <- c(
   "squeal" = "sql",
   "growl" = "gwl",
   "cub_whoop" = "whp cub",
-  "nf" = "non"
+  "nf" = "non",
+  "snore" = "snr"
 )
 
 ################################################################################
@@ -49,10 +68,10 @@ replacement_map <- c(
 cue_tables <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/cc23_cue_tables_csv"
 
 # location of the animal2vec predictions
-a2v_files <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/a2v_predictions/2025_10_29_new_predictions_with_new_groundtruth/csv"
+a2v_files <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/a2v_predictions/2026_01_01_large_model_final_predictions/csv"
 
 # output directory where the folder with converted cue files will be
-out_dir <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/a2v_predictions/2025_10_29_new_predictions_with_new_groundtruth"
+out_dir <- "/Users/mfaiss/Documents/Hyenaproject/hyena_call_labels/a2v_validation/converted_files/2026_01_01_large_model_final_predictions"
 
 ################################################################################
 
@@ -77,11 +96,17 @@ wav_preds <- function(file_name, cue_table){
       # if there is a second element, assign it to a new column "Description2"
       Description2 = map_chr(split_desc, ~ ifelse(length(.x) > 1, .x[2], NA))
     ) %>%
+    
+    # remove the "foc" string from Description2
+    mutate(Description2 = as.character(gsub("foc", "", Description2))) %>%
+    
     # drop the intermediate list column
     select(-split_desc)
   
   # remove predictions with low confidence score
-  wav_df <- wav_df %>% filter(Description >= min_confidence)
+  if (min_confidence != 0) {
+    wav_df <- wav_df %>% filter(Description >= min_confidence)
+  }
   
   # filter specific prediction type
   if (filter_calls != "all") {
@@ -94,18 +119,6 @@ wav_preds <- function(file_name, cue_table){
     mutate(Name = if_else(
       !str_detect(Name, "non"), paste0(Name, " foc"), Name
     ))
-
-  if (add_conf) {
-    wav_df$Description <- as.character(wav_df$Description)
-    wav_df$Description[is.na(wav_df$Description)] <- ""
-    
-    # combine the predicted label and confidence score into one column
-    wav_df <- wav_df %>% mutate(Name = paste(Name, Description)) %>%
-      select(-Description)
-  } else {
-    wav_df$Description <- NULL
-  }
-  
   
   # convert time to seconds
   wav_df <- wav_df %>%
@@ -130,22 +143,64 @@ wav_preds <- function(file_name, cue_table){
   cue_values <- cue_table %>% filter(X1 == number)
   start_time <- min(cue_values$X2)
   wav_df <- wav_df %>% mutate(Start = Start + start_time)
+
+  # format confidence scores
+  if (add_conf | validation_gt | add_focalconf) {
+    # call confidence scores
+    wav_df$Description <- as.character(wav_df$Description)
+    wav_df$Description[is.na(wav_df$Description)] <- ""
+    # focal confidence scores
+    wav_df$Description2 <- as.character(wav_df$Description2)
+    wav_df$Description2[is.na(wav_df$Description2)] <- ""
+  }
+
+  # create validation files with confidence scores
+  if (validation_gt) {
+    valid_df <- wav_df
+    valid_df <- rename(valid_df, call_conf = Description)
+    valid_df <- rename(valid_df, focal_conf = Description2)
+  } else {
+    valid_df <- wav_df[0,]
+    valid_df <- rename(valid_df, call_conf = Description)
+    valid_df <- rename(valid_df, focal_conf = Description2)
+  }
+
+  # add confidence scores to the labels for viewing in MATLAB
+  if (add_conf) {
+    wav_df <- wav_df %>% mutate(Name = paste(Name, Description)) %>%
+      select(-Description)
+  } else {
+    wav_df$Description <- NULL
+  }
+
+  if (add_focalconf) {
+    wav_df <- wav_df %>% mutate(Name = paste(Name, Description2)) %>%
+      select(-Description2)
+  } else {
+    wav_df$Description2 <- NULL
+  }
   
-  return(wav_df)
+  return(list(wav_df, valid_df))
 }
 
 ################################################################################
 
 # create output folder
 if (min_confidence != 0){
-  out_folder <- sprintf("%s/%s_predictions_%s", out_dir, filter_calls, 
+  cue_out_folder <- sprintf("%s/%s_predictions_%s/cues", out_dir, filter_calls, 
+                        gsub("\\.", "_", min_confidence))
+  conf_out_folder <- sprintf("%s/%s_predictions_%s/confs", out_dir, filter_calls, 
                         gsub("\\.", "_", min_confidence))
 } else{
-  out_folder <- sprintf("%s/%s_predictions", out_dir, filter_calls)
+  cue_out_folder <- sprintf("%s/%s_predictions/cues", out_dir, filter_calls)
+  conf_out_folder <- sprintf("%s/%s_predictions/confs", out_dir, filter_calls)
 }
 
-if (!file.exists(out_folder)){
-  dir.create(out_folder)
+if (!file.exists(cue_out_folder)){
+  dir.create(cue_out_folder, recursive = TRUE, showWarnings = FALSE)
+}
+if (!file.exists(conf_out_folder)){
+  dir.create(conf_out_folder, recursive = TRUE, showWarnings = FALSE)
 }
 
 # list of all prediction files
@@ -192,27 +247,35 @@ for (individual in names(individual_files)) {
   if (filter_calls != "all") {
     
     if (min_confidence != 0) {
-      out_name <- sprintf("%s/cc23_%s_%s_predictions_%s.txt", 
-                          out_folder, individual, filter_calls, 
+      cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues_%s.txt", 
+                          cue_out_folder, individual, filter_calls, 
+                          gsub("\\.", "_", min_confidence))
+      conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf_%s.txt", 
+                          conf_out_folder, individual, filter_calls, 
                           gsub("\\.", "_", min_confidence))
     }
     else {
-      out_name <- sprintf("%s/cc23_%s_%s_predictions.txt", out_folder, 
+      cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues.txt", cue_out_folder, 
+                          individual, filter_calls)
+      conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf.txt", conf_out_folder, 
                           individual, filter_calls)
     }
     
-    
-    if (!file.exists(out_name)) {
+    if (!file.exists(cue_out_name) | !file.exists(conf_out_name)) {
       # empty list to put all wav file predictions into
       df_list <- list()
+      valid_list <- list()
       
       for (filename in list_of_files) {
         
         # use function to convert file
-        wav_df <- wav_preds(filename, cue_table)
+        dataframes <- wav_preds(filename, cue_table)
+        wav_df <- dataframes[[1]]
+        valid_file <- dataframes[[2]]
 
         # add converted prediction file to the list
         df_list <- append(df_list, list(wav_df))
+        valid_list <- append(valid_list, list(valid_file))
       }
       
       # combine all wav predictions into one dataframe and format numbers
@@ -220,9 +283,14 @@ for (individual in names(individual_files)) {
         mutate(Start = format(Start, nsmall = 6, scientific=FALSE, trim=TRUE),
                Duration = format(Duration, nsmall = 6, scientific=FALSE, 
                                  trim=TRUE))
+      valid_df <- bind_rows(valid_list) %>%
+        mutate(Start = format(Start, nsmall = 6, scientific=FALSE, trim=TRUE),
+               Duration = format(Duration, nsmall = 6, scientific=FALSE, 
+                                 trim=TRUE))
       
       # write a text file containing all converted predictions for this hyena
-      write_delim(individual_df, out_name, delim = "\t", col_names = FALSE)
+      write_delim(individual_df, cue_out_name, delim = "\t", col_names = FALSE)
+      write_delim(valid_df, conf_out_name, delim = "\t", col_names = FALSE)
     }
   }
   
@@ -235,27 +303,40 @@ for (individual in names(individual_files)) {
       number <- str_pad(parse_number(str_split(filename, "_")[[1]][2]), 3, pad="0")
       
       if (min_confidence != 0) {
-        out_name <- sprintf("%s/cc23_%s%s_%s_predictions_%s.txt", 
-                            out_folder, individual, number, filter_calls, 
+        cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues_%s.txt", 
+                            cue_out_folder, individual, number, filter_calls, 
+                            gsub("\\.", "_", min_confidence))
+        conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf_%s.txt", 
+                            conf_out_folder, individual, number, filter_calls, 
                             gsub("\\.", "_", min_confidence))
       }
       else {
-        out_name <- sprintf("%s/cc23_%s%s_%s_predictions.txt", 
-                            out_folder, individual, number, filter_calls)
+        cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues.txt", 
+                            cue_out_folder, individual, number, filter_calls)
+        conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf.txt", 
+                            conf_out_folder, individual, number, filter_calls)
       }
       
-      if (!file.exists(out_name)) {
+      if (!file.exists(cue_out_name) | !file.exists(conf_out_name)) {
 
         # use function to convert file
-        wav_df <- wav_preds(filename, cue_table)
+        dataframes <- wav_preds(filename, cue_table)
+        wav_df <- dataframes[[1]]
+        valid_file <- dataframes[[2]]
       
         wav_df <- wav_df %>%
           mutate(Start = format(Start, nsmall = 6, scientific=FALSE, trim=TRUE),
                  Duration = format(Duration, nsmall = 6, scientific=FALSE, 
                                    trim=TRUE))
         
+        valid_file <- valid_file %>%
+          mutate(Start = format(Start, nsmall = 6, scientific=FALSE, trim=TRUE),
+                 Duration = format(Duration, nsmall = 6, scientific=FALSE, 
+                                   trim=TRUE))
+        
         # write a text file containing all converted predictions for this hyena
-        write_delim(wav_df, out_name, delim = "\t", col_names = FALSE)
+        write_delim(wav_df, cue_out_name, delim = "\t", col_names = FALSE)
+        write_delim(valid_file, conf_out_name, delim = "\t", col_names = FALSE)
       }
     }
   }
