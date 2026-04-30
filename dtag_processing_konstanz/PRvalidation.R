@@ -127,7 +127,19 @@ for (individual in names(individual_files)) {
 
     # NON-FOCAL CALLS
     # pick n examples for each call type with non-focal calls
-    pool_non <- predictions %>% filter(grepl(call_type, label), grepl("non", label))
+    pool_non <- predictions %>% 
+      filter(grepl(call_type, label), grepl("non", label)) %>%
+      # 1. create confidence bins
+      mutate(conf_bin = cut(call_conf, breaks = c(0, seq(0.2, 1.0, by = 0.1)), include.lowest = TRUE)) %>%
+      # 2. group by the bin to calculate how many exist
+      group_by(conf_bin) %>%
+      # 3. save the total population for later, and the probability for now
+      mutate(
+        bin_total = n(),      # for the evaluation math later
+        sample_prob = 1 / n() # for the sample() function
+      ) %>%
+      ungroup()
+
     available_days <- unique(pool_non$day)
     available_days <- available_days[available_days <= days - 1]
 
@@ -149,8 +161,8 @@ for (individual in names(individual_files)) {
         # get predictions just for this day
         day_preds <- pool_non[pool_non$day == current_day, ]
         
-        # pick one random prediction from this day
-        candidate_row <- day_preds[sample(nrow(day_preds), 1), ]
+        # pick one random prediction from this day with confidence score weighting
+        candidate_row <- day_preds[sample(nrow(day_preds), size = 1, prob = day_preds$sample_prob), ]
         candidate_time <- candidate_row$start
         
         # check if it is within an already labeled section
@@ -174,7 +186,12 @@ for (individual in names(individual_files)) {
     }
     
     # FOCAL CALLS
-    pool_foc <- predictions %>% filter(grepl(call_type, label), grepl("foc", label))
+    pool_foc <- predictions %>% 
+      filter(grepl(call_type, label), grepl("foc", label)) %>%
+      mutate(conf_bin = cut(call_conf, breaks = c(0, seq(0.2, 1.0, by = 0.1)), include.lowest = TRUE)) %>%
+      mutate(bin_total = n(), sample_prob = 1 / n()) %>%
+      ungroup()
+
     available_days <- unique(pool_foc$day)
     
     if (length(available_days) == 0) {
@@ -193,7 +210,7 @@ for (individual in names(individual_files)) {
         
         day_preds <- pool_foc[pool_foc$day == current_day, ]
         
-        candidate_row <- day_preds[sample(nrow(day_preds), 1), ]
+        candidate_row <- day_preds[sample(nrow(day_preds), size = 1, prob = day_preds$sample_prob), ]
         candidate_time <- candidate_row$start
         
         in_section <- any(candidate_time >= sections$start_time & candidate_time <= sections$end_time)
@@ -218,15 +235,21 @@ for (individual in names(individual_files)) {
     # order predictions by start time
     valid_preds <- valid_preds[order(valid_preds$start),]
 
-    # save prediction file with confidence scores
-    write_delim(valid_preds, glue("{base_folder}/a2v_validation/PRvalidation/selected_predictions/cc23_{individual}_predictions_conf.txt"), delim = "\t", col_names = FALSE)
+    # save prediction file with confidence scores and ecaliation weights
+    valid_preds <- valid_preds %>%
+      group_by(label, conf_bin) %>%
+      mutate(
+        n_sampled = n(),
+        eval_weight = bin_total / n_sampled
+      ) %>%
+      ungroup()
+
+    write_delim(valid_preds, glue("{base_folder}/a2v_validation/PRvalidation/selected_predictions/cc23_{individual}_predictions_conf.txt"), delim = "\t")
 
     # remove columns for cue validation file
-    valid_preds$day <- NULL
-    valid_preds$call_conf <- NULL
-    valid_preds$foc_conf <- NULL
+    cues_to_validate <- valid_preds %>% select(start, duration, label)
 
-    # save validaiton file
-    write_delim(valid_preds, glue("{base_folder}/a2v_validation/PRvalidation/to_validate/cc23_{individual}_validation_cues.txt"), delim = "\t", col_names = FALSE)
+    # save validaton file
+    write_delim(cues_to_validate, glue("{base_folder}/a2v_validation/PRvalidation/to_validate/cc23_{individual}_validation_cues.txt"), delim = "\t", col_names = FALSE)
   }
 }
