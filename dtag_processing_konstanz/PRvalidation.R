@@ -31,8 +31,6 @@ base_folder <- "/Users/mfaiss/Documents/Hyenaproject/hyena_call_labels"
 
 setwd(base_folder)
 
-source("dtag_processing_konstanz/cue2utc.R")
-
 # folder with converted a2v predictions
 a2v_predictions <- glue("{base_folder}/a2v_validation/converted_files/2026_01_01_large_model_final_predictions/all_predictions/confs")
 
@@ -52,16 +50,19 @@ call_labels <- c("whp", "grn", "gig", "rum", "sql", "gwl", "fed", "str", "oth", 
 # number of examples per call type to pick for validation
 n_examples <- 20
 
+# ratio between focal and non-focal calls
+focal_ratio <- 0.5
+
 ################################################################################
 
 # output directory
-out_dir <- glue("{base_folder}/a2v_validation/PRvalidation")
+out_dir <- glue("{base_folder}/PR_validation")
 if (!file.exists(out_dir)){dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)}
 
 # load all a2v label files, filter to only soa and eoa
 all_labels <- read_csv(list.files(path = a2v_labels_folder, 
                                   pattern = "\\.csv$", 
-                                  full.names = TRUE))
+                                  full.names = TRUE), show_col_types = FALSE)
 all_labels <- all_labels[all_labels$label %in% c("soa", "eoa"), ]
 
 # list of all prediction files
@@ -106,9 +107,9 @@ for (individual in names(individual_files)) {
   sections <- data.frame(start_time = starts, end_time = ends)
 
   # read this individuals predictions with confidence scores
-  predictions <- read_delim(mixedsort(individual_files[[individual]]), 
-                           col_names = FALSE, 
-                           delim = "\t")
+  file_list <- mixedsort(individual_files[[individual]])
+  file_list <- file_list[file.size(file_list) > 0]
+  predictions <- read_delim(file_list, col_names = FALSE, delim = "\t", show_col_types = FALSE)
   predictions <- rename(predictions, start = X1, duration = X2, label = X3, call_conf = X4, foc_conf = X5)
   
   # calculate which days the predictions are from
@@ -123,7 +124,7 @@ for (individual in names(individual_files)) {
 
     # keep track of picked times so they don't cluster
     picked_timestamps <- numeric(0)
-    target_n <- n_examples / 2
+    nf_target <- as.integer(round(n_examples * (1 - focal_ratio)))
 
     # NON-FOCAL CALLS
     # pick n examples for each call type with non-focal calls
@@ -150,7 +151,7 @@ for (individual in names(individual_files)) {
       attempts <- 0
       day_queue <- sample(available_days) # shuffle days into a queue
       
-      while (success_count < target_n && attempts < 2000) {
+      while (success_count < nf_target && attempts < 2000) {
         attempts <- attempts + 1
         
         # pop the first day off the queue
@@ -182,7 +183,7 @@ for (individual in names(individual_files)) {
         }
       }
       
-      if (success_count < target_n) cat(sprintf("    Warning: Only found %d/%d non-focal calls.\n", success_count, target_n))
+      if (success_count < nf_target) cat(sprintf("    Warning: Only found %d/%d non-focal calls.\n", success_count, nf_target))
     }
     
     # FOCAL CALLS
@@ -193,6 +194,7 @@ for (individual in names(individual_files)) {
       ungroup()
 
     available_days <- unique(pool_foc$day)
+    foc_target <- as.integer(round(n_examples * focal_ratio))
     
     if (length(available_days) == 0) {
       cat(sprintf("    Warning: No focal data found for %s. Skipping.\n", call_type))
@@ -201,7 +203,7 @@ for (individual in names(individual_files)) {
       attempts <- 0
       day_queue <- sample(available_days)
       
-      while (success_count < target_n && attempts < 2000) {
+      while (success_count < foc_target && attempts < 2000) {
         attempts <- attempts + 1
         
         if (length(day_queue) == 0) day_queue <- sample(available_days)
@@ -227,7 +229,7 @@ for (individual in names(individual_files)) {
         }
       }
       
-      if (success_count < target_n) cat(sprintf("    Warning: Only found %d/%d focal calls.\n", success_count, target_n))
+      if (success_count < foc_target) cat(sprintf("    Warning: Only found %d/%d focal calls.\n", success_count, foc_target))
     }
   }
 
@@ -244,12 +246,12 @@ for (individual in names(individual_files)) {
       ) %>%
       ungroup()
 
-    write_delim(valid_preds, glue("{base_folder}/a2v_validation/PRvalidation/selected_predictions/cc23_{individual}_predictions_conf.txt"), delim = "\t")
+    write_delim(valid_preds, glue("{base_folder}/PR_validation/selected_predictions/cc23_{individual}_predictions_conf.txt"), delim = "\t")
 
     # remove columns for cue validation file
     cues_to_validate <- valid_preds %>% select(start, duration, label)
 
     # save validaton file
-    write_delim(cues_to_validate, glue("{base_folder}/a2v_validation/PRvalidation/to_validate/cc23_{individual}_validation_cues.txt"), delim = "\t", col_names = FALSE)
+    write_delim(cues_to_validate, glue("{base_folder}/PR_validation/to_validate/cc23_{individual}_validation_cues.txt"), delim = "\t", col_names = FALSE)
   }
 }
