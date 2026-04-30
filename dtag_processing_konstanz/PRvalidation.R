@@ -24,6 +24,8 @@ library(stringr)
 library(glue)
 library(lubridate)
 
+set.seed(1)
+
 # FOLDERS
 base_folder <- "/Users/mfaiss/Documents/Hyenaproject/hyena_call_labels"
 
@@ -48,7 +50,7 @@ days <- 20
 call_labels <- c("whp", "grn", "gig", "rum", "sql", "gwl", "fed", "str", "oth", "snr")
 
 # number of examples per call type to pick for validation
-n_examples <- 10
+n_examples <- 20
 
 ################################################################################
 
@@ -101,40 +103,130 @@ for (individual in names(individual_files)) {
   # get the start and end of audit timestamps and add buffer around them
   starts <- labeled_sections$tag_time[labeled_sections$label == "soa"] - buffer_min * 60
   ends   <- labeled_sections$tag_time[labeled_sections$label == "eoa"] + buffer_min * 60
-  sections <- data.frame(
-    start_time = starts,
-    end_time   = ends
-  )
+  sections <- data.frame(start_time = starts, end_time = ends)
 
   # read this individuals predictions with confidence scores
   predictions <- read_delim(mixedsort(individual_files[[individual]]), 
                            col_names = FALSE, 
                            delim = "\t")
+  predictions <- rename(predictions, start = X1, duration = X2, label = X3, call_conf = X4, foc_conf = X5)
+  
+  # calculate which days the predictions are from
+  predictions$day <- floor(predictions$start / 86400)
+
+  # create an empty dataframe to store the results
+  valid_preds <- predictions[0, ]
   
   # iterate over the call types and produce validation files
   for (call_type in call_labels) {
-    cat(sprintf("Call type: %s\n", call_type))
+    cat(sprintf("Processing call type: %s\n", call_type))
 
-    # create an empty dataframe with the same columns as the predictions
+    # keep track of picked times so they don't cluster
+    picked_timestamps <- numeric(0)
+    target_n <- n_examples / 2
 
+    # NON-FOCAL CALLS
     # pick n examples for each call type with non-focal calls
-    for (i in 1:n_examples/2) {
-      # randomly choose a day from the range 0:days (defined above)
-        # filter predictions for this day, by multiplying the day with 24 * 60 * 60
-          # randomly choose a row from predictions where X3 contains the call_type string and the string "non"
-          # example: call_type = "fed", matched row = "fed non"
-            # check if X1 falls into any of the start and end periods in labeled_sections
-              # if yes, choose another row
-              # if not, store the row in the empty dataframe from above
-              # also if not, add the X1 timestamp to the labeled_sections dataframe, so that no timestamps close to it are selected
-                # start = X1 - buffer_min * 60
-                # end = X1 + buffer_min * 60
-    }
+    pool_non <- predictions %>% filter(grepl(call_type, label), grepl("non", label))
+    available_days <- unique(pool_non$day)
+    available_days <- available_days[available_days <= days - 1]
 
-    # pick n examples for each call type with focal calls
-    for (i in 1:n_examples/2) {
-      # same as above, but choose a row from predictions where X3 contains the call_type string and the string "foc"
-      # example: call_type = "fed", matched row = "fed foc"
+    if (length(available_days) == 0) {
+      cat(sprintf("    Warning: No non-focal data found for %s. Skipping.\n", call_type))
+    } else {
+      success_count <- 0
+      attempts <- 0
+      day_queue <- sample(available_days) # shuffle days into a queue
+      
+      while (success_count < target_n && attempts < 2000) {
+        attempts <- attempts + 1
+        
+        # pop the first day off the queue
+        if (length(day_queue) == 0) day_queue <- sample(available_days) # Refill queue if empty
+        current_day <- day_queue[1]
+        day_queue <- day_queue[-1] 
+        
+        # get predictions just for this day
+        day_preds <- pool_non[pool_non$day == current_day, ]
+        
+        # pick one random prediction from this day
+        candidate_row <- day_preds[sample(nrow(day_preds), 1), ]
+        candidate_time <- candidate_row$start
+        
+        # check if it is within an already labeled section
+        in_section <- any(candidate_time >= sections$start_time & candidate_time <= sections$end_time)
+        
+        # check id it is close to already picked timestamps
+        is_too_close <- FALSE
+        if (length(picked_timestamps) > 0) {
+          is_too_close <- any(abs(candidate_time - picked_timestamps) < buffer_min * 60)
+        }
+        
+        # save the prediction
+        if (!in_section && !is_too_close) {
+          valid_preds <- rbind(valid_preds, candidate_row)
+          picked_timestamps <- c(picked_timestamps, candidate_time)
+          success_count <- success_count + 1
+        }
+      }
+      
+      if (success_count < target_n) cat(sprintf("    Warning: Only found %d/%d non-focal calls.\n", success_count, target_n))
     }
+    
+    # FOCAL CALLS
+    pool_foc <- predictions %>% filter(grepl(call_type, label), grepl("foc", label))
+    available_days <- unique(pool_foc$day)
+    
+    if (length(available_days) == 0) {
+      cat(sprintf("    Warning: No focal data found for %s. Skipping.\n", call_type))
+    } else {
+      success_count <- 0
+      attempts <- 0
+      day_queue <- sample(available_days)
+      
+      while (success_count < target_n && attempts < 2000) {
+        attempts <- attempts + 1
+        
+        if (length(day_queue) == 0) day_queue <- sample(available_days)
+        current_day <- day_queue[1]
+        day_queue <- day_queue[-1]
+        
+        day_preds <- pool_foc[pool_foc$day == current_day, ]
+        
+        candidate_row <- day_preds[sample(nrow(day_preds), 1), ]
+        candidate_time <- candidate_row$start
+        
+        in_section <- any(candidate_time >= sections$start_time & candidate_time <= sections$end_time)
+        
+        is_too_close <- FALSE
+        if (length(picked_timestamps) > 0) {
+          is_too_close <- any(abs(candidate_time - picked_timestamps) < buffer_min * 60)
+        }
+        
+        if (!in_section && !is_too_close) {
+          valid_preds <- rbind(valid_preds, candidate_row)
+          picked_timestamps <- c(picked_timestamps, candidate_time)
+          success_count <- success_count + 1
+        }
+      }
+      
+      if (success_count < target_n) cat(sprintf("    Warning: Only found %d/%d focal calls.\n", success_count, target_n))
+    }
+  }
+
+  if (nrow(valid_preds) > 0) {
+    # order predictions by start time
+    valid_preds <- valid_preds[order(valid_preds$start),]
+
+    # save prediction file with confidence scores
+    write_delim(valid_preds, glue("{base_folder}/a2v_validation/PRvalidation/selected_predictions/cc23_{individual}_predictions_conf.txt"), delim = "\t", col_names = FALSE)
+
+    # remove columns for cue validation file
+    valid_preds$day <- NULL
+    valid_preds$call_conf <- NULL
+    valid_preds$foc_conf <- NULL
+
+    # save validaiton file
+    write_delim(valid_preds, glue("{base_folder}/a2v_validation/PRvalidation/to_validate/cc23_{individual}_validation_cues.txt"), delim = "\t", col_names = FALSE)
   }
 }
