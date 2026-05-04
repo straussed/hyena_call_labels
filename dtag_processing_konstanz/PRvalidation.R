@@ -53,11 +53,23 @@ n_examples <- 20
 # ratio between focal and non-focal calls
 focal_ratio <- 0.5
 
+# adaptive bin breaks — coarse at low confidence scores where threshold selection 
+# is unlikely, finer above 0.7 where it matters
+conf_breaks <- c(0, 0.3, 0.5, 0.6, 0.7, 0.75, 0.80, 0.85, 0.90, 0.95, 1.0)
+
+# minimum number of validated examples per confidence bin before a warning is 
+# issued. Used to flag bins where precision estimates will be unreliable.
+min_per_bin <- 20/(length(conf_breaks)-1)/2
+
 ################################################################################
+# loading all files for every individual and creating directories
 
 # output directory
 out_dir <- glue("{base_folder}/PR_validation")
 if (!file.exists(out_dir)){dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)}
+
+dir.create(glue("{out_dir}/selected_predictions"), recursive = TRUE, showWarnings = FALSE)
+dir.create(glue("{out_dir}/to_validate"), recursive = TRUE, showWarnings = FALSE)
 
 # load all a2v label files, filter to only soa and eoa
 all_labels <- read_csv(list.files(path = a2v_labels_folder, 
@@ -92,7 +104,105 @@ for (individual in individual_list) {
   individual_files[[individual]] <- file_list
 }
 
-# create validation files for each individual
+
+################################################################################
+# pass 1 — compute global bin totals across all individuals. bin_total in the 
+# output must reflect the full dataset prediction population, not just the 
+# individual being sampled, so that eval_weight correctly represents how many 
+# real predictions each validated example stands for when computing weighted 
+# precision across all individuals combined.
+
+cat("Pass 1: computing global bin totals across all individuals...\n")
+
+global_bin_totals <- data.frame()
+
+for (individual in names(individual_files)) {
+  file_list <- mixedsort(individual_files[[individual]])
+  file_list <- file_list[file.size(file_list) > 0]
+
+  preds_raw <- read_delim(file_list, col_names = FALSE, delim = "\t", show_col_types = FALSE)
+  preds_raw <- rename(preds_raw, start = X1, duration = X2, label = X3, call_conf = X4, foc_conf = X5)
+
+  # restrict to the first n days, consistent with the sampling pool
+  preds_raw$day <- floor(preds_raw$start / 86400)
+  preds_raw     <- preds_raw[preds_raw$day <= days - 1, ]
+
+  # assign confidence bins using the same breaks as the sampling step
+  # so that bin definitions are identical across both passes
+  preds_raw <- preds_raw %>%
+    mutate(conf_bin = cut(call_conf, breaks = conf_breaks, include.lowest = TRUE))
+
+  # count predictions per label per bin for this individual and accumulate
+  individual_counts <- preds_raw %>%
+    group_by(label, conf_bin) %>%
+    summarise(count = n(), .groups = "drop")
+
+  global_bin_totals <- bind_rows(global_bin_totals, individual_counts)
+}
+
+# sum counts across individuals to get the global total per label per bin
+global_bin_totals <- global_bin_totals %>%
+  group_by(label, conf_bin) %>%
+  summarise(global_bin_total = sum(count), .groups = "drop")
+
+cat("Pass 1 complete.\n\n")
+
+################################################################################
+# helper function: sample one prediction from a given bin pool using the 
+# two-pass proximity check.
+# first attempts to find a candidate satisfying both the section
+# exclusion and the 30-minute proximity check. If no such candidate is found
+# after max_attempts tries, falls back to section exclusion only and warns.
+
+sample_from_bin <- function(bin_pool, sections, picked_timestamps, buffer_min, max_attempts = 200) {
+
+  # shuffle the pool so repeated calls do not always try the same candidates
+  bin_pool <- bin_pool[sample(nrow(bin_pool)), ]
+
+  found <- NULL
+  used_fallback <- FALSE
+
+  # pass 1: try to satisfy both section exclusion and proximity check
+  for (i in seq_len(nrow(bin_pool))) {
+    candidate      <- bin_pool[i, ]
+    candidate_time <- candidate$start
+
+    in_section <- any(candidate_time >= sections$start_time &
+                      candidate_time <= sections$end_time)
+    if (in_section) next
+
+    is_too_close <- FALSE
+    if (length(picked_timestamps) > 0) {
+      is_too_close <- any(abs(candidate_time - picked_timestamps) < buffer_min * 60)
+    }
+    if (is_too_close) next
+
+    found <- candidate
+    break
+  }
+
+  # pass 2: fallback — relax proximity check, keep section exclusion as hard constraint
+  if (is.null(found)) {
+    used_fallback <- TRUE
+    for (i in seq_len(nrow(bin_pool))) {
+      candidate      <- bin_pool[i, ]
+      candidate_time <- candidate$start
+
+      in_section <- any(candidate_time >= sections$start_time &
+                        candidate_time <= sections$end_time)
+      if (in_section) next
+
+      found <- candidate
+      break
+    }
+  }
+
+  list(row = found, used_fallback = used_fallback)
+}
+
+
+################################################################################
+# pass 2: sampling loop, create validation files for each individual
 for (individual in names(individual_files)) {
   cat(sprintf("Creating validation files for: %s\n", individual))
 
@@ -112,8 +222,13 @@ for (individual in names(individual_files)) {
   predictions <- read_delim(file_list, col_names = FALSE, delim = "\t", show_col_types = FALSE)
   predictions <- rename(predictions, start = X1, duration = X2, label = X3, call_conf = X4, foc_conf = X5)
   
-  # calculate which days the predictions are from
+  # restrict predictions to the first n days
   predictions$day <- floor(predictions$start / 86400)
+  predictions     <- predictions[predictions$day <= days - 1, ]
+
+  # assign confidence bins using the same breaks as pass 1
+  predictions <- predictions %>%
+    mutate(conf_bin = cut(call_conf, breaks = conf_breaks, include.lowest = TRUE))
 
   # create an empty dataframe to store the results
   valid_preds <- predictions[0, ]
@@ -122,114 +237,162 @@ for (individual in names(individual_files)) {
   for (call_type in call_labels) {
     cat(sprintf("Processing call type: %s\n", call_type))
 
-    # keep track of picked times so they don't cluster
+    # picked_timestamps is shared across focal and non-focal for this call type
+    # so that focal and non-focal picks do not cluster around the same times
     picked_timestamps <- numeric(0)
+
     nf_target <- as.integer(round(n_examples * (1 - focal_ratio)))
+    foc_target <- as.integer(round(n_examples * focal_ratio))
 
     # NON-FOCAL CALLS
-    # pick n examples for each call type with non-focal calls
-    pool_non <- predictions %>% 
-      filter(grepl(call_type, label), grepl("non", label)) %>%
-      # 1. create confidence bins
-      mutate(conf_bin = cut(call_conf, breaks = c(0, seq(0.2, 1.0, by = 0.1)), include.lowest = TRUE)) %>%
-      # 2. group by the bin to calculate how many exist
-      group_by(conf_bin) %>%
-      # 3. save the total population for later, and the probability for now
-      mutate(
-        bin_total = n(),      # for the evaluation math later
-        sample_prob = 1 / n() # for the sample() function
-      ) %>%
-      ungroup()
+    # bin-first sampling — divide the target count equally across
+    # available bins and sample directly from each bin across the full pool,
+    # rather than using the day-queue mechanism which failed for sparse bins
+    pool_non <- predictions %>%
+      filter(grepl(call_type, label), grepl("non", label))
 
-    available_days <- unique(pool_non$day)
-    available_days <- available_days[available_days <= days - 1]
+    available_bins_non <- unique(pool_non$conf_bin)
 
-    if (length(available_days) == 0) {
+    if (length(available_bins_non) == 0) {
       cat(sprintf("    Warning: No non-focal data found for %s. Skipping.\n", call_type))
     } else {
-      success_count <- 0
-      attempts <- 0
-      day_queue <- sample(available_days) # shuffle days into a queue
-      
-      while (success_count < nf_target && attempts < 2000) {
-        attempts <- attempts + 1
-        
-        # pop the first day off the queue
-        if (length(day_queue) == 0) day_queue <- sample(available_days) # Refill queue if empty
-        current_day <- day_queue[1]
-        day_queue <- day_queue[-1] 
-        
-        # get predictions just for this day
-        day_preds <- pool_non[pool_non$day == current_day, ]
-        
-        # pick one random prediction from this day with confidence score weighting
-        candidate_row <- day_preds[sample(nrow(day_preds), size = 1, prob = day_preds$sample_prob), ]
-        candidate_time <- candidate_row$start
-        
-        # check if it is within an already labeled section
-        in_section <- any(candidate_time >= sections$start_time & candidate_time <= sections$end_time)
-        
-        # check id it is close to already picked timestamps
-        is_too_close <- FALSE
-        if (length(picked_timestamps) > 0) {
-          is_too_close <- any(abs(candidate_time - picked_timestamps) < buffer_min * 60)
-        }
-        
-        # save the prediction
-        if (!in_section && !is_too_close) {
-          valid_preds <- rbind(valid_preds, candidate_row)
-          picked_timestamps <- c(picked_timestamps, candidate_time)
-          success_count <- success_count + 1
+      # divide target count as evenly as possible across available bins
+      n_bins_non      <- length(available_bins_non)
+      base_per_bin    <- nf_target %/% n_bins_non
+      remainder       <- nf_target %% n_bins_non
+      # distribute the remainder across the first bins
+      targets_per_bin <- rep(base_per_bin, n_bins_non) + c(rep(1, remainder), rep(0, n_bins_non - remainder))
+      names(targets_per_bin) <- as.character(available_bins_non)
+
+      newly_added_non <- predictions[0, ]
+      success_count   <- 0
+
+      for (bin in available_bins_non) {
+        bin_target <- targets_per_bin[as.character(bin)]
+        bin_pool   <- pool_non[pool_non$conf_bin == bin, ]
+        bin_count  <- 0
+
+        for (k in seq_len(bin_target)) {
+          result <- sample_from_bin(bin_pool, sections, picked_timestamps, buffer_min)
+
+          if (!is.null(result$row)) {
+            if (result$used_fallback) {
+              cat(sprintf("    Warning: proximity fallback triggered for non-focal %s bin %s.\n",
+                          call_type, bin))
+            }
+            valid_preds       <- rbind(valid_preds, result$row)
+            newly_added_non   <- rbind(newly_added_non, result$row)
+            picked_timestamps <- c(picked_timestamps, result$row$start)
+            success_count     <- success_count + 1
+            bin_count         <- bin_count + 1
+
+            # remove the picked row from the bin pool so it cannot be picked again
+            bin_pool <- bin_pool[bin_pool$start != result$row$start, ]
+          } else {
+            cat(sprintf("    Warning: No valid non-focal candidate found for %s bin %s.\n",
+                        call_type, bin))
+          }
         }
       }
-      
-      if (success_count < nf_target) cat(sprintf("    Warning: Only found %d/%d non-focal calls.\n", success_count, nf_target))
-    }
-    
-    # FOCAL CALLS
-    pool_foc <- predictions %>% 
-      filter(grepl(call_type, label), grepl("foc", label)) %>%
-      mutate(conf_bin = cut(call_conf, breaks = c(0, seq(0.2, 1.0, by = 0.1)), include.lowest = TRUE)) %>%
-      mutate(bin_total = n(), sample_prob = 1 / n()) %>%
-      ungroup()
 
-    available_days <- unique(pool_foc$day)
-    foc_target <- as.integer(round(n_examples * focal_ratio))
-    
-    if (length(available_days) == 0) {
+      if (success_count < nf_target) {
+        cat(sprintf("    Warning: Only found %d/%d non-focal calls for %s.\n",
+                    success_count, nf_target, call_type))
+      }
+
+      # per-bin insufficiency reporting
+      if (nrow(newly_added_non) > 0) {
+        bin_summary_non <- newly_added_non %>%
+          count(conf_bin, name = "n_sampled") %>%
+          right_join(
+            pool_non %>% distinct(conf_bin) %>% mutate(conf_bin = as.factor(conf_bin)),
+            by = "conf_bin"
+          ) %>%
+          mutate(n_sampled = replace_na(n_sampled, 0))
+
+        under_non <- bin_summary_non %>% filter(n_sampled < min_per_bin)
+        if (nrow(under_non) > 0) {
+          cat(sprintf("    Warning: Under-sampled non-focal confidence bins for %s:\n", call_type))
+          for (i in seq_len(nrow(under_non))) {
+            cat(sprintf("      bin %s: %d sampled\n",
+                        under_non$conf_bin[i],
+                        under_non$n_sampled[i]))
+          }
+        }
+      }
+    }
+
+    # FOCAL CALLS
+    pool_foc <- predictions %>%
+      filter(grepl(call_type, label), grepl("foc", label), !grepl("non", label))
+
+    available_bins_foc <- unique(pool_foc$conf_bin)
+
+    if (length(available_bins_foc) == 0) {
       cat(sprintf("    Warning: No focal data found for %s. Skipping.\n", call_type))
     } else {
-      success_count <- 0
-      attempts <- 0
-      day_queue <- sample(available_days)
-      
-      while (success_count < foc_target && attempts < 2000) {
-        attempts <- attempts + 1
-        
-        if (length(day_queue) == 0) day_queue <- sample(available_days)
-        current_day <- day_queue[1]
-        day_queue <- day_queue[-1]
-        
-        day_preds <- pool_foc[pool_foc$day == current_day, ]
-        
-        candidate_row <- day_preds[sample(nrow(day_preds), size = 1, prob = day_preds$sample_prob), ]
-        candidate_time <- candidate_row$start
-        
-        in_section <- any(candidate_time >= sections$start_time & candidate_time <= sections$end_time)
-        
-        is_too_close <- FALSE
-        if (length(picked_timestamps) > 0) {
-          is_too_close <- any(abs(candidate_time - picked_timestamps) < buffer_min * 60)
-        }
-        
-        if (!in_section && !is_too_close) {
-          valid_preds <- rbind(valid_preds, candidate_row)
-          picked_timestamps <- c(picked_timestamps, candidate_time)
-          success_count <- success_count + 1
+
+      n_bins_foc      <- length(available_bins_foc)
+      base_per_bin    <- foc_target %/% n_bins_foc
+      remainder       <- foc_target %% n_bins_foc
+      targets_per_bin <- rep(base_per_bin, n_bins_foc) + c(rep(1, remainder), rep(0, n_bins_foc - remainder))
+      names(targets_per_bin) <- as.character(available_bins_foc)
+
+      newly_added_foc <- predictions[0, ]
+      success_count   <- 0
+
+      for (bin in available_bins_foc) {
+        bin_target <- targets_per_bin[as.character(bin)]
+        bin_pool   <- pool_foc[pool_foc$conf_bin == bin, ]
+        bin_count  <- 0
+
+        for (k in seq_len(bin_target)) {
+          result <- sample_from_bin(bin_pool, sections, picked_timestamps, buffer_min)
+
+          if (!is.null(result$row)) {
+            if (result$used_fallback) {
+              cat(sprintf("    Warning: proximity fallback triggered for focal %s bin %s.\n",
+                          call_type, bin))
+            }
+            valid_preds       <- rbind(valid_preds, result$row)
+            newly_added_foc   <- rbind(newly_added_foc, result$row)
+            picked_timestamps <- c(picked_timestamps, result$row$start)
+            success_count     <- success_count + 1
+            bin_count         <- bin_count + 1
+
+            bin_pool <- bin_pool[bin_pool$start != result$row$start, ]
+          } else {
+            cat(sprintf("    Warning: No valid focal candidate found for %s bin %s.\n",
+                        call_type, bin))
+          }
         }
       }
-      
-      if (success_count < foc_target) cat(sprintf("    Warning: Only found %d/%d focal calls.\n", success_count, foc_target))
+
+      if (success_count < foc_target) {
+        cat(sprintf("    Warning: Only found %d/%d focal calls for %s.\n",
+                    success_count, foc_target, call_type))
+      }
+
+      # per-bin insufficiency reporting
+      if (nrow(newly_added_foc) > 0) {
+        bin_summary_foc <- newly_added_foc %>%
+          count(conf_bin, name = "n_sampled") %>%
+          right_join(
+            pool_foc %>% distinct(conf_bin) %>% mutate(conf_bin = as.factor(conf_bin)),
+            by = "conf_bin"
+          ) %>%
+          mutate(n_sampled = replace_na(n_sampled, 0))
+
+        under_foc <- bin_summary_foc %>% filter(n_sampled < min_per_bin)
+        if (nrow(under_foc) > 0) {
+          cat(sprintf("    Warning: Under-sampled focal confidence bins for %s:\n", call_type))
+          for (i in seq_len(nrow(under_foc))) {
+            cat(sprintf("      bin %s: %d sampled\n",
+                        under_foc$conf_bin[i],
+                        under_foc$n_sampled[i]))
+          }
+        }
+      }
     }
   }
 
@@ -237,12 +400,17 @@ for (individual in names(individual_files)) {
     # order predictions by start time
     valid_preds <- valid_preds[order(valid_preds$start),]
 
-    # save prediction file with confidence scores and ecaliation weights
+    # join against global_bin_totals to get the correct bin_total
+    # that reflects the full dataset across all individuals, then recompute
+    # eval_weight. This ensures that when computing weighted precision across
+    # all individuals combined, each validated example is weighted by its
+    # true share of the global prediction population for that label and bin
     valid_preds <- valid_preds %>%
+      left_join(global_bin_totals, by = c("label", "conf_bin")) %>%
       group_by(label, conf_bin) %>%
       mutate(
-        n_sampled = n(),
-        eval_weight = bin_total / n_sampled
+        n_sampled   = n(),
+        eval_weight = global_bin_total / n_sampled
       ) %>%
       ungroup()
 
