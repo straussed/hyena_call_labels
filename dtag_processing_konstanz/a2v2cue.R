@@ -25,22 +25,40 @@ library(purrr)
 # enter "feeding" or "groan", or "all" to not filter the predictions
 filter_calls <- "all"
 
-# filter out low confidence score predictions (calls), set to 0 to get all predictions 
-min_confidence <- 0
+# filter out low confidence score predictions, set to 0 to get all predictions
+# set to NULL to use different thresholds per call type
+min_confidence <- NULL
+
+# specify minimum confidence score per call type
+if (is.null(min_confidence)) {
+  class_thresholds <- c(
+    "groan" = 0.397,
+    "feeding" = 0.244,
+    "whoop" = 0.434,
+    "squitter" = 0.594,
+    "giggle" = 0.511,
+    "alarm_rumble" = 0.487,
+    "squeal" = 0.524,
+    "growl" = 0.369,
+    "snore" = 0.568,
+    "oth" = 0.300,
+    "focal" = 0.366
+  )
+}
 
 # OUTPUT FILES
 # create validation ground truth files with confidence scores
 validation_gt <- TRUE
 
 # create cue files for viewing in MATLAB
-cuefiles <- FALSE
+cuefiles <- TRUE
 
 if (cuefiles) {
   # add confidence score to label for viewing in MATLAB
-  add_conf <- FALSE
+  add_conf <- TRUE
 
   # add focal confidence score to label for viewing in MATLAB
-  add_focalconf <- FALSE
+  add_focalconf <- TRUE
 } else {
   add_conf <- FALSE
   add_focalconf <- FALSE
@@ -96,16 +114,40 @@ wav_preds <- function(file_name, cue_table){
       # if there is a second element, assign it to a new column "Description2"
       Description2 = map_chr(split_desc, ~ ifelse(length(.x) > 1, .x[2], NA))
     ) %>%
-    
-    # remove the "foc" string from Description2
-    mutate(Description2 = as.character(gsub("foc", "", Description2))) %>%
-    
+    mutate(
+      # remove the "foc" string from Description2
+      Description2 = as.character(gsub("foc", "", Description2))) %>%
     # drop the intermediate list column
     select(-split_desc)
   
-  # remove predictions with low confidence score
-  if (min_confidence != 0) {
+  # apply confidence threshold(s) to remove predictions
+  if (!is.null(min_confidence)) {
     wav_df <- wav_df %>% filter(Description >= min_confidence)
+  } else {
+    # remove "nf" string from names, remove NA focal confidence scores
+    wav_df <- wav_df %>%
+      mutate(Description2 = as.numeric(Description2)) %>%
+      mutate(Name = gsub(" .*", "", Name),
+      Description2 = replace_na(Description2, 0.000))
+
+    # remove call predictions with low confidence score
+    wav_df <- wav_df %>%
+      mutate(Description = as.numeric(Description)) %>%
+      filter(
+        is.na(class_thresholds[Name]) |
+        Description >= class_thresholds[Name]
+      ) %>%
+      mutate(Description = as.character(Description))
+    
+    # assign correct focal label
+    wav_df <- wav_df %>%
+      mutate(
+        Name = ifelse(
+          Description2 >= class_thresholds["focal"],
+          paste0(Name, " foc"),
+          paste0(Name, " non")
+        )
+      )
   }
   
   # filter specific prediction type
@@ -115,10 +157,15 @@ wav_preds <- function(file_name, cue_table){
   
   # convert the call names to cue labels
   wav_df <- wav_df %>%
-    mutate(Name = str_replace_all(Name, replacement_map))  %>%
+    mutate(Name = str_replace_all(Name, replacement_map))
+  
+  # add focal label if no focal threshold is applied
+  if (is.null(min_confidence)) {
+  wav_df <- wav_df %>%
     mutate(Name = if_else(
       !str_detect(Name, "non"), paste0(Name, " foc"), Name
     ))
+  }
   
   # convert time to seconds
   wav_df <- wav_df %>%
@@ -186,15 +233,21 @@ wav_preds <- function(file_name, cue_table){
 ################################################################################
 
 # create output folder
-if (min_confidence != 0){
-  cue_out_folder <- sprintf("%s/%s_predictions_%s/cues", out_dir, filter_calls, 
-                        gsub("\\.", "_", min_confidence))
-  conf_out_folder <- sprintf("%s/%s_predictions_%s/confs", out_dir, filter_calls, 
-                        gsub("\\.", "_", min_confidence))
-} else{
-  cue_out_folder <- sprintf("%s/%s_predictions/cues", out_dir, filter_calls)
-  conf_out_folder <- sprintf("%s/%s_predictions/confs", out_dir, filter_calls)
+if (!is.null(min_confidence)) {
+  if (min_confidence != 0){
+    cue_out_folder <- sprintf("%s/%s_predictions_%s/cues", out_dir, filter_calls, 
+                          gsub("\\.", "_", min_confidence))
+    conf_out_folder <- sprintf("%s/%s_predictions_%s/confs", out_dir, filter_calls, 
+                          gsub("\\.", "_", min_confidence))
+  } else{
+    cue_out_folder <- sprintf("%s/%s_predictions/cues", out_dir, filter_calls)
+    conf_out_folder <- sprintf("%s/%s_predictions/confs", out_dir, filter_calls)
+  }
+} else {
+    cue_out_folder <- sprintf("%s/%s_predictions_PRthres/cues", out_dir, filter_calls)
+    conf_out_folder <- sprintf("%s/%s_predictions_PRthres/confs", out_dir, filter_calls)
 }
+
 
 if (!file.exists(cue_out_folder) & cuefiles){
   dir.create(cue_out_folder, recursive = TRUE, showWarnings = FALSE)
@@ -237,7 +290,8 @@ for (individual in names(individual_files)) {
   
   # load cue table for this individual
   cue_table <- read_csv(sprintf("%s/_cc23_%swavcues.csv", cue_tables, 
-                                individual), col_names = FALSE)
+                                individual), col_names = FALSE, 
+                                show_col_types = FALSE)
   
   # iterate through this individual's files, sorted by number
   list_of_files <- mixedsort(individual_files[[individual]])
@@ -246,19 +300,26 @@ for (individual in names(individual_files)) {
   # filtering for one type of prediction, only results in one large file
   if (filter_calls != "all") {
     
-    if (min_confidence != 0) {
-      cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues_%s.txt", 
-                          cue_out_folder, individual, filter_calls, 
-                          gsub("\\.", "_", min_confidence))
-      conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf_%s.txt", 
-                          conf_out_folder, individual, filter_calls, 
-                          gsub("\\.", "_", min_confidence))
-    }
-    else {
-      cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues.txt", cue_out_folder, 
-                          individual, filter_calls)
-      conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf.txt", conf_out_folder, 
-                          individual, filter_calls)
+    if (!is.null(min_confidence)) {
+      if (min_confidence != 0) {
+        cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues_%s.txt", 
+                            cue_out_folder, individual, filter_calls, 
+                            gsub("\\.", "_", min_confidence))
+        conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf_%s.txt", 
+                            conf_out_folder, individual, filter_calls, 
+                            gsub("\\.", "_", min_confidence))
+      }
+      else {
+        cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues.txt", cue_out_folder, 
+                            individual, filter_calls)
+        conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf.txt", conf_out_folder, 
+                            individual, filter_calls)
+      }
+    } else {
+        cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues_PRthres.txt", 
+                            cue_out_folder, individual, filter_calls)
+        conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf_PRthres.txt", 
+                            conf_out_folder, individual, filter_calls)
     }
     
     if (!file.exists(cue_out_name) | !file.exists(conf_out_name)) {
@@ -267,7 +328,6 @@ for (individual in names(individual_files)) {
       valid_list <- list()
       
       for (filename in list_of_files) {
-        
         # use function to convert file
         dataframes <- wav_preds(filename, cue_table)
         wav_df <- dataframes[[1]]
@@ -302,21 +362,28 @@ for (individual in names(individual_files)) {
       # extract the wav file number from the file name
       number <- str_pad(parse_number(str_split(filename, "_")[[1]][2]), 3, pad="0")
       
-      if (min_confidence != 0) {
-        cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues_%s.txt", 
-                            cue_out_folder, individual, number, filter_calls, 
-                            gsub("\\.", "_", min_confidence))
-        conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf_%s.txt", 
-                            conf_out_folder, individual, number, filter_calls, 
-                            gsub("\\.", "_", min_confidence))
+      if (!is.null(min_confidence)) {
+        if (min_confidence != 0) {
+          cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues_%s.txt", 
+                              cue_out_folder, individual, number, filter_calls, 
+                              gsub("\\.", "_", min_confidence))
+          conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf_%s.txt", 
+                              conf_out_folder, individual, number, filter_calls, 
+                              gsub("\\.", "_", min_confidence))
+        }
+        else {
+          cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues.txt", 
+                              cue_out_folder, individual, number, filter_calls)
+          conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf.txt", 
+                              conf_out_folder, individual, number, filter_calls)
+        }
+      } else {
+        cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues_PRthres.txt", 
+                              cue_out_folder, individual, number, filter_calls)
+        conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf_PRthres.txt", 
+                              conf_out_folder, individual, number, filter_calls)
       }
-      else {
-        cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues.txt", 
-                            cue_out_folder, individual, number, filter_calls)
-        conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf.txt", 
-                            conf_out_folder, individual, number, filter_calls)
-      }
-      
+
       if (!file.exists(cue_out_name) | !file.exists(conf_out_name)) {
 
         # use function to convert file
