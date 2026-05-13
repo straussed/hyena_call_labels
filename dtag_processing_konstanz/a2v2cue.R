@@ -25,6 +25,9 @@ library(purrr)
 # enter "feeding" or "groan", or "all" to not filter the predictions
 filter_calls <- "all"
 
+# remove "unknown" predictions
+remove_unk <- TRUE
+
 # filter out low confidence score predictions, set to 0 to get all predictions
 # set to NULL to use different thresholds per call type
 min_confidence <- NULL
@@ -48,17 +51,17 @@ if (is.null(min_confidence)) {
 
 # OUTPUT FILES
 # create validation ground truth files with confidence scores
-validation_gt <- TRUE
+validation_gt <- FALSE
 
 # create cue files for viewing in MATLAB
 cuefiles <- TRUE
 
 if (cuefiles) {
   # add confidence score to label for viewing in MATLAB
-  add_conf <- TRUE
+  add_conf <- FALSE
 
   # add focal confidence score to label for viewing in MATLAB
-  add_focalconf <- TRUE
+  add_focalconf <- FALSE
 } else {
   add_conf <- FALSE
   add_focalconf <- FALSE
@@ -150,6 +153,11 @@ wav_preds <- function(file_name, cue_table){
       )
   }
   
+  # remove "unknown" predictions
+  if (remove_unk) {
+    wav_df <- wav_df[!grepl("unk", wav_df$Name),]
+  }
+
   # filter specific prediction type
   if (filter_calls != "all") {
     wav_df <- wav_df %>% filter(str_detect(Name, filter_calls))
@@ -160,7 +168,7 @@ wav_preds <- function(file_name, cue_table){
     mutate(Name = str_replace_all(Name, replacement_map))
   
   # add focal label if no focal threshold is applied
-  if (is.null(min_confidence)) {
+  if (!is.null(min_confidence)) {
   wav_df <- wav_df %>%
     mutate(Name = if_else(
       !str_detect(Name, "non"), paste0(Name, " foc"), Name
