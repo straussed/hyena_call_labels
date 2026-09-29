@@ -7,6 +7,11 @@
 ## creates one long file including all predictions for each hyena.
 ## If specified, the script can also produce files that contain the call and 
 ## focal confidence scores for each prediction in order to calculate PR curves.
+## The predictions can either be filtered the original way (all predictions are
+## kept and labeled focal or non-focal) or the same way as in a2v2utctable.R
+## (only focal predictions are kept, using the thresholds from the threshold
+## selection pipeline, from the groans repository 
+# https://github.com/mariusfaiss/groans), see the focal_only option below.
 
 
 ## Written by Marius Faiß January 2025
@@ -20,20 +25,49 @@ library(readr)
 library(gtools)
 library(purrr)
 
+
 # FILTERING PARAMETERS
+# keep only focal predictions, filtered with the per call type class and focal
+# thresholds from call_thresholds_{fbeta}.csv, the same way a2v2utctable.R does:
+# all "nf" predictions (focal threshold below 0.1, set to "nf" by the inference 
+# script) are removed, then each call type is cut on its own focal threshold 
+# and on its own class threshold. Everything that survives is focal, so the 
+# cues carry the bare call name without a "foc"/"non" label. Unknown
+# predictions are removed as well, and squitters are removed by their focal
+# threshold of 1.01, since they can only ever be non-focal (infant call)
+# set to FALSE for the original filtering: all predictions are kept, the
+# hard-coded class_thresholds below are applied and one global focal threshold
+# labels each prediction "foc" or "non"
+focal_only <- TRUE
+
+# which F-Beta to use, only used when focal_only is TRUE
+# "F1" for equal weighting of precision & recall (F1)
+# "F15" for lean towards recall (F1.5)
+# "F2" for heavier lean towards recall (F2)
+# "tiered" for recall lean depending on AUC score (>=0.9 -> F1.5; <0.9 -> F2)
+fbeta <- "tiered"
+
 # to filter for only groan or only feeding predictions etc.
 # enter "feeding" or "groan", or "all" to not filter the predictions
 filter_calls <- "all"
 
-# remove "unknown" predictions
+# remove "unknown" predictions, only used when focal_only is FALSE
+# they are always removed when focal_only is TRUE, they have no focal score
 remove_unk <- TRUE
 
 # filter out low confidence score predictions, set to 0 to get all predictions
 # set to NULL to use different thresholds per call type
+# has to be NULL when focal_only is TRUE, the thresholds then come from the file
 min_confidence <- NULL
 
-# specify minimum confidence score per call type
-if (is.null(min_confidence)) {
+if (focal_only & !is.null(min_confidence)) {
+  stop("focal_only = TRUE requires min_confidence = NULL, the per call type ",
+       "class and focal thresholds are read from the threshold file")
+}
+
+# specify minimum confidence score per call type, only used when focal_only is
+# FALSE, the "focal" entry is the single global cut for the "foc"/"non" label
+if (!focal_only & is.null(min_confidence)) {
   class_thresholds <- c(
     "groan" = 0.397,
     "feeding" = 0.244,
@@ -94,6 +128,27 @@ a2v_files <- "/Users/mfaiss/Documents/Hyenaproject/Hyena_data/a2v_predictions/20
 # output directory where the folder with converted cue files will be
 out_dir <- "/Users/mfaiss/Documents/Hyenaproject/hyena_call_labels/a2v_validation/converted_files/2026_01_01_large_model_final_predictions"
 
+# minimum confidence score per call type, only used when focal_only is TRUE
+# edit this file to change a threshold, the class_note and focal_note columns
+# document how each value was selected
+thresholds_file <- sprintf(paste0("/Users/mfaiss/Documents/Hyenaproject/groans",
+                                  "/audio/a2v_threshold_selection/data",
+                                  "/call_thresholds_%s.csv"), fbeta)
+
+if (focal_only) {
+  # the file has a "#" commented header block explaining each threshold, skip it
+  thresholds <- read_csv(thresholds_file, show_col_types = FALSE, comment = "#",
+                         col_types = cols(call_type = col_character(),
+                                          class_threshold = col_double(),
+                                          focal_threshold = col_double(),
+                                          .default = col_character()))
+
+  # named vectors, indexed by call type in wav_preds()
+  # an empty cell (NA) means no filtering for that call type
+  class_thresholds <- setNames(thresholds$class_threshold, thresholds$call_type)
+  focal_thresholds <- setNames(thresholds$focal_threshold, thresholds$call_type)
+}
+
 ################################################################################
 
 # process predictions for one wav file
@@ -104,6 +159,13 @@ wav_preds <- function(file_name, cue_table){
   wav_df <- read_delim(sprintf("%s/%s", a2v_files, file_name), 
                        delim = "\t", col_types = "cccc", 
                        col_select=c(Start, Duration, Name, Description))
+  
+  # remove non-focal and unknown predictions, neither carries a focal
+  # confidence score, so neither can be verified as focal
+  if (focal_only) {
+    wav_df <- wav_df[!grepl("nf", wav_df$Name),]
+    wav_df <- wav_df[!grepl("unk", wav_df$Name),]
+  }
   
   # split the "Description" column into two separate values
   wav_df <- wav_df %>%
@@ -126,6 +188,24 @@ wav_preds <- function(file_name, cue_table){
   # apply confidence threshold(s) to remove predictions
   if (!is.null(min_confidence)) {
     wav_df <- wav_df %>% filter(Description >= min_confidence)
+  } else if (focal_only) {
+    # remove predictions below the focal threshold of their call type
+    wav_df <- wav_df %>%
+      mutate(Description2 = as.numeric(Description2)) %>%
+      filter(
+        is.na(focal_thresholds[Name]) |
+        Description2 >= focal_thresholds[Name]
+      ) %>%
+      mutate(Description2 = as.character(Description2))
+
+    # remove call predictions with low confidence score
+    wav_df <- wav_df %>%
+      mutate(Description = as.numeric(Description)) %>%
+      filter(
+        is.na(class_thresholds[Name]) |
+        Description >= class_thresholds[Name]
+      ) %>%
+      mutate(Description = as.character(Description))
   } else {
     # remove "nf" string from names, remove NA focal confidence scores
     wav_df <- wav_df %>%
@@ -240,21 +320,23 @@ wav_preds <- function(file_name, cue_table){
 
 ################################################################################
 
-# create output folder
+# tag that records the filtering settings in the output folder and file names,
+# so that runs with different settings do not overwrite each other
 if (!is.null(min_confidence)) {
-  if (min_confidence != 0){
-    cue_out_folder <- sprintf("%s/%s_predictions_%s/cues", out_dir, filter_calls, 
-                          gsub("\\.", "_", min_confidence))
-    conf_out_folder <- sprintf("%s/%s_predictions_%s/confs", out_dir, filter_calls, 
-                          gsub("\\.", "_", min_confidence))
-  } else{
-    cue_out_folder <- sprintf("%s/%s_predictions/cues", out_dir, filter_calls)
-    conf_out_folder <- sprintf("%s/%s_predictions/confs", out_dir, filter_calls)
-  }
+  run_tag <- ifelse(min_confidence != 0, gsub("\\.", "_", min_confidence), "")
+} else if (focal_only) {
+  # focal predictions only, filtered with the thresholds of this F-Beta
+  run_tag <- sprintf("%s_focal", fbeta)
 } else {
-    cue_out_folder <- sprintf("%s/%s_predictions_PRthres/cues", out_dir, filter_calls)
-    conf_out_folder <- sprintf("%s/%s_predictions_PRthres/confs", out_dir, filter_calls)
+  run_tag <- "PRthres"
 }
+
+# appended to the folder and file names, empty when min_confidence is 0
+tag <- ifelse(nzchar(run_tag), sprintf("_%s", run_tag), "")
+
+# create output folder
+cue_out_folder <- sprintf("%s/%s_predictions%s/cues", out_dir, filter_calls, tag)
+conf_out_folder <- sprintf("%s/%s_predictions%s/confs", out_dir, filter_calls, tag)
 
 
 if (!file.exists(cue_out_folder) & cuefiles){
@@ -308,27 +390,10 @@ for (individual in names(individual_files)) {
   # filtering for one type of prediction, only results in one large file
   if (filter_calls != "all") {
     
-    if (!is.null(min_confidence)) {
-      if (min_confidence != 0) {
-        cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues_%s.txt", 
-                            cue_out_folder, individual, filter_calls, 
-                            gsub("\\.", "_", min_confidence))
-        conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf_%s.txt", 
-                            conf_out_folder, individual, filter_calls, 
-                            gsub("\\.", "_", min_confidence))
-      }
-      else {
-        cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues.txt", cue_out_folder, 
-                            individual, filter_calls)
-        conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf.txt", conf_out_folder, 
-                            individual, filter_calls)
-      }
-    } else {
-        cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues_PRthres.txt", 
-                            cue_out_folder, individual, filter_calls)
-        conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf_PRthres.txt", 
-                            conf_out_folder, individual, filter_calls)
-    }
+    cue_out_name <- sprintf("%s/cc23_%s_%s_predictions_cues%s.txt", 
+                        cue_out_folder, individual, filter_calls, tag)
+    conf_out_name <- sprintf("%s/cc23_%s_%s_predictions_conf%s.txt", 
+                        conf_out_folder, individual, filter_calls, tag)
     
     if (!file.exists(cue_out_name) | !file.exists(conf_out_name)) {
       # empty list to put all wav file predictions into
@@ -370,27 +435,10 @@ for (individual in names(individual_files)) {
       # extract the wav file number from the file name
       number <- str_pad(parse_number(str_split(filename, "_")[[1]][2]), 3, pad="0")
       
-      if (!is.null(min_confidence)) {
-        if (min_confidence != 0) {
-          cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues_%s.txt", 
-                              cue_out_folder, individual, number, filter_calls, 
-                              gsub("\\.", "_", min_confidence))
-          conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf_%s.txt", 
-                              conf_out_folder, individual, number, filter_calls, 
-                              gsub("\\.", "_", min_confidence))
-        }
-        else {
-          cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues.txt", 
-                              cue_out_folder, individual, number, filter_calls)
-          conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf.txt", 
-                              conf_out_folder, individual, number, filter_calls)
-        }
-      } else {
-        cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues_PRthres.txt", 
-                              cue_out_folder, individual, number, filter_calls)
-        conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf_PRthres.txt", 
-                              conf_out_folder, individual, number, filter_calls)
-      }
+      cue_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_cues%s.txt", 
+                            cue_out_folder, individual, number, filter_calls, tag)
+      conf_out_name <- sprintf("%s/cc23_%s%s_%s_predictions_conf%s.txt", 
+                            conf_out_folder, individual, number, filter_calls, tag)
 
       if (!file.exists(cue_out_name) | !file.exists(conf_out_name)) {
 
